@@ -1,65 +1,65 @@
 {
-  "ts": "2026-05-26T07:54:46.855213+09:00",
+  "ts": "2026-05-26T07:55:48.106713+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6346.79,
-  "available": 3607.55,
-  "unrealized": -48.03,
+  "equity": 6350.75,
+  "available": 3611.01,
+  "unrealized": -43.98,
   "daily_pnl": -213.91,
-  "total_pnl": -353.21,
-  "cum_pct": -5.27,
-  "daily_avg_pct": -2.6707,
+  "total_pnl": -349.25,
+  "cum_pct": -5.21,
+  "daily_avg_pct": -2.6398,
   "annual_pct": -99.99,
   "mdd": -6.49,
-  "current_dd": -5.78,
-  "seed_used": 2739.24,
-  "seed_used_pct": 43.16,
+  "current_dd": -5.95,
+  "seed_used": 2739.74,
+  "seed_used_pct": 43.14,
   "long_count": 5,
   "short_count": 1,
   "positions": [
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": -0.32,
-      "pnl_pct": -0.01,
-      "margin": 471.43,
+      "pnl": -0.85,
+      "pnl_pct": -0.04,
+      "margin": 471.32,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.3503,
-      "mark": 1.3501
+      "mark": 1.3498
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -31.52,
-      "pnl_pct": -1.34,
-      "margin": 464.85,
+      "pnl": -32.66,
+      "pnl_pct": -1.39,
+      "margin": 464.62,
       "leverage": "5",
       "tier": "2/2",
       "entry": 62.2226,
-      "mark": 61.39
+      "mark": 61.36
     },
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": -26.57,
-      "pnl_pct": -1.14,
-      "margin": 462.59,
+      "pnl": -23.29,
+      "pnl_pct": -1.0,
+      "margin": 463.24,
       "leverage": "5",
       "tier": "2/2",
       "entry": 657.1626,
-      "mark": 649.7
+      "mark": 650.62
     },
     {
       "symbol": "INJUSDT",
       "side": "LONG",
-      "pnl": -1.7,
-      "pnl_pct": -0.11,
-      "margin": 164.64,
+      "pnl": 1.1,
+      "pnl_pct": 0.07,
+      "margin": 164.96,
       "leverage": "9",
       "tier": "3/3",
       "entry": 5.6687,
-      "mark": 5.6622
+      "mark": 5.6729
     },
     {
       "symbol": "ADAUSDT",
@@ -75,13 +75,13 @@
     {
       "symbol": "ONDOUSDT",
       "side": "LONG",
-      "pnl": 6.91,
-      "pnl_pct": 2.21,
-      "margin": 79.68,
+      "pnl": 6.54,
+      "pnl_pct": 2.1,
+      "margin": 79.59,
       "leverage": "4",
       "tier": "2/2",
       "entry": 0.4289,
-      "mark": 0.4384
+      "mark": 0.4379
     }
   ],
   "signals": {
@@ -123,7 +123,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.43
+      "conf": 0.431
     },
     "ZECUSDT": {
       "dir": "long",
@@ -157,7 +157,7 @@
     },
     {
       "t": "2026-05-26",
-      "v": -353.21
+      "v": -349.25
     }
   ],
   "trade_history": [
