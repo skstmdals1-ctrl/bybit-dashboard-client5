@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bybit TensorAI (client5) — Live Dashboard</title>
+  <meta name="description" content="AI 기반 자동매매 봇의 실시간 운용 현황을 확인하세요." />
+  <meta property="og:title" content="Bybit TensorAI (client5) — Live Dashboard" />
+  <meta property="og:description" content="AI 자동매매 봇의 실시간 운용 현황 | 포지션 · PnL · AI 신호 실시간 공개" />
+  <meta property="og:url" content="https://skstmdals1-ctrl.github.io/bybit-dashboard-client5/" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Bybit TensorAI (client5) — Live Dashboard" />
+  <meta name="twitter:description" content="AI 자동매매 봇의 실시간 운용 현황 | 포지션 · PnL · AI 신호 실시간 공개" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=JetBrains+Mono:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --bg: #080b12;
+      --surface: #0f1623;
+      --surface2: #161e2e;
+      --border: rgba(99, 130, 255, 0.18);
+      --accent: #6382ff;
+      --green: #00e5a0;
+      --red: #ff4f6d;
+      --yellow: #f5c842;
+      --text: #e4eaf8;
+      --muted: #6b7a9a;
+      --radius: 14px;
+    }
+
+    html {
+      font-size: 15px;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding-bottom: 40px;
+    }
+
+    /* ── Header ── */
+    .header {
+      background: linear-gradient(135deg, #0d1525 0%, #111827 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 10px 16px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(12px);
+    }
+
+    .header-row1 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 5px;
+    }
+
+    .header-row2 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 4px;
+    }
+
+    .logo {
+      font-size: .95rem;
+      font-weight: 900;
+      letter-spacing: -.5px;
+      background: linear-gradient(90deg, #6382ff, #a78bfa);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .status-badge {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: .68rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 20px;
+    }
+
+    .badge-running {
+      background: rgba(0, 229, 160, .12);
+      color: var(--green);
+      border: 1px solid rgba(0, 229, 160, .3);
+    }
+
+    .badge-stopped {
+      background: rgba(255, 79, 109, .12);
+      color: var(--red);
+      border: 1px solid rgba(255, 79, 109, .3);
+    }
+
+    .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+    }
+
+    .dot-green {
+      background: var(--green);
+      box-shadow: 0 0 6px var(--green);
+      animation: blink 2s infinite;
+    }
+
+    .dot-red {
+      background: var(--red);
+    }
+
+    @keyframes blink {
+
+      0%,
+      100% {
+        opacity: 1
+      }
+
+      50% {
+        opacity: .4
+      }
+    }
+
+    .start-date {
+      font-size: .63rem;
+      color: var(--muted);
+    }
+
+    .update-time {
+      font-size: .63rem;
+      color: var(--muted);
+    }
+
+    .refresh-bar {
+      height: 2px;
+      background: var(--border);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+
+    .refresh-progress {
+      height: 100%;
+      background: linear-gradient(90deg, var(--accent), #a78bfa);
+      border-radius: 2px;
+      transition: width .5s linear;
+    }
+
+    /* ── 링크 버튼 행 ── */
+    .link-row {
+      display: flex;
+      justify-content: flex-end;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-top: 5px;
+    }
+
+    .link-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: .58rem;
+      font-weight: 700;
+      white-space: nowrap;
+      padding: 3px 9px;
+      border-radius: 20px;
+      border: 1px solid;
+      cursor: pointer;
+      text-decoration: none;
+      transition: opacity .15s;
+    }
+
+    .link-btn:active {
+      opacity: .7;
+    }
+
+    .btn-share {
+      background: rgba(99, 130, 255, .15);
+      color: #a0b4ff;
+      border-color: rgba(99, 130, 255, .4);
+    }
+
+    .btn-tg {
+      background: rgba(41, 182, 246, .12);
+      color: #4fc3f7;
+      border-color: rgba(41, 182, 246, .35);
+    }
+
+    .btn-ref {
+      background: rgba(245, 200, 66, .1);
+      color: #f5c842;
+      border-color: rgba(245, 200, 66, .35);
+    }
+
+    .btn-copy {
+      background: rgba(0, 229, 160, .1);
+      color: #00e5a0;
+      border-color: rgba(0, 229, 160, .35);
+    }
+
+    .btn-copied {
+      background: rgba(0, 229, 160, .25) !important;
+    }
+
+    /* 비활성 버튼 */
+    .btn-disabled {
+      opacity: .35;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+
+    .main {
+      max-width: 480px;
+      margin: 0 auto;
+      padding: 14px 14px 0;
+    }
+
+    /* ── 안내 카드 (접기 가능) ── */
+    .notice-card {
+      background: linear-gradient(135deg, #0f1e38, #111827);
+      border: 1px solid rgba(99, 130, 255, .3);
+      border-radius: var(--radius);
+      margin-bottom: 14px;
+      overflow: hidden;
+    }
+
+    .notice-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 16px;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .notice-title {
+      font-size: .82rem;
+      font-weight: 800;
+      color: #a78bfa;
+    }
+
+    .notice-toggle {
+      font-size: .7rem;
+      color: var(--muted);
+      white-space: nowrap;
+      margin-left: 8px;
+    }
+
+    .notice-body {
+      padding: 0 16px 14px;
+      font-size: .75rem;
+      line-height: 1.75;
+      color: #c4cde8;
+      border-top: 1px solid rgba(99, 130, 255, .12);
+    }
+
+    .notice-body.collapsed {
+      display: none;
+    }
+
+    .notice-body a {
+      color: #a78bfa;
+      text-decoration: underline;
+    }
+
+    .notice-body .divider {
+      color: #334;
+      margin: 6px 0;
+      font-size: .7rem;
+      letter-spacing: 1px;
+    }
+
+    .notice-body .section-head {
+      color: #e4eaf8;
+      font-weight: 700;
+      margin-top: 8px;
+    }
+
+    .notice-body .warn {
+      color: var(--yellow);
+      font-size: .7rem;
+      margin-top: 6px;
+    }
+
+    /* ── KPI ── */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .kpi {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 13px 15px;
+    }
+
+    .kpi.full {
+      grid-column: span 2;
+    }
+
+    .kpi-label {
+      font-size: .63rem;
+      font-weight: 700;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .8px;
+      margin-bottom: 5px;
+    }
+
+    .kpi-value {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 1.3rem;
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .kpi-sub {
+      font-size: .64rem;
+      color: var(--muted);
+      margin-top: 3px;
+    }
+
+    .kpi-rate {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin-top: 5px;
+    }
+
+    .rate-tag {
+      background: var(--surface2);
+      border-radius: 6px;
+      padding: 2px 7px;
+      font-size: .6rem;
+      font-weight: 600;
+    }
+
+    .pos {
+      color: var(--green);
+    }
+
+    .neg {
+      color: var(--red);
+    }
+
+    .neutral {
+      color: var(--text);
+    }
+
+    /* ── DD ── */
+    .dd-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .dd-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 13px 15px;
+    }
+
+    .dd-label {
+      font-size: .63rem;
+      font-weight: 700;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .8px;
+      margin-bottom: 5px;
+    }
+
+    .dd-value {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+
+    /* ── Section title ── */
+    .section-title {
+      font-size: .7rem;
+      font-weight: 700;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin: 18px 0 9px;
+    }
+
+    /* ── Chart ── */
+    .chart-wrap {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px;
+      margin-bottom: 14px;
+    }
+
+    /* ── Positions ── */
+    .pos-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .pos-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 13px 15px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px 10px;
+    }
+
+    .pos-card.long-card {
+      border-left: 3px solid var(--green);
+    }
+
+    .pos-card.short-card {
+      border-left: 3px solid var(--red);
+    }
+
+    .pos-symbol {
+      font-weight: 900;
+      font-size: .9rem;
+      grid-column: span 2;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .side-tag {
+      font-size: .6rem;
+      font-weight: 800;
+      padding: 2px 8px;
+      border-radius: 10px;
+    }
+
+    .tag-long {
+      background: rgba(0, 229, 160, .15);
+      color: var(--green);
+    }
+
+    .tag-short {
+      background: rgba(255, 79, 109, .15);
+      color: var(--red);
+    }
+
+    .pos-row {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .pos-row-label {
+      font-size: .58rem;
+      color: var(--muted);
+      margin-bottom: 1px;
+    }
+
+    .pos-row-val {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: .78rem;
+      font-weight: 600;
+    }
+
+    /* ── Signals ── */
+    .signal-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(82px, 1fr));
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+
+    .signal-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 9px 7px;
+      text-align: center;
+    }
+
+    .signal-sym {
+      font-size: .58rem;
+      font-weight: 700;
+      color: var(--muted);
+      margin-bottom: 3px;
+    }
+
+    .signal-dir {
+      font-size: .8rem;
+      font-weight: 900;
+    }
+
+    .signal-conf {
+      font-size: .6rem;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+
+    /* ── Trade history ── */
+    .trade-list {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+    }
+
+    .trade-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 13px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .trade-left {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      min-width: 0;
+    }
+
+    .trade-sym {
+      font-weight: 700;
+      font-size: .8rem;
+    }
+
+    .trade-meta {
+      font-size: .6rem;
+      color: var(--muted);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .trade-pnl {
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 700;
+      font-size: .92rem;
+      white-space: nowrap;
+    }
+
+    .empty {
+      color: var(--muted);
+      font-size: .8rem;
+      padding: 18px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header-row1">
+      <div class="logo">🤖 Bybit TensorAI (client5)</div>
+      <div class="status-badge badge-stopped" id="statusBadge">
+        <span class="dot dot-red" id="statusDot"></span>
+        <span id="statusText">Loading...</span>
+      </div>
+    </div>
+    <div class="header-row2">
+      <span class="start-date" id="startDateLabel">가동: —</span>
+      <span class="update-time">업데이트: <span id="lastUpdated">—</span></span>
+    </div>
+    <div class="refresh-bar">
+      <div class="refresh-progress" id="refreshBar" style="width:0%"></div>
+    </div>
+    <div class="link-row">
+      <button class="link-btn btn-share" id="shareBtn" onclick="copyDashboardLink()">📊 공유</button>
+      <span class="link-btn btn-tg btn-disabled">📢 텔레그램</span>
+      <span class="link-btn btn-ref btn-disabled">🎁 레퍼럴</span>
+      <span class="link-btn btn-copy btn-disabled">📋 카피트레이딩</span>
+    </div>
+  </header>
+
+  <div class="main">
+
+    <!-- ── 안내 카드 ── -->
+    <div class="notice-card">
+      <div class="notice-header" id="noticeHeader" onclick="toggleNotice()">
+        <span class="notice-title">📌 TensorAI (client5) 대시보드 안내</span>
+        <span class="notice-toggle" id="noticeToggleBtn">▲ 접기</span>
+      </div>
+      <div class="notice-body" id="noticeBody">
+        <p>이 대시보드는 Bybit TensorAI 봇의 client5 계좌 운용 현황을 실시간(1분)으로 공유합니다.</p>
+
+        <div class="divider">━━━━━━━━━━━━━━━</div>
+        <div class="section-head">🤖 TensorAI 봇 특징</div>
+        <p>• LSTM + Regime 분석 기반 AI 방향 판단 (실시간)<br>
+          • 그리드 분할진입 + 트레일링스탑 자동 관리<br>
+          • 고정익절 / 손절 / 추세전환(스위칭) 자동 실행<br>
+          • 24시간 무인 운영 (레버리지 5~15x, 크로스마진)</p>
+
+        <div class="divider">━━━━━━━━━━━━━━━</div>
+        <p class="warn">⚠️ 면책조항: 본 서비스는 AI 기반 시장 분석 결과와 매매 시그널을 공유하는 투자 도우미 서비스이며, 실제 운용 데이터입니다.<br>
+          투자에 대한 책임은 전적으로 본인에게 있으며, 과거의 실적이 미래의 수익을 보장하지 않습니다.</p>
+      </div>
+    </div>
+
+    <!-- KPI -->
+    <div class="kpi-grid" id="kpiGrid">
+      <div class="kpi full">
+        <div class="kpi-label">Total Equity</div>
+        <div class="kpi-value neutral" style="opacity:.3">Loading...</div>
+      </div>
+    </div>
+
+    <!-- MDD / DD -->
+    <div class="dd-grid">
+      <div class="dd-card">
+        <div class="dd-label">MDD</div>
+        <div class="dd-value neg" id="mddVal">—</div>
+      </div>
+      <div class="dd-card">
+        <div class="dd-label">Current DD</div>
+        <div class="dd-value" id="ddVal">—</div>
+      </div>
+    </div>
+
+    <div class="section-title">📈 누적 PnL 추이 (4/1~)</div>
+    <div class="chart-wrap"><canvas id="equityChart" height="130"></canvas></div>
+
+    <div class="section-title">📊 현재 포지션 <span style="font-weight:400;color:var(--muted)">(마진 높은 순)</span></div>
+    <div class="pos-list" id="posList">
+      <div class="empty">로딩 중...</div>
+    </div>
+
+    <div class="section-title">🧠 AI 실시간 신호</div>
+    <div class="signal-grid" id="signalGrid">
+      <div class="empty">로딩 중...</div>
+    </div>
+
+    <div class="section-title">🏁 최근 체결 이력</div>
+    <div class="trade-list" id="tradeList">
+      <div class="empty">로딩 중...</div>
+    </div>
+
+  </div>
+
+  <script>
+    const DATA_URL = './data.json';
+    const REFRESH_SEC = 60;  // 업로더와 동일 주기
+
+    // ── 대시보드 링크 복사 ─────────────────────────────────────
+    function copyDashboardLink() {
+      const url = 'https://skstmdals1-ctrl.github.io/bybit-dashboard-client5/';
+      navigator.clipboard.writeText(url).then(() => {
+        const btn = document.getElementById('shareBtn');
+        btn.textContent = '✅ 복사됨!';
+        btn.classList.add('btn-copied');
+        setTimeout(() => { btn.textContent = '📊 공유'; btn.classList.remove('btn-copied'); }, 2000);
+      }).catch(() => {
+        prompt('아래 URL을 복사하세요:', url);
+      });
+    }
+
+    // ── 안내카드 접기 ───────────────────────────────────────
+    function toggleNotice() {
+      const body = document.getElementById('noticeBody');
+      const btn = document.getElementById('noticeToggleBtn');
+      const collapsed = body.classList.toggle('collapsed');
+      btn.textContent = collapsed ? '▼ 펼치기' : '▲ 접기';
+      localStorage.setItem('notice_collapsed_c1', collapsed ? '1' : '0');
+    }
+    (function () {
+      if (localStorage.getItem('notice_collapsed_c1') === '1') {
+        document.getElementById('noticeBody').classList.add('collapsed');
+        document.getElementById('noticeToggleBtn').textContent = '▼ 펼치기';
+      }
+    })();
+
+    // ── Chart ──────────────────────────────────────────────
+    let chart = null;
+    const ctx = document.getElementById('equityChart').getContext('2d');
+    function initChart(labels, values) {
+      if (chart) chart.destroy();
+      const lastV = values[values.length - 1] || 0;
+      const lc = lastV >= 0 ? '#00e5a0' : '#ff4f6d';
+      const grad = ctx.createLinearGradient(0, 0, 0, 130);
+      grad.addColorStop(0, lastV >= 0 ? 'rgba(0,229,160,0.28)' : 'rgba(255,79,109,0.2)');
+      grad.addColorStop(1, 'rgba(0,0,0,0)');
+      chart = new Chart(ctx, {
+        type: 'line',
+        data: { labels, datasets: [{ data: values, borderColor: lc, backgroundColor: grad, borderWidth: 2, pointRadius: values.length <= 20 ? 3 : 0, pointHoverRadius: 5, fill: true, tension: 0.4 }] },
+        options: {
+          animation: false, responsive: true, maintainAspectRatio: false,
+          plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => ` $${c.parsed.y.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}` } } },
+          scales: {
+            x: { ticks: { color: '#6b7a9a', font: { size: 10 }, maxTicksLimit: 7 }, grid: { display: false } },
+            y: { ticks: { color: '#6b7a9a', font: { size: 10 }, callback: v => (v >= 0 ? '+' : '') + v.toFixed(0) }, grid: { color: 'rgba(99,130,255,0.06)' }, border: { display: false } }
+          }
+        }
+      });
+    }
+
+    // ── 포맷 ───────────────────────────────────────────────
+    function sc(v) { return parseFloat(v) >= 0 ? 'pos' : 'neg'; }
+    function sp(v) { return parseFloat(v) >= 0 ? '+' : '-'; }
+    function fmtUSD(v) { return '$' + Math.abs(parseFloat(v)).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
+    function fmtPct(v) { return (parseFloat(v) >= 0 ? '+' : '') + parseFloat(v).toFixed(2) + '%'; }
+
+    // ── 렌더 ───────────────────────────────────────────────
+    function renderStatus(d) {
+      const now = Date.now();
+      const last = d.ts ? new Date(d.ts).getTime() : 0;
+      const stale = (now - last) > 5 * 60 * 1000;
+      const run = d.status === 'running' && !stale;
+      document.getElementById('statusBadge').className = 'status-badge ' + (run ? 'badge-running' : 'badge-stopped');
+      document.getElementById('statusDot').className = 'dot ' + (run ? 'dot-green' : 'dot-red');
+      document.getElementById('statusText').textContent = run ? 'LIVE' : (stale ? 'OFFLINE (데이터 만료)' : 'OFFLINE');
+      if (d.start_date) document.getElementById('startDateLabel').textContent = '가동: ' + d.start_date + ' ~';
+    }
+    function renderLastUpdated(ts) {
+      try { const d = new Date(ts); document.getElementById('lastUpdated').textContent = d.toLocaleString('ko-KR', { month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit' }); } catch (e) { }
+    }
+
+    function renderKPI(d) {
+      const p = d.positions || [];
+      document.getElementById('kpiGrid').innerHTML = `
+    <div class="kpi full">
+      <div class="kpi-label">Total Equity</div>
+      <div class="kpi-value neutral">$${parseFloat(d.equity).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</div>
+      <div class="kpi-sub">미실현 <span class="${sc(d.unrealized)}">${sp(d.unrealized)}${fmtUSD(d.unrealized)}</span></div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">오늘 실현 PnL</div>
+      <div class="kpi-value ${sc(d.daily_pnl)}">${sp(d.daily_pnl)}${fmtUSD(d.daily_pnl)}</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">누적 PNL (미실현 포함)</div>
+      <div class="kpi-value ${sc(d.total_pnl)}">${sp(d.total_pnl)}${fmtUSD(d.total_pnl)}</div>
+      <div class="kpi-rate">
+        <span class="rate-tag ${sc(d.cum_pct)}">누적 ${fmtPct(d.cum_pct)}</span>
+        <span class="rate-tag ${sc(d.daily_avg_pct)}">일평균 ${fmtPct(d.daily_avg_pct)}</span>
+        <span class="rate-tag ${sc(d.annual_pct)}">연환산 ${fmtPct(d.annual_pct)}</span>
+      </div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">포지션 수</div>
+      <div class="kpi-value neutral">${p.length}</div>
+      <div class="kpi-sub">롱 ${d.long_count || 0} / 숏 ${d.short_count || 0}</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">시드 사용률</div>
+      <div class="kpi-value neutral" style="font-size:1.05rem;">$${parseInt(d.seed_used || 0).toLocaleString()}</div>
+      <div class="kpi-sub">${parseFloat(d.seed_used_pct || 0).toFixed(2)}%</div>
+    </div>`;
+    }
+
+    function renderDD(d) {
+      const mEl = document.getElementById('mddVal'), dEl = document.getElementById('ddVal');
+      mEl.textContent = fmtPct(d.mdd || 0); mEl.className = 'dd-value ' + (parseFloat(d.mdd || 0) < 0 ? 'neg' : 'pos');
+      dEl.textContent = fmtPct(d.current_dd || 0); dEl.className = 'dd-value ' + (parseFloat(d.current_dd || 0) < 0 ? 'neg' : 'pos');
+    }
+
+    function renderPositions(positions) {
+      const el = document.getElementById('posList');
+      if (!positions.length) { el.innerHTML = '<div class="empty">현재 열린 포지션 없음</div>'; return; }
+      el.innerHTML = positions.map(p => {
+        const isL = p.side === 'LONG';
+        const lev = parseFloat(p.leverage) || 1;
+        const levPct = (p.pnl_pct * lev);
+        return `<div class="pos-card ${isL ? 'long-card' : 'short-card'}">
+      <div class="pos-symbol"><span>${p.symbol}</span><span class="side-tag ${isL ? 'tag-long' : 'tag-short'}">${p.side}</span></div>
+      <div class="pos-row"><div class="pos-row-label">미실현 PnL</div>
+        <div class="pos-row-val ${sc(p.pnl)}">${sp(p.pnl)}${fmtUSD(p.pnl)} (${sp(levPct)}${Math.abs(levPct).toFixed(2)}%)</div></div>
+      <div class="pos-row"><div class="pos-row-label">투입 마진</div><div class="pos-row-val">$${p.margin.toFixed(0)}</div></div>
+      <div class="pos-row"><div class="pos-row-label">레버리지</div><div class="pos-row-val">${p.leverage}x</div></div>
+      <div class="pos-row"><div class="pos-row-label">분할 티어</div><div class="pos-row-val">${p.tier}</div></div>
+    </div>`;
+      }).join('');
+    }
+
+    function renderSignals(signals) {
+      const el = document.getElementById('signalGrid');
+      const entries = Object.entries(signals || {});
+      if (!entries.length) { el.innerHTML = '<div class="empty">신호 없음</div>'; return; }
+      el.innerHTML = entries.map(([sym, s]) => {
+        const c = s.dir === 'long' ? 'var(--green)' : s.dir === 'short' ? 'var(--red)' : 'var(--muted)';
+        return `<div class="signal-card"><div class="signal-sym">${sym.replace('USDT', '')}</div><div class="signal-dir" style="color:${c}">${s.dir.toUpperCase()}</div><div class="signal-conf">${(s.conf * 100).toFixed(0)}%</div></div>`;
+      }).join('');
+    }
+
+    function tradeSideLabel(side) {
+      const s = (side || '').toUpperCase();
+      if (s === 'BUY') return 'Close Long';
+      if (s === 'SELL') return 'Close Short';
+      return side;
+    }
+
+    function renderTrades(trades) {
+      const el = document.getElementById('tradeList');
+      if (!trades || !trades.length) { el.innerHTML = '<div class="empty">체결 이력 없음</div>'; return; }
+      el.innerHTML = trades.map(t => `
+    <div class="trade-card">
+      <div class="trade-left">
+        <div class="trade-sym">${t.symbol} <span style="font-size:.68rem;color:var(--muted);font-weight:400">${tradeSideLabel(t.side)}</span></div>
+        <div class="trade-meta">${t.ts} · ${t.reason || ''}</div>
+      </div>
+      <div class="trade-pnl ${sc(t.pnl)}">${sp(t.pnl)}${fmtUSD(t.pnl)}</div>
+    </div>`).join('');
+    }
+
+    function renderChart(hist) {
+      if (!hist || !hist.length) return;
+      initChart(hist.map(h => h.t.slice(5)), hist.map(h => h.v));
+    }
+
+    // ── Fetch ──────────────────────────────────────────────
+    async function fetchData() {
+      try {
+        const r = await fetch(DATA_URL + '?t=' + Date.now());
+        if (!r.ok) throw new Error(r.status);
+        const d = await r.json();
+        renderStatus(d);
+        renderLastUpdated(d.ts);
+        renderKPI(d);
+        renderDD(d);
+        renderPositions(d.positions || []);
+        renderSignals(d.signals || {});
+        renderTrades(d.trade_history || []);
+        renderChart(d.equity_hist || []);
+      } catch (e) {
+        document.getElementById('statusText').textContent = 'ERR';
+      }
+    }
+
+    // ── 매 분 0초 동기화 갱신 ─────────────────────────────
+    function updateProgressBar() {
+      const pct = (Date.now() % 60000) / 60000 * 100;
+      document.getElementById('refreshBar').style.width = pct + '%';
+    }
+
+    function scheduleNextFetch() {
+      const msUntilNext = 60000 - (Date.now() % 60000);
+      setTimeout(() => {
+        fetchData();
+        scheduleNextFetch();
+      }, msUntilNext);
+    }
+
+    setInterval(updateProgressBar, 1000);
+    updateProgressBar();
+    fetchData();
+    scheduleNextFetch();
+  </script>
+</body>
+
+</html>
