@@ -1,76 +1,76 @@
 {
-  "ts": "2026-05-26T02:44:01.294875+09:00",
+  "ts": "2026-05-26T02:45:02.594927+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6487.39,
-  "available": 4437.39,
-  "unrealized": 0.55,
+  "equity": 6487.91,
+  "available": 4252.25,
+  "unrealized": 1.21,
   "daily_pnl": -123.09,
-  "total_pnl": -212.61,
+  "total_pnl": -212.09,
   "cum_pct": -3.17,
   "daily_avg_pct": -1.5978,
   "annual_pct": -99.72,
   "mdd": -3.92,
   "current_dd": -3.92,
-  "seed_used": 2050.0,
-  "seed_used_pct": 31.6,
+  "seed_used": 2235.66,
+  "seed_used_pct": 34.46,
   "long_count": 5,
   "short_count": 0,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -14.75,
-      "pnl_pct": -0.63,
-      "margin": 468.2,
+      "pnl": -13.54,
+      "pnl_pct": -0.57,
+      "margin": 468.44,
       "leverage": "5",
       "tier": "2/2",
       "entry": 62.2226,
-      "mark": 61.833
+      "mark": 61.865
     },
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": 2.9,
-      "pnl_pct": 0.37,
-      "margin": 157.69,
+      "pnl": 2.95,
+      "pnl_pct": 0.38,
+      "margin": 157.7,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.3563,
-      "mark": 1.3613
+      "mark": 1.3614
     },
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": 6.28,
-      "pnl_pct": 0.81,
-      "margin": 155.84,
+      "pnl": 5.87,
+      "pnl_pct": 0.76,
+      "margin": 155.76,
       "leverage": "5",
       "tier": "2/2",
       "entry": 660.62,
-      "mark": 665.99
+      "mark": 665.64
     },
     {
       "symbol": "ONDOUSDT",
       "side": "LONG",
-      "pnl": 6.69,
-      "pnl_pct": 2.15,
-      "margin": 79.62,
+      "pnl": 6.32,
+      "pnl_pct": 2.03,
+      "margin": 79.53,
       "leverage": "4",
       "tier": "2/2",
       "entry": 0.4289,
-      "mark": 0.4381
+      "mark": 0.4376
     },
     {
       "symbol": "INJUSDT",
       "side": "LONG",
-      "pnl": -0.56,
-      "pnl_pct": -0.12,
-      "margin": 50.83,
+      "pnl": -0.4,
+      "pnl_pct": -0.09,
+      "margin": 50.85,
       "leverage": "9",
       "tier": "2/3",
       "entry": 5.711,
-      "mark": 5.704
+      "mark": 5.706
     }
   ],
   "signals": {
@@ -88,7 +88,7 @@
     },
     "XRPUSDT": {
       "dir": "neutral",
-      "conf": 0.584
+      "conf": 0.583
     },
     "TONUSDT": {
       "dir": "short",
@@ -138,7 +138,7 @@
     },
     {
       "t": "2026-05-26",
-      "v": -212.61
+      "v": -212.09
     }
   ],
   "trade_history": [
