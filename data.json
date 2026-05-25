@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-26T04:54:52.770563+09:00",
+  "ts": "2026-05-26T04:55:54.041566+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6395.95,
-  "available": 4090.56,
-  "unrealized": 0.63,
+  "equity": 6397.18,
+  "available": 4091.39,
+  "unrealized": 1.5,
   "daily_pnl": -213.91,
-  "total_pnl": -304.05,
-  "cum_pct": -4.54,
-  "daily_avg_pct": -2.2964,
+  "total_pnl": -302.82,
+  "cum_pct": -4.52,
+  "daily_avg_pct": -2.2861,
   "annual_pct": -99.98,
   "mdd": -5.71,
   "current_dd": -5.3,
-  "seed_used": 2305.39,
+  "seed_used": 2305.79,
   "seed_used_pct": 36.04,
   "long_count": 5,
   "short_count": 0,
@@ -20,35 +20,35 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -7.75,
-      "pnl_pct": -0.33,
-      "margin": 469.6,
+      "pnl": -6.46,
+      "pnl_pct": -0.27,
+      "margin": 469.86,
       "leverage": "5",
       "tier": "2/2",
       "entry": 62.2226,
-      "mark": 62.018
+      "mark": 62.052
     },
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": 3.34,
-      "pnl_pct": 0.14,
-      "margin": 468.57,
+      "pnl": 3.62,
+      "pnl_pct": 0.15,
+      "margin": 468.62,
       "leverage": "5",
       "tier": "2/2",
       "entry": 657.1626,
-      "mark": 658.1
+      "mark": 658.18
     },
     {
       "symbol": "INJUSDT",
       "side": "LONG",
-      "pnl": -0.05,
-      "pnl_pct": -0.0,
-      "margin": 164.83,
+      "pnl": -0.97,
+      "pnl_pct": -0.07,
+      "margin": 164.73,
       "leverage": "9",
       "tier": "3/3",
       "entry": 5.6687,
-      "mark": 5.6685
+      "mark": 5.665
     },
     {
       "symbol": "XRPUSDT",
@@ -64,13 +64,13 @@
     {
       "symbol": "ONDOUSDT",
       "side": "LONG",
-      "pnl": 5.09,
-      "pnl_pct": 1.63,
-      "margin": 79.22,
+      "pnl": 5.31,
+      "pnl_pct": 1.7,
+      "margin": 79.28,
       "leverage": "4",
       "tier": "2/2",
       "entry": 0.4289,
-      "mark": 0.4359
+      "mark": 0.4362
     }
   ],
   "signals": {
@@ -128,7 +128,7 @@
     },
     "INJUSDT": {
       "dir": "long",
-      "conf": 0.524
+      "conf": 0.523
     }
   },
   "equity_hist": [
@@ -138,7 +138,7 @@
     },
     {
       "t": "2026-05-26",
-      "v": -304.05
+      "v": -302.82
     }
   ],
   "trade_history": [
