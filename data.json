@@ -1,65 +1,65 @@
 {
-  "ts": "2026-05-26T00:58:40.360674+09:00",
+  "ts": "2026-05-26T00:59:41.607400+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6600.23,
-  "available": 4236.6,
-  "unrealized": 41.5,
+  "equity": 6593.22,
+  "available": 4229.49,
+  "unrealized": 34.51,
   "daily_pnl": -50.59,
-  "total_pnl": -99.77,
-  "cum_pct": -1.49,
-  "daily_avg_pct": -0.7478,
-  "annual_pct": -93.54,
+  "total_pnl": -106.78,
+  "cum_pct": -1.59,
+  "daily_avg_pct": -0.7982,
+  "annual_pct": -94.63,
   "mdd": -2.29,
   "current_dd": -2.29,
-  "seed_used": 2363.63,
-  "seed_used_pct": 35.81,
+  "seed_used": 2363.72,
+  "seed_used_pct": 35.85,
   "long_count": 4,
   "short_count": 1,
   "positions": [
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": 19.83,
-      "pnl_pct": 0.6,
-      "margin": 473.13,
+      "pnl": 15.46,
+      "pnl_pct": 0.46,
+      "margin": 473.75,
       "leverage": "7",
       "tier": "2/2",
       "entry": 0.3048,
-      "mark": 0.303
-    },
-    {
-      "symbol": "ZECUSDT",
-      "side": "LONG",
-      "pnl": 14.24,
-      "pnl_pct": 1.84,
-      "margin": 157.43,
-      "leverage": "5",
-      "tier": "2/2",
-      "entry": 660.62,
-      "mark": 672.79
+      "mark": 0.3034
     },
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": 1.27,
-      "pnl_pct": 0.16,
-      "margin": 157.37,
+      "pnl": 1.1,
+      "pnl_pct": 0.14,
+      "margin": 157.33,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.3563,
-      "mark": 1.3585
+      "mark": 1.3582
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 1.18,
-      "pnl_pct": 0.15,
-      "margin": 157.28,
+      "pnl": 0.73,
+      "pnl_pct": 0.09,
+      "margin": 157.19,
       "leverage": "5",
       "tier": "2/2",
       "entry": 62.516,
-      "mark": 62.61
+      "mark": 62.574
+    },
+    {
+      "symbol": "ZECUSDT",
+      "side": "LONG",
+      "pnl": 12.24,
+      "pnl_pct": 1.58,
+      "margin": 157.03,
+      "leverage": "5",
+      "tier": "2/2",
+      "entry": 660.62,
+      "mark": 671.08
     },
     {
       "symbol": "ONDOUSDT",
@@ -87,8 +87,8 @@
       "conf": 0.351
     },
     "XRPUSDT": {
-      "dir": "long",
-      "conf": 0.353
+      "dir": "short",
+      "conf": 0.35
     },
     "TONUSDT": {
       "dir": "short",
@@ -134,7 +134,7 @@
     },
     {
       "t": "2026-05-26",
-      "v": -99.77
+      "v": -106.78
     }
   ],
   "trade_history": [
