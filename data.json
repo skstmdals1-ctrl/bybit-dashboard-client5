@@ -1,65 +1,54 @@
 {
-  "ts": "2026-05-25T17:47:47.332780+09:00",
+  "ts": "2026-05-25T17:48:48.674585+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6670.87,
-  "available": 4834.77,
-  "unrealized": -60.13,
-  "daily_pnl": 0,
-  "total_pnl": -29.13,
-  "cum_pct": -0.43,
-  "daily_avg_pct": -0.43,
-  "annual_pct": -79.26,
+  "equity": 6652.66,
+  "available": 5435.49,
+  "unrealized": 22.96,
+  "daily_pnl": -101.81,
+  "total_pnl": -47.34,
+  "cum_pct": -0.71,
+  "daily_avg_pct": -0.71,
+  "annual_pct": -92.58,
   "mdd": -1.08,
   "current_dd": -1.08,
-  "seed_used": 1836.1,
-  "seed_used_pct": 27.52,
+  "seed_used": 1217.17,
+  "seed_used_pct": 18.3,
   "long_count": 3,
-  "short_count": 1,
+  "short_count": 0,
   "positions": [
-    {
-      "symbol": "WLDUSDT",
-      "side": "SHORT",
-      "pnl": -85.37,
-      "pnl_pct": -1.76,
-      "margin": 616.18,
-      "leverage": "8",
-      "tier": "2/2",
-      "entry": 0.2972,
-      "mark": 0.3024
-    },
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": 9.36,
-      "pnl_pct": 1.16,
-      "margin": 272.73,
+      "pnl": 10.0,
+      "pnl_pct": 1.24,
+      "margin": 272.95,
       "leverage": "3",
       "tier": "2/2",
       "entry": 2.3713,
-      "mark": 2.3987
+      "mark": 2.4006
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 11.59,
-      "pnl_pct": 1.48,
-      "margin": 159.36,
+      "pnl": 9.88,
+      "pnl_pct": 1.26,
+      "margin": 159.02,
       "leverage": "5",
       "tier": "2/2",
       "entry": 62.516,
-      "mark": 63.439
+      "mark": 63.303
     },
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": 4.21,
-      "pnl_pct": 0.54,
-      "margin": 155.43,
+      "pnl": 3.1,
+      "pnl_pct": 0.4,
+      "margin": 155.21,
       "leverage": "5",
       "tier": "2/2",
       "entry": 660.62,
-      "mark": 664.22
+      "mark": 663.27
     }
   ],
   "signals": {
@@ -115,9 +104,17 @@
   "equity_hist": [
     {
       "t": "2026-05-25",
-      "v": -29.13
+      "v": -47.34
     }
   ],
-  "trade_history": [],
+  "trade_history": [
+    {
+      "ts": "2026-05-25 17:48",
+      "symbol": "WLDUSDT",
+      "side": "Sell",
+      "pnl": -101.81,
+      "reason": "External Exit"
+    }
+  ],
   "num_days": 1
 }
