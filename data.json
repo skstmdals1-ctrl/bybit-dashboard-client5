@@ -1,87 +1,87 @@
 {
-  "ts": "2026-05-26T02:33:47.909246+09:00",
+  "ts": "2026-05-26T02:34:49.214939+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6528.41,
-  "available": 3995.84,
-  "unrealized": -30.11,
+  "equity": 6525.42,
+  "available": 3991.86,
+  "unrealized": -33.13,
   "daily_pnl": -50.59,
-  "total_pnl": -171.59,
-  "cum_pct": -2.56,
-  "daily_avg_pct": -1.2883,
-  "annual_pct": -99.12,
-  "mdd": -3.22,
-  "current_dd": -3.22,
-  "seed_used": 2532.57,
-  "seed_used_pct": 38.79,
+  "total_pnl": -174.58,
+  "cum_pct": -2.61,
+  "daily_avg_pct": -1.3136,
+  "annual_pct": -99.2,
+  "mdd": -3.32,
+  "current_dd": -3.32,
+  "seed_used": 2533.55,
+  "seed_used_pct": 38.83,
   "long_count": 5,
   "short_count": 1,
   "positions": [
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": -33.73,
-      "pnl_pct": -1.01,
-      "margin": 480.78,
+      "pnl": -38.1,
+      "pnl_pct": -1.14,
+      "margin": 481.4,
       "leverage": "7",
       "tier": "2/2",
       "entry": 0.3048,
-      "mark": 0.3079
+      "mark": 0.3083
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -17.67,
-      "pnl_pct": -0.75,
-      "margin": 467.62,
+      "pnl": -14.15,
+      "pnl_pct": -0.6,
+      "margin": 468.32,
       "leverage": "5",
       "tier": "2/2",
       "entry": 62.2226,
-      "mark": 61.756
+      "mark": 61.849
     },
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": 2.49,
+      "pnl": 2.55,
       "pnl_pct": 0.32,
-      "margin": 157.61,
+      "margin": 157.62,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.3563,
-      "mark": 1.3606
+      "mark": 1.3607
     },
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": 8.28,
-      "pnl_pct": 1.07,
-      "margin": 156.24,
+      "pnl": 7.55,
+      "pnl_pct": 0.98,
+      "margin": 156.09,
       "leverage": "5",
       "tier": "2/2",
       "entry": 660.62,
-      "mark": 667.7
+      "mark": 667.07
     },
     {
       "symbol": "ONDOUSDT",
       "side": "LONG",
-      "pnl": 6.47,
-      "pnl_pct": 2.08,
-      "margin": 79.57,
+      "pnl": 6.11,
+      "pnl_pct": 1.96,
+      "margin": 79.48,
       "leverage": "4",
       "tier": "2/2",
       "entry": 0.4289,
-      "mark": 0.4378
+      "mark": 0.4373
     },
     {
       "symbol": "INJUSDT",
       "side": "LONG",
-      "pnl": 4.01,
-      "pnl_pct": 0.88,
-      "margin": 51.34,
+      "pnl": 2.89,
+      "pnl_pct": 0.63,
+      "margin": 51.21,
       "leverage": "9",
       "tier": "2/3",
       "entry": 5.711,
-      "mark": 5.761
+      "mark": 5.747
     }
   ],
   "signals": {
@@ -99,7 +99,7 @@
     },
     "XRPUSDT": {
       "dir": "neutral",
-      "conf": 0.579
+      "conf": 0.584
     },
     "TONUSDT": {
       "dir": "short",
@@ -115,7 +115,7 @@
     },
     "ONDOUSDT": {
       "dir": "short",
-      "conf": 0.46
+      "conf": 0.461
     },
     "NEARUSDT": {
       "dir": "long",
@@ -131,7 +131,7 @@
     },
     "SOLUSDT": {
       "dir": "neutral",
-      "conf": 0.529
+      "conf": 0.53
     },
     "DOGEUSDT": {
       "dir": "long",
@@ -139,7 +139,7 @@
     },
     "INJUSDT": {
       "dir": "long",
-      "conf": 0.525
+      "conf": 0.526
     }
   },
   "equity_hist": [
@@ -149,7 +149,7 @@
     },
     {
       "t": "2026-05-26",
-      "v": -171.59
+      "v": -174.58
     }
   ],
   "trade_history": [
