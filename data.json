@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-25T17:31:25.251203+09:00",
+  "ts": "2026-05-25T17:32:27.417034+09:00",
   "start_date": "2026-05-25",
-  "status": "stopped",
-  "equity": 6717.57,
-  "available": 4891.83,
-  "unrealized": -13.66,
+  "status": "running",
+  "equity": 6717.96,
+  "available": 4892.27,
+  "unrealized": -12.86,
   "daily_pnl": 0,
-  "total_pnl": 17.57,
-  "cum_pct": 0.26,
-  "daily_avg_pct": 0.26,
-  "annual_pct": 157.99,
-  "mdd": -0.36,
-  "current_dd": -0.36,
-  "seed_used": 1825.74,
+  "total_pnl": 17.96,
+  "cum_pct": 0.27,
+  "daily_avg_pct": 0.27,
+  "annual_pct": 167.56,
+  "mdd": -0.41,
+  "current_dd": -0.41,
+  "seed_used": 1825.69,
   "seed_used_pct": 27.18,
   "long_count": 3,
   "short_count": 1,
@@ -29,37 +29,37 @@
       "mark": 0.2989
     },
     {
+      "symbol": "NEARUSDT",
+      "side": "LONG",
+      "pnl": -0.33,
+      "pnl_pct": -0.04,
+      "margin": 269.5,
+      "leverage": "3",
+      "tier": "2/2",
+      "entry": 2.3713,
+      "mark": 2.3703
+    },
+    {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 13.45,
-      "pnl_pct": 1.71,
-      "margin": 159.73,
+      "pnl": 12.53,
+      "pnl_pct": 1.6,
+      "margin": 159.55,
       "leverage": "5",
       "tier": "2/2",
       "entry": 62.516,
-      "mark": 63.587
+      "mark": 63.514
     },
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": 2.77,
-      "pnl_pct": 0.36,
-      "margin": 155.14,
+      "pnl": 3.23,
+      "pnl_pct": 0.42,
+      "margin": 155.23,
       "leverage": "5",
       "tier": "2/2",
       "entry": 660.62,
-      "mark": 662.99
-    },
-    {
-      "symbol": "NEARUSDT",
-      "side": "LONG",
-      "pnl": -1.61,
-      "pnl_pct": -0.6,
-      "margin": 89.31,
-      "leverage": "3",
-      "tier": "2/2",
-      "entry": 2.3831,
-      "mark": 2.3689
+      "mark": 663.38
     }
   ],
   "signals": {
@@ -85,7 +85,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.436
+      "conf": 0.435
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -115,7 +115,7 @@
   "equity_hist": [
     {
       "t": "2026-05-25",
-      "v": 17.57
+      "v": 17.96
     }
   ],
   "trade_history": [],
