@@ -1,32 +1,32 @@
 {
-  "ts": "2026-05-26T12:51:16.456527+09:00",
+  "ts": "2026-05-26T12:52:17.787051+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6054.26,
-  "available": 4313.96,
-  "unrealized": 0.02,
+  "equity": 6054.47,
+  "available": 4314.11,
+  "unrealized": 0.29,
   "daily_pnl": -555.6,
-  "total_pnl": -645.74,
-  "cum_pct": -9.64,
-  "daily_avg_pct": -4.9421,
+  "total_pnl": -645.53,
+  "cum_pct": -9.63,
+  "daily_avg_pct": -4.9369,
   "annual_pct": -100.0,
   "mdd": -10.4,
-  "current_dd": -10.31,
-  "seed_used": 1740.29,
-  "seed_used_pct": 28.74,
+  "current_dd": -10.32,
+  "seed_used": 1740.36,
+  "seed_used_pct": 28.75,
   "long_count": 1,
   "short_count": 3,
   "positions": [
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": -19.01,
-      "pnl_pct": -0.81,
-      "margin": 467.69,
+      "pnl": -18.66,
+      "pnl_pct": -0.79,
+      "margin": 467.76,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.3503,
-      "mark": 1.3394
+      "mark": 1.3396
     },
     {
       "symbol": "ONDOUSDT",
@@ -53,13 +53,13 @@
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 6.02,
-      "pnl_pct": 0.82,
-      "margin": 144.7,
+      "pnl": 5.94,
+      "pnl_pct": 0.81,
+      "margin": 144.72,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.9163,
-      "mark": 1.9005
+      "mark": 1.9007
     }
   ],
   "signals": {
@@ -73,7 +73,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.355
+      "conf": 0.356
     },
     "XRPUSDT": {
       "dir": "neutral",
@@ -85,7 +85,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.552
+      "conf": 0.569
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -100,7 +100,7 @@
       "conf": 0.38
     },
     "SUIUSDT": {
-      "dir": "short",
+      "dir": "long",
       "conf": 0.428
     },
     "ZECUSDT": {
@@ -117,11 +117,11 @@
     },
     "INJUSDT": {
       "dir": "long",
-      "conf": 0.527
+      "conf": 0.525
     },
     "ADAUSDT": {
       "dir": "long",
-      "conf": 0.476
+      "conf": 0.477
     },
     "TAOUSDT": {
       "dir": "short",
@@ -135,7 +135,7 @@
     },
     {
       "t": "2026-05-26",
-      "v": -645.74
+      "v": -645.53
     }
   ],
   "trade_history": [
