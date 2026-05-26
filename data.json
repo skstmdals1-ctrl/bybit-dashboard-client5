@@ -1,65 +1,54 @@
 {
-  "ts": "2026-05-26T18:30:14.349435+09:00",
+  "ts": "2026-05-26T18:31:16.122913+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6030.24,
-  "available": 4286.21,
-  "unrealized": -23.5,
-  "daily_pnl": -555.6,
-  "total_pnl": -669.76,
-  "cum_pct": -10.0,
-  "daily_avg_pct": -5.1317,
+  "equity": 6016.37,
+  "available": 4664.11,
+  "unrealized": 3.54,
+  "daily_pnl": -596.71,
+  "total_pnl": -683.63,
+  "cum_pct": -10.2,
+  "daily_avg_pct": -5.2371,
   "annual_pct": -100.0,
   "mdd": -10.74,
   "current_dd": -10.65,
-  "seed_used": 1744.03,
-  "seed_used_pct": 28.92,
+  "seed_used": 1352.26,
+  "seed_used_pct": 22.48,
   "long_count": 1,
-  "short_count": 3,
+  "short_count": 2,
   "positions": [
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": -14.99,
-      "pnl_pct": -0.64,
-      "margin": 468.49,
+      "pnl": -13.07,
+      "pnl_pct": -0.55,
+      "margin": 468.88,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.3503,
-      "mark": 1.3417
-    },
-    {
-      "symbol": "ONDOUSDT",
-      "side": "SHORT",
-      "pnl": -26.98,
-      "pnl_pct": -1.0,
-      "margin": 391.2,
-      "leverage": "7",
-      "tier": "3/3",
-      "entry": 0.4201,
-      "mark": 0.4243
+      "mark": 1.3428
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 8.16,
-      "pnl_pct": 1.1,
-      "margin": 146.33,
+      "pnl": 7.86,
+      "pnl_pct": 1.06,
+      "margin": 146.39,
       "leverage": "5",
       "tier": "2/2",
       "entry": 0.2448,
-      "mark": 0.2421
+      "mark": 0.2422
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 9.59,
-      "pnl_pct": 1.32,
-      "margin": 143.99,
+      "pnl": 8.76,
+      "pnl_pct": 1.2,
+      "margin": 144.16,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.9163,
-      "mark": 1.8911
+      "mark": 1.8933
     }
   ],
   "signals": {
@@ -139,10 +128,17 @@
     },
     {
       "t": "2026-05-26",
-      "v": -669.76
+      "v": -683.63
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-26 18:31",
+      "symbol": "ONDOUSDT",
+      "side": "Sell",
+      "pnl": -41.11,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-05-26 12:28",
       "symbol": "INJUSDT",
