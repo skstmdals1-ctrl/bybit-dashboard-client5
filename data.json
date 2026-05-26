@@ -1,32 +1,32 @@
 {
-  "ts": "2026-05-26T23:59:56.968175+09:00",
+  "ts": "2026-05-27T00:00:58.535744+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 5971.67,
-  "available": 5499.12,
-  "unrealized": 2.64,
-  "daily_pnl": -640.76,
-  "total_pnl": -728.33,
-  "cum_pct": -10.87,
-  "daily_avg_pct": -5.5913,
+  "equity": 5973.27,
+  "available": 5500.35,
+  "unrealized": 4.73,
+  "daily_pnl": 0,
+  "total_pnl": -726.73,
+  "cum_pct": -10.85,
+  "daily_avg_pct": -3.756,
   "annual_pct": -100.0,
   "mdd": -10.94,
   "current_dd": -10.85,
-  "seed_used": 472.55,
-  "seed_used_pct": 7.91,
+  "seed_used": 472.93,
+  "seed_used_pct": 7.92,
   "long_count": 1,
   "short_count": 0,
   "positions": [
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": 2.64,
-      "pnl_pct": 0.11,
-      "margin": 472.02,
+      "pnl": 4.74,
+      "pnl_pct": 0.2,
+      "margin": 472.44,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.3503,
-      "mark": 1.3518
+      "mark": 1.353
     }
   ],
   "signals": {
@@ -107,6 +107,10 @@
     {
       "t": "2026-05-26",
       "v": -728.33
+    },
+    {
+      "t": "2026-05-27",
+      "v": -726.73
     }
   ],
   "trade_history": [
@@ -223,5 +227,5 @@
       "reason": "External Exit"
     }
   ],
-  "num_days": 2
+  "num_days": 3
 }
