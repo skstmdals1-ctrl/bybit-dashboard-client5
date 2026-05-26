@@ -1,19 +1,19 @@
 {
-  "ts": "2026-05-26T13:10:42.408150+09:00",
+  "ts": "2026-05-26T13:11:43.722446+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6059.61,
-  "available": 4320.15,
-  "unrealized": 5.27,
+  "equity": 6059.94,
+  "available": 4320.57,
+  "unrealized": 5.62,
   "daily_pnl": -555.6,
-  "total_pnl": -640.39,
-  "cum_pct": -9.56,
-  "daily_avg_pct": -4.9001,
+  "total_pnl": -640.06,
+  "cum_pct": -9.55,
+  "daily_avg_pct": -4.8948,
   "annual_pct": -100.0,
   "mdd": -10.4,
   "current_dd": -10.25,
-  "seed_used": 1739.46,
-  "seed_used_pct": 28.71,
+  "seed_used": 1739.37,
+  "seed_used_pct": 28.7,
   "long_count": 1,
   "short_count": 3,
   "positions": [
@@ -31,13 +31,13 @@
     {
       "symbol": "ONDOUSDT",
       "side": "SHORT",
-      "pnl": 0.37,
-      "pnl_pct": 0.03,
-      "margin": 152.11,
+      "pnl": 0.11,
+      "pnl_pct": 0.01,
+      "margin": 152.15,
       "leverage": "7",
       "tier": "3/3",
       "entry": 0.4157,
-      "mark": 0.4156
+      "mark": 0.4157
     },
     {
       "symbol": "ADAUSDT",
@@ -53,13 +53,13 @@
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 10.7,
-      "pnl_pct": 1.47,
-      "margin": 143.77,
+      "pnl": 11.31,
+      "pnl_pct": 1.55,
+      "margin": 143.65,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.9163,
-      "mark": 1.8882
+      "mark": 1.8866
     }
   ],
   "signals": {
@@ -72,7 +72,7 @@
       "conf": 0.519
     },
     "ETHUSDT": {
-      "dir": "short",
+      "dir": "neutral",
       "conf": 0.339
     },
     "XRPUSDT": {
@@ -85,7 +85,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.575
+      "conf": 0.577
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -105,7 +105,7 @@
     },
     "ZECUSDT": {
       "dir": "long",
-      "conf": 0.475
+      "conf": 0.477
     },
     "SOLUSDT": {
       "dir": "short",
@@ -135,7 +135,7 @@
     },
     {
       "t": "2026-05-26",
-      "v": -640.39
+      "v": -640.06
     }
   ],
   "trade_history": [
