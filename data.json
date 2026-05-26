@@ -1,54 +1,54 @@
 {
-  "ts": "2026-05-26T19:18:24.884429+09:00",
+  "ts": "2026-05-26T19:19:26.376455+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6015.38,
-  "available": 4662.5,
-  "unrealized": 2.72,
+  "equity": 6016.29,
+  "available": 4662.38,
+  "unrealized": 3.57,
   "daily_pnl": -596.71,
-  "total_pnl": -684.62,
-  "cum_pct": -10.22,
-  "daily_avg_pct": -5.2477,
+  "total_pnl": -683.71,
+  "cum_pct": -10.2,
+  "daily_avg_pct": -5.2371,
   "annual_pct": -100.0,
-  "mdd": -10.91,
-  "current_dd": -10.85,
-  "seed_used": 1352.88,
-  "seed_used_pct": 22.49,
+  "mdd": -10.92,
+  "current_dd": -10.92,
+  "seed_used": 1353.91,
+  "seed_used_pct": 22.5,
   "long_count": 1,
   "short_count": 2,
   "positions": [
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": -11.85,
-      "pnl_pct": -0.5,
-      "margin": 469.12,
+      "pnl": -8.88,
+      "pnl_pct": -0.38,
+      "margin": 469.72,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.3503,
-      "mark": 1.3435
+      "mark": 1.3452
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 6.35,
-      "pnl_pct": 0.86,
-      "margin": 146.69,
+      "pnl": 4.84,
+      "pnl_pct": 0.65,
+      "margin": 146.99,
       "leverage": "5",
       "tier": "2/2",
       "entry": 0.2448,
-      "mark": 0.2427
+      "mark": 0.2432
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 8.22,
-      "pnl_pct": 1.13,
-      "margin": 144.26,
+      "pnl": 7.61,
+      "pnl_pct": 1.04,
+      "margin": 144.38,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.9163,
-      "mark": 1.8947
+      "mark": 1.8963
     }
   ],
   "signals": {
@@ -74,7 +74,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.531
+      "conf": 0.528
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -118,7 +118,7 @@
     },
     "RENDERUSDT": {
       "dir": "long",
-      "conf": 0.488
+      "conf": 0.487
     }
   },
   "equity_hist": [
@@ -128,7 +128,7 @@
     },
     {
       "t": "2026-05-26",
-      "v": -684.62
+      "v": -683.71
     }
   ],
   "trade_history": [
