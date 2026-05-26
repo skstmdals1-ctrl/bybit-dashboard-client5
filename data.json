@@ -1,54 +1,54 @@
 {
-  "ts": "2026-05-26T19:35:50.471272+09:00",
+  "ts": "2026-05-26T19:36:52.042487+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6020.55,
-  "available": 4660.38,
-  "unrealized": 8.16,
+  "equity": 6021.16,
+  "available": 4659.8,
+  "unrealized": 9.04,
   "daily_pnl": -596.71,
-  "total_pnl": -679.45,
-  "cum_pct": -10.14,
-  "daily_avg_pct": -5.2055,
+  "total_pnl": -678.84,
+  "cum_pct": -10.13,
+  "daily_avg_pct": -5.2002,
   "annual_pct": -100.0,
   "mdd": -10.92,
   "current_dd": -10.78,
-  "seed_used": 1360.17,
-  "seed_used_pct": 22.59,
+  "seed_used": 1361.36,
+  "seed_used_pct": 22.61,
   "long_count": 1,
   "short_count": 2,
   "positions": [
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": 9.28,
-      "pnl_pct": 0.39,
-      "margin": 473.35,
+      "pnl": 14.69,
+      "pnl_pct": 0.62,
+      "margin": 474.43,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.3503,
-      "mark": 1.3556
-    },
-    {
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
-      "pnl": 0.91,
-      "pnl_pct": 0.12,
-      "margin": 147.78,
-      "leverage": "5",
-      "tier": "2/2",
-      "entry": 0.2448,
-      "mark": 0.2445
+      "mark": 1.3587
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": -2.02,
-      "pnl_pct": -0.28,
-      "margin": 146.31,
+      "pnl": -4.73,
+      "pnl_pct": -0.22,
+      "margin": 439.11,
       "leverage": "5",
       "tier": "2/2",
-      "entry": 1.9163,
-      "mark": 1.9216
+      "entry": 1.9285,
+      "mark": 1.9327
+    },
+    {
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "pnl": -0.91,
+      "pnl_pct": -0.12,
+      "margin": 148.14,
+      "leverage": "5",
+      "tier": "2/2",
+      "entry": 0.2448,
+      "mark": 0.2451
     }
   ],
   "signals": {
@@ -128,7 +128,7 @@
     },
     {
       "t": "2026-05-26",
-      "v": -679.45
+      "v": -678.84
     }
   ],
   "trade_history": [
