@@ -1,43 +1,43 @@
 {
-  "ts": "2026-05-26T22:29:51.962978+09:00",
+  "ts": "2026-05-26T22:30:53.467338+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6013.03,
-  "available": 5102.59,
-  "unrealized": 2.26,
+  "equity": 6021.83,
+  "available": 5113.94,
+  "unrealized": 11.12,
   "daily_pnl": -597.65,
-  "total_pnl": -686.97,
-  "cum_pct": -10.25,
-  "daily_avg_pct": -5.2635,
+  "total_pnl": -678.17,
+  "cum_pct": -10.12,
+  "daily_avg_pct": -5.1949,
   "annual_pct": -100.0,
   "mdd": -11.11,
-  "current_dd": -11.04,
-  "seed_used": 910.44,
-  "seed_used_pct": 15.14,
+  "current_dd": -10.87,
+  "seed_used": 907.89,
+  "seed_used_pct": 15.08,
   "long_count": 1,
   "short_count": 1,
   "positions": [
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": -0.5,
-      "pnl_pct": -0.02,
-      "margin": 471.39,
+      "pnl": -2.42,
+      "pnl_pct": -0.1,
+      "margin": 471.01,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.3503,
-      "mark": 1.35
+      "mark": 1.3489
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 2.76,
-      "pnl_pct": 0.13,
-      "margin": 437.61,
+      "pnl": 13.56,
+      "pnl_pct": 0.62,
+      "margin": 435.45,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.9285,
-      "mark": 1.9261
+      "mark": 1.9166
     }
   ],
   "signals": {
@@ -51,11 +51,11 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.413
+      "conf": 0.359
     },
     "XRPUSDT": {
       "dir": "long",
-      "conf": 0.419
+      "conf": 0.362
     },
     "TONUSDT": {
       "dir": "short",
@@ -63,7 +63,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.351
+      "conf": 0.356
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -83,15 +83,15 @@
     },
     "ZECUSDT": {
       "dir": "long",
-      "conf": 0.498
+      "conf": 0.496
     },
     "SOLUSDT": {
       "dir": "short",
-      "conf": 0.442
+      "conf": 0.444
     },
     "DOGEUSDT": {
       "dir": "long",
-      "conf": 0.44
+      "conf": 0.441
     },
     "INJUSDT": {
       "dir": "long",
@@ -103,7 +103,7 @@
     },
     "TAOUSDT": {
       "dir": "short",
-      "conf": 0.514
+      "conf": 0.515
     },
     "RENDERUSDT": {
       "dir": "long",
@@ -117,7 +117,7 @@
     },
     {
       "t": "2026-05-26",
-      "v": -686.97
+      "v": -678.17
     }
   ],
   "trade_history": [
