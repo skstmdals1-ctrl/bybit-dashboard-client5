@@ -1,54 +1,43 @@
 {
-  "ts": "2026-05-26T20:33:09.744775+09:00",
+  "ts": "2026-05-26T20:34:11.164657+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6008.16,
-  "available": 4722.05,
-  "unrealized": -3.18,
-  "daily_pnl": -597.56,
-  "total_pnl": -691.84,
-  "cum_pct": -10.33,
-  "daily_avg_pct": -5.3058,
+  "equity": 6010.89,
+  "available": 5098.1,
+  "unrealized": 0.11,
+  "daily_pnl": -597.65,
+  "total_pnl": -689.11,
+  "cum_pct": -10.29,
+  "daily_avg_pct": -5.2846,
   "annual_pct": -100.0,
   "mdd": -11.11,
-  "current_dd": -10.78,
-  "seed_used": 1286.12,
-  "seed_used_pct": 21.41,
+  "current_dd": -11.03,
+  "seed_used": 912.79,
+  "seed_used_pct": 15.19,
   "long_count": 1,
-  "short_count": 2,
+  "short_count": 1,
   "positions": [
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": 5.79,
-      "pnl_pct": 0.25,
-      "margin": 472.65,
+      "pnl": 4.39,
+      "pnl_pct": 0.19,
+      "margin": 472.37,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.3503,
-      "mark": 1.3536
+      "mark": 1.3528
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": -8.82,
-      "pnl_pct": -0.4,
-      "margin": 439.93,
+      "pnl": -4.28,
+      "pnl_pct": -0.2,
+      "margin": 439.02,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.9285,
-      "mark": 1.9363
-    },
-    {
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
-      "pnl": -0.15,
-      "pnl_pct": -0.04,
-      "margin": 74.01,
-      "leverage": "5",
-      "tier": "2/2",
-      "entry": 0.2448,
-      "mark": 0.2449
+      "mark": 1.9323
     }
   ],
   "signals": {
@@ -62,7 +51,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.411
+      "conf": 0.412
     },
     "XRPUSDT": {
       "dir": "long",
@@ -74,7 +63,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.367
+      "conf": 0.364
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -128,10 +117,17 @@
     },
     {
       "t": "2026-05-26",
-      "v": -691.84
+      "v": -689.11
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-26 20:34",
+      "symbol": "ADAUSDT",
+      "side": "Sell",
+      "pnl": -0.1,
+      "reason": "1/2"
+    },
     {
       "ts": "2026-05-26 19:43",
       "symbol": "ADAUSDT",
