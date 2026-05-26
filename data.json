@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-27T00:12:15.787782+09:00",
+  "ts": "2026-05-27T00:13:17.707134+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 5970.1,
-  "available": 5497.86,
-  "unrealized": 1.07,
+  "equity": 5970.6,
+  "available": 5498.27,
+  "unrealized": 1.59,
   "daily_pnl": 0,
-  "total_pnl": -729.9,
+  "total_pnl": -729.4,
   "cum_pct": -10.89,
   "daily_avg_pct": -3.7704,
   "annual_pct": -100.0,
   "mdd": -10.94,
-  "current_dd": -10.92,
-  "seed_used": 472.23,
+  "current_dd": -10.89,
+  "seed_used": 472.34,
   "seed_used_pct": 7.91,
   "long_count": 1,
   "short_count": 0,
@@ -20,13 +20,13 @@
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": 1.07,
-      "pnl_pct": 0.05,
-      "margin": 471.71,
+      "pnl": 1.6,
+      "pnl_pct": 0.07,
+      "margin": 471.81,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.3503,
-      "mark": 1.3509
+      "mark": 1.3512
     }
   ],
   "signals": {
@@ -87,8 +87,8 @@
       "conf": 0.529
     },
     "ADAUSDT": {
-      "dir": "long",
-      "conf": 0.5
+      "dir": "short",
+      "conf": 0.544
     },
     "TAOUSDT": {
       "dir": "short",
@@ -110,7 +110,7 @@
     },
     {
       "t": "2026-05-27",
-      "v": -729.9
+      "v": -729.4
     }
   ],
   "trade_history": [
