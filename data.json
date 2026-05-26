@@ -1,43 +1,43 @@
 {
-  "ts": "2026-05-26T17:17:25.547440+09:00",
+  "ts": "2026-05-26T17:18:27.041184+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6056.23,
-  "available": 4316.76,
-  "unrealized": 3.17,
+  "equity": 6051.29,
+  "available": 4310.58,
+  "unrealized": -1.66,
   "daily_pnl": -555.6,
-  "total_pnl": -643.77,
-  "cum_pct": -9.61,
-  "daily_avg_pct": -4.9263,
+  "total_pnl": -648.71,
+  "cum_pct": -9.68,
+  "daily_avg_pct": -4.9632,
   "annual_pct": -100.0,
   "mdd": -10.74,
-  "current_dd": -10.51,
-  "seed_used": 1739.47,
-  "seed_used_pct": 28.72,
+  "current_dd": -10.34,
+  "seed_used": 1740.7,
+  "seed_used_pct": 28.77,
   "long_count": 1,
   "short_count": 3,
   "positions": [
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": -17.08,
-      "pnl_pct": -0.72,
-      "margin": 468.08,
+      "pnl": -15.69,
+      "pnl_pct": -0.67,
+      "margin": 468.36,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.3503,
-      "mark": 1.3405
+      "mark": 1.3413
     },
     {
       "symbol": "ONDOUSDT",
       "side": "SHORT",
-      "pnl": 4.0,
-      "pnl_pct": 0.15,
-      "margin": 386.78,
+      "pnl": -0.52,
+      "pnl_pct": -0.02,
+      "margin": 387.42,
       "leverage": "7",
       "tier": "3/3",
       "entry": 0.4201,
-      "mark": 0.4195
+      "mark": 0.4202
     },
     {
       "symbol": "ADAUSDT",
@@ -53,13 +53,13 @@
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 7.2,
-      "pnl_pct": 0.99,
-      "margin": 144.47,
+      "pnl": 5.48,
+      "pnl_pct": 0.75,
+      "margin": 144.81,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.9163,
-      "mark": 1.8974
+      "mark": 1.9019
     }
   ],
   "signals": {
@@ -129,7 +129,7 @@
     },
     "RENDERUSDT": {
       "dir": "long",
-      "conf": 0.488
+      "conf": 0.487
     }
   },
   "equity_hist": [
@@ -139,7 +139,7 @@
     },
     {
       "t": "2026-05-26",
-      "v": -643.77
+      "v": -648.71
     }
   ],
   "trade_history": [
