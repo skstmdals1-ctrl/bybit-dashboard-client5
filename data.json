@@ -1,43 +1,32 @@
 {
-  "ts": "2026-05-29T07:40:43.632989+09:00",
+  "ts": "2026-05-29T07:41:45.126941+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6041.7,
-  "available": 5839.01,
-  "unrealized": 0.0,
+  "equity": 6042.24,
+  "available": 5840.37,
+  "unrealized": 0.64,
   "daily_pnl": 96.51,
-  "total_pnl": -658.3,
-  "cum_pct": -9.83,
-  "daily_avg_pct": -2.0482,
+  "total_pnl": -657.76,
+  "cum_pct": -9.82,
+  "daily_avg_pct": -2.046,
   "annual_pct": -99.95,
   "mdd": -11.84,
   "current_dd": -9.84,
-  "seed_used": 202.69,
-  "seed_used_pct": 3.35,
-  "long_count": 0,
-  "short_count": 2,
+  "seed_used": 201.87,
+  "seed_used_pct": 3.34,
+  "long_count": 1,
+  "short_count": 0,
   "positions": [
     {
       "symbol": "TONUSDT",
-      "side": "SHORT",
-      "pnl": 0.0,
-      "pnl_pct": 1.43,
-      "margin": 0.02,
+      "side": "LONG",
+      "pnl": 0.64,
+      "pnl_pct": 0.04,
+      "margin": 201.36,
       "leverage": "8",
       "tier": "1/2",
-      "entry": 1.7861,
-      "mark": 1.7605
-    },
-    {
-      "symbol": "WLDUSDT",
-      "side": "SHORT",
-      "pnl": 0.0,
-      "pnl_pct": 2.96,
-      "margin": 0.0,
-      "leverage": "7",
-      "tier": "1/3",
-      "entry": 0.2854,
-      "mark": 0.277
+      "entry": 1.7604,
+      "mark": 1.7611
     }
   ],
   "signals": {
@@ -63,7 +52,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.584
+      "conf": 0.58
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -79,7 +68,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.483
+      "conf": 0.48
     },
     "ZECUSDT": {
       "dir": "short",
@@ -99,7 +88,7 @@
     },
     "ADAUSDT": {
       "dir": "short",
-      "conf": 0.544
+      "conf": 0.543
     },
     "TAOUSDT": {
       "dir": "short",
@@ -133,10 +122,24 @@
     },
     {
       "t": "2026-05-29",
-      "v": -658.3
+      "v": -657.76
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-29 07:41",
+      "symbol": "TONUSDT",
+      "side": "Sell",
+      "pnl": 0.0,
+      "reason": "1/2"
+    },
+    {
+      "ts": "2026-05-29 07:41",
+      "symbol": "WLDUSDT",
+      "side": "Sell",
+      "pnl": 0.0,
+      "reason": "1/2"
+    },
     {
       "ts": "2026-05-29 07:40",
       "symbol": "TONUSDT",
@@ -261,20 +264,6 @@
       "symbol": "ZECUSDT",
       "side": "Buy",
       "pnl": -82.69,
-      "reason": "-"
-    },
-    {
-      "ts": "2026-05-26 11:01",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": -48.81,
-      "reason": "-"
-    },
-    {
-      "ts": "2026-05-26 09:35",
-      "symbol": "ZECUSDT",
-      "side": "Buy",
-      "pnl": -50.19,
       "reason": "-"
     }
   ],
