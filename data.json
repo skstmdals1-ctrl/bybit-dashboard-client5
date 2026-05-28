@@ -1,16 +1,16 @@
 {
-  "ts": "2026-05-28T10:45:56.050638+09:00",
+  "ts": "2026-05-28T10:46:58.166303+09:00",
   "start_date": "2026-05-25",
-  "status": "stopped",
-  "equity": 5917.37,
-  "available": 5917.37,
+  "status": "running",
+  "equity": 5917.54,
+  "available": 5917.54,
   "unrealized": 0.0,
   "daily_pnl": 0,
-  "total_pnl": -782.63,
+  "total_pnl": -782.46,
   "cum_pct": -11.68,
   "daily_avg_pct": -3.0574,
   "annual_pct": -100.0,
-  "mdd": 0.0,
+  "mdd": -11.68,
   "current_dd": -11.68,
   "seed_used": 0,
   "seed_used_pct": 0.0,
@@ -23,12 +23,12 @@
       "conf": 0.546
     },
     "WLDUSDT": {
-      "dir": "long",
-      "conf": 0.39
+      "dir": "short",
+      "conf": 0.498
     },
     "ETHUSDT": {
       "dir": "neutral",
-      "conf": 0.407
+      "conf": 0.413
     },
     "XRPUSDT": {
       "dir": "neutral",
@@ -36,7 +36,7 @@
     },
     "TONUSDT": {
       "dir": "short",
-      "conf": 0.418
+      "conf": 0.536
     },
     "BTCUSDT": {
       "dir": "neutral",
@@ -48,7 +48,7 @@
     },
     "ONDOUSDT": {
       "dir": "short",
-      "conf": 0.475
+      "conf": 0.492
     },
     "NEARUSDT": {
       "dir": "short",
@@ -102,7 +102,7 @@
     },
     {
       "t": "2026-05-28",
-      "v": -782.63
+      "v": -782.46
     }
   ],
   "trade_history": [
