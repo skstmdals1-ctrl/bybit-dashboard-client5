@@ -1,19 +1,19 @@
 {
-  "ts": "2026-05-29T07:34:35.443809+09:00",
+  "ts": "2026-05-29T07:35:36.773299+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6044.06,
-  "available": 5409.24,
-  "unrealized": 58.51,
-  "daily_pnl": 40.96,
-  "total_pnl": -655.94,
-  "cum_pct": -9.79,
-  "daily_avg_pct": -2.0395,
+  "equity": 6042.79,
+  "available": 5824.01,
+  "unrealized": 22.86,
+  "daily_pnl": 74.99,
+  "total_pnl": -657.21,
+  "cum_pct": -9.81,
+  "daily_avg_pct": -2.0439,
   "annual_pct": -99.95,
   "mdd": -11.84,
-  "current_dd": -9.96,
-  "seed_used": 634.82,
-  "seed_used_pct": 10.5,
+  "current_dd": -9.8,
+  "seed_used": 218.78,
+  "seed_used_pct": 3.62,
   "long_count": 0,
   "short_count": 2,
   "positions": [
@@ -31,13 +31,13 @@
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": 35.7,
-      "pnl_pct": 3.1,
-      "margin": 159.53,
+      "pnl": 0.0,
+      "pnl_pct": 3.03,
+      "margin": 0.0,
       "leverage": "7",
-      "tier": "3/3",
+      "tier": "1/3",
       "entry": 0.2854,
-      "mark": 0.2766
+      "mark": 0.2768
     }
   ],
   "signals": {
@@ -79,7 +79,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.484
+      "conf": 0.483
     },
     "ZECUSDT": {
       "dir": "short",
@@ -99,7 +99,7 @@
     },
     "ADAUSDT": {
       "dir": "short",
-      "conf": 0.545
+      "conf": 0.544
     },
     "TAOUSDT": {
       "dir": "short",
@@ -133,10 +133,17 @@
     },
     {
       "t": "2026-05-29",
-      "v": -655.94
+      "v": -657.21
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-29 07:35",
+      "symbol": "WLDUSDT",
+      "side": "Sell",
+      "pnl": 34.03,
+      "reason": "3/3"
+    },
     {
       "ts": "2026-05-29 07:15",
       "symbol": "TONUSDT",
@@ -268,13 +275,6 @@
       "symbol": "HYPEUSDT",
       "side": "Buy",
       "pnl": -50.43,
-      "reason": "-"
-    },
-    {
-      "ts": "2026-05-26 09:15",
-      "symbol": "ONDOUSDT",
-      "side": "Buy",
-      "pnl": -45.14,
       "reason": "-"
     }
   ],
