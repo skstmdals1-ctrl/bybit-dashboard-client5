@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-29T02:33:15.576209+09:00",
+  "ts": "2026-05-29T02:34:17.035344+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 5971.02,
-  "available": 5525.65,
-  "unrealized": 0.09,
+  "equity": 5970.21,
+  "available": 5524.72,
+  "unrealized": -0.75,
   "daily_pnl": 26.39,
-  "total_pnl": -728.98,
-  "cum_pct": -10.88,
-  "daily_avg_pct": -2.2774,
+  "total_pnl": -729.79,
+  "cum_pct": -10.89,
+  "daily_avg_pct": -2.2796,
   "annual_pct": -99.98,
   "mdd": -11.84,
   "current_dd": -10.88,
-  "seed_used": 445.37,
+  "seed_used": 445.49,
   "seed_used_pct": 7.46,
   "long_count": 0,
   "short_count": 1,
@@ -20,13 +20,13 @@
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 0.09,
-      "pnl_pct": 0.02,
-      "margin": 73.62,
+      "pnl": -0.76,
+      "pnl_pct": -0.15,
+      "margin": 73.74,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1.7731,
-      "mark": 1.7728
+      "mark": 1.7757
     }
   ],
   "signals": {
@@ -40,7 +40,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.352
+      "conf": 0.353
     },
     "XRPUSDT": {
       "dir": "short",
@@ -60,15 +60,15 @@
     },
     "ONDOUSDT": {
       "dir": "short",
-      "conf": 0.492
+      "conf": 0.493
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.448
+      "conf": 0.447
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.538
+      "conf": 0.537
     },
     "ZECUSDT": {
       "dir": "short",
@@ -122,7 +122,7 @@
     },
     {
       "t": "2026-05-29",
-      "v": -728.98
+      "v": -729.79
     }
   ],
   "trade_history": [
