@@ -1,34 +1,22 @@
 {
-  "ts": "2026-05-30T08:30:12.454791+09:00",
+  "ts": "2026-05-30T08:31:13.944052+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6364.91,
-  "available": 6127.29,
+  "equity": 6365.06,
+  "available": 6365.06,
   "unrealized": 0.0,
   "daily_pnl": 240.05,
-  "total_pnl": -335.09,
+  "total_pnl": -334.94,
   "cum_pct": -5.0,
   "daily_avg_pct": -0.8512,
   "annual_pct": -95.59,
   "mdd": -11.84,
   "current_dd": -5.0,
-  "seed_used": 237.62,
-  "seed_used_pct": 3.73,
+  "seed_used": 0,
+  "seed_used_pct": 0.0,
   "long_count": 0,
-  "short_count": 1,
-  "positions": [
-    {
-      "symbol": "WLDUSDT",
-      "side": "SHORT",
-      "pnl": 0.0,
-      "pnl_pct": 2.56,
-      "margin": 0.01,
-      "leverage": "4",
-      "tier": "2/3",
-      "entry": 0.2984,
-      "mark": 0.2908
-    }
-  ],
+  "short_count": 0,
+  "positions": [],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
@@ -126,10 +114,17 @@
     },
     {
       "t": "2026-05-30",
-      "v": -335.09
+      "v": -334.94
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-30 08:30",
+      "symbol": "WLDUSDT",
+      "side": "Sell",
+      "pnl": 0.0,
+      "reason": "L2"
+    },
     {
       "ts": "2026-05-30 08:28",
       "symbol": "WLDUSDT",
@@ -262,13 +257,6 @@
       "side": "Buy",
       "pnl": 25.98,
       "reason": "3/3"
-    },
-    {
-      "ts": "2026-05-29 07:41",
-      "symbol": "TONUSDT",
-      "side": "Sell",
-      "pnl": 0.0,
-      "reason": "1/2"
     }
   ],
   "num_days": 6
