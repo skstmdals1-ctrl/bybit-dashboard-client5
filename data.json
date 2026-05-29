@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-30T01:48:51.009780+09:00",
+  "ts": "2026-05-30T01:49:52.570561+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6344.73,
-  "available": 6170.32,
-  "unrealized": 0.38,
+  "equity": 6344.17,
+  "available": 6169.87,
+  "unrealized": -0.38,
   "daily_pnl": 219.85,
-  "total_pnl": -355.27,
-  "cum_pct": -5.3,
-  "daily_avg_pct": -0.9035,
-  "annual_pct": -96.36,
+  "total_pnl": -355.83,
+  "cum_pct": -5.31,
+  "daily_avg_pct": -0.9052,
+  "annual_pct": -96.38,
   "mdd": -11.84,
   "current_dd": -5.3,
-  "seed_used": 174.4,
+  "seed_used": 174.3,
   "seed_used_pct": 2.75,
   "long_count": 1,
   "short_count": 0,
@@ -20,13 +20,13 @@
     {
       "symbol": "WLDUSDT",
       "side": "LONG",
-      "pnl": 0.38,
-      "pnl_pct": 0.1,
-      "margin": 53.73,
+      "pnl": -0.38,
+      "pnl_pct": -0.1,
+      "margin": 53.62,
       "leverage": "7",
       "tier": "2/3",
       "entry": 0.3001,
-      "mark": 0.3004
+      "mark": 0.2998
     }
   ],
   "signals": {
@@ -126,7 +126,7 @@
     },
     {
       "t": "2026-05-30",
-      "v": -355.27
+      "v": -355.83
     }
   ],
   "trade_history": [
