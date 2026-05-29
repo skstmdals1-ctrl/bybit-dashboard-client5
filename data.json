@@ -1,43 +1,43 @@
 {
-  "ts": "2026-05-29T16:26:24.659400+09:00",
+  "ts": "2026-05-29T16:27:26.078474+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6249.53,
-  "available": 5391.48,
-  "unrealized": 82.76,
-  "daily_pnl": 222.01,
-  "total_pnl": -450.47,
-  "cum_pct": -6.72,
-  "daily_avg_pct": -1.3817,
-  "annual_pct": -99.38,
+  "equity": 6257.37,
+  "available": 5647.27,
+  "unrealized": 22.66,
+  "daily_pnl": 289.66,
+  "total_pnl": -442.63,
+  "cum_pct": -6.61,
+  "daily_avg_pct": -1.3584,
+  "annual_pct": -99.32,
   "mdd": -11.84,
   "current_dd": -6.72,
-  "seed_used": 858.05,
-  "seed_used_pct": 13.73,
+  "seed_used": 610.11,
+  "seed_used_pct": 9.75,
   "long_count": 2,
   "short_count": 0,
   "positions": [
     {
-      "symbol": "WLDUSDT",
-      "side": "LONG",
-      "pnl": 57.62,
-      "pnl_pct": 3.0,
-      "margin": 247.03,
-      "leverage": "8",
-      "tier": "3/3",
-      "entry": 0.3019,
-      "mark": 0.311
-    },
-    {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": 25.25,
-      "pnl_pct": 1.57,
-      "margin": 204.44,
+      "pnl": 22.68,
+      "pnl_pct": 1.41,
+      "margin": 204.12,
       "leverage": "8",
       "tier": "2/2",
       "entry": 1.7604,
-      "mark": 1.788
+      "mark": 1.7852
+    },
+    {
+      "symbol": "WLDUSDT",
+      "side": "LONG",
+      "pnl": 0.0,
+      "pnl_pct": 3.2,
+      "margin": 0.0,
+      "leverage": "8",
+      "tier": "1/3",
+      "entry": 0.3019,
+      "mark": 0.3116
     }
   ],
   "signals": {
@@ -133,10 +133,17 @@
     },
     {
       "t": "2026-05-29",
-      "v": -450.47
+      "v": -442.63
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-29 16:27",
+      "symbol": "WLDUSDT",
+      "side": "Buy",
+      "pnl": 67.64,
+      "reason": "3/3"
+    },
     {
       "ts": "2026-05-29 16:19",
       "symbol": "WLDUSDT",
@@ -268,13 +275,6 @@
       "symbol": "TONUSDT",
       "side": "Sell",
       "pnl": -43.1,
-      "reason": "-"
-    },
-    {
-      "ts": "2026-05-26 20:34",
-      "symbol": "ADAUSDT",
-      "side": "Sell",
-      "pnl": -0.1,
       "reason": "-"
     }
   ],
