@@ -1,43 +1,43 @@
 {
-  "ts": "2026-05-30T03:30:19.618094+09:00",
+  "ts": "2026-05-30T03:31:21.711147+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6347.79,
-  "available": 6121.58,
-  "unrealized": 3.57,
-  "daily_pnl": 219.85,
-  "total_pnl": -352.21,
-  "cum_pct": -5.26,
-  "daily_avg_pct": -0.8965,
-  "annual_pct": -96.26,
+  "equity": 6348.17,
+  "available": 6296.78,
+  "unrealized": 0.24,
+  "daily_pnl": 223.21,
+  "total_pnl": -351.83,
+  "cum_pct": -5.25,
+  "daily_avg_pct": -0.8948,
+  "annual_pct": -96.24,
   "mdd": -11.84,
   "current_dd": -5.24,
-  "seed_used": 226.21,
-  "seed_used_pct": 3.56,
+  "seed_used": 51.39,
+  "seed_used_pct": 0.81,
   "long_count": 2,
   "short_count": 0,
   "positions": [
     {
-      "symbol": "WLDUSDT",
-      "side": "LONG",
-      "pnl": 3.76,
-      "pnl_pct": 1.0,
-      "margin": 54.21,
-      "leverage": "7",
-      "tier": "2/3",
-      "entry": 0.3001,
-      "mark": 0.3031
-    },
-    {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -0.18,
-      "pnl_pct": -0.05,
-      "margin": 51.23,
+      "pnl": 0.24,
+      "pnl_pct": 0.07,
+      "margin": 51.29,
       "leverage": "7",
       "tier": "1/3",
       "entry": 66.197,
-      "mark": 66.163
+      "mark": 66.241
+    },
+    {
+      "symbol": "WLDUSDT",
+      "side": "LONG",
+      "pnl": 0.0,
+      "pnl_pct": 1.03,
+      "margin": 0.0,
+      "leverage": "7",
+      "tier": "1/3",
+      "entry": 0.3001,
+      "mark": 0.3032
     }
   ],
   "signals": {
@@ -137,10 +137,17 @@
     },
     {
       "t": "2026-05-30",
-      "v": -352.21
+      "v": -351.83
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-30 03:31",
+      "symbol": "WLDUSDT",
+      "side": "Buy",
+      "pnl": 3.35,
+      "reason": "2/3"
+    },
     {
       "ts": "2026-05-30 01:32",
       "symbol": "WLDUSDT",
@@ -273,13 +280,6 @@
       "side": "Sell",
       "pnl": 26.39,
       "reason": "3/3"
-    },
-    {
-      "ts": "2026-05-28 19:35",
-      "symbol": "WLDUSDT",
-      "side": "Sell",
-      "pnl": 0.0,
-      "reason": "L2"
     }
   ],
   "num_days": 6
