@@ -1,50 +1,50 @@
 {
-  "ts": "2026-05-30T01:25:16.547970+09:00",
+  "ts": "2026-05-30T01:26:18.154481+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6346.78,
-  "available": 5933.02,
-  "unrealized": 15.23,
-  "daily_pnl": 207.23,
-  "total_pnl": -353.22,
-  "cum_pct": -5.27,
-  "daily_avg_pct": -0.8983,
-  "annual_pct": -96.29,
+  "equity": 6348.54,
+  "available": 6014.95,
+  "unrealized": 8.26,
+  "daily_pnl": 215.75,
+  "total_pnl": -351.46,
+  "cum_pct": -5.25,
+  "daily_avg_pct": -0.8948,
+  "annual_pct": -96.24,
   "mdd": -11.84,
-  "current_dd": -5.34,
-  "seed_used": 413.76,
-  "seed_used_pct": 6.52,
+  "current_dd": -5.26,
+  "seed_used": 333.59,
+  "seed_used_pct": 5.25,
   "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": 15.25,
-      "pnl_pct": 2.33,
-      "margin": 159.8,
+      "pnl": 8.27,
+      "pnl_pct": 2.53,
+      "margin": 79.75,
       "leverage": "4",
       "tier": "3/3",
       "entry": 0.3038,
-      "mark": 0.2967
+      "mark": 0.2961
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.552
+      "conf": 0.546
     },
     "WLDUSDT": {
       "dir": "long",
-      "conf": 0.497
+      "conf": 0.508
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.355
+      "conf": 0.356
     },
     "XRPUSDT": {
       "dir": "short",
-      "conf": 0.338
+      "conf": 0.339
     },
     "TONUSDT": {
       "dir": "short",
@@ -52,7 +52,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.482
+      "conf": 0.493
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -64,11 +64,11 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.453
+      "conf": 0.452
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.556
+      "conf": 0.553
     },
     "ZECUSDT": {
       "dir": "short",
@@ -126,10 +126,17 @@
     },
     {
       "t": "2026-05-30",
-      "v": -353.22
+      "v": -351.46
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-30 01:25",
+      "symbol": "WLDUSDT",
+      "side": "Sell",
+      "pnl": 8.52,
+      "reason": "3/3"
+    },
     {
       "ts": "2026-05-30 00:25",
       "symbol": "HYPEUSDT",
@@ -262,13 +269,6 @@
       "side": "Sell",
       "pnl": 39.37,
       "reason": "3/3"
-    },
-    {
-      "ts": "2026-05-28 19:33",
-      "symbol": "WLDUSDT",
-      "side": "Sell",
-      "pnl": 3.41,
-      "reason": "-"
     }
   ],
   "num_days": 6
