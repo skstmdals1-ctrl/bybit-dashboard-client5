@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-29T20:34:15.230889+09:00",
+  "ts": "2026-05-29T20:35:16.524781+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6250.15,
-  "available": 4939.29,
-  "unrealized": 16.65,
+  "equity": 6249.2,
+  "available": 4938.66,
+  "unrealized": 15.38,
   "daily_pnl": 289.66,
-  "total_pnl": -449.85,
-  "cum_pct": -6.71,
-  "daily_avg_pct": -1.3795,
-  "annual_pct": -99.37,
+  "total_pnl": -450.8,
+  "cum_pct": -6.73,
+  "daily_avg_pct": -1.3838,
+  "annual_pct": -99.38,
   "mdd": -11.84,
-  "current_dd": -6.77,
-  "seed_used": 1310.86,
+  "current_dd": -6.71,
+  "seed_used": 1310.54,
   "seed_used_pct": 20.97,
   "long_count": 2,
   "short_count": 1,
@@ -20,49 +20,49 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -3.64,
-      "pnl_pct": -0.08,
-      "margin": 537.06,
+      "pnl": -5.43,
+      "pnl_pct": -0.13,
+      "margin": 536.83,
       "leverage": "8",
       "tier": "2/2",
       "entry": 62.4469,
-      "mark": 62.394
+      "mark": 62.368
     },
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": 16.56,
-      "pnl_pct": 1.03,
-      "margin": 203.35,
+      "pnl": 16.46,
+      "pnl_pct": 1.02,
+      "margin": 203.34,
       "leverage": "8",
       "tier": "2/2",
       "entry": 1.7604,
-      "mark": 1.7785
+      "mark": 1.7784
     },
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": 3.76,
-      "pnl_pct": 1.86,
-      "margin": 49.62,
+      "pnl": 4.36,
+      "pnl_pct": 2.16,
+      "margin": 49.47,
       "leverage": "4",
       "tier": "2/3",
       "entry": 0.3013,
-      "mark": 0.2957
+      "mark": 0.2948
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.539
+      "conf": 0.537
     },
     "WLDUSDT": {
       "dir": "short",
-      "conf": 0.573
+      "conf": 0.574
     },
     "ETHUSDT": {
       "dir": "neutral",
-      "conf": 0.366
+      "conf": 0.363
     },
     "XRPUSDT": {
       "dir": "short",
@@ -70,11 +70,11 @@
     },
     "TONUSDT": {
       "dir": "neutral",
-      "conf": 0.402
+      "conf": 0.403
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.427
+      "conf": 0.42
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -144,7 +144,7 @@
     },
     {
       "t": "2026-05-29",
-      "v": -449.85
+      "v": -450.8
     }
   ],
   "trade_history": [
