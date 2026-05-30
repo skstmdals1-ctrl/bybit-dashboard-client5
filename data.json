@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-30T17:50:52.688801+09:00",
+  "ts": "2026-05-30T17:51:54.713043+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6418.2,
-  "available": 5380.39,
-  "unrealized": 16.12,
+  "equity": 6418.47,
+  "available": 5380.33,
+  "unrealized": 16.23,
   "daily_pnl": 277.61,
-  "total_pnl": -281.8,
-  "cum_pct": -4.21,
-  "daily_avg_pct": -0.7143,
-  "annual_pct": -92.69,
+  "total_pnl": -281.53,
+  "cum_pct": -4.2,
+  "daily_avg_pct": -0.7126,
+  "annual_pct": -92.65,
   "mdd": -11.84,
-  "current_dd": -4.03,
-  "seed_used": 1037.81,
+  "current_dd": -4.34,
+  "seed_used": 1038.14,
   "seed_used_pct": 16.17,
   "long_count": 1,
   "short_count": 1,
@@ -20,30 +20,30 @@
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": -17.93,
-      "pnl_pct": -0.56,
-      "margin": 457.85,
+      "pnl": -19.0,
+      "pnl_pct": -0.6,
+      "margin": 458.01,
       "leverage": "7",
       "tier": "2/2",
       "entry": 0.2965,
-      "mark": 0.2982
+      "mark": 0.2983
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 34.07,
-      "pnl_pct": 2.24,
-      "margin": 194.65,
+      "pnl": 35.06,
+      "pnl_pct": 2.3,
+      "margin": 194.77,
       "leverage": "8",
       "tier": "2/2",
       "entry": 64.594,
-      "mark": 66.039
+      "mark": 66.081
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.541
+      "conf": 0.54
     },
     "WLDUSDT": {
       "dir": "short",
@@ -51,11 +51,11 @@
     },
     "ETHUSDT": {
       "dir": "neutral",
-      "conf": 0.442
+      "conf": 0.448
     },
     "XRPUSDT": {
       "dir": "short",
-      "conf": 0.337
+      "conf": 0.336
     },
     "TONUSDT": {
       "dir": "short",
@@ -63,7 +63,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.451
+      "conf": 0.44
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -99,7 +99,7 @@
     },
     "ADAUSDT": {
       "dir": "short",
-      "conf": 0.505
+      "conf": 0.502
     },
     "TAOUSDT": {
       "dir": "short",
@@ -137,7 +137,7 @@
     },
     {
       "t": "2026-05-30",
-      "v": -281.8
+      "v": -281.53
     }
   ],
   "trade_history": [
