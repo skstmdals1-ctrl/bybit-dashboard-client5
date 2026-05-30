@@ -1,19 +1,19 @@
 {
-  "ts": "2026-05-31T03:45:03.353065+09:00",
+  "ts": "2026-05-31T03:46:04.743224+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6583.27,
-  "available": 5830.49,
-  "unrealized": 43.7,
-  "daily_pnl": 140.49,
-  "total_pnl": -116.73,
-  "cum_pct": -1.74,
-  "daily_avg_pct": -0.2504,
-  "annual_pct": -59.95,
+  "equity": 6599.93,
+  "available": 5907.35,
+  "unrealized": 36.4,
+  "daily_pnl": 164.03,
+  "total_pnl": -100.07,
+  "cum_pct": -1.49,
+  "daily_avg_pct": -0.2142,
+  "annual_pct": -54.28,
   "mdd": -11.84,
   "current_dd": -1.91,
-  "seed_used": 752.79,
-  "seed_used_pct": 11.43,
+  "seed_used": 692.59,
+  "seed_used_pct": 10.49,
   "long_count": 2,
   "short_count": 0,
   "positions": [
@@ -31,13 +31,13 @@
     {
       "symbol": "WLDUSDT",
       "side": "LONG",
-      "pnl": 32.56,
-      "pnl_pct": 3.44,
-      "margin": 122.44,
+      "pnl": 25.25,
+      "pnl_pct": 5.33,
+      "margin": 62.34,
       "leverage": "8",
       "tier": "2/3",
       "entry": 0.3432,
-      "mark": 0.355
+      "mark": 0.3615
     }
   ],
   "signals": {
@@ -145,10 +145,17 @@
     },
     {
       "t": "2026-05-31",
-      "v": -116.73
+      "v": -100.07
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-31 03:45",
+      "symbol": "WLDUSDT",
+      "side": "Buy",
+      "pnl": 23.53,
+      "reason": "-"
+    },
     {
       "ts": "2026-05-31 01:34",
       "symbol": "BNBUSDT",
@@ -281,13 +288,6 @@
       "side": "Buy",
       "pnl": 0.22,
       "reason": "3/3"
-    },
-    {
-      "ts": "2026-05-30 03:32",
-      "symbol": "WLDUSDT",
-      "side": "Buy",
-      "pnl": 0.0,
-      "reason": "2/3"
     }
   ],
   "num_days": 7
