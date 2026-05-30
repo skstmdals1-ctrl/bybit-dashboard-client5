@@ -1,60 +1,49 @@
 {
-  "ts": "2026-05-31T00:12:54.994557+09:00",
+  "ts": "2026-05-31T00:13:56.361757+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6564.06,
-  "available": 5528.81,
-  "unrealized": 93.26,
+  "equity": 6566.49,
+  "available": 5530.95,
+  "unrealized": 95.94,
   "daily_pnl": 71.12,
-  "total_pnl": -135.94,
-  "cum_pct": -2.03,
-  "daily_avg_pct": -0.2926,
-  "annual_pct": -65.68,
+  "total_pnl": -133.51,
+  "cum_pct": -1.99,
+  "daily_avg_pct": -0.2867,
+  "annual_pct": -64.93,
   "mdd": -11.84,
   "current_dd": -2.02,
-  "seed_used": 1035.25,
+  "seed_used": 1035.54,
   "seed_used_pct": 15.77,
-  "long_count": 3,
+  "long_count": 2,
   "short_count": 0,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 86.18,
-      "pnl_pct": 5.66,
-      "margin": 201.16,
+      "pnl": 88.85,
+      "pnl_pct": 5.83,
+      "margin": 201.5,
       "leverage": "8",
       "tier": "2/2",
       "entry": 64.594,
-      "mark": 68.249
+      "mark": 68.362
     },
     {
       "symbol": "BNBUSDT",
       "side": "LONG",
-      "pnl": 7.2,
-      "pnl_pct": 2.49,
-      "margin": 73.96,
+      "pnl": 7.22,
+      "pnl_pct": 2.5,
+      "margin": 73.97,
       "leverage": "4",
       "tier": "2/2",
       "entry": 671.3,
-      "mark": 688.04
-    },
-    {
-      "symbol": "WLDUSDT",
-      "side": "LONG",
-      "pnl": 0.0,
-      "pnl_pct": 2.3,
-      "margin": 0.0,
-      "leverage": "8",
-      "tier": "1/3",
-      "entry": 0.3253,
-      "mark": 0.3328
+      "mark": 688.1
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.534
+      "conf": 0.535
     },
     "WLDUSDT": {
       "dir": "long",
@@ -82,15 +71,15 @@
     },
     "ONDOUSDT": {
       "dir": "long",
-      "conf": 0.435
+      "conf": 0.434
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.427
+      "conf": 0.428
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.425
+      "conf": 0.428
     },
     "ZECUSDT": {
       "dir": "short",
@@ -126,7 +115,7 @@
     },
     "BNBUSDT": {
       "dir": "neutral",
-      "conf": 0.35
+      "conf": 0.351
     }
   },
   "equity_hist": [
@@ -156,10 +145,17 @@
     },
     {
       "t": "2026-05-31",
-      "v": -135.94
+      "v": -133.51
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-31 00:13",
+      "symbol": "WLDUSDT",
+      "side": "Buy",
+      "pnl": 0.0,
+      "reason": "L2"
+    },
     {
       "ts": "2026-05-31 00:08",
       "symbol": "WLDUSDT",
@@ -292,13 +288,6 @@
       "side": "Buy",
       "pnl": 0.02,
       "reason": "L2"
-    },
-    {
-      "ts": "2026-05-30 00:20",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": 100.62,
-      "reason": "2/2"
     }
   ],
   "num_days": 7
