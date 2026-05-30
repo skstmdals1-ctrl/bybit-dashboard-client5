@@ -1,49 +1,38 @@
 {
-  "ts": "2026-05-31T00:59:15.007791+09:00",
+  "ts": "2026-05-31T01:00:16.326343+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6535.75,
-  "available": 6084.7,
-  "unrealized": 9.94,
-  "daily_pnl": 125.89,
-  "total_pnl": -164.25,
+  "equity": 6535.55,
+  "available": 6084.59,
+  "unrealized": 9.96,
+  "daily_pnl": 125.92,
+  "total_pnl": -164.45,
   "cum_pct": -2.45,
   "daily_avg_pct": -0.3537,
   "annual_pct": -72.56,
   "mdd": -11.84,
-  "current_dd": -2.39,
-  "seed_used": 451.05,
+  "current_dd": -2.45,
+  "seed_used": 450.96,
   "seed_used_pct": 6.9,
-  "long_count": 2,
+  "long_count": 1,
   "short_count": 0,
   "positions": [
     {
       "symbol": "BNBUSDT",
       "side": "LONG",
-      "pnl": 9.93,
+      "pnl": 9.94,
       "pnl_pct": 3.44,
       "margin": 74.65,
       "leverage": "4",
       "tier": "2/2",
       "entry": 671.3,
-      "mark": 694.4
-    },
-    {
-      "symbol": "HYPEUSDT",
-      "side": "LONG",
-      "pnl": 0.02,
-      "pnl_pct": 3.71,
-      "margin": 0.08,
-      "leverage": "8",
-      "tier": "1/2",
-      "entry": 64.594,
-      "mark": 66.992
+      "mark": 694.41
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.539
+      "conf": 0.541
     },
     "WLDUSDT": {
       "dir": "long",
@@ -115,7 +104,7 @@
     },
     "BNBUSDT": {
       "dir": "neutral",
-      "conf": 0.35
+      "conf": 0.351
     }
   },
   "equity_hist": [
@@ -145,10 +134,17 @@
     },
     {
       "t": "2026-05-31",
-      "v": -164.25
+      "v": -164.45
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-31 00:59",
+      "symbol": "HYPEUSDT",
+      "side": "Buy",
+      "pnl": 0.03,
+      "reason": "L2"
+    },
     {
       "ts": "2026-05-31 00:54",
       "symbol": "HYPEUSDT",
@@ -280,13 +276,6 @@
       "symbol": "WLDUSDT",
       "side": "Sell",
       "pnl": 4.1,
-      "reason": "3/3"
-    },
-    {
-      "ts": "2026-05-30 01:25",
-      "symbol": "WLDUSDT",
-      "side": "Sell",
-      "pnl": 8.52,
       "reason": "3/3"
     }
   ],
