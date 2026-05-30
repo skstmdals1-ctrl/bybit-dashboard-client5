@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-30T23:52:23.788945+09:00",
+  "ts": "2026-05-30T23:53:25.111989+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6514.96,
-  "available": 4971.73,
-  "unrealized": 114.7,
+  "equity": 6515.19,
+  "available": 4971.9,
+  "unrealized": 114.71,
   "daily_pnl": 275.43,
-  "total_pnl": -185.04,
+  "total_pnl": -184.81,
   "cum_pct": -2.76,
   "daily_avg_pct": -0.4654,
   "annual_pct": -81.78,
   "mdd": -11.84,
-  "current_dd": -3.16,
-  "seed_used": 1543.23,
+  "current_dd": -2.82,
+  "seed_used": 1543.29,
   "seed_used_pct": 23.69,
   "long_count": 3,
   "short_count": 0,
@@ -20,41 +20,41 @@
     {
       "symbol": "WLDUSDT",
       "side": "LONG",
-      "pnl": 28.13,
-      "pnl_pct": 1.28,
-      "margin": 278.05,
+      "pnl": 25.43,
+      "pnl_pct": 1.16,
+      "margin": 277.72,
       "leverage": "8",
       "tier": "3/3",
       "entry": 0.3253,
-      "mark": 0.3295
+      "mark": 0.3291
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 80.86,
-      "pnl_pct": 5.31,
-      "margin": 200.5,
+      "pnl": 83.52,
+      "pnl_pct": 5.48,
+      "margin": 200.83,
       "leverage": "8",
       "tier": "2/2",
       "entry": 64.594,
-      "mark": 68.023
+      "mark": 68.136
     },
     {
       "symbol": "BNBUSDT",
       "side": "LONG",
-      "pnl": 5.85,
-      "pnl_pct": 2.03,
-      "margin": 73.63,
+      "pnl": 5.89,
+      "pnl_pct": 2.04,
+      "margin": 73.64,
       "leverage": "4",
       "tier": "2/2",
       "entry": 671.3,
-      "mark": 684.91
+      "mark": 685.0
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.541
+      "conf": 0.533
     },
     "WLDUSDT": {
       "dir": "long",
@@ -89,7 +89,7 @@
       "conf": 0.429
     },
     "SUIUSDT": {
-      "dir": "long",
+      "dir": "short",
       "conf": 0.421
     },
     "ZECUSDT": {
@@ -152,7 +152,7 @@
     },
     {
       "t": "2026-05-30",
-      "v": -185.04
+      "v": -184.81
     }
   ],
   "trade_history": [
