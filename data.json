@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-31T06:25:39.077950+09:00",
+  "ts": "2026-05-31T06:26:40.386081+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6594.09,
-  "available": 5690.18,
-  "unrealized": 4.88,
+  "equity": 6594.98,
+  "available": 5690.93,
+  "unrealized": 5.78,
   "daily_pnl": 190.97,
-  "total_pnl": -105.91,
-  "cum_pct": -1.58,
-  "daily_avg_pct": -0.2273,
-  "annual_pct": -56.42,
+  "total_pnl": -105.02,
+  "cum_pct": -1.57,
+  "daily_avg_pct": -0.2258,
+  "annual_pct": -56.18,
   "mdd": -11.84,
   "current_dd": -1.59,
-  "seed_used": 903.9,
+  "seed_used": 904.04,
   "seed_used_pct": 13.71,
   "long_count": 2,
   "short_count": 0,
@@ -20,24 +20,24 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -3.46,
-      "pnl_pct": -0.11,
-      "margin": 442.3,
+      "pnl": -2.77,
+      "pnl_pct": -0.09,
+      "margin": 442.4,
       "leverage": "7",
       "tier": "2/2",
       "entry": 67.7356,
-      "mark": 67.66
+      "mark": 67.675
     },
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": 8.35,
-      "pnl_pct": 1.09,
-      "margin": 154.56,
+      "pnl": 8.56,
+      "pnl_pct": 1.12,
+      "margin": 154.61,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.8219,
-      "mark": 1.8418
+      "mark": 1.8423
     }
   ],
   "signals": {
@@ -51,11 +51,11 @@
     },
     "ETHUSDT": {
       "dir": "neutral",
-      "conf": 0.446
+      "conf": 0.451
     },
     "XRPUSDT": {
       "dir": "neutral",
-      "conf": 0.376
+      "conf": 0.383
     },
     "TONUSDT": {
       "dir": "long",
@@ -71,7 +71,7 @@
     },
     "ONDOUSDT": {
       "dir": "short",
-      "conf": 0.505
+      "conf": 0.504
     },
     "NEARUSDT": {
       "dir": "long",
@@ -115,7 +115,7 @@
     },
     "BNBUSDT": {
       "dir": "neutral",
-      "conf": 0.365
+      "conf": 0.363
     }
   },
   "equity_hist": [
@@ -145,7 +145,7 @@
     },
     {
       "t": "2026-05-31",
-      "v": -105.91
+      "v": -105.02
     }
   ],
   "trade_history": [
