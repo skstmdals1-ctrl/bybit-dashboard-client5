@@ -1,43 +1,43 @@
 {
-  "ts": "2026-05-31T00:54:05.040994+09:00",
+  "ts": "2026-05-31T00:55:07.010278+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6541.18,
-  "available": 5508.45,
-  "unrealized": 70.25,
-  "daily_pnl": 71.12,
-  "total_pnl": -158.82,
-  "cum_pct": -2.37,
-  "daily_avg_pct": -0.3421,
-  "annual_pct": -71.37,
+  "equity": 6535.23,
+  "available": 6084.27,
+  "unrealized": 9.63,
+  "daily_pnl": 125.89,
+  "total_pnl": -164.77,
+  "cum_pct": -2.46,
+  "daily_avg_pct": -0.3552,
+  "annual_pct": -72.71,
   "mdd": -11.84,
   "current_dd": -2.39,
-  "seed_used": 1032.73,
-  "seed_used_pct": 15.79,
+  "seed_used": 450.96,
+  "seed_used_pct": 6.9,
   "long_count": 2,
   "short_count": 0,
   "positions": [
     {
-      "symbol": "HYPEUSDT",
-      "side": "LONG",
-      "pnl": 60.46,
-      "pnl_pct": 3.97,
-      "margin": 197.95,
-      "leverage": "8",
-      "tier": "2/2",
-      "entry": 64.594,
-      "mark": 67.158
-    },
-    {
       "symbol": "BNBUSDT",
       "side": "LONG",
-      "pnl": 9.85,
-      "pnl_pct": 3.41,
-      "margin": 74.63,
+      "pnl": 9.62,
+      "pnl_pct": 3.33,
+      "margin": 74.57,
       "leverage": "4",
       "tier": "2/2",
       "entry": 671.3,
-      "mark": 694.2
+      "mark": 693.67
+    },
+    {
+      "symbol": "HYPEUSDT",
+      "side": "LONG",
+      "pnl": 0.02,
+      "pnl_pct": 3.59,
+      "margin": 0.08,
+      "leverage": "8",
+      "tier": "1/2",
+      "entry": 64.594,
+      "mark": 66.914
     }
   ],
   "signals": {
@@ -145,10 +145,17 @@
     },
     {
       "t": "2026-05-31",
-      "v": -158.82
+      "v": -164.77
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-31 00:54",
+      "symbol": "HYPEUSDT",
+      "side": "Buy",
+      "pnl": 54.77,
+      "reason": "2/2"
+    },
     {
       "ts": "2026-05-31 00:13",
       "symbol": "WLDUSDT",
@@ -281,13 +288,6 @@
       "side": "Sell",
       "pnl": 8.52,
       "reason": "3/3"
-    },
-    {
-      "ts": "2026-05-30 00:25",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": 0.02,
-      "reason": "L2"
     }
   ],
   "num_days": 7
