@@ -1,38 +1,38 @@
 {
-  "ts": "2026-05-30T09:29:30.766491+09:00",
+  "ts": "2026-05-30T09:30:32.060530+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6367.2,
-  "available": 5928.15,
-  "unrealized": 2.3,
+  "equity": 6366.49,
+  "available": 5927.56,
+  "unrealized": 1.4,
   "daily_pnl": 240.05,
-  "total_pnl": -332.8,
-  "cum_pct": -4.97,
-  "daily_avg_pct": -0.846,
-  "annual_pct": -95.5,
+  "total_pnl": -333.51,
+  "cum_pct": -4.98,
+  "daily_avg_pct": -0.8478,
+  "annual_pct": -95.53,
   "mdd": -11.84,
   "current_dd": -4.97,
-  "seed_used": 439.04,
-  "seed_used_pct": 6.9,
+  "seed_used": 438.93,
+  "seed_used_pct": 6.89,
   "long_count": 1,
   "short_count": 0,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 2.3,
-      "pnl_pct": 0.45,
-      "margin": 72.98,
+      "pnl": 1.4,
+      "pnl_pct": 0.27,
+      "margin": 72.86,
       "leverage": "7",
       "tier": "2/2",
       "entry": 64.379,
-      "mark": 64.67
+      "mark": 64.556
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.536
+      "conf": 0.535
     },
     "WLDUSDT": {
       "dir": "short",
@@ -40,11 +40,11 @@
     },
     "ETHUSDT": {
       "dir": "neutral",
-      "conf": 0.448
+      "conf": 0.441
     },
     "XRPUSDT": {
       "dir": "short",
-      "conf": 0.334
+      "conf": 0.335
     },
     "TONUSDT": {
       "dir": "short",
@@ -52,7 +52,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.579
+      "conf": 0.57
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -60,7 +60,7 @@
     },
     "ONDOUSDT": {
       "dir": "short",
-      "conf": 0.489
+      "conf": 0.49
     },
     "NEARUSDT": {
       "dir": "long",
@@ -68,7 +68,7 @@
     },
     "SUIUSDT": {
       "dir": "long",
-      "conf": 0.426
+      "conf": 0.428
     },
     "ZECUSDT": {
       "dir": "short",
@@ -126,7 +126,7 @@
     },
     {
       "t": "2026-05-30",
-      "v": -332.8
+      "v": -333.51
     }
   ],
   "trade_history": [
