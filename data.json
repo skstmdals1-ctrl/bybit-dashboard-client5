@@ -1,64 +1,64 @@
 {
-  "ts": "2026-05-30T21:05:16.556899+09:00",
+  "ts": "2026-05-30T21:06:17.926215+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6450.61,
-  "available": 4956.93,
-  "unrealized": 48.68,
+  "equity": 6439.71,
+  "available": 4944.26,
+  "unrealized": 38.05,
   "daily_pnl": 277.61,
-  "total_pnl": -249.39,
-  "cum_pct": -3.72,
-  "daily_avg_pct": -0.6298,
-  "annual_pct": -90.03,
+  "total_pnl": -260.29,
+  "cum_pct": -3.88,
+  "daily_avg_pct": -0.6574,
+  "annual_pct": -91.0,
   "mdd": -11.84,
-  "current_dd": -3.99,
-  "seed_used": 1493.68,
-  "seed_used_pct": 23.16,
+  "current_dd": -3.69,
+  "seed_used": 1495.45,
+  "seed_used_pct": 23.22,
   "long_count": 2,
   "short_count": 1,
   "positions": [
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": -29.75,
-      "pnl_pct": -0.93,
-      "margin": 459.54,
+      "pnl": -41.57,
+      "pnl_pct": -1.3,
+      "margin": 461.23,
       "leverage": "7",
       "tier": "2/2",
       "entry": 0.2965,
-      "mark": 0.2993
+      "mark": 0.3004
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 77.37,
-      "pnl_pct": 5.08,
-      "margin": 200.06,
+      "pnl": 78.64,
+      "pnl_pct": 5.16,
+      "margin": 200.22,
       "leverage": "8",
       "tier": "2/2",
       "entry": 64.594,
-      "mark": 67.875
+      "mark": 67.929
     },
     {
       "symbol": "BNBUSDT",
       "side": "LONG",
-      "pnl": 1.03,
+      "pnl": 1.04,
       "pnl_pct": 0.36,
       "margin": 72.42,
       "leverage": "4",
       "tier": "2/2",
       "entry": 671.3,
-      "mark": 673.7
+      "mark": 673.71
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.544
+      "conf": 0.546
     },
     "WLDUSDT": {
       "dir": "short",
-      "conf": 0.555
+      "conf": 0.553
     },
     "ETHUSDT": {
       "dir": "neutral",
@@ -152,7 +152,7 @@
     },
     {
       "t": "2026-05-30",
-      "v": -249.39
+      "v": -260.29
     }
   ],
   "trade_history": [
