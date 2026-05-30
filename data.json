@@ -1,54 +1,43 @@
 {
-  "ts": "2026-05-30T21:21:44.025347+09:00",
+  "ts": "2026-05-30T21:22:45.329404+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6425.95,
-  "available": 4929.92,
-  "unrealized": 24.26,
-  "daily_pnl": 277.61,
-  "total_pnl": -274.05,
-  "cum_pct": -4.09,
-  "daily_avg_pct": -0.6936,
-  "annual_pct": -92.12,
+  "equity": 6402.9,
+  "available": 5370.4,
+  "unrealized": 76.94,
+  "daily_pnl": 201.02,
+  "total_pnl": -297.1,
+  "cum_pct": -4.43,
+  "daily_avg_pct": -0.7523,
+  "annual_pct": -93.65,
   "mdd": -11.84,
   "current_dd": -4.2,
-  "seed_used": 1496.03,
-  "seed_used_pct": 23.28,
+  "seed_used": 1032.5,
+  "seed_used_pct": 16.13,
   "long_count": 2,
-  "short_count": 1,
+  "short_count": 0,
   "positions": [
-    {
-      "symbol": "WLDUSDT",
-      "side": "SHORT",
-      "pnl": -50.17,
-      "pnl_pct": -1.57,
-      "margin": 462.46,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 0.2965,
-      "mark": 0.3012
-    },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 73.48,
-      "pnl_pct": 4.82,
-      "margin": 199.58,
+      "pnl": 76.09,
+      "pnl_pct": 5.0,
+      "margin": 199.9,
       "leverage": "8",
       "tier": "2/2",
       "entry": 64.594,
-      "mark": 67.71
+      "mark": 67.821
     },
     {
       "symbol": "BNBUSDT",
       "side": "LONG",
-      "pnl": 0.99,
-      "pnl_pct": 0.34,
-      "margin": 72.41,
+      "pnl": 0.95,
+      "pnl_pct": 0.33,
+      "margin": 72.4,
       "leverage": "4",
       "tier": "2/2",
       "entry": 671.3,
-      "mark": 673.6
+      "mark": 673.5
     }
   ],
   "signals": {
@@ -152,10 +141,17 @@
     },
     {
       "t": "2026-05-30",
-      "v": -274.05
+      "v": -297.1
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-30 21:22",
+      "symbol": "WLDUSDT",
+      "side": "Sell",
+      "pnl": -76.59,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-05-30 14:09",
       "symbol": "WLDUSDT",
@@ -288,13 +284,6 @@
       "side": "Buy",
       "pnl": 67.64,
       "reason": "3/3"
-    },
-    {
-      "ts": "2026-05-29 16:19",
-      "symbol": "WLDUSDT",
-      "side": "Buy",
-      "pnl": 47.31,
-      "reason": "-"
     }
   ],
   "num_days": 6
