@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-31T16:02:17.983159+09:00",
+  "ts": "2026-05-31T16:03:19.292044+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6670.81,
-  "available": 5753.79,
-  "unrealized": 91.66,
+  "equity": 6676.19,
+  "available": 5758.41,
+  "unrealized": 97.11,
   "daily_pnl": 180.03,
-  "total_pnl": -29.19,
-  "cum_pct": -0.44,
-  "daily_avg_pct": -0.063,
-  "annual_pct": -20.55,
+  "total_pnl": -23.81,
+  "cum_pct": -0.36,
+  "daily_avg_pct": -0.0515,
+  "annual_pct": -17.14,
   "mdd": -11.84,
-  "current_dd": -0.47,
-  "seed_used": 917.02,
+  "current_dd": -0.43,
+  "seed_used": 917.78,
   "seed_used_pct": 13.75,
   "long_count": 2,
   "short_count": 0,
@@ -20,30 +20,30 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 71.86,
-      "pnl_pct": 2.32,
-      "margin": 453.06,
+      "pnl": 77.4,
+      "pnl_pct": 2.5,
+      "margin": 453.85,
       "leverage": "7",
       "tier": "2/2",
       "entry": 67.7356,
-      "mark": 69.306
+      "mark": 69.427
     },
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": 19.93,
-      "pnl_pct": 2.61,
-      "margin": 156.88,
+      "pnl": 19.85,
+      "pnl_pct": 2.6,
+      "margin": 156.86,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.8219,
-      "mark": 1.8694
+      "mark": 1.8692
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.541
+      "conf": 0.543
     },
     "WLDUSDT": {
       "dir": "long",
@@ -51,7 +51,7 @@
     },
     "ETHUSDT": {
       "dir": "neutral",
-      "conf": 0.443
+      "conf": 0.442
     },
     "XRPUSDT": {
       "dir": "neutral",
@@ -71,11 +71,11 @@
     },
     "ONDOUSDT": {
       "dir": "short",
-      "conf": 0.519
+      "conf": 0.52
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.454
+      "conf": 0.455
     },
     "SUIUSDT": {
       "dir": "long",
@@ -145,7 +145,7 @@
     },
     {
       "t": "2026-05-31",
-      "v": -29.19
+      "v": -23.81
     }
   ],
   "trade_history": [
