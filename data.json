@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-31T22:28:25.605356+09:00",
+  "ts": "2026-05-31T22:29:27.590332+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6580.18,
-  "available": 5659.06,
-  "unrealized": -0.97,
+  "equity": 6580.3,
+  "available": 5659.15,
+  "unrealized": -0.77,
   "daily_pnl": 182.36,
-  "total_pnl": -119.82,
+  "total_pnl": -119.7,
   "cum_pct": -1.79,
   "daily_avg_pct": -0.2577,
   "annual_pct": -61.01,
   "mdd": -11.84,
-  "current_dd": -1.71,
-  "seed_used": 921.12,
+  "current_dd": -1.79,
+  "seed_used": 921.16,
   "seed_used_pct": 14.0,
   "long_count": 2,
   "short_count": 0,
@@ -20,30 +20,30 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 10.06,
-      "pnl_pct": 0.55,
-      "margin": 462.97,
+      "pnl": 9.9,
+      "pnl_pct": 0.54,
+      "margin": 462.93,
       "leverage": "4",
       "tier": "2/2",
       "entry": 67.8643,
-      "mark": 68.235
+      "mark": 68.229
     },
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": -11.15,
-      "pnl_pct": -0.61,
-      "margin": 457.87,
+      "pnl": -10.67,
+      "pnl_pct": -0.58,
+      "margin": 457.99,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1.9008,
-      "mark": 1.8893
+      "mark": 1.8898
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.543
+      "conf": 0.54
     },
     "WLDUSDT": {
       "dir": "long",
@@ -51,7 +51,7 @@
     },
     "ETHUSDT": {
       "dir": "neutral",
-      "conf": 0.367
+      "conf": 0.36
     },
     "XRPUSDT": {
       "dir": "short",
@@ -59,7 +59,7 @@
     },
     "TONUSDT": {
       "dir": "long",
-      "conf": 0.493
+      "conf": 0.495
     },
     "BTCUSDT": {
       "dir": "neutral",
@@ -75,7 +75,7 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.431
+      "conf": 0.43
     },
     "SUIUSDT": {
       "dir": "long",
@@ -145,7 +145,7 @@
     },
     {
       "t": "2026-05-31",
-      "v": -119.82
+      "v": -119.7
     }
   ],
   "trade_history": [
