@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-31T10:24:36.091134+09:00",
+  "ts": "2026-05-31T10:25:38.200661+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6677.0,
-  "available": 5759.5,
-  "unrealized": 95.98,
+  "equity": 6673.79,
+  "available": 5756.78,
+  "unrealized": 92.94,
   "daily_pnl": 182.27,
-  "total_pnl": -23.0,
-  "cum_pct": -0.34,
-  "daily_avg_pct": -0.0486,
-  "annual_pct": -16.26,
+  "total_pnl": -26.21,
+  "cum_pct": -0.39,
+  "daily_avg_pct": -0.0558,
+  "annual_pct": -18.43,
   "mdd": -11.84,
-  "current_dd": -0.14,
-  "seed_used": 917.51,
+  "current_dd": -0.37,
+  "seed_used": 917.01,
   "seed_used_pct": 13.74,
   "long_count": 2,
   "short_count": 0,
@@ -20,30 +20,30 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 77.54,
-      "pnl_pct": 2.5,
-      "margin": 453.87,
+      "pnl": 75.16,
+      "pnl_pct": 2.42,
+      "margin": 453.53,
       "leverage": "7",
       "tier": "2/2",
       "entry": 67.7356,
-      "mark": 69.43
+      "mark": 69.378
     },
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": 18.59,
-      "pnl_pct": 2.43,
-      "margin": 156.61,
+      "pnl": 17.92,
+      "pnl_pct": 2.34,
+      "margin": 156.48,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.8219,
-      "mark": 1.8662
+      "mark": 1.8646
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.55
+      "conf": 0.547
     },
     "WLDUSDT": {
       "dir": "long",
@@ -51,7 +51,7 @@
     },
     "ETHUSDT": {
       "dir": "neutral",
-      "conf": 0.445
+      "conf": 0.449
     },
     "XRPUSDT": {
       "dir": "neutral",
@@ -59,11 +59,11 @@
     },
     "TONUSDT": {
       "dir": "short",
-      "conf": 0.466
+      "conf": 0.467
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.572
+      "conf": 0.577
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -71,7 +71,7 @@
     },
     "ONDOUSDT": {
       "dir": "short",
-      "conf": 0.527
+      "conf": 0.528
     },
     "NEARUSDT": {
       "dir": "long",
@@ -145,7 +145,7 @@
     },
     {
       "t": "2026-05-31",
-      "v": -23.0
+      "v": -26.21
     }
   ],
   "trade_history": [
