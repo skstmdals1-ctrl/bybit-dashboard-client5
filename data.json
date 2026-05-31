@@ -1,43 +1,43 @@
 {
-  "ts": "2026-05-31T23:03:34.303970+09:00",
+  "ts": "2026-05-31T23:04:36.614870+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6580.05,
-  "available": 5659.01,
-  "unrealized": -1.54,
+  "equity": 6572.04,
+  "available": 5652.95,
+  "unrealized": -9.03,
   "daily_pnl": 182.36,
-  "total_pnl": -119.95,
-  "cum_pct": -1.79,
-  "daily_avg_pct": -0.2577,
-  "annual_pct": -61.01,
+  "total_pnl": -127.96,
+  "cum_pct": -1.91,
+  "daily_avg_pct": -0.2751,
+  "annual_pct": -63.41,
   "mdd": -11.84,
   "current_dd": -1.82,
-  "seed_used": 921.04,
-  "seed_used_pct": 14.0,
+  "seed_used": 919.09,
+  "seed_used_pct": 13.98,
   "long_count": 2,
   "short_count": 0,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 6.13,
-      "pnl_pct": 0.33,
-      "margin": 461.99,
+      "pnl": 0.56,
+      "pnl_pct": 0.03,
+      "margin": 460.6,
       "leverage": "4",
       "tier": "2/2",
       "entry": 67.8643,
-      "mark": 68.09
+      "mark": 67.885
     },
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": -7.66,
-      "pnl_pct": -0.42,
-      "margin": 458.74,
+      "pnl": -9.6,
+      "pnl_pct": -0.52,
+      "margin": 458.26,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1.9008,
-      "mark": 1.8929
+      "mark": 1.8909
     }
   ],
   "signals": {
@@ -63,7 +63,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.393
+      "conf": 0.386
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -145,7 +145,7 @@
     },
     {
       "t": "2026-05-31",
-      "v": -119.95
+      "v": -127.96
     }
   ],
   "trade_history": [
