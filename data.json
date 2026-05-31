@@ -1,34 +1,22 @@
 {
-  "ts": "2026-06-01T07:10:47.441124+09:00",
+  "ts": "2026-06-01T07:11:49.416968+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6640.04,
-  "available": 6155.5,
-  "unrealized": 95.7,
-  "daily_pnl": 0,
-  "total_pnl": -59.96,
-  "cum_pct": -0.89,
-  "daily_avg_pct": -0.1117,
-  "annual_pct": -33.5,
+  "equity": 6646.88,
+  "available": 6646.88,
+  "unrealized": 0.0,
+  "daily_pnl": 102.09,
+  "total_pnl": -53.12,
+  "cum_pct": -0.79,
+  "daily_avg_pct": -0.0991,
+  "annual_pct": -30.36,
   "mdd": -11.84,
   "current_dd": -0.99,
-  "seed_used": 484.53,
-  "seed_used_pct": 7.3,
-  "long_count": 1,
+  "seed_used": 0,
+  "seed_used_pct": 0.0,
+  "long_count": 0,
   "short_count": 0,
-  "positions": [
-    {
-      "symbol": "HYPEUSDT",
-      "side": "LONG",
-      "pnl": 95.96,
-      "pnl_pct": 5.21,
-      "margin": 484.45,
-      "leverage": "4",
-      "tier": "2/2",
-      "entry": 67.8643,
-      "mark": 71.4
-    }
-  ],
+  "positions": [],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
@@ -138,10 +126,17 @@
     },
     {
       "t": "2026-06-01",
-      "v": -59.96
+      "v": -53.12
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-01 07:11",
+      "symbol": "HYPEUSDT",
+      "side": "Buy",
+      "pnl": 102.09,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-05-31 23:14",
       "symbol": "TONUSDT",
@@ -274,13 +269,6 @@
       "side": "Buy",
       "pnl": 54.77,
       "reason": "2/2"
-    },
-    {
-      "ts": "2026-05-31 00:13",
-      "symbol": "WLDUSDT",
-      "side": "Buy",
-      "pnl": 0.0,
-      "reason": "L2"
     }
   ],
   "num_days": 8
