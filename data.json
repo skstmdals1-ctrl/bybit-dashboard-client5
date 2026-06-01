@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-01T22:17:27.967179+09:00",
+  "ts": "2026-06-01T22:18:29.556774+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6757.98,
-  "available": 5758.05,
-  "unrealized": 107.34,
-  "daily_pnl": 105.8,
-  "total_pnl": 57.98,
-  "cum_pct": 0.87,
-  "daily_avg_pct": 0.1083,
-  "annual_pct": 48.45,
+  "equity": 6774.28,
+  "available": 6054.24,
+  "unrealized": 69.04,
+  "daily_pnl": 159.59,
+  "total_pnl": 74.28,
+  "cum_pct": 1.11,
+  "daily_avg_pct": 0.1381,
+  "annual_pct": 65.49,
   "mdd": -11.84,
-  "current_dd": -0.17,
-  "seed_used": 999.93,
-  "seed_used_pct": 14.8,
+  "current_dd": 0.0,
+  "seed_used": 720.04,
+  "seed_used_pct": 10.63,
   "long_count": 2,
   "short_count": 0,
   "positions": [
     {
       "symbol": "WLDUSDT",
       "side": "LONG",
-      "pnl": 94.75,
-      "pnl_pct": 2.09,
-      "margin": 579.59,
+      "pnl": 55.92,
+      "pnl_pct": 2.38,
+      "margin": 300.33,
       "leverage": "8",
       "tier": "3/3",
       "entry": 0.3707,
-      "mark": 0.3784
+      "mark": 0.3795
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 12.71,
-      "pnl_pct": 2.63,
-      "margin": 70.89,
+      "pnl": 13.2,
+      "pnl_pct": 2.73,
+      "margin": 70.96,
       "leverage": "7",
       "tier": "2/2",
       "entry": 71.847,
-      "mark": 73.736
+      "mark": 73.808
     }
   ],
   "signals": {
@@ -51,7 +51,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.353
+      "conf": 0.354
     },
     "XRPUSDT": {
       "dir": "short",
@@ -79,7 +79,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.518
+      "conf": 0.519
     },
     "ZECUSDT": {
       "dir": "short",
@@ -149,7 +149,7 @@
     },
     {
       "t": "2026-06-01",
-      "v": 57.98
+      "v": 74.28
     }
   ],
   "trade_history": [
@@ -157,7 +157,7 @@
       "ts": "2026-06-01 22:17",
       "symbol": "WLDUSDT",
       "side": "Buy",
-      "pnl": 3.71,
+      "pnl": 57.5,
       "reason": "-"
     },
     {
