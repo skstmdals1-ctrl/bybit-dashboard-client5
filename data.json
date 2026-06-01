@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-02T08:19:28.739512+09:00",
+  "ts": "2026-06-02T08:20:30.761014+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6791.02,
-  "available": 6394.55,
-  "unrealized": 85.55,
-  "daily_pnl": -52.66,
-  "total_pnl": 91.02,
-  "cum_pct": 1.36,
-  "daily_avg_pct": 0.1502,
-  "annual_pct": 72.95,
+  "equity": 6788.04,
+  "available": 6611.22,
+  "unrealized": 2.56,
+  "daily_pnl": 26.94,
+  "total_pnl": 88.04,
+  "cum_pct": 1.31,
+  "daily_avg_pct": 0.1447,
+  "annual_pct": 69.52,
   "mdd": -11.84,
   "current_dd": -0.9,
-  "seed_used": 396.47,
-  "seed_used_pct": 5.84,
+  "seed_used": 176.82,
+  "seed_used_pct": 2.6,
   "long_count": 2,
   "short_count": 0,
   "positions": [
     {
-      "symbol": "HYPEUSDT",
-      "side": "LONG",
-      "pnl": 82.41,
-      "pnl_pct": 5.67,
-      "margin": 219.26,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 71.4064,
-      "mark": 75.458
-    },
-    {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": 3.25,
-      "pnl_pct": 0.85,
-      "margin": 54.76,
+      "pnl": 2.6,
+      "pnl_pct": 0.68,
+      "margin": 54.67,
       "leverage": "7",
       "tier": "2/3",
       "entry": 2.1056,
-      "mark": 2.1236
+      "mark": 2.12
+    },
+    {
+      "symbol": "HYPEUSDT",
+      "side": "LONG",
+      "pnl": 0.04,
+      "pnl_pct": 5.62,
+      "margin": 0.11,
+      "leverage": "7",
+      "tier": "1/2",
+      "entry": 71.4064,
+      "mark": 75.417
     }
   ],
   "signals": {
@@ -153,10 +153,17 @@
     },
     {
       "t": "2026-06-02",
-      "v": 91.02
+      "v": 88.04
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-02 08:20",
+      "symbol": "HYPEUSDT",
+      "side": "Buy",
+      "pnl": 79.6,
+      "reason": "2/2"
+    },
     {
       "ts": "2026-06-02 08:15",
       "symbol": "HYPEUSDT",
@@ -288,13 +295,6 @@
       "symbol": "TONUSDT",
       "side": "Buy",
       "pnl": 35.38,
-      "reason": "External Exit"
-    },
-    {
-      "ts": "2026-05-31 19:35",
-      "symbol": "WLDUSDT",
-      "side": "Buy",
-      "pnl": -61.65,
       "reason": "External Exit"
     }
   ],
