@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-01T20:24:48.211600+09:00",
+  "ts": "2026-06-01T20:25:50.541422+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6675.96,
-  "available": 5932.66,
-  "unrealized": 27.61,
+  "equity": 6669.65,
+  "available": 5927.14,
+  "unrealized": 21.44,
   "daily_pnl": 102.09,
-  "total_pnl": -24.04,
-  "cum_pct": -0.36,
-  "daily_avg_pct": -0.0451,
-  "annual_pct": -15.18,
+  "total_pnl": -30.35,
+  "cum_pct": -0.45,
+  "daily_avg_pct": -0.0564,
+  "annual_pct": -18.61,
   "mdd": -11.84,
   "current_dd": -0.35,
-  "seed_used": 743.3,
+  "seed_used": 742.51,
   "seed_used_pct": 11.13,
   "long_count": 2,
   "short_count": 0,
@@ -20,24 +20,24 @@
     {
       "symbol": "WLDUSDT",
       "side": "LONG",
-      "pnl": 17.22,
-      "pnl_pct": 1.62,
-      "margin": 135.11,
+      "pnl": 11.29,
+      "pnl_pct": 1.06,
+      "margin": 134.37,
       "leverage": "8",
       "tier": "2/3",
       "entry": 0.3767,
-      "mark": 0.3828
+      "mark": 0.3807
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 10.42,
-      "pnl_pct": 2.15,
-      "margin": 70.56,
+      "pnl": 10.1,
+      "pnl_pct": 2.09,
+      "margin": 70.52,
       "leverage": "7",
       "tier": "2/2",
       "entry": 71.847,
-      "mark": 73.395
+      "mark": 73.347
     }
   ],
   "signals": {
@@ -51,11 +51,11 @@
     },
     "ETHUSDT": {
       "dir": "neutral",
-      "conf": 0.357
+      "conf": 0.354
     },
     "XRPUSDT": {
       "dir": "short",
-      "conf": 0.336
+      "conf": 0.337
     },
     "TONUSDT": {
       "dir": "long",
@@ -63,7 +63,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.395
+      "conf": 0.399
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -115,7 +115,7 @@
     },
     "BNBUSDT": {
       "dir": "long",
-      "conf": 0.34
+      "conf": 0.341
     }
   },
   "equity_hist": [
@@ -149,7 +149,7 @@
     },
     {
       "t": "2026-06-01",
-      "v": -24.04
+      "v": -30.35
     }
   ],
   "trade_history": [
