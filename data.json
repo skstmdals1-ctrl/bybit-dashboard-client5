@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-01T22:21:33.924922+09:00",
+  "ts": "2026-06-01T22:22:35.471099+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6774.87,
-  "available": 6054.8,
-  "unrealized": 70.16,
-  "daily_pnl": 159.59,
-  "total_pnl": 74.87,
-  "cum_pct": 1.12,
-  "daily_avg_pct": 0.1393,
-  "annual_pct": 66.21,
+  "equity": 6769.64,
+  "available": 6351.19,
+  "unrealized": 10.26,
+  "daily_pnl": 213.92,
+  "total_pnl": 69.64,
+  "cum_pct": 1.04,
+  "daily_avg_pct": 0.1294,
+  "annual_pct": 60.32,
   "mdd": -11.84,
   "current_dd": 0.0,
-  "seed_used": 720.06,
-  "seed_used_pct": 10.63,
+  "seed_used": 418.46,
+  "seed_used_pct": 6.18,
   "long_count": 2,
   "short_count": 0,
   "positions": [
     {
-      "symbol": "WLDUSDT",
-      "side": "LONG",
-      "pnl": 60.35,
-      "pnl_pct": 2.57,
-      "margin": 300.88,
-      "leverage": "8",
-      "tier": "3/3",
-      "entry": 0.3707,
-      "mark": 0.3802
-    },
-    {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 9.89,
-      "pnl_pct": 2.05,
-      "margin": 70.49,
+      "pnl": 10.44,
+      "pnl_pct": 2.16,
+      "margin": 70.57,
       "leverage": "7",
       "tier": "2/2",
       "entry": 71.847,
-      "mark": 73.317
+      "mark": 73.399
+    },
+    {
+      "symbol": "WLDUSDT",
+      "side": "LONG",
+      "pnl": 0.0,
+      "pnl_pct": 2.76,
+      "margin": 0.0,
+      "leverage": "8",
+      "tier": "1/3",
+      "entry": 0.3707,
+      "mark": 0.3809
     }
   ],
   "signals": {
@@ -149,10 +149,17 @@
     },
     {
       "t": "2026-06-01",
-      "v": 74.87
+      "v": 69.64
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-01 22:22",
+      "symbol": "WLDUSDT",
+      "side": "Buy",
+      "pnl": 54.33,
+      "reason": "3/3"
+    },
     {
       "ts": "2026-06-01 22:17",
       "symbol": "WLDUSDT",
@@ -285,13 +292,6 @@
       "side": "Buy",
       "pnl": 6.98,
       "reason": "External Exit"
-    },
-    {
-      "ts": "2026-05-31 00:59",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": 0.03,
-      "reason": "L2"
     }
   ],
   "num_days": 8
