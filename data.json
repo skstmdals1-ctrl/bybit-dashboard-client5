@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-02T01:41:01.935887+09:00",
+  "ts": "2026-06-02T01:42:04.179503+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6720.17,
-  "available": 6303.4,
-  "unrealized": 8.68,
-  "daily_pnl": -44.62,
-  "total_pnl": 20.17,
-  "cum_pct": 0.3,
-  "daily_avg_pct": 0.0333,
-  "annual_pct": 12.92,
+  "equity": 6723.01,
+  "available": 6199.02,
+  "unrealized": 11.55,
+  "daily_pnl": -44.61,
+  "total_pnl": 23.01,
+  "cum_pct": 0.34,
+  "daily_avg_pct": 0.0377,
+  "annual_pct": 14.75,
   "mdd": -11.84,
-  "current_dd": -0.29,
-  "seed_used": 416.77,
-  "seed_used_pct": 6.2,
-  "long_count": 2,
-  "short_count": 0,
+  "current_dd": -0.78,
+  "seed_used": 523.99,
+  "seed_used_pct": 7.79,
+  "long_count": 1,
+  "short_count": 1,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 8.48,
-      "pnl_pct": 0.29,
-      "margin": 415.98,
+      "pnl": 11.57,
+      "pnl_pct": 0.4,
+      "margin": 416.42,
       "leverage": "7",
       "tier": "2/2",
       "entry": 71.4064,
-      "mark": 71.615
+      "mark": 71.691
     },
     {
-      "symbol": "TONUSDT",
-      "side": "LONG",
-      "pnl": 0.01,
-      "pnl_pct": 3.42,
-      "margin": 0.03,
-      "leverage": "7",
+      "symbol": "WLDUSDT",
+      "side": "SHORT",
+      "pnl": 0.0,
+      "pnl_pct": -0.0,
+      "margin": 106.65,
+      "leverage": "5",
       "tier": "1/3",
-      "entry": 2.1566,
-      "mark": 2.2303
+      "entry": 0.4053,
+      "mark": 0.4053
     }
   ],
   "signals": {
@@ -59,11 +59,11 @@
     },
     "TONUSDT": {
       "dir": "long",
-      "conf": 0.481
+      "conf": 0.484
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.548
+      "conf": 0.545
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -71,7 +71,7 @@
     },
     "ONDOUSDT": {
       "dir": "short",
-      "conf": 0.474
+      "conf": 0.476
     },
     "NEARUSDT": {
       "dir": "long",
@@ -79,7 +79,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.524
+      "conf": 0.525
     },
     "ZECUSDT": {
       "dir": "short",
@@ -115,7 +115,7 @@
     },
     "BNBUSDT": {
       "dir": "neutral",
-      "conf": 0.363
+      "conf": 0.361
     }
   },
   "equity_hist": [
@@ -153,10 +153,17 @@
     },
     {
       "t": "2026-06-02",
-      "v": 20.17
+      "v": 23.01
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-02 01:41",
+      "symbol": "TONUSDT",
+      "side": "Buy",
+      "pnl": 0.01,
+      "reason": "L2"
+    },
     {
       "ts": "2026-06-02 01:39",
       "symbol": "TONUSDT",
@@ -289,13 +296,6 @@
       "side": "Buy",
       "pnl": 8.73,
       "reason": "-"
-    },
-    {
-      "ts": "2026-05-31 04:32",
-      "symbol": "WLDUSDT",
-      "side": "Buy",
-      "pnl": -20.13,
-      "reason": "External Exit"
     }
   ],
   "num_days": 9
