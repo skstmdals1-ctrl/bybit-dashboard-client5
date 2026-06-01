@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-01T22:08:14.120707+09:00",
+  "ts": "2026-06-01T22:09:15.600912+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6712.51,
-  "available": 5698.84,
-  "unrealized": 65.31,
+  "equity": 6710.91,
+  "available": 5697.44,
+  "unrealized": 63.68,
   "daily_pnl": 102.09,
-  "total_pnl": 12.51,
-  "cum_pct": 0.19,
-  "daily_avg_pct": 0.0237,
-  "annual_pct": 9.03,
+  "total_pnl": 10.91,
+  "cum_pct": 0.16,
+  "daily_avg_pct": 0.02,
+  "annual_pct": 7.57,
   "mdd": -11.84,
-  "current_dd": -0.59,
-  "seed_used": 1013.68,
+  "current_dd": -0.04,
+  "seed_used": 1013.47,
   "seed_used_pct": 15.1,
   "long_count": 2,
   "short_count": 0,
@@ -20,30 +20,30 @@
     {
       "symbol": "WLDUSDT",
       "side": "LONG",
-      "pnl": 53.59,
-      "pnl_pct": 1.14,
-      "margin": 593.37,
+      "pnl": 52.33,
+      "pnl_pct": 1.11,
+      "margin": 593.21,
       "leverage": "8",
       "tier": "3/3",
       "entry": 0.3707,
-      "mark": 0.3749
+      "mark": 0.3748
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 11.79,
-      "pnl_pct": 2.44,
-      "margin": 70.76,
+      "pnl": 11.43,
+      "pnl_pct": 2.36,
+      "margin": 70.71,
       "leverage": "7",
       "tier": "2/2",
       "entry": 71.847,
-      "mark": 73.599
+      "mark": 73.545
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.555
+      "conf": 0.547
     },
     "WLDUSDT": {
       "dir": "long",
@@ -51,7 +51,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.354
+      "conf": 0.353
     },
     "XRPUSDT": {
       "dir": "short",
@@ -79,7 +79,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.52
+      "conf": 0.519
     },
     "ZECUSDT": {
       "dir": "short",
@@ -115,7 +115,7 @@
     },
     "BNBUSDT": {
       "dir": "long",
-      "conf": 0.344
+      "conf": 0.342
     }
   },
   "equity_hist": [
@@ -149,7 +149,7 @@
     },
     {
       "t": "2026-06-01",
-      "v": 12.51
+      "v": 10.91
     }
   ],
   "trade_history": [
