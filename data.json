@@ -1,54 +1,54 @@
 {
-  "ts": "2026-06-03T05:05:42.775889+09:00",
+  "ts": "2026-06-03T05:06:44.515202+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6873.7,
-  "available": 5383.67,
-  "unrealized": -6.97,
+  "equity": 6866.76,
+  "available": 5374.9,
+  "unrealized": -13.97,
   "daily_pnl": 72.67,
-  "total_pnl": 173.7,
-  "cum_pct": 2.59,
-  "daily_avg_pct": 0.256,
-  "annual_pct": 154.26,
+  "total_pnl": 166.76,
+  "cum_pct": 2.49,
+  "daily_avg_pct": 0.2463,
+  "annual_pct": 145.44,
   "mdd": -11.84,
-  "current_dd": 0.0,
-  "seed_used": 1490.03,
-  "seed_used_pct": 21.68,
+  "current_dd": -0.52,
+  "seed_used": 1491.87,
+  "seed_used_pct": 21.73,
   "long_count": 1,
   "short_count": 2,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 4.65,
-      "pnl_pct": 0.1,
-      "margin": 672.82,
+      "pnl": -2.93,
+      "pnl_pct": -0.06,
+      "margin": 673.9,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1916.4085,
-      "mark": 1914.52
+      "mark": 1917.6
     },
     {
       "symbol": "LABUSDT",
       "side": "LONG",
-      "pnl": -10.66,
-      "pnl_pct": -0.24,
-      "margin": 625.43,
+      "pnl": -8.4,
+      "pnl_pct": -0.19,
+      "margin": 625.75,
       "leverage": "7",
       "tier": "3/3",
       "entry": 23.4688,
-      "mark": 23.4118
+      "mark": 23.4239
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": -0.97,
-      "pnl_pct": -0.42,
-      "margin": 57.39,
+      "pnl": -2.65,
+      "pnl_pct": -1.16,
+      "margin": 57.81,
       "leverage": "4",
       "tier": "2/3",
       "entry": 1.9655,
-      "mark": 1.9738
+      "mark": 1.9883
     }
   ],
   "signals": {
@@ -62,7 +62,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.36
+      "conf": 0.361
     },
     "XRPUSDT": {
       "dir": "short",
@@ -130,11 +130,11 @@
     },
     "LABUSDT": {
       "dir": "long",
-      "conf": 0.555
+      "conf": 0.558
     },
     "ENAUSDT": {
       "dir": "short",
-      "conf": 0.535
+      "conf": 0.537
     },
     "HUSDT": {
       "dir": "long",
@@ -180,7 +180,7 @@
     },
     {
       "t": "2026-06-03",
-      "v": 173.7
+      "v": 166.76
     }
   ],
   "trade_history": [
