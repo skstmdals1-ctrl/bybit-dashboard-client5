@@ -1,50 +1,50 @@
 {
-  "ts": "2026-06-02T18:43:02.601913+09:00",
+  "ts": "2026-06-02T18:44:04.054217+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6765.18,
-  "available": 6290.28,
-  "unrealized": -10.54,
+  "equity": 6761.69,
+  "available": 6287.5,
+  "unrealized": -14.12,
   "daily_pnl": 18.77,
-  "total_pnl": 65.18,
-  "cum_pct": 0.97,
-  "daily_avg_pct": 0.1073,
-  "annual_pct": 47.91,
+  "total_pnl": 61.69,
+  "cum_pct": 0.92,
+  "daily_avg_pct": 0.1018,
+  "annual_pct": 44.97,
   "mdd": -11.84,
-  "current_dd": -1.54,
-  "seed_used": 474.91,
-  "seed_used_pct": 7.02,
+  "current_dd": -1.58,
+  "seed_used": 474.2,
+  "seed_used_pct": 7.01,
   "long_count": 1,
   "short_count": 0,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -10.56,
-      "pnl_pct": -0.44,
-      "margin": 474.55,
+      "pnl": -14.14,
+      "pnl_pct": -0.59,
+      "margin": 473.84,
       "leverage": "5",
       "tier": "2/2",
       "entry": 71.9387,
-      "mark": 71.62
+      "mark": 71.512
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.544
+      "conf": 0.55
     },
     "WLDUSDT": {
       "dir": "short",
       "conf": 0.486
     },
     "ETHUSDT": {
-      "dir": "neutral",
-      "conf": 0.355
+      "dir": "short",
+      "conf": 0.343
     },
     "XRPUSDT": {
       "dir": "short",
-      "conf": 0.337
+      "conf": 0.341
     },
     "TONUSDT": {
       "dir": "long",
@@ -52,7 +52,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.553
+      "conf": 0.555
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -64,11 +64,11 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.452
+      "conf": 0.451
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.519
+      "conf": 0.517
     },
     "ZECUSDT": {
       "dir": "short",
@@ -104,7 +104,7 @@
     },
     "BNBUSDT": {
       "dir": "neutral",
-      "conf": 0.36
+      "conf": 0.362
     }
   },
   "equity_hist": [
@@ -142,7 +142,7 @@
     },
     {
       "t": "2026-06-02",
-      "v": 65.18
+      "v": 61.69
     }
   ],
   "trade_history": [
