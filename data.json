@@ -1,54 +1,43 @@
 {
-  "ts": "2026-06-03T05:10:50.859434+09:00",
+  "ts": "2026-06-03T05:11:52.454882+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6998.91,
-  "available": 5809.97,
-  "unrealized": 63.98,
-  "daily_pnl": 144.22,
-  "total_pnl": 298.91,
+  "equity": 6998.51,
+  "available": 6137.09,
+  "unrealized": 3.17,
+  "daily_pnl": 223.88,
+  "total_pnl": 298.51,
   "cum_pct": 4.46,
   "daily_avg_pct": 0.4373,
   "annual_pct": 391.68,
   "mdd": -11.84,
   "current_dd": 0.0,
-  "seed_used": 1188.94,
-  "seed_used_pct": 16.99,
-  "long_count": 1,
+  "seed_used": 861.42,
+  "seed_used_pct": 12.31,
+  "long_count": 0,
   "short_count": 2,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -1.16,
-      "pnl_pct": -0.02,
-      "margin": 673.65,
+      "pnl": 4.77,
+      "pnl_pct": 0.1,
+      "margin": 672.8,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1916.4085,
-      "mark": 1916.88
-    },
-    {
-      "symbol": "LABUSDT",
-      "side": "LONG",
-      "pnl": 67.26,
-      "pnl_pct": 3.05,
-      "margin": 324.76,
-      "leverage": "7",
-      "tier": "3/3",
-      "entry": 23.4688,
-      "mark": 24.1844
+      "mark": 1914.47
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": -2.05,
-      "pnl_pct": -0.9,
-      "margin": 57.66,
+      "pnl": -1.59,
+      "pnl_pct": -0.7,
+      "margin": 57.55,
       "leverage": "4",
       "tier": "2/3",
       "entry": 1.9655,
-      "mark": 1.9831
+      "mark": 1.9792
     }
   ],
   "signals": {
@@ -180,16 +169,23 @@
     },
     {
       "t": "2026-06-03",
-      "v": 298.91
+      "v": 298.51
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-03 05:11",
+      "symbol": "LABUSDT",
+      "side": "Buy",
+      "pnl": 79.66,
+      "reason": "3/3"
+    },
     {
       "ts": "2026-06-03 05:10",
       "symbol": "LABUSDT",
       "side": "Buy",
       "pnl": 71.55,
-      "reason": "-"
+      "reason": "3/3"
     },
     {
       "ts": "2026-06-03 04:39",
@@ -316,13 +312,6 @@
       "side": "Sell",
       "pnl": -0.0,
       "reason": "L2"
-    },
-    {
-      "ts": "2026-06-02 10:00",
-      "symbol": "WLDUSDT",
-      "side": "Sell",
-      "pnl": -1.96,
-      "reason": "2/3"
     }
   ],
   "num_days": 10
