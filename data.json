@@ -1,49 +1,38 @@
 {
-  "ts": "2026-06-02T17:28:12.795103+09:00",
+  "ts": "2026-06-02T17:29:14.226991+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6762.49,
-  "available": 6288.11,
-  "unrealized": -13.36,
-  "daily_pnl": 18.78,
-  "total_pnl": 62.49,
-  "cum_pct": 0.93,
-  "daily_avg_pct": 0.1029,
-  "annual_pct": 45.56,
+  "equity": 6761.52,
+  "available": 6287.34,
+  "unrealized": -14.12,
+  "daily_pnl": 18.77,
+  "total_pnl": 61.52,
+  "cum_pct": 0.92,
+  "daily_avg_pct": 0.1018,
+  "annual_pct": 44.97,
   "mdd": -11.84,
-  "current_dd": -1.62,
-  "seed_used": 474.38,
+  "current_dd": -1.6,
+  "seed_used": 474.19,
   "seed_used_pct": 7.01,
-  "long_count": 2,
+  "long_count": 1,
   "short_count": 0,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -13.37,
-      "pnl_pct": -0.56,
-      "margin": 473.99,
+      "pnl": -14.14,
+      "pnl_pct": -0.59,
+      "margin": 473.84,
       "leverage": "5",
       "tier": "2/2",
       "entry": 71.9387,
-      "mark": 71.535
-    },
-    {
-      "symbol": "TONUSDT",
-      "side": "LONG",
-      "pnl": -0.01,
-      "pnl_pct": -2.76,
-      "margin": 0.03,
-      "leverage": "7",
-      "tier": "1/2",
-      "entry": 2.0455,
-      "mark": 1.989
+      "mark": 71.512
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.543
+      "conf": 0.546
     },
     "WLDUSDT": {
       "dir": "short",
@@ -79,7 +68,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.522
+      "conf": 0.521
     },
     "ZECUSDT": {
       "dir": "short",
@@ -99,7 +88,7 @@
     },
     "ADAUSDT": {
       "dir": "long",
-      "conf": 0.42
+      "conf": 0.419
     },
     "TAOUSDT": {
       "dir": "short",
@@ -153,10 +142,17 @@
     },
     {
       "t": "2026-06-02",
-      "v": 62.49
+      "v": 61.52
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-02 17:28",
+      "symbol": "TONUSDT",
+      "side": "Buy",
+      "pnl": -0.01,
+      "reason": "L2"
+    },
     {
       "ts": "2026-06-02 17:23",
       "symbol": "TONUSDT",
@@ -288,13 +284,6 @@
       "symbol": "WLDUSDT",
       "side": "Sell",
       "pnl": 9.29,
-      "reason": "3/3"
-    },
-    {
-      "ts": "2026-06-02 02:17",
-      "symbol": "WLDUSDT",
-      "side": "Sell",
-      "pnl": 15.89,
       "reason": "3/3"
     }
   ],
