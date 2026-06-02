@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-02T10:43:36.715201+09:00",
+  "ts": "2026-06-02T10:44:38.817964+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6811.71,
-  "available": 6360.06,
-  "unrealized": 28.72,
+  "equity": 6809.54,
+  "available": 6358.18,
+  "unrealized": 26.75,
   "daily_pnl": 25.02,
-  "total_pnl": 111.71,
-  "cum_pct": 1.67,
-  "daily_avg_pct": 0.1842,
-  "annual_pct": 95.76,
+  "total_pnl": 109.54,
+  "cum_pct": 1.63,
+  "daily_avg_pct": 0.1798,
+  "annual_pct": 92.65,
   "mdd": -11.84,
-  "current_dd": -0.72,
-  "seed_used": 451.65,
+  "current_dd": -0.48,
+  "seed_used": 451.35,
   "seed_used_pct": 6.63,
   "long_count": 1,
   "short_count": 0,
@@ -20,19 +20,19 @@
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": 28.75,
-      "pnl_pct": 0.92,
-      "margin": 450.76,
+      "pnl": 26.78,
+      "pnl_pct": 0.86,
+      "margin": 450.48,
       "leverage": "7",
       "tier": "3/3",
       "entry": 2.0622,
-      "mark": 2.0812
+      "mark": 2.0799
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.55
+      "conf": 0.547
     },
     "WLDUSDT": {
       "dir": "short",
@@ -40,11 +40,11 @@
     },
     "ETHUSDT": {
       "dir": "neutral",
-      "conf": 0.436
+      "conf": 0.435
     },
     "XRPUSDT": {
       "dir": "neutral",
-      "conf": 0.397
+      "conf": 0.394
     },
     "TONUSDT": {
       "dir": "long",
@@ -52,7 +52,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.581
+      "conf": 0.573
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -68,7 +68,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.46
+      "conf": 0.467
     },
     "ZECUSDT": {
       "dir": "short",
@@ -104,7 +104,7 @@
     },
     "BNBUSDT": {
       "dir": "neutral",
-      "conf": 0.345
+      "conf": 0.347
     }
   },
   "equity_hist": [
@@ -142,7 +142,7 @@
     },
     {
       "t": "2026-06-02",
-      "v": 111.71
+      "v": 109.54
     }
   ],
   "trade_history": [
