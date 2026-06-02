@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-02T13:20:19.829884+09:00",
+  "ts": "2026-06-02T13:21:21.209284+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6842.78,
-  "available": 5810.22,
-  "unrealized": -10.35,
-  "daily_pnl": 96.38,
-  "total_pnl": 142.78,
-  "cum_pct": 2.13,
-  "daily_avg_pct": 0.2345,
-  "annual_pct": 135.12,
+  "equity": 6841.44,
+  "available": 5813.5,
+  "unrealized": -11.61,
+  "daily_pnl": 95.95,
+  "total_pnl": 141.44,
+  "cum_pct": 2.11,
+  "daily_avg_pct": 0.2323,
+  "annual_pct": 133.24,
   "mdd": -11.84,
   "current_dd": -0.18,
-  "seed_used": 1032.56,
-  "seed_used_pct": 15.09,
+  "seed_used": 1027.94,
+  "seed_used_pct": 15.03,
   "long_count": 1,
   "short_count": 1,
   "positions": [
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": -20.2,
-      "pnl_pct": -1.54,
-      "margin": 266.43,
+      "pnl": -21.79,
+      "pnl_pct": -1.69,
+      "margin": 261.63,
       "leverage": "5",
       "tier": "3/3",
       "entry": 0.4543,
-      "mark": 0.4613
+      "mark": 0.462
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 9.83,
-      "pnl_pct": 1.56,
-      "margin": 91.73,
+      "pnl": 10.47,
+      "pnl_pct": 1.66,
+      "margin": 91.82,
       "leverage": "7",
       "tier": "2/2",
       "entry": 73.69,
-      "mark": 74.836
+      "mark": 74.91
     }
   ],
   "signals": {
@@ -153,10 +153,17 @@
     },
     {
       "t": "2026-06-02",
-      "v": 142.78
+      "v": 141.44
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-02 13:21",
+      "symbol": "WLDUSDT",
+      "side": "Sell",
+      "pnl": -0.43,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-02 12:04",
       "symbol": "TONUSDT",
@@ -288,13 +295,6 @@
       "symbol": "WLDUSDT",
       "side": "Sell",
       "pnl": -53.94,
-      "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-02 00:41",
-      "symbol": "WLDUSDT",
-      "side": "Sell",
-      "pnl": -13.8,
       "reason": "External Exit"
     }
   ],
