@@ -1,38 +1,38 @@
 {
-  "ts": "2026-06-02T10:33:15.872323+09:00",
+  "ts": "2026-06-02T10:34:17.928815+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6794.02,
-  "available": 6344.89,
-  "unrealized": 11.15,
+  "equity": 6799.32,
+  "available": 6349.43,
+  "unrealized": 16.6,
   "daily_pnl": 25.02,
-  "total_pnl": 94.02,
-  "cum_pct": 1.4,
-  "daily_avg_pct": 0.1546,
-  "annual_pct": 75.74,
+  "total_pnl": 99.32,
+  "cum_pct": 1.48,
+  "daily_avg_pct": 0.1634,
+  "annual_pct": 81.47,
   "mdd": -11.84,
-  "current_dd": -0.76,
-  "seed_used": 449.13,
-  "seed_used_pct": 6.61,
+  "current_dd": -0.71,
+  "seed_used": 449.9,
+  "seed_used_pct": 6.62,
   "long_count": 1,
   "short_count": 0,
   "positions": [
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": 11.17,
-      "pnl_pct": 0.36,
-      "margin": 448.25,
+      "pnl": 16.62,
+      "pnl_pct": 0.53,
+      "margin": 449.03,
       "leverage": "7",
       "tier": "3/3",
       "entry": 2.0622,
-      "mark": 2.0696
+      "mark": 2.0732
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.556
+      "conf": 0.555
     },
     "WLDUSDT": {
       "dir": "short",
@@ -40,7 +40,7 @@
     },
     "ETHUSDT": {
       "dir": "neutral",
-      "conf": 0.441
+      "conf": 0.437
     },
     "XRPUSDT": {
       "dir": "neutral",
@@ -52,7 +52,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.573
+      "conf": 0.575
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -64,11 +64,11 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.451
+      "conf": 0.452
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.451
+      "conf": 0.454
     },
     "ZECUSDT": {
       "dir": "short",
@@ -88,7 +88,7 @@
     },
     "ADAUSDT": {
       "dir": "long",
-      "conf": 0.42
+      "conf": 0.421
     },
     "TAOUSDT": {
       "dir": "short",
@@ -104,7 +104,7 @@
     },
     "BNBUSDT": {
       "dir": "neutral",
-      "conf": 0.347
+      "conf": 0.346
     }
   },
   "equity_hist": [
@@ -142,7 +142,7 @@
     },
     {
       "t": "2026-06-02",
-      "v": 94.02
+      "v": 99.32
     }
   ],
   "trade_history": [
