@@ -1,34 +1,22 @@
 {
-  "ts": "2026-06-02T13:52:04.092047+09:00",
+  "ts": "2026-06-02T13:53:05.494620+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6832.16,
-  "available": 6832.06,
+  "equity": 6832.47,
+  "available": 6832.47,
   "unrealized": 0.0,
   "daily_pnl": 75.05,
-  "total_pnl": 132.16,
-  "cum_pct": 1.97,
-  "daily_avg_pct": 0.217,
-  "annual_pct": 120.6,
+  "total_pnl": 132.47,
+  "cum_pct": 1.98,
+  "daily_avg_pct": 0.2181,
+  "annual_pct": 121.49,
   "mdd": -11.84,
   "current_dd": -0.58,
-  "seed_used": 0.1,
+  "seed_used": 0,
   "seed_used_pct": 0.0,
-  "long_count": 1,
+  "long_count": 0,
   "short_count": 0,
-  "positions": [
-    {
-      "symbol": "HYPEUSDT",
-      "side": "LONG",
-      "pnl": 0.0,
-      "pnl_pct": 0.42,
-      "margin": 0.11,
-      "leverage": "7",
-      "tier": "1/2",
-      "entry": 73.69,
-      "mark": 73.996
-    }
-  ],
+  "positions": [],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
@@ -44,7 +32,7 @@
     },
     "XRPUSDT": {
       "dir": "short",
-      "conf": 0.338
+      "conf": 0.337
     },
     "TONUSDT": {
       "dir": "long",
@@ -52,7 +40,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.575
+      "conf": 0.583
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -64,11 +52,11 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.454
+      "conf": 0.455
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.523
+      "conf": 0.521
     },
     "ZECUSDT": {
       "dir": "short",
@@ -142,10 +130,17 @@
     },
     {
       "t": "2026-06-02",
-      "v": 132.16
+      "v": 132.47
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-02 13:52",
+      "symbol": "HYPEUSDT",
+      "side": "Buy",
+      "pnl": 0.0,
+      "reason": "L2"
+    },
     {
       "ts": "2026-06-02 13:47",
       "symbol": "HYPEUSDT",
@@ -278,13 +273,6 @@
       "side": "Buy",
       "pnl": 0.01,
       "reason": "L2"
-    },
-    {
-      "ts": "2026-06-02 01:39",
-      "symbol": "TONUSDT",
-      "side": "Buy",
-      "pnl": 23.12,
-      "reason": "External Exit"
     }
   ],
   "num_days": 9
