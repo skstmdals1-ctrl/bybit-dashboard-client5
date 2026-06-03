@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-03T21:13:32.611720+09:00",
+  "ts": "2026-06-03T21:14:34.234084+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7034.68,
-  "available": 6008.94,
-  "unrealized": 37.27,
+  "equity": 7037.72,
+  "available": 6011.32,
+  "unrealized": 41.14,
   "daily_pnl": 224.9,
-  "total_pnl": 334.68,
-  "cum_pct": 5.0,
-  "daily_avg_pct": 0.4891,
-  "annual_pct": 493.5,
+  "total_pnl": 337.72,
+  "cum_pct": 5.04,
+  "daily_avg_pct": 0.4929,
+  "annual_pct": 501.75,
   "mdd": -11.84,
-  "current_dd": -4.0,
-  "seed_used": 1025.74,
+  "current_dd": -4.44,
+  "seed_used": 1026.4,
   "seed_used_pct": 14.58,
   "long_count": 2,
   "short_count": 0,
@@ -20,30 +20,30 @@
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": 35.17,
-      "pnl_pct": 1.39,
-      "margin": 514.65,
+      "pnl": 35.93,
+      "pnl_pct": 1.42,
+      "margin": 514.8,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.9816,
-      "mark": 2.0091
+      "mark": 2.0097
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 2.15,
-      "pnl_pct": 0.15,
-      "margin": 278.89,
+      "pnl": 5.27,
+      "pnl_pct": 0.38,
+      "margin": 279.51,
       "leverage": "5",
       "tier": "3/3",
       "entry": 72.3652,
-      "mark": 72.477
+      "mark": 72.639
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.512
+      "conf": 0.518
     },
     "WLDUSDT": {
       "dir": "short",
@@ -63,7 +63,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.504
+      "conf": 0.51
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -75,11 +75,11 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.556
+      "conf": 0.557
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.509
+      "conf": 0.504
     },
     "ZECUSDT": {
       "dir": "short",
@@ -169,7 +169,7 @@
     },
     {
       "t": "2026-06-03",
-      "v": 334.68
+      "v": 337.72
     }
   ],
   "trade_history": [
