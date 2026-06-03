@@ -1,54 +1,54 @@
 {
-  "ts": "2026-06-04T00:32:52.315967+09:00",
+  "ts": "2026-06-04T00:33:53.877237+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7102.63,
-  "available": 5573.22,
-  "unrealized": 106.7,
-  "daily_pnl": 0,
-  "total_pnl": 402.63,
+  "equity": 7102.82,
+  "available": 6099.32,
+  "unrealized": 17.79,
+  "daily_pnl": 88.3,
+  "total_pnl": 402.82,
   "cum_pct": 6.01,
   "daily_avg_pct": 0.532,
   "annual_pct": 593.55,
   "mdd": -11.84,
   "current_dd": -3.09,
-  "seed_used": 1529.4,
-  "seed_used_pct": 21.53,
+  "seed_used": 1003.5,
+  "seed_used_pct": 14.13,
   "long_count": 2,
   "short_count": 1,
   "positions": [
     {
-      "symbol": "TONUSDT",
-      "side": "LONG",
-      "pnl": 89.47,
-      "pnl_pct": 3.53,
-      "margin": 525.51,
-      "leverage": "5",
-      "tier": "2/2",
-      "entry": 1.9816,
-      "mark": 2.0515
-    },
-    {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 13.56,
+      "pnl": 13.5,
       "pnl_pct": 0.97,
-      "margin": 281.17,
+      "margin": 281.16,
       "leverage": "5",
       "tier": "3/3",
       "entry": 72.3652,
-      "mark": 73.07
+      "mark": 73.067
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 3.82,
-      "pnl_pct": 1.2,
-      "margin": 78.58,
+      "pnl": 4.3,
+      "pnl_pct": 1.35,
+      "margin": 78.46,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1871.41,
-      "mark": 1848.92
+      "mark": 1846.09
+    },
+    {
+      "symbol": "TONUSDT",
+      "side": "LONG",
+      "pnl": 0.01,
+      "pnl_pct": 3.54,
+      "margin": 0.04,
+      "leverage": "5",
+      "tier": "1/2",
+      "entry": 1.9816,
+      "mark": 2.0518
     }
   ],
   "signals": {
@@ -184,10 +184,17 @@
     },
     {
       "t": "2026-06-04",
-      "v": 402.63
+      "v": 402.82
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-04 00:33",
+      "symbol": "TONUSDT",
+      "side": "Buy",
+      "pnl": 88.3,
+      "reason": "2/2"
+    },
     {
       "ts": "2026-06-03 21:09",
       "symbol": "LABUSDT",
@@ -320,13 +327,6 @@
       "side": "Buy",
       "pnl": -56.05,
       "reason": "2/3"
-    },
-    {
-      "ts": "2026-06-03 05:56",
-      "symbol": "LABUSDT",
-      "side": "Buy",
-      "pnl": 103.15,
-      "reason": "T1 진입 | GF=5 | Lv=4x | Seed=$497(7.0%)"
     }
   ],
   "num_days": 11
