@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-03T16:07:57.423634+09:00",
+  "ts": "2026-06-03T16:08:58.992893+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7285.69,
-  "available": 6263.44,
-  "unrealized": 3.43,
-  "daily_pnl": 509.77,
-  "total_pnl": 585.69,
-  "cum_pct": 8.74,
-  "daily_avg_pct": 0.8414,
-  "annual_pct": 2029.05,
+  "equity": 7283.64,
+  "available": 6772.59,
+  "unrealized": 4.13,
+  "daily_pnl": 506.83,
+  "total_pnl": 583.64,
+  "cum_pct": 8.71,
+  "daily_avg_pct": 0.8386,
+  "annual_pct": 2007.58,
   "mdd": -11.84,
   "current_dd": -0.54,
-  "seed_used": 1022.25,
-  "seed_used_pct": 14.03,
+  "seed_used": 511.05,
+  "seed_used_pct": 7.02,
   "long_count": 2,
   "short_count": 0,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 6.11,
-      "pnl_pct": 0.44,
-      "margin": 279.68,
+      "pnl": 4.13,
+      "pnl_pct": 0.3,
+      "margin": 279.29,
       "leverage": "5",
       "tier": "3/3",
       "entry": 72.3652,
-      "mark": 72.683
+      "mark": 72.58
     },
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": -2.68,
-      "pnl_pct": -0.32,
-      "margin": 169.41,
+      "pnl": -0.0,
+      "pnl_pct": -0.4,
+      "margin": 0.04,
       "leverage": "5",
-      "tier": "2/2",
+      "tier": "1/2",
       "entry": 2.0265,
-      "mark": 2.0201
+      "mark": 2.0183
     }
   ],
   "signals": {
@@ -169,10 +169,17 @@
     },
     {
       "t": "2026-06-03",
-      "v": 585.69
+      "v": 583.64
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-03 16:08",
+      "symbol": "TONUSDT",
+      "side": "Buy",
+      "pnl": -2.94,
+      "reason": "2/2"
+    },
     {
       "ts": "2026-06-03 14:15",
       "symbol": "TONUSDT",
@@ -304,13 +311,6 @@
       "symbol": "ENAUSDT",
       "side": "Sell",
       "pnl": 10.24,
-      "reason": "3/3"
-    },
-    {
-      "ts": "2026-06-03 04:24",
-      "symbol": "ENAUSDT",
-      "side": "Sell",
-      "pnl": 10.08,
       "reason": "3/3"
     }
   ],
