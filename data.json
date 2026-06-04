@@ -1,54 +1,54 @@
 {
-  "ts": "2026-06-04T18:14:23.177313+09:00",
+  "ts": "2026-06-04T18:15:24.612677+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7052.8,
-  "available": 5833.62,
-  "unrealized": 125.33,
-  "daily_pnl": -69.54,
-  "total_pnl": 352.8,
-  "cum_pct": 5.27,
-  "daily_avg_pct": 0.468,
-  "annual_pct": 449.71,
+  "equity": 7079.63,
+  "available": 5903.85,
+  "unrealized": 137.01,
+  "daily_pnl": -55.15,
+  "total_pnl": 379.63,
+  "cum_pct": 5.67,
+  "daily_avg_pct": 0.5026,
+  "annual_pct": 523.32,
   "mdd": -11.84,
   "current_dd": -4.3,
-  "seed_used": 1219.18,
-  "seed_used_pct": 17.29,
+  "seed_used": 1175.78,
+  "seed_used_pct": 16.61,
   "long_count": 0,
   "short_count": 3,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 95.92,
-      "pnl_pct": 2.0,
-      "margin": 672.56,
+      "pnl": 110.39,
+      "pnl_pct": 2.3,
+      "margin": 670.49,
       "leverage": "7",
       "tier": "3/3",
       "entry": 1799.1934,
-      "mark": 1763.27
+      "mark": 1757.85
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": 5.41,
-      "pnl_pct": 0.91,
-      "margin": 83.84,
+      "pnl": 12.1,
+      "pnl_pct": 2.04,
+      "margin": 82.89,
       "leverage": "7",
       "tier": "2/3",
       "entry": 0.1018,
-      "mark": 0.1008
+      "mark": 0.0997
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 24.32,
-      "pnl_pct": 4.16,
-      "margin": 79.97,
+      "pnl": 14.68,
+      "pnl_pct": 5.03,
+      "margin": 39.64,
       "leverage": "7",
       "tier": "2/3",
       "entry": 1.799,
-      "mark": 1.7241
+      "mark": 1.7086
     }
   ],
   "signals": {
@@ -184,10 +184,17 @@
     },
     {
       "t": "2026-06-04",
-      "v": 352.8
+      "v": 379.63
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-04 18:15",
+      "symbol": "TONUSDT",
+      "side": "Sell",
+      "pnl": 14.39,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-04 17:30",
       "symbol": "ENAUSDT",
@@ -320,13 +327,6 @@
       "side": "Buy",
       "pnl": 0.02,
       "reason": "L2"
-    },
-    {
-      "ts": "2026-06-04 04:00",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": 32.65,
-      "reason": "3/3"
     }
   ],
   "num_days": 11
