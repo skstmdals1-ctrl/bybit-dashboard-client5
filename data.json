@@ -1,19 +1,19 @@
 {
-  "ts": "2026-06-04T11:47:07.946460+09:00",
+  "ts": "2026-06-04T11:48:09.331662+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6886.68,
-  "available": 6467.89,
+  "equity": 6886.96,
+  "available": 6886.96,
   "unrealized": 0.0,
-  "daily_pnl": -143.53,
-  "total_pnl": 186.68,
+  "daily_pnl": -113.59,
+  "total_pnl": 186.96,
   "cum_pct": 2.79,
   "daily_avg_pct": 0.2505,
   "annual_pct": 149.22,
   "mdd": -11.84,
   "current_dd": -6.27,
-  "seed_used": 418.79,
-  "seed_used_pct": 6.08,
+  "seed_used": 0,
+  "seed_used_pct": 0.0,
   "long_count": 0,
   "short_count": 0,
   "positions": [],
@@ -150,10 +150,17 @@
     },
     {
       "t": "2026-06-04",
-      "v": 186.68
+      "v": 186.96
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-04 11:47",
+      "symbol": "HYPEUSDT",
+      "side": "Buy",
+      "pnl": 29.94,
+      "reason": "3/3"
+    },
     {
       "ts": "2026-06-04 11:04",
       "symbol": "HYPEUSDT",
@@ -286,13 +293,6 @@
       "side": "Buy",
       "pnl": -2.94,
       "reason": "2/2"
-    },
-    {
-      "ts": "2026-06-03 14:15",
-      "symbol": "TONUSDT",
-      "side": "Buy",
-      "pnl": 32.85,
-      "reason": "3/3"
     }
   ],
   "num_days": 11
