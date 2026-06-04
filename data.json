@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-04T09:47:21.430283+09:00",
+  "ts": "2026-06-04T09:48:22.776826+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6996.01,
-  "available": 5599.0,
-  "unrealized": 9.62,
+  "equity": 6992.59,
+  "available": 5596.28,
+  "unrealized": 5.89,
   "daily_pnl": -11.12,
-  "total_pnl": 296.01,
-  "cum_pct": 4.42,
-  "daily_avg_pct": 0.394,
-  "annual_pct": 320.08,
+  "total_pnl": 292.59,
+  "cum_pct": 4.37,
+  "daily_avg_pct": 0.3896,
+  "annual_pct": 313.41,
   "mdd": -11.84,
-  "current_dd": -4.96,
-  "seed_used": 1397.01,
+  "current_dd": -5.02,
+  "seed_used": 1396.31,
   "seed_used_pct": 19.97,
   "long_count": 1,
   "short_count": 1,
@@ -20,30 +20,30 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -15.1,
-      "pnl_pct": -0.78,
-      "margin": 272.81,
+      "pnl": -19.66,
+      "pnl_pct": -1.02,
+      "margin": 272.16,
       "leverage": "7",
       "tier": "3/3",
       "entry": 74.4019,
-      "mark": 73.818
+      "mark": 73.642
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 24.73,
-      "pnl_pct": 3.11,
-      "margin": 110.01,
+      "pnl": 25.55,
+      "pnl_pct": 3.21,
+      "margin": 109.9,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1848.41,
-      "mark": 1790.89
+      "mark": 1788.99
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.491
+      "conf": 0.487
     },
     "WLDUSDT": {
       "dir": "short",
@@ -51,7 +51,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.434
+      "conf": 0.435
     },
     "XRPUSDT": {
       "dir": "short",
@@ -63,7 +63,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.492
+      "conf": 0.467
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -79,7 +79,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.544
+      "conf": 0.536
     },
     "ZECUSDT": {
       "dir": "short",
@@ -99,7 +99,7 @@
     },
     "ADAUSDT": {
       "dir": "short",
-      "conf": 0.443
+      "conf": 0.442
     },
     "TAOUSDT": {
       "dir": "short",
@@ -173,7 +173,7 @@
     },
     {
       "t": "2026-06-04",
-      "v": 296.01
+      "v": 292.59
     }
   ],
   "trade_history": [
