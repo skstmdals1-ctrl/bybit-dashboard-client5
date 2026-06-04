@@ -1,54 +1,43 @@
 {
-  "ts": "2026-06-05T06:44:39.673351+09:00",
+  "ts": "2026-06-05T06:45:41.005496+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6953.9,
-  "available": 5159.24,
-  "unrealized": 71.75,
-  "daily_pnl": -175.34,
-  "total_pnl": 253.9,
-  "cum_pct": 3.79,
-  "daily_avg_pct": 0.3105,
-  "annual_pct": 210.05,
+  "equity": 6952.8,
+  "available": 5564.33,
+  "unrealized": 35.89,
+  "daily_pnl": -141.64,
+  "total_pnl": 252.8,
+  "cum_pct": 3.77,
+  "daily_avg_pct": 0.3089,
+  "annual_pct": 208.25,
   "mdd": -11.84,
   "current_dd": -5.52,
-  "seed_used": 1794.66,
-  "seed_used_pct": 25.81,
+  "seed_used": 1388.47,
+  "seed_used_pct": 19.97,
   "long_count": 0,
-  "short_count": 3,
+  "short_count": 2,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 38.85,
+      "pnl": 38.96,
       "pnl_pct": 0.78,
-      "margin": 703.98,
+      "margin": 703.96,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1780.1757,
-      "mark": 1766.25
+      "mark": 1766.21
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": -1.05,
-      "pnl_pct": -0.13,
-      "margin": 112.82,
+      "pnl": -3.04,
+      "pnl_pct": -0.39,
+      "margin": 113.1,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1.6586,
-      "mark": 1.6608
-    },
-    {
-      "symbol": "ENAUSDT",
-      "side": "SHORT",
-      "pnl": 34.01,
-      "pnl_pct": 5.86,
-      "margin": 78.02,
-      "leverage": "7",
-      "tier": "3/3",
-      "entry": 0.0999,
-      "mark": 0.094
+      "mark": 1.665
     }
   ],
   "signals": {
@@ -188,10 +177,17 @@
     },
     {
       "t": "2026-06-05",
-      "v": 253.9
+      "v": 252.8
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-05 06:44",
+      "symbol": "ENAUSDT",
+      "side": "Sell",
+      "pnl": 33.7,
+      "reason": "L2"
+    },
     {
       "ts": "2026-06-05 06:37",
       "symbol": "HYPEUSDT",
@@ -323,13 +319,6 @@
       "symbol": "ETHUSDT",
       "side": "Sell",
       "pnl": 58.9,
-      "reason": "-"
-    },
-    {
-      "ts": "2026-06-04 18:15",
-      "symbol": "TONUSDT",
-      "side": "Sell",
-      "pnl": 14.39,
       "reason": "-"
     }
   ],
