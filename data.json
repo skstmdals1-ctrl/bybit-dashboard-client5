@@ -1,65 +1,65 @@
 {
-  "ts": "2026-06-04T23:21:59.340557+09:00",
+  "ts": "2026-06-04T23:23:00.873646+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7135.07,
-  "available": 5668.03,
-  "unrealized": 11.65,
+  "equity": 7141.44,
+  "available": 5376.46,
+  "unrealized": 18.77,
   "daily_pnl": 121.33,
-  "total_pnl": 435.07,
-  "cum_pct": 6.49,
-  "daily_avg_pct": 0.5733,
-  "annual_pct": 705.72,
+  "total_pnl": 441.44,
+  "cum_pct": 6.59,
+  "daily_avg_pct": 0.5819,
+  "annual_pct": 731.27,
   "mdd": -11.84,
-  "current_dd": -3.37,
-  "seed_used": 1467.05,
-  "seed_used_pct": 20.56,
+  "current_dd": -3.12,
+  "seed_used": 1764.98,
+  "seed_used_pct": 24.71,
   "long_count": 1,
   "short_count": 3,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -4.53,
-      "pnl_pct": -0.09,
-      "margin": 710.17,
+      "pnl": -0.4,
+      "pnl_pct": -0.01,
+      "margin": 709.58,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1780.1757,
-      "mark": 1781.8
+      "mark": 1780.32
     },
     {
       "symbol": "LABUSDT",
       "side": "LONG",
-      "pnl": 7.69,
-      "pnl_pct": 1.01,
-      "margin": 193.13,
+      "pnl": 5.12,
+      "pnl_pct": 0.26,
+      "margin": 491.58,
       "leverage": "4",
-      "tier": "2/3",
-      "entry": 17.383,
-      "mark": 17.5577
+      "tier": "3/3",
+      "entry": 17.2035,
+      "mark": 17.2484
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 0.31,
-      "pnl_pct": 0.05,
-      "margin": 86.02,
+      "pnl": 0.65,
+      "pnl_pct": 0.11,
+      "margin": 85.97,
       "leverage": "7",
       "tier": "2/3",
       "entry": 1.7713,
-      "mark": 1.7704
+      "mark": 1.7694
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": 8.19,
-      "pnl_pct": 1.36,
-      "margin": 84.99,
+      "pnl": 13.42,
+      "pnl_pct": 2.23,
+      "margin": 84.24,
       "leverage": "7",
       "tier": "2/3",
       "entry": 0.0957,
-      "mark": 0.0944
+      "mark": 0.0936
     }
   ],
   "signals": {
@@ -97,7 +97,7 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.42
+      "conf": 0.418
     },
     "SUIUSDT": {
       "dir": "short",
@@ -195,7 +195,7 @@
     },
     {
       "t": "2026-06-04",
-      "v": 435.07
+      "v": 441.44
     }
   ],
   "trade_history": [
