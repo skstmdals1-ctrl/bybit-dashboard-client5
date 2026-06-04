@@ -1,65 +1,65 @@
 {
-  "ts": "2026-06-04T23:17:52.518636+09:00",
+  "ts": "2026-06-04T23:18:54.350461+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7101.98,
-  "available": 5631.32,
-  "unrealized": -20.31,
+  "equity": 7129.67,
+  "available": 5659.64,
+  "unrealized": 5.67,
   "daily_pnl": 121.33,
-  "total_pnl": 401.98,
-  "cum_pct": 6.0,
-  "daily_avg_pct": 0.5311,
-  "annual_pct": 591.29,
+  "total_pnl": 429.67,
+  "cum_pct": 6.41,
+  "daily_avg_pct": 0.5664,
+  "annual_pct": 685.8,
   "mdd": -11.84,
   "current_dd": -3.37,
-  "seed_used": 1470.66,
-  "seed_used_pct": 20.71,
+  "seed_used": 1470.03,
+  "seed_used_pct": 20.62,
   "long_count": 1,
   "short_count": 3,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -26.91,
-      "pnl_pct": -0.54,
-      "margin": 713.37,
+      "pnl": -13.85,
+      "pnl_pct": -0.28,
+      "margin": 711.51,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1780.1757,
-      "mark": 1789.82
-    },
-    {
-      "symbol": "TONUSDT",
-      "side": "SHORT",
-      "pnl": -2.31,
-      "pnl_pct": -0.38,
-      "margin": 86.39,
-      "leverage": "7",
-      "tier": "2/3",
-      "entry": 1.7713,
-      "mark": 1.7781
-    },
-    {
-      "symbol": "ENAUSDT",
-      "side": "SHORT",
-      "pnl": 4.41,
-      "pnl_pct": 0.73,
-      "margin": 85.53,
-      "leverage": "7",
-      "tier": "2/3",
-      "entry": 0.0957,
-      "mark": 0.095
+      "mark": 1785.14
     },
     {
       "symbol": "LABUSDT",
       "side": "LONG",
-      "pnl": 4.48,
-      "pnl_pct": 1.97,
-      "margin": 57.97,
+      "pnl": 12.8,
+      "pnl_pct": 1.67,
+      "margin": 194.41,
       "leverage": "4",
       "tier": "2/3",
-      "entry": 17.4914,
-      "mark": 17.8358
+      "entry": 17.383,
+      "mark": 17.6739
+    },
+    {
+      "symbol": "TONUSDT",
+      "side": "SHORT",
+      "pnl": 0.1,
+      "pnl_pct": 0.02,
+      "margin": 86.05,
+      "leverage": "7",
+      "tier": "2/3",
+      "entry": 1.7713,
+      "mark": 1.771
+    },
+    {
+      "symbol": "ENAUSDT",
+      "side": "SHORT",
+      "pnl": 6.62,
+      "pnl_pct": 1.1,
+      "margin": 85.21,
+      "leverage": "7",
+      "tier": "2/3",
+      "entry": 0.0957,
+      "mark": 0.0946
     }
   ],
   "signals": {
@@ -195,7 +195,7 @@
     },
     {
       "t": "2026-06-04",
-      "v": 401.98
+      "v": 429.67
     }
   ],
   "trade_history": [
