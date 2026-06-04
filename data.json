@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-04T10:50:49.151611+09:00",
+  "ts": "2026-06-04T10:51:50.446091+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6926.89,
-  "available": 5536.24,
-  "unrealized": 26.3,
-  "daily_pnl": -98.32,
-  "total_pnl": 226.89,
-  "cum_pct": 3.39,
-  "daily_avg_pct": 0.3035,
-  "annual_pct": 202.25,
+  "equity": 6933.65,
+  "available": 5596.23,
+  "unrealized": 13.96,
+  "daily_pnl": -79.04,
+  "total_pnl": 233.65,
+  "cum_pct": 3.49,
+  "daily_avg_pct": 0.3123,
+  "annual_pct": 212.09,
   "mdd": -11.84,
   "current_dd": -5.96,
-  "seed_used": 1390.66,
-  "seed_used_pct": 20.08,
+  "seed_used": 1337.42,
+  "seed_used_pct": 19.29,
   "long_count": 1,
   "short_count": 1,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -7.17,
-      "pnl_pct": -0.38,
-      "margin": 271.34,
+      "pnl": -4.81,
+      "pnl_pct": -0.25,
+      "margin": 271.68,
       "leverage": "7",
       "tier": "3/3",
       "entry": 72.6854,
-      "mark": 72.412
+      "mark": 72.502
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 33.5,
-      "pnl_pct": 4.21,
-      "margin": 108.76,
+      "pnl": 18.78,
+      "pnl_pct": 4.62,
+      "margin": 55.41,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1848.41,
-      "mark": 1770.5
+      "mark": 1763.03
     }
   ],
   "signals": {
@@ -173,10 +173,17 @@
     },
     {
       "t": "2026-06-04",
-      "v": 226.89
+      "v": 233.65
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-04 10:51",
+      "symbol": "ETHUSDT",
+      "side": "Sell",
+      "pnl": 19.28,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-04 10:23",
       "symbol": "HYPEUSDT",
@@ -309,13 +316,6 @@
       "side": "Sell",
       "pnl": -12.98,
       "reason": "T1 진입 | GF=2 | Lv=8x | Seed=$732(10.0%)"
-    },
-    {
-      "ts": "2026-06-03 12:55",
-      "symbol": "ETHUSDT",
-      "side": "Sell",
-      "pnl": 0.82,
-      "reason": "L2"
     }
   ],
   "num_days": 11
