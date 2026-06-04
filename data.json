@@ -1,79 +1,90 @@
 {
-  "ts": "2026-06-04T14:20:38.958615+09:00",
+  "ts": "2026-06-04T14:21:40.344494+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6967.42,
-  "available": 5269.49,
-  "unrealized": 50.85,
+  "equity": 6973.09,
+  "available": 5118.0,
+  "unrealized": 57.14,
   "daily_pnl": -84.09,
-  "total_pnl": 267.42,
-  "cum_pct": 3.99,
-  "daily_avg_pct": 0.3563,
-  "annual_pct": 266.26,
+  "total_pnl": 273.09,
+  "cum_pct": 4.08,
+  "daily_avg_pct": 0.3642,
+  "annual_pct": 276.94,
   "mdd": -11.84,
   "current_dd": -5.4,
-  "seed_used": 1697.94,
-  "seed_used_pct": 24.37,
+  "seed_used": 1855.08,
+  "seed_used_pct": 26.6,
   "long_count": 1,
-  "short_count": 3,
+  "short_count": 4,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 29.59,
-      "pnl_pct": 0.62,
-      "margin": 682.04,
+      "pnl": 34.19,
+      "pnl_pct": 0.71,
+      "margin": 681.38,
       "leverage": "7",
       "tier": "3/3",
       "entry": 1799.1934,
-      "mark": 1788.11
+      "mark": 1786.39
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -1.59,
-      "pnl_pct": -0.21,
-      "margin": 187.91,
+      "pnl": -1.99,
+      "pnl_pct": -0.26,
+      "margin": 187.81,
       "leverage": "4",
       "tier": "3/3",
       "entry": 72.986,
-      "mark": 72.832
+      "mark": 72.793
+    },
+    {
+      "symbol": "ENAUSDT",
+      "side": "SHORT",
+      "pnl": 2.35,
+      "pnl_pct": 0.19,
+      "margin": 157.29,
+      "leverage": "8",
+      "tier": "1/3",
+      "entry": 0.1019,
+      "mark": 0.1017
     },
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": 5.22,
-      "pnl_pct": 0.95,
-      "margin": 108.38,
+      "pnl": 4.79,
+      "pnl_pct": 0.87,
+      "margin": 108.46,
       "leverage": "5",
       "tier": "2/3",
       "entry": 0.5029,
-      "mark": 0.4981
+      "mark": 0.4985
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 17.66,
-      "pnl_pct": 3.02,
-      "margin": 80.92,
+      "pnl": 17.86,
+      "pnl_pct": 3.06,
+      "margin": 80.9,
       "leverage": "7",
       "tier": "2/3",
       "entry": 1.799,
-      "mark": 1.7446
+      "mark": 1.744
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.482
+      "conf": 0.483
     },
     "WLDUSDT": {
       "dir": "short",
-      "conf": 0.587
+      "conf": 0.59
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.435
+      "conf": 0.436
     },
     "XRPUSDT": {
       "dir": "short",
@@ -195,7 +206,7 @@
     },
     {
       "t": "2026-06-04",
-      "v": 267.42
+      "v": 273.09
     }
   ],
   "trade_history": [
