@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-06T06:49:17.768780+09:00",
+  "ts": "2026-06-06T06:50:19.189780+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7501.72,
-  "available": 6675.74,
-  "unrealized": -14.17,
+  "equity": 7501.07,
+  "available": 6675.06,
+  "unrealized": -14.53,
   "daily_pnl": -41.39,
-  "total_pnl": 801.72,
-  "cum_pct": 11.97,
-  "daily_avg_pct": 0.8735,
-  "annual_pct": 2291.32,
+  "total_pnl": 801.07,
+  "cum_pct": 11.96,
+  "daily_avg_pct": 0.8728,
+  "annual_pct": 2285.27,
   "mdd": -11.84,
-  "current_dd": -1.31,
-  "seed_used": 825.97,
+  "current_dd": -1.38,
+  "seed_used": 826.01,
   "seed_used_pct": 11.01,
   "long_count": 0,
   "short_count": 2,
@@ -20,24 +20,24 @@
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
-      "pnl": -8.5,
-      "pnl_pct": -1.03,
-      "margin": 208.8,
+      "pnl": -8.62,
+      "pnl_pct": -1.04,
+      "margin": 208.83,
       "leverage": "4",
       "tier": "3/3",
       "entry": 6.9238,
-      "mark": 6.995
+      "mark": 6.996
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -5.68,
-      "pnl_pct": -0.91,
-      "margin": 90.06,
+      "pnl": -5.92,
+      "pnl_pct": -0.95,
+      "margin": 90.1,
       "leverage": "7",
       "tier": "2/3",
       "entry": 1601.98,
-      "mark": 1616.54
+      "mark": 1617.15
     }
   ],
   "signals": {
@@ -63,7 +63,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.508
+      "conf": 0.492
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -74,12 +74,12 @@
       "conf": 0.528
     },
     "NEARUSDT": {
-      "dir": "long",
-      "conf": 0.351
+      "dir": "neutral",
+      "conf": 0.344
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.586
+      "conf": 0.576
     },
     "ZECUSDT": {
       "dir": "short",
@@ -131,7 +131,7 @@
     },
     "AVAXUSDT": {
       "dir": "short",
-      "conf": 0.365
+      "conf": 0.364
     }
   },
   "equity_hist": [
@@ -185,7 +185,7 @@
     },
     {
       "t": "2026-06-06",
-      "v": 801.72
+      "v": 801.07
     }
   ],
   "trade_history": [
