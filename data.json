@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-06T05:59:09.112456+09:00",
+  "ts": "2026-06-06T06:00:10.489625+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7515.17,
-  "available": 7012.07,
-  "unrealized": -1.96,
+  "equity": 7514.97,
+  "available": 7012.08,
+  "unrealized": -1.26,
   "daily_pnl": -41.39,
-  "total_pnl": 815.17,
-  "cum_pct": 12.17,
-  "daily_avg_pct": 0.8873,
-  "annual_pct": 2413.75,
+  "total_pnl": 814.97,
+  "cum_pct": 12.16,
+  "daily_avg_pct": 0.8866,
+  "annual_pct": 2407.39,
   "mdd": -11.84,
-  "current_dd": -1.16,
-  "seed_used": 503.1,
+  "current_dd": -1.18,
+  "seed_used": 502.89,
   "seed_used_pct": 6.69,
   "long_count": 0,
   "short_count": 2,
@@ -20,24 +20,24 @@
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -0.62,
-      "pnl_pct": -0.1,
-      "margin": 89.34,
+      "pnl": 0.02,
+      "pnl_pct": 0.0,
+      "margin": 89.25,
       "leverage": "7",
       "tier": "2/3",
       "entry": 1601.98,
-      "mark": 1603.58
+      "mark": 1601.94
     },
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
-      "pnl": -1.34,
-      "pnl_pct": -0.52,
-      "margin": 64.19,
+      "pnl": -0.86,
+      "pnl_pct": -0.33,
+      "margin": 64.07,
       "leverage": "4",
       "tier": "2/3",
       "entry": 6.866,
-      "mark": 6.902
+      "mark": 6.889
     }
   ],
   "signals": {
@@ -51,19 +51,19 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.433
+      "conf": 0.432
     },
     "XRPUSDT": {
       "dir": "short",
       "conf": 0.342
     },
     "TONUSDT": {
-      "dir": "long",
-      "conf": 0.491
+      "dir": "short",
+      "conf": 0.467
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.477
+      "conf": 0.492
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -75,11 +75,11 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.351
+      "conf": 0.352
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.588
+      "conf": 0.595
     },
     "ZECUSDT": {
       "dir": "short",
@@ -131,7 +131,7 @@
     },
     "AVAXUSDT": {
       "dir": "short",
-      "conf": 0.365
+      "conf": 0.364
     }
   },
   "equity_hist": [
@@ -185,7 +185,7 @@
     },
     {
       "t": "2026-06-06",
-      "v": 815.17
+      "v": 814.97
     }
   ],
   "trade_history": [
