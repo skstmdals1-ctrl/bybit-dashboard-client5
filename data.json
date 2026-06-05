@@ -1,21 +1,21 @@
 {
-  "ts": "2026-06-06T08:42:48.172657+09:00",
+  "ts": "2026-06-06T08:43:49.421116+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7556.58,
-  "available": 7263.07,
-  "unrealized": 12.84,
-  "daily_pnl": -14.9,
-  "total_pnl": 856.58,
-  "cum_pct": 12.78,
-  "daily_avg_pct": 0.9294,
-  "annual_pct": 2827.23,
+  "equity": 7556.97,
+  "available": 7263.61,
+  "unrealized": 12.82,
+  "daily_pnl": -14.87,
+  "total_pnl": 856.97,
+  "cum_pct": 12.79,
+  "daily_avg_pct": 0.9301,
+  "annual_pct": 2834.65,
   "mdd": -11.84,
-  "current_dd": -0.56,
-  "seed_used": 293.51,
+  "current_dd": -0.62,
+  "seed_used": 293.36,
   "seed_used_pct": 3.88,
   "long_count": 0,
-  "short_count": 2,
+  "short_count": 1,
   "positions": [
     {
       "symbol": "ETHUSDT",
@@ -26,24 +26,13 @@
       "leverage": "7",
       "tier": "2/3",
       "entry": 1601.98,
-      "mark": 1569.11
-    },
-    {
-      "symbol": "AVAXUSDT",
-      "side": "SHORT",
-      "pnl": 0.02,
-      "pnl_pct": 3.59,
-      "margin": 0.17,
-      "leverage": "4",
-      "tier": "1/3",
-      "entry": 6.9238,
-      "mark": 6.675
+      "mark": 1569.1
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.471
+      "conf": 0.479
     },
     "WLDUSDT": {
       "dir": "short",
@@ -63,7 +52,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.514
+      "conf": 0.505
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -79,7 +68,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.531
+      "conf": 0.528
     },
     "ZECUSDT": {
       "dir": "short",
@@ -131,7 +120,7 @@
     },
     "AVAXUSDT": {
       "dir": "short",
-      "conf": 0.365
+      "conf": 0.366
     }
   },
   "equity_hist": [
@@ -185,10 +174,17 @@
     },
     {
       "t": "2026-06-06",
-      "v": 856.58
+      "v": 856.97
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-06 08:43",
+      "symbol": "AVAXUSDT",
+      "side": "Sell",
+      "pnl": 0.02,
+      "reason": "L2"
+    },
     {
       "ts": "2026-06-06 08:39",
       "symbol": "AVAXUSDT",
@@ -321,13 +317,6 @@
       "side": "Sell",
       "pnl": 116.62,
       "reason": "-"
-    },
-    {
-      "ts": "2026-06-05 12:59",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": -46.82,
-      "reason": "External Exit"
     }
   ],
   "num_days": 13
