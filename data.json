@@ -1,54 +1,43 @@
 {
-  "ts": "2026-06-05T12:58:59.715409+09:00",
+  "ts": "2026-06-05T13:00:01.089535+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7112.33,
-  "available": 5264.54,
-  "unrealized": 216.84,
-  "daily_pnl": -158.12,
-  "total_pnl": 412.33,
-  "cum_pct": 6.15,
-  "daily_avg_pct": 0.4986,
-  "annual_pct": 514.33,
+  "equity": 7098.23,
+  "available": 5742.72,
+  "unrealized": 248.96,
+  "daily_pnl": -204.95,
+  "total_pnl": 398.23,
+  "cum_pct": 5.94,
+  "daily_avg_pct": 0.482,
+  "annual_pct": 478.39,
   "mdd": -11.84,
   "current_dd": -3.48,
-  "seed_used": 1847.79,
-  "seed_used_pct": 25.98,
-  "long_count": 1,
+  "seed_used": 1355.51,
+  "seed_used_pct": 19.1,
+  "long_count": 0,
   "short_count": 2,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 145.4,
-      "pnl_pct": 2.93,
-      "margin": 688.76,
+      "pnl": 144.23,
+      "pnl_pct": 2.9,
+      "margin": 688.92,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1780.1757,
-      "mark": 1728.06
+      "mark": 1728.48
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 104.71,
-      "pnl_pct": 2.21,
-      "margin": 661.94,
+      "pnl": 104.99,
+      "pnl_pct": 2.22,
+      "margin": 661.9,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1.67,
-      "mark": 1.6331
-    },
-    {
-      "symbol": "HYPEUSDT",
-      "side": "LONG",
-      "pnl": -33.04,
-      "pnl_pct": -1.33,
-      "margin": 491.92,
-      "leverage": "5",
-      "tier": "3/3",
-      "entry": 62.8185,
-      "mark": 61.986
+      "mark": 1.633
     }
   ],
   "signals": {
@@ -188,10 +177,17 @@
     },
     {
       "t": "2026-06-05",
-      "v": 412.33
+      "v": 398.23
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-05 12:59",
+      "symbol": "HYPEUSDT",
+      "side": "Buy",
+      "pnl": -46.82,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-05 11:27",
       "symbol": "HYPEUSDT",
@@ -324,13 +320,6 @@
       "side": "Sell",
       "pnl": -8.66,
       "reason": "2/3"
-    },
-    {
-      "ts": "2026-06-04 21:45",
-      "symbol": "LABUSDT",
-      "side": "Buy",
-      "pnl": 14.06,
-      "reason": "3/3"
     }
   ],
   "num_days": 12
