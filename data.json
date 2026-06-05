@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-05T15:18:06.757878+09:00",
+  "ts": "2026-06-05T15:19:08.255562+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7367.36,
-  "available": 6211.47,
-  "unrealized": 454.64,
-  "daily_pnl": -144.09,
-  "total_pnl": 667.36,
-  "cum_pct": 9.96,
-  "daily_avg_pct": 0.7944,
-  "annual_pct": 1695.92,
+  "equity": 7399.0,
+  "available": 6449.51,
+  "unrealized": 327.6,
+  "daily_pnl": 14.35,
+  "total_pnl": 699.0,
+  "cum_pct": 10.43,
+  "daily_avg_pct": 0.8302,
+  "annual_pct": 1944.46,
   "mdd": -11.84,
   "current_dd": 0.0,
-  "seed_used": 1155.89,
-  "seed_used_pct": 15.69,
+  "seed_used": 949.49,
+  "seed_used_pct": 12.83,
   "long_count": 0,
   "short_count": 2,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 310.6,
-      "pnl_pct": 6.25,
-      "margin": 665.16,
+      "pnl": 332.5,
+      "pnl_pct": 6.69,
+      "margin": 662.03,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1780.1757,
-      "mark": 1668.85
+      "mark": 1661.0
     },
     {
-      "symbol": "TONUSDT",
+      "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": 144.43,
-      "pnl_pct": 6.1,
-      "margin": 317.83,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 1.67,
-      "mark": 1.5682
+      "pnl": -4.59,
+      "pnl_pct": -0.34,
+      "margin": 166.87,
+      "leverage": "8",
+      "tier": "1/3",
+      "entry": 0.4929,
+      "mark": 0.4946
     }
   ],
   "signals": {
@@ -177,10 +177,17 @@
     },
     {
       "t": "2026-06-05",
-      "v": 667.36
+      "v": 699.0
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-05 15:18",
+      "symbol": "TONUSDT",
+      "side": "Sell",
+      "pnl": 158.45,
+      "reason": "T1 진입 | GF=2 | Lv=8x | Seed=$738(10.0%)"
+    },
     {
       "ts": "2026-06-05 15:16",
       "symbol": "HYPEUSDT",
@@ -313,13 +320,6 @@
       "side": "Sell",
       "pnl": 7.57,
       "reason": "2/3"
-    },
-    {
-      "ts": "2026-06-04 23:24",
-      "symbol": "LABUSDT",
-      "side": "Buy",
-      "pnl": -63.56,
-      "reason": "External Exit"
     }
   ],
   "num_days": 12
