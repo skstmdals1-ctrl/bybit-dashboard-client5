@@ -1,49 +1,49 @@
 {
-  "ts": "2026-06-06T07:49:37.486067+09:00",
+  "ts": "2026-06-06T07:50:39.057436+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7528.83,
-  "available": 6708.44,
-  "unrealized": 11.84,
+  "equity": 7531.93,
+  "available": 6712.12,
+  "unrealized": 14.47,
   "daily_pnl": -41.39,
-  "total_pnl": 828.83,
-  "cum_pct": 12.37,
-  "daily_avg_pct": 0.9012,
-  "annual_pct": 2543.39,
+  "total_pnl": 831.93,
+  "cum_pct": 12.42,
+  "daily_avg_pct": 0.9046,
+  "annual_pct": 2576.1,
   "mdd": -11.84,
-  "current_dd": -1.04,
-  "seed_used": 820.4,
-  "seed_used_pct": 10.9,
+  "current_dd": -1.01,
+  "seed_used": 819.82,
+  "seed_used_pct": 10.88,
   "long_count": 0,
   "short_count": 2,
   "positions": [
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
-      "pnl": 10.13,
-      "pnl_pct": 1.23,
-      "margin": 204.14,
+      "pnl": 12.4,
+      "pnl_pct": 1.5,
+      "margin": 203.58,
       "leverage": "4",
       "tier": "3/3",
       "entry": 6.9238,
-      "mark": 6.839
+      "mark": 6.82
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 1.8,
-      "pnl_pct": 0.29,
-      "margin": 89.0,
+      "pnl": 2.07,
+      "pnl_pct": 0.33,
+      "margin": 88.96,
       "leverage": "7",
       "tier": "2/3",
       "entry": 1601.98,
-      "mark": 1597.36
+      "mark": 1596.66
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.48
+      "conf": 0.476
     },
     "WLDUSDT": {
       "dir": "short",
@@ -63,7 +63,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.509
+      "conf": 0.492
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -74,12 +74,12 @@
       "conf": 0.528
     },
     "NEARUSDT": {
-      "dir": "short",
-      "conf": 0.344
+      "dir": "long",
+      "conf": 0.343
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.536
+      "conf": 0.539
     },
     "ZECUSDT": {
       "dir": "short",
@@ -91,7 +91,7 @@
     },
     "DOGEUSDT": {
       "dir": "long",
-      "conf": 0.439
+      "conf": 0.44
     },
     "INJUSDT": {
       "dir": "long",
@@ -185,7 +185,7 @@
     },
     {
       "t": "2026-06-06",
-      "v": 828.83
+      "v": 831.93
     }
   ],
   "trade_history": [
