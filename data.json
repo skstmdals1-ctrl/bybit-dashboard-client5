@@ -1,49 +1,49 @@
 {
-  "ts": "2026-06-06T07:29:10.846072+09:00",
+  "ts": "2026-06-06T07:30:12.329317+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7536.08,
-  "available": 6717.17,
-  "unrealized": 18.66,
+  "equity": 7535.96,
+  "available": 6717.27,
+  "unrealized": 19.03,
   "daily_pnl": -41.39,
-  "total_pnl": 836.08,
+  "total_pnl": 835.96,
   "cum_pct": 12.48,
   "daily_avg_pct": 0.9088,
   "annual_pct": 2617.07,
   "mdd": -11.84,
-  "current_dd": -1.0,
-  "seed_used": 818.91,
-  "seed_used_pct": 10.87,
+  "current_dd": -0.91,
+  "seed_used": 818.68,
+  "seed_used_pct": 10.86,
   "long_count": 0,
   "short_count": 2,
   "positions": [
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
-      "pnl": 15.26,
-      "pnl_pct": 1.85,
-      "margin": 202.86,
+      "pnl": 16.34,
+      "pnl_pct": 1.98,
+      "margin": 202.59,
       "leverage": "4",
       "tier": "3/3",
       "entry": 6.9238,
-      "mark": 6.796
+      "mark": 6.787
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 3.4,
-      "pnl_pct": 0.54,
-      "margin": 88.77,
+      "pnl": 2.7,
+      "pnl_pct": 0.43,
+      "margin": 88.87,
       "leverage": "7",
       "tier": "2/3",
       "entry": 1601.98,
-      "mark": 1593.25
+      "mark": 1595.05
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.476
+      "conf": 0.473
     },
     "WLDUSDT": {
       "dir": "short",
@@ -79,7 +79,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.526
+      "conf": 0.524
     },
     "ZECUSDT": {
       "dir": "short",
@@ -131,7 +131,7 @@
     },
     "AVAXUSDT": {
       "dir": "short",
-      "conf": 0.365
+      "conf": 0.367
     }
   },
   "equity_hist": [
@@ -185,7 +185,7 @@
     },
     {
       "t": "2026-06-06",
-      "v": 836.08
+      "v": 835.96
     }
   ],
   "trade_history": [
