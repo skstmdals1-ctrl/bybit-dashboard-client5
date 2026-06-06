@@ -1,54 +1,54 @@
 {
-  "ts": "2026-06-07T06:38:09.637784+09:00",
+  "ts": "2026-06-07T06:39:10.991503+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7816.16,
-  "available": 6065.26,
-  "unrealized": 51.12,
+  "equity": 7823.74,
+  "available": 5772.62,
+  "unrealized": 57.96,
   "daily_pnl": 374.26,
-  "total_pnl": 1116.16,
-  "cum_pct": 16.66,
-  "daily_avg_pct": 1.1067,
-  "annual_pct": 5454.9,
+  "total_pnl": 1123.74,
+  "cum_pct": 16.77,
+  "daily_avg_pct": 1.1136,
+  "annual_pct": 5595.01,
   "mdd": -11.84,
-  "current_dd": -0.17,
-  "seed_used": 1750.9,
-  "seed_used_pct": 22.4,
+  "current_dd": -0.44,
+  "seed_used": 2051.12,
+  "seed_used_pct": 26.22,
   "long_count": 2,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 43.67,
-      "pnl_pct": 0.83,
-      "margin": 747.46,
+      "pnl": 49.67,
+      "pnl_pct": 0.94,
+      "margin": 746.6,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1574.8954,
-      "mark": 1561.86
+      "mark": 1560.07
     },
     {
       "symbol": "LABUSDT",
       "side": "LONG",
-      "pnl": -2.69,
-      "pnl_pct": -0.13,
-      "margin": 208.92,
+      "pnl": -1.45,
+      "pnl_pct": -0.07,
+      "margin": 209.04,
       "leverage": "10",
-      "tier": "1/3",
+      "tier": "2/3",
       "entry": 14.328,
-      "mark": 14.3096
+      "mark": 14.3181
     },
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": 10.17,
-      "pnl_pct": 1.11,
-      "margin": 131.98,
+      "pnl": 9.77,
+      "pnl_pct": 1.07,
+      "margin": 131.92,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1.5996,
-      "mark": 1.6174
+      "mark": 1.6167
     }
   ],
   "signals": {
@@ -62,7 +62,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.361
+      "conf": 0.356
     },
     "XRPUSDT": {
       "dir": "short",
@@ -70,7 +70,7 @@
     },
     "TONUSDT": {
       "dir": "long",
-      "conf": 0.486
+      "conf": 0.481
     },
     "BTCUSDT": {
       "dir": "neutral",
@@ -130,7 +130,7 @@
     },
     "LABUSDT": {
       "dir": "long",
-      "conf": 0.647
+      "conf": 0.646
     },
     "ENAUSDT": {
       "dir": "short",
@@ -200,7 +200,7 @@
     },
     {
       "t": "2026-06-07",
-      "v": 1116.16
+      "v": 1123.74
     }
   ],
   "trade_history": [
