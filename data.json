@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-06T23:59:08.424237+09:00",
+  "ts": "2026-06-07T00:00:09.719171+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7449.73,
-  "available": 6701.36,
-  "unrealized": 58.08,
-  "daily_pnl": -164.73,
-  "total_pnl": 749.73,
+  "equity": 7449.52,
+  "available": 6700.93,
+  "unrealized": 57.15,
+  "daily_pnl": 0,
+  "total_pnl": 749.52,
   "cum_pct": 11.19,
-  "daily_avg_pct": 0.8193,
-  "annual_pct": 1865.36,
+  "daily_avg_pct": 0.7605,
+  "annual_pct": 1488.42,
   "mdd": -11.84,
   "current_dd": -3.03,
-  "seed_used": 748.37,
+  "seed_used": 748.58,
   "seed_used_pct": 10.05,
   "long_count": 0,
   "short_count": 1,
@@ -20,13 +20,13 @@
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 58.11,
-      "pnl_pct": 1.1,
-      "margin": 745.4,
+      "pnl": 57.17,
+      "pnl_pct": 1.08,
+      "margin": 745.53,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1574.8954,
-      "mark": 1557.55
+      "mark": 1557.83
     }
   ],
   "signals": {
@@ -175,6 +175,10 @@
     {
       "t": "2026-06-06",
       "v": 749.73
+    },
+    {
+      "t": "2026-06-07",
+      "v": 749.52
     }
   ],
   "trade_history": [
@@ -319,5 +323,5 @@
       "reason": "L2"
     }
   ],
-  "num_days": 13
+  "num_days": 14
 }
