@@ -1,43 +1,32 @@
 {
-  "ts": "2026-06-07T08:06:03.301027+09:00",
+  "ts": "2026-06-07T08:07:04.558663+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7669.28,
-  "available": 6471.78,
-  "unrealized": 43.61,
-  "daily_pnl": 235.24,
-  "total_pnl": 969.28,
-  "cum_pct": 14.47,
-  "daily_avg_pct": 0.97,
-  "annual_pct": 3290.08,
+  "equity": 7674.81,
+  "available": 6924.47,
+  "unrealized": 44.69,
+  "daily_pnl": 238.08,
+  "total_pnl": 974.81,
+  "cum_pct": 14.55,
+  "daily_avg_pct": 0.975,
+  "annual_pct": 3351.91,
   "mdd": -11.84,
   "current_dd": -1.48,
-  "seed_used": 1197.5,
-  "seed_used_pct": 15.61,
-  "long_count": 1,
+  "seed_used": 750.35,
+  "seed_used_pct": 9.78,
+  "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 41.86,
-      "pnl_pct": 0.79,
-      "margin": 747.72,
+      "pnl": 44.71,
+      "pnl_pct": 0.85,
+      "margin": 747.31,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1574.8954,
-      "mark": 1562.4
-    },
-    {
-      "symbol": "LABUSDT",
-      "side": "LONG",
-      "pnl": 1.77,
-      "pnl_pct": 0.09,
-      "margin": 188.0,
-      "leverage": "10",
-      "tier": "2/3",
-      "entry": 13.321,
-      "mark": 13.3336
+      "mark": 1561.55
     }
   ],
   "signals": {
@@ -99,7 +88,7 @@
     },
     "ADAUSDT": {
       "dir": "short",
-      "conf": 0.441
+      "conf": 0.44
     },
     "TAOUSDT": {
       "dir": "short",
@@ -189,10 +178,17 @@
     },
     {
       "t": "2026-06-07",
-      "v": 969.28
+      "v": 974.81
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-07 08:06",
+      "symbol": "LABUSDT",
+      "side": "Buy",
+      "pnl": 2.84,
+      "reason": "2/3"
+    },
     {
       "ts": "2026-06-07 07:53",
       "symbol": "TONUSDT",
@@ -325,13 +321,6 @@
       "side": "Buy",
       "pnl": -1.38,
       "reason": "2/3"
-    },
-    {
-      "ts": "2026-06-06 16:15",
-      "symbol": "WLDUSDT",
-      "side": "Sell",
-      "pnl": -109.12,
-      "reason": "External Exit"
     }
   ],
   "num_days": 14
