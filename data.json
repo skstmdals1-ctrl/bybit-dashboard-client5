@@ -1,43 +1,32 @@
 {
-  "ts": "2026-06-07T04:37:32.796013+09:00",
+  "ts": "2026-06-07T04:38:34.156467+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7684.98,
-  "available": 6930.94,
-  "unrealized": 69.18,
-  "daily_pnl": 224.36,
-  "total_pnl": 984.98,
-  "cum_pct": 14.7,
-  "daily_avg_pct": 0.9845,
-  "annual_pct": 3472.5,
+  "equity": 7680.75,
+  "available": 6933.41,
+  "unrealized": 65.45,
+  "daily_pnl": 223.74,
+  "total_pnl": 980.75,
+  "cum_pct": 14.64,
+  "daily_avg_pct": 0.9807,
+  "annual_pct": 3423.77,
   "mdd": -11.84,
-  "current_dd": 0.0,
-  "seed_used": 754.04,
-  "seed_used_pct": 9.81,
-  "long_count": 1,
+  "current_dd": -0.14,
+  "seed_used": 747.33,
+  "seed_used_pct": 9.73,
+  "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 69.8,
-      "pnl_pct": 1.32,
-      "margin": 743.73,
+      "pnl": 65.48,
+      "pnl_pct": 1.24,
+      "margin": 744.35,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1574.8954,
-      "mark": 1554.06
-    },
-    {
-      "symbol": "HYPEUSDT",
-      "side": "LONG",
-      "pnl": -0.59,
-      "pnl_pct": -1.58,
-      "margin": 7.32,
-      "leverage": "5",
-      "tier": "1/2",
-      "entry": 57.2116,
-      "mark": 56.306
+      "mark": 1555.35
     }
   ],
   "signals": {
@@ -51,7 +40,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.433
+      "conf": 0.431
     },
     "XRPUSDT": {
       "dir": "short",
@@ -59,11 +48,11 @@
     },
     "TONUSDT": {
       "dir": "long",
-      "conf": 0.486
+      "conf": 0.481
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.507
+      "conf": 0.515
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -75,11 +64,11 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.466
+      "conf": 0.464
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.555
+      "conf": 0.548
     },
     "ZECUSDT": {
       "dir": "short",
@@ -119,7 +108,7 @@
     },
     "LABUSDT": {
       "dir": "long",
-      "conf": 0.587
+      "conf": 0.604
     },
     "ENAUSDT": {
       "dir": "short",
@@ -131,7 +120,7 @@
     },
     "AVAXUSDT": {
       "dir": "neutral",
-      "conf": 0.384
+      "conf": 0.385
     }
   },
   "equity_hist": [
@@ -189,10 +178,17 @@
     },
     {
       "t": "2026-06-07",
-      "v": 984.98
+      "v": 980.75
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-07 04:38",
+      "symbol": "HYPEUSDT",
+      "side": "Buy",
+      "pnl": -0.62,
+      "reason": "마진 7.3USDT < 8"
+    },
     {
       "ts": "2026-06-07 04:37",
       "symbol": "HYPEUSDT",
@@ -325,13 +321,6 @@
       "side": "Sell",
       "pnl": 0.0,
       "reason": "마진 0.0USDT < 8"
-    },
-    {
-      "ts": "2026-06-06 03:56",
-      "symbol": "TONUSDT",
-      "side": "Sell",
-      "pnl": 58.91,
-      "reason": "3/3"
     }
   ],
   "num_days": 14
