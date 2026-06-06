@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-06T16:55:55.711688+09:00",
+  "ts": "2026-06-06T16:56:57.125905+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7453.9,
-  "available": 6406.21,
-  "unrealized": 5.45,
+  "equity": 7455.38,
+  "available": 6407.66,
+  "unrealized": 5.8,
   "daily_pnl": -107.23,
-  "total_pnl": 753.9,
-  "cum_pct": 11.25,
-  "daily_avg_pct": 0.8234,
-  "annual_pct": 1894.75,
+  "total_pnl": 755.38,
+  "cum_pct": 11.27,
+  "daily_avg_pct": 0.8248,
+  "annual_pct": 1904.89,
   "mdd": -11.84,
-  "current_dd": -1.97,
-  "seed_used": 1047.69,
-  "seed_used_pct": 14.06,
+  "current_dd": -2.03,
+  "seed_used": 1047.71,
+  "seed_used_pct": 14.05,
   "long_count": 1,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 0.52,
-      "pnl_pct": 0.01,
-      "margin": 753.63,
+      "pnl": 1.12,
+      "pnl_pct": 0.02,
+      "margin": 753.54,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1574.8954,
-      "mark": 1574.74
+      "mark": 1574.56
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 4.93,
-      "pnl_pct": 0.82,
-      "margin": 120.78,
+      "pnl": 4.68,
+      "pnl_pct": 0.78,
+      "margin": 120.73,
       "leverage": "5",
       "tier": "2/3",
       "entry": 59.478,
-      "mark": 59.968
+      "mark": 59.943
     }
   ],
   "signals": {
@@ -63,7 +63,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.495
+      "conf": 0.514
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -79,7 +79,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.595
+      "conf": 0.591
     },
     "ZECUSDT": {
       "dir": "short",
@@ -131,7 +131,7 @@
     },
     "AVAXUSDT": {
       "dir": "short",
-      "conf": 0.364
+      "conf": 0.363
     }
   },
   "equity_hist": [
@@ -185,7 +185,7 @@
     },
     {
       "t": "2026-06-06",
-      "v": 753.9
+      "v": 755.38
     }
   ],
   "trade_history": [
