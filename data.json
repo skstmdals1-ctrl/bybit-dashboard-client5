@@ -1,43 +1,54 @@
 {
-  "ts": "2026-06-06T15:45:23.503626+09:00",
+  "ts": "2026-06-06T15:46:24.785098+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7549.33,
-  "available": 6841.57,
-  "unrealized": -8.27,
+  "equity": 7548.5,
+  "available": 6714.12,
+  "unrealized": -9.97,
   "daily_pnl": 1.9,
-  "total_pnl": 849.33,
-  "cum_pct": 12.68,
-  "daily_avg_pct": 0.9226,
-  "annual_pct": 2756.12,
+  "total_pnl": 848.5,
+  "cum_pct": 12.66,
+  "daily_avg_pct": 0.9212,
+  "annual_pct": 2741.7,
   "mdd": -11.84,
-  "current_dd": -0.65,
-  "seed_used": 707.76,
-  "seed_used_pct": 9.38,
+  "current_dd": -0.75,
+  "seed_used": 834.38,
+  "seed_used_pct": 11.05,
   "long_count": 1,
-  "short_count": 1,
+  "short_count": 2,
   "positions": [
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": -8.44,
-      "pnl_pct": -0.62,
-      "margin": 172.56,
+      "pnl": -12.06,
+      "pnl_pct": -0.88,
+      "margin": 173.01,
       "leverage": "8",
       "tier": "2/3",
       "entry": 0.455,
-      "mark": 0.4578
+      "mark": 0.459
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "SHORT",
+      "pnl": -0.13,
+      "pnl_pct": -0.02,
+      "margin": 125.17,
+      "leverage": "7",
+      "tier": "1/2",
+      "entry": 1564.41,
+      "mark": 1564.65
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 0.17,
-      "pnl_pct": 0.03,
-      "margin": 119.82,
+      "pnl": 2.23,
+      "pnl_pct": 0.37,
+      "margin": 120.23,
       "leverage": "5",
       "tier": "2/3",
       "entry": 59.478,
-      "mark": 59.495
+      "mark": 59.699
     }
   ],
   "signals": {
@@ -51,7 +62,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.433
+      "conf": 0.434
     },
     "XRPUSDT": {
       "dir": "short",
@@ -63,7 +74,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.481
+      "conf": 0.483
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -130,7 +141,7 @@
       "conf": 0.575
     },
     "AVAXUSDT": {
-      "dir": "neutral",
+      "dir": "short",
       "conf": 0.363
     }
   },
@@ -185,7 +196,7 @@
     },
     {
       "t": "2026-06-06",
-      "v": 849.33
+      "v": 848.5
     }
   ],
   "trade_history": [
