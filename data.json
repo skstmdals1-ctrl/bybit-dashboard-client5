@@ -1,32 +1,32 @@
 {
-  "ts": "2026-06-06T14:20:32.801236+09:00",
+  "ts": "2026-06-06T14:21:34.131537+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7585.08,
-  "available": 7296.95,
-  "unrealized": 12.03,
+  "equity": 7578.2,
+  "available": 7288.53,
+  "unrealized": 4.45,
   "daily_pnl": 16.1,
-  "total_pnl": 885.08,
-  "cum_pct": 13.21,
-  "daily_avg_pct": 0.959,
-  "annual_pct": 3157.91,
+  "total_pnl": 878.2,
+  "cum_pct": 13.11,
+  "daily_avg_pct": 0.9521,
+  "annual_pct": 3077.65,
   "mdd": -11.84,
-  "current_dd": -0.24,
-  "seed_used": 288.13,
-  "seed_used_pct": 3.8,
+  "current_dd": -0.26,
+  "seed_used": 289.67,
+  "seed_used_pct": 3.82,
   "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": 12.03,
-      "pnl_pct": 2.01,
-      "margin": 117.28,
+      "pnl": 4.45,
+      "pnl_pct": 0.74,
+      "margin": 118.79,
       "leverage": "5",
       "tier": "2/3",
       "entry": 0.09,
-      "mark": 0.0882
+      "mark": 0.0893
     }
   ],
   "signals": {
@@ -52,7 +52,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.482
+      "conf": 0.492
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -64,7 +64,7 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.481
+      "conf": 0.482
     },
     "SUIUSDT": {
       "dir": "short",
@@ -80,7 +80,7 @@
     },
     "DOGEUSDT": {
       "dir": "long",
-      "conf": 0.439
+      "conf": 0.44
     },
     "INJUSDT": {
       "dir": "long",
@@ -120,7 +120,7 @@
     },
     "AVAXUSDT": {
       "dir": "short",
-      "conf": 0.364
+      "conf": 0.365
     }
   },
   "equity_hist": [
@@ -174,7 +174,7 @@
     },
     {
       "t": "2026-06-06",
-      "v": 885.08
+      "v": 878.2
     }
   ],
   "trade_history": [
