@@ -1,54 +1,43 @@
 {
-  "ts": "2026-06-07T02:46:01.458922+09:00",
+  "ts": "2026-06-07T02:47:02.923773+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7462.77,
-  "available": 6192.63,
-  "unrealized": 78.2,
+  "equity": 7473.26,
+  "available": 6207.51,
+  "unrealized": 88.87,
   "daily_pnl": -7.15,
-  "total_pnl": 762.77,
-  "cum_pct": 11.38,
-  "daily_avg_pct": 0.7728,
-  "annual_pct": 1560.79,
+  "total_pnl": 773.26,
+  "cum_pct": 11.54,
+  "daily_avg_pct": 0.7831,
+  "annual_pct": 1623.91,
   "mdd": -11.84,
-  "current_dd": -2.75,
-  "seed_used": 1270.14,
-  "seed_used_pct": 17.02,
-  "long_count": 2,
+  "current_dd": -2.69,
+  "seed_used": 1265.75,
+  "seed_used_pct": 16.94,
+  "long_count": 1,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 69.93,
-      "pnl_pct": 1.33,
-      "margin": 743.71,
+      "pnl": 88.79,
+      "pnl_pct": 1.68,
+      "margin": 741.02,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1574.8954,
-      "mark": 1554.02
+      "mark": 1548.39
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 8.3,
-      "pnl_pct": 0.32,
-      "margin": 522.4,
+      "pnl": 0.11,
+      "pnl_pct": 0.0,
+      "margin": 520.76,
       "leverage": "5",
       "tier": "2/2",
       "entry": 57.2116,
-      "mark": 57.394
-    },
-    {
-      "symbol": "TONUSDT",
-      "side": "LONG",
-      "pnl": -0.0,
-      "pnl_pct": -0.21,
-      "margin": 0.03,
-      "leverage": "5",
-      "tier": "1/3",
-      "entry": 1.5924,
-      "mark": 1.5891
+      "mark": 57.214
     }
   ],
   "signals": {
@@ -62,7 +51,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.432
+      "conf": 0.433
     },
     "XRPUSDT": {
       "dir": "short",
@@ -70,11 +59,11 @@
     },
     "TONUSDT": {
       "dir": "long",
-      "conf": 0.482
+      "conf": 0.481
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.52
+      "conf": 0.518
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -86,11 +75,11 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.484
+      "conf": 0.483
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.558
+      "conf": 0.551
     },
     "ZECUSDT": {
       "dir": "short",
@@ -142,7 +131,7 @@
     },
     "AVAXUSDT": {
       "dir": "neutral",
-      "conf": 0.383
+      "conf": 0.382
     }
   },
   "equity_hist": [
@@ -200,10 +189,17 @@
     },
     {
       "t": "2026-06-07",
-      "v": 762.77
+      "v": 773.26
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-07 02:46",
+      "symbol": "TONUSDT",
+      "side": "Buy",
+      "pnl": -0.0,
+      "reason": "L2"
+    },
     {
       "ts": "2026-06-07 02:41",
       "symbol": "TONUSDT",
@@ -336,13 +332,6 @@
       "side": "Buy",
       "pnl": 31.59,
       "reason": "3/3"
-    },
-    {
-      "ts": "2026-06-05 23:02",
-      "symbol": "ETHUSDT",
-      "side": "Sell",
-      "pnl": 0.56,
-      "reason": "L2"
     }
   ],
   "num_days": 14
