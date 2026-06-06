@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-06T23:26:25.399073+09:00",
+  "ts": "2026-06-06T23:27:26.802591+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7446.66,
-  "available": 5785.3,
-  "unrealized": 0.79,
-  "daily_pnl": -108.61,
-  "total_pnl": 746.66,
+  "equity": 7446.47,
+  "available": 6697.96,
+  "unrealized": 56.42,
+  "daily_pnl": -164.72,
+  "total_pnl": 746.47,
   "cum_pct": 11.14,
   "daily_avg_pct": 0.8158,
   "annual_pct": 1840.61,
   "mdd": -11.84,
   "current_dd": -2.42,
-  "seed_used": 1661.35,
-  "seed_used_pct": 22.31,
+  "seed_used": 748.5,
+  "seed_used_pct": 10.05,
   "long_count": 1,
   "short_count": 1,
   "positions": [
     {
-      "symbol": "HYPEUSDT",
-      "side": "LONG",
-      "pnl": -52.16,
-      "pnl_pct": -0.57,
-      "margin": 908.15,
-      "leverage": "10",
-      "tier": "2/2",
-      "entry": 58.6882,
-      "mark": 58.353
-    },
-    {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 52.95,
-      "pnl_pct": 1.0,
-      "margin": 746.14,
+      "pnl": 56.47,
+      "pnl_pct": 1.07,
+      "margin": 745.63,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1574.8954,
-      "mark": 1559.09
+      "mark": 1558.04
+    },
+    {
+      "symbol": "HYPEUSDT",
+      "side": "LONG",
+      "pnl": -0.0,
+      "pnl_pct": -0.62,
+      "margin": 0.06,
+      "leverage": "10",
+      "tier": "1/2",
+      "entry": 58.6882,
+      "mark": 58.322
     }
   ],
   "signals": {
@@ -185,10 +185,17 @@
     },
     {
       "t": "2026-06-06",
-      "v": 746.66
+      "v": 746.47
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-06 23:27",
+      "symbol": "HYPEUSDT",
+      "side": "Buy",
+      "pnl": -56.11,
+      "reason": "2/2"
+    },
     {
       "ts": "2026-06-06 18:48",
       "symbol": "HYPEUSDT",
@@ -321,13 +328,6 @@
       "side": "Sell",
       "pnl": 46.97,
       "reason": "3/3"
-    },
-    {
-      "ts": "2026-06-05 16:43",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": 14.37,
-      "reason": "External Exit"
     }
   ],
   "num_days": 13
