@@ -1,19 +1,19 @@
 {
-  "ts": "2026-06-08T07:57:27.802208+09:00",
+  "ts": "2026-06-08T07:58:29.071759+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8044.06,
-  "available": 6644.7,
-  "unrealized": -0.41,
+  "equity": 8048.27,
+  "available": 6648.32,
+  "unrealized": 1.84,
   "daily_pnl": 162.86,
-  "total_pnl": 1344.06,
-  "cum_pct": 20.06,
-  "daily_avg_pct": 1.2263,
-  "annual_pct": 8452.19,
+  "total_pnl": 1348.27,
+  "cum_pct": 20.12,
+  "daily_avg_pct": 1.2296,
+  "annual_pct": 8554.56,
   "mdd": -11.84,
-  "current_dd": -1.19,
-  "seed_used": 1399.36,
-  "seed_used_pct": 17.4,
+  "current_dd": -1.18,
+  "seed_used": 1399.95,
+  "seed_used_pct": 17.39,
   "long_count": 2,
   "short_count": 1,
   "positions": [
@@ -31,24 +31,24 @@
     {
       "symbol": "LABUSDT",
       "side": "LONG",
-      "pnl": -13.71,
-      "pnl_pct": -0.62,
-      "margin": 218.94,
+      "pnl": -13.84,
+      "pnl_pct": -0.63,
+      "margin": 218.93,
       "leverage": "10",
       "tier": "2/3",
       "entry": 13.114,
-      "mark": 13.0324
+      "mark": 13.0316
     },
     {
       "symbol": "BEATUSDT",
       "side": "LONG",
-      "pnl": 8.83,
-      "pnl_pct": 1.12,
-      "margin": 88.43,
+      "pnl": 11.21,
+      "pnl_pct": 1.42,
+      "margin": 88.7,
       "leverage": "9",
       "tier": "2/3",
       "entry": 3.5454,
-      "mark": 3.5852
+      "mark": 3.5959
     }
   ],
   "signals": {
@@ -86,11 +86,11 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.517
+      "conf": 0.516
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.572
+      "conf": 0.582
     },
     "ZECUSDT": {
       "dir": "short",
@@ -102,7 +102,7 @@
     },
     "DOGEUSDT": {
       "dir": "short",
-      "conf": 0.448
+      "conf": 0.449
     },
     "INJUSDT": {
       "dir": "long",
@@ -208,7 +208,7 @@
     },
     {
       "t": "2026-06-08",
-      "v": 1344.06
+      "v": 1348.27
     }
   ],
   "trade_history": [
