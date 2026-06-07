@@ -1,54 +1,54 @@
 {
-  "ts": "2026-06-07T18:39:35.821250+09:00",
+  "ts": "2026-06-07T18:40:37.245686+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7795.48,
-  "available": 6682.52,
-  "unrealized": 22.35,
+  "equity": 7792.62,
+  "available": 6679.56,
+  "unrealized": 18.39,
   "daily_pnl": 381.54,
-  "total_pnl": 1095.48,
-  "cum_pct": 16.35,
-  "daily_avg_pct": 1.0875,
-  "annual_pct": 5082.88,
+  "total_pnl": 1092.62,
+  "cum_pct": 16.31,
+  "daily_avg_pct": 1.0851,
+  "annual_pct": 5038.16,
   "mdd": -11.84,
-  "current_dd": -1.38,
-  "seed_used": 1112.96,
+  "current_dd": -1.4,
+  "seed_used": 1113.06,
   "seed_used_pct": 14.28,
   "long_count": 1,
   "short_count": 2,
   "positions": [
     {
+      "symbol": "WLDUSDT",
+      "side": "SHORT",
+      "pnl": -3.61,
+      "pnl_pct": -0.24,
+      "margin": 299.88,
+      "leverage": "5",
+      "tier": "2/3",
+      "entry": 0.4361,
+      "mark": 0.4372
+    },
+    {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 14.51,
-      "pnl_pct": 1.61,
-      "margin": 176.83,
+      "pnl": 13.01,
+      "pnl_pct": 1.45,
+      "margin": 177.13,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.7358,
-      "mark": 1.7078
-    },
-    {
-      "symbol": "WLDUSDT",
-      "side": "SHORT",
-      "pnl": -2.43,
-      "pnl_pct": -0.39,
-      "margin": 124.57,
-      "leverage": "5",
-      "tier": "2/3",
-      "entry": 0.4337,
-      "mark": 0.4354
+      "mark": 1.7107
     },
     {
       "symbol": "LABUSDT",
       "side": "LONG",
-      "pnl": 10.28,
-      "pnl_pct": 1.39,
-      "margin": 83.05,
+      "pnl": 9.0,
+      "pnl_pct": 1.22,
+      "margin": 82.91,
       "leverage": "9",
       "tier": "2/3",
       "entry": 12.933,
-      "mark": 13.1133
+      "mark": 13.0908
     }
   ],
   "signals": {
@@ -204,7 +204,7 @@
     },
     {
       "t": "2026-06-07",
-      "v": 1095.48
+      "v": 1092.62
     }
   ],
   "trade_history": [
