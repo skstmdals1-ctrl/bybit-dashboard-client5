@@ -1,43 +1,32 @@
 {
-  "ts": "2026-06-07T13:20:57.430759+09:00",
+  "ts": "2026-06-07T13:21:58.823691+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7887.53,
-  "available": 6493.26,
-  "unrealized": 32.48,
-  "daily_pnl": 463.79,
-  "total_pnl": 1187.53,
-  "cum_pct": 17.72,
-  "daily_avg_pct": 1.1721,
-  "annual_pct": 6933.62,
+  "equity": 7843.67,
+  "available": 7055.0,
+  "unrealized": 23.38,
+  "daily_pnl": 427.7,
+  "total_pnl": 1143.67,
+  "cum_pct": 17.07,
+  "daily_avg_pct": 1.1321,
+  "annual_pct": 5988.28,
   "mdd": -11.84,
   "current_dd": 0.0,
-  "seed_used": 1394.26,
-  "seed_used_pct": 17.68,
-  "long_count": 2,
+  "seed_used": 788.67,
+  "seed_used_pct": 10.05,
+  "long_count": 1,
   "short_count": 0,
   "positions": [
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": 32.39,
-      "pnl_pct": 0.59,
-      "margin": 787.59,
+      "pnl": 23.39,
+      "pnl_pct": 0.43,
+      "margin": 786.31,
       "leverage": "7",
       "tier": "3/3",
       "entry": 1.7036,
-      "mark": 1.7137
-    },
-    {
-      "symbol": "LABUSDT",
-      "side": "LONG",
-      "pnl": 0.09,
-      "pnl_pct": 0.01,
-      "margin": 182.28,
-      "leverage": "9",
-      "tier": "3/3",
-      "entry": 12.9168,
-      "mark": 12.9176
+      "mark": 1.7109
     }
   ],
   "signals": {
@@ -193,10 +182,17 @@
     },
     {
       "t": "2026-06-07",
-      "v": 1187.53
+      "v": 1143.67
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-07 13:21",
+      "symbol": "LABUSDT",
+      "side": "Buy",
+      "pnl": -36.09,
+      "reason": "3/3"
+    },
     {
       "ts": "2026-06-07 13:20",
       "symbol": "LABUSDT",
@@ -328,13 +324,6 @@
       "symbol": "LABUSDT",
       "side": "Buy",
       "pnl": -69.2,
-      "reason": "2/3"
-    },
-    {
-      "ts": "2026-06-07 06:41",
-      "symbol": "LABUSDT",
-      "side": "Buy",
-      "pnl": -100.26,
       "reason": "2/3"
     }
   ],
