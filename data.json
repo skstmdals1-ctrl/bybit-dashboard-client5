@@ -1,76 +1,76 @@
 {
-  "ts": "2026-06-07T23:17:44.854158+09:00",
+  "ts": "2026-06-07T23:18:46.213130+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8076.45,
-  "available": 4605.06,
-  "unrealized": 135.79,
+  "equity": 8071.76,
+  "available": 4598.04,
+  "unrealized": 131.59,
   "daily_pnl": 552.54,
-  "total_pnl": 1376.45,
-  "cum_pct": 20.54,
-  "daily_avg_pct": 1.3433,
-  "annual_pct": 12937.38,
+  "total_pnl": 1371.76,
+  "cum_pct": 20.47,
+  "daily_avg_pct": 1.3391,
+  "annual_pct": 12741.65,
   "mdd": -11.84,
   "current_dd": -0.39,
-  "seed_used": 3471.4,
-  "seed_used_pct": 42.98,
+  "seed_used": 3473.72,
+  "seed_used_pct": 43.04,
   "long_count": 3,
   "short_count": 2,
   "positions": [
     {
+      "symbol": "WLDUSDT",
+      "side": "SHORT",
+      "pnl": -69.06,
+      "pnl_pct": -1.08,
+      "margin": 806.74,
+      "leverage": "8",
+      "tier": "3/3",
+      "entry": 0.448,
+      "mark": 0.4528
+    },
+    {
       "symbol": "LABUSDT",
       "side": "LONG",
-      "pnl": 79.91,
-      "pnl_pct": 1.62,
-      "margin": 625.67,
+      "pnl": 88.4,
+      "pnl_pct": 1.79,
+      "margin": 626.74,
       "leverage": "8",
       "tier": "2/3",
       "entry": 12.7935,
-      "mark": 13.001
+      "mark": 13.0231
     },
     {
       "symbol": "BEATUSDT",
       "side": "LONG",
-      "pnl": 85.39,
-      "pnl_pct": 1.66,
-      "margin": 523.13,
+      "pnl": 88.5,
+      "pnl_pct": 1.72,
+      "margin": 523.44,
       "leverage": "10",
       "tier": "3/3",
       "entry": 2.643,
-      "mark": 2.6868
-    },
-    {
-      "symbol": "WLDUSDT",
-      "side": "SHORT",
-      "pnl": -52.36,
-      "pnl_pct": -1.5,
-      "margin": 443.15,
-      "leverage": "8",
-      "tier": "3/3",
-      "entry": 0.4443,
-      "mark": 0.451
+      "mark": 2.6884
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 7.08,
-      "pnl_pct": 0.79,
-      "margin": 178.15,
+      "pnl": 6.25,
+      "pnl_pct": 0.7,
+      "margin": 178.32,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1632.45,
-      "mark": 1619.57
+      "mark": 1621.09
     },
     {
       "symbol": "HUSDT",
       "side": "LONG",
-      "pnl": 15.81,
-      "pnl_pct": 2.6,
-      "margin": 88.97,
+      "pnl": 17.55,
+      "pnl_pct": 2.89,
+      "margin": 89.22,
       "leverage": "7",
       "tier": "2/3",
       "entry": 0.7494,
-      "mark": 0.7689
+      "mark": 0.771
     }
   ],
   "signals": {
@@ -226,7 +226,7 @@
     },
     {
       "t": "2026-06-07",
-      "v": 1376.45
+      "v": 1371.76
     }
   ],
   "trade_history": [
