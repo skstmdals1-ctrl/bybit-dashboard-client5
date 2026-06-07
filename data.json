@@ -1,65 +1,54 @@
 {
-  "ts": "2026-06-07T09:34:58.482582+09:00",
+  "ts": "2026-06-07T09:35:59.767064+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7714.78,
-  "available": 5509.91,
-  "unrealized": 65.45,
-  "daily_pnl": 259.36,
-  "total_pnl": 1014.78,
-  "cum_pct": 15.15,
-  "daily_avg_pct": 1.0127,
-  "annual_pct": 3855.78,
+  "equity": 7699.04,
+  "available": 6217.09,
+  "unrealized": 12.78,
+  "daily_pnl": 294.56,
+  "total_pnl": 999.04,
+  "cum_pct": 14.91,
+  "daily_avg_pct": 0.9977,
+  "annual_pct": 3647.07,
   "mdd": -11.84,
   "current_dd": -1.53,
-  "seed_used": 2204.86,
-  "seed_used_pct": 28.58,
-  "long_count": 3,
+  "seed_used": 1481.95,
+  "seed_used_pct": 19.25,
+  "long_count": 2,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 16.63,
-      "pnl_pct": 0.32,
-      "margin": 751.32,
+      "pnl": 14.42,
+      "pnl_pct": 0.27,
+      "margin": 751.64,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1574.8954,
-      "mark": 1569.93
-    },
-    {
-      "symbol": "BEATUSDT",
-      "side": "LONG",
-      "pnl": 49.94,
-      "pnl_pct": 2.56,
-      "margin": 285.44,
-      "leverage": "7",
-      "tier": "3/3",
-      "entry": 2.2758,
-      "mark": 2.3342
+      "mark": 1570.59
     },
     {
       "symbol": "LABUSDT",
       "side": "LONG",
-      "pnl": -1.17,
-      "pnl_pct": -0.09,
-      "margin": 172.21,
+      "pnl": -1.96,
+      "pnl_pct": -0.14,
+      "margin": 172.11,
       "leverage": "8",
       "tier": "2/3",
       "entry": 13.008,
-      "mark": 12.9969
+      "mark": 12.9895
     },
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": 0.08,
-      "pnl_pct": 0.01,
-      "margin": 92.91,
+      "pnl": 0.32,
+      "pnl_pct": 0.05,
+      "margin": 92.94,
       "leverage": "7",
       "tier": "2/3",
       "entry": 1.6306,
-      "mark": 1.6308
+      "mark": 1.6314
     }
   ],
   "signals": {
@@ -215,10 +204,17 @@
     },
     {
       "t": "2026-06-07",
-      "v": 1014.78
+      "v": 999.04
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-07 09:35",
+      "symbol": "BEATUSDT",
+      "side": "Buy",
+      "pnl": 35.19,
+      "reason": "3/3"
+    },
     {
       "ts": "2026-06-07 08:55",
       "symbol": "LABUSDT",
@@ -351,13 +347,6 @@
       "side": "Buy",
       "pnl": -0.0,
       "reason": "L2"
-    },
-    {
-      "ts": "2026-06-06 23:27",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": -56.11,
-      "reason": "2/2"
     }
   ],
   "num_days": 14
