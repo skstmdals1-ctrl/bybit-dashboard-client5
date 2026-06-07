@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-07T22:32:45.378433+09:00",
+  "ts": "2026-06-07T22:33:46.668048+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7979.33,
-  "available": 7152.3,
-  "unrealized": 17.48,
+  "equity": 7978.96,
+  "available": 7152.14,
+  "unrealized": 19.78,
   "daily_pnl": 565.93,
-  "total_pnl": 1279.33,
+  "total_pnl": 1278.96,
   "cum_pct": 19.09,
   "daily_avg_pct": 1.2557,
   "annual_pct": 9408.46,
   "mdd": -11.84,
   "current_dd": -1.32,
-  "seed_used": 827.03,
+  "seed_used": 826.82,
   "seed_used_pct": 10.36,
   "long_count": 1,
   "short_count": 1,
@@ -20,24 +20,24 @@
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 6.87,
-      "pnl_pct": 0.77,
-      "margin": 178.2,
+      "pnl": 7.64,
+      "pnl_pct": 0.85,
+      "margin": 178.04,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1632.45,
-      "mark": 1619.96
+      "mark": 1618.55
     },
     {
       "symbol": "HUSDT",
       "side": "LONG",
-      "pnl": 10.61,
-      "pnl_pct": 1.75,
-      "margin": 88.23,
+      "pnl": 12.15,
+      "pnl_pct": 2.0,
+      "margin": 88.45,
       "leverage": "7",
       "tier": "2/3",
       "entry": 0.7494,
-      "mark": 0.7625
+      "mark": 0.7644
     }
   ],
   "signals": {
@@ -75,11 +75,11 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.539
+      "conf": 0.538
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.535
+      "conf": 0.538
     },
     "ZECUSDT": {
       "dir": "short",
@@ -135,7 +135,7 @@
     },
     "BEATUSDT": {
       "dir": "long",
-      "conf": 0.548
+      "conf": 0.549
     }
   },
   "equity_hist": [
@@ -193,7 +193,7 @@
     },
     {
       "t": "2026-06-07",
-      "v": 1279.33
+      "v": 1278.96
     }
   ],
   "trade_history": [
