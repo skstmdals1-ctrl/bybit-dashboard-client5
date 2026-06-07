@@ -1,43 +1,32 @@
 {
-  "ts": "2026-06-07T10:03:36.166245+09:00",
+  "ts": "2026-06-07T10:04:37.543971+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7726.12,
-  "available": 6669.47,
-  "unrealized": 23.25,
-  "daily_pnl": 312.0,
-  "total_pnl": 1026.12,
-  "cum_pct": 15.32,
-  "daily_avg_pct": 1.0233,
-  "annual_pct": 4010.23,
+  "equity": 7710.37,
+  "available": 7406.56,
+  "unrealized": 5.5,
+  "daily_pnl": 311.25,
+  "total_pnl": 1010.37,
+  "cum_pct": 15.08,
+  "daily_avg_pct": 1.0083,
+  "annual_pct": 3793.39,
   "mdd": -11.84,
-  "current_dd": -1.22,
-  "seed_used": 1056.65,
-  "seed_used_pct": 13.68,
+  "current_dd": -1.59,
+  "seed_used": 303.81,
+  "seed_used_pct": 3.94,
   "long_count": 1,
-  "short_count": 1,
+  "short_count": 0,
   "positions": [
-    {
-      "symbol": "ETHUSDT",
-      "side": "SHORT",
-      "pnl": 22.03,
-      "pnl_pct": 0.42,
-      "margin": 750.55,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 1574.8954,
-      "mark": 1568.32
-    },
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": 1.24,
-      "pnl_pct": 0.19,
-      "margin": 93.07,
+      "pnl": 5.5,
+      "pnl_pct": 0.85,
+      "margin": 93.68,
       "leverage": "7",
       "tier": "2/3",
       "entry": 1.6306,
-      "mark": 1.6337
+      "mark": 1.6444
     }
   ],
   "signals": {
@@ -63,7 +52,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.527
+      "conf": 0.503
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -75,11 +64,11 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.361
+      "conf": 0.412
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.523
+      "conf": 0.518
     },
     "ZECUSDT": {
       "dir": "short",
@@ -131,7 +120,7 @@
     },
     "AVAXUSDT": {
       "dir": "neutral",
-      "conf": 0.415
+      "conf": 0.414
     },
     "BEATUSDT": {
       "dir": "long",
@@ -193,10 +182,17 @@
     },
     {
       "t": "2026-06-07",
-      "v": 1026.12
+      "v": 1010.37
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-07 10:04",
+      "symbol": "ETHUSDT",
+      "side": "Sell",
+      "pnl": -0.74,
+      "reason": "2/2"
+    },
     {
       "ts": "2026-06-07 09:51",
       "symbol": "LABUSDT",
@@ -329,13 +325,6 @@
       "side": "Buy",
       "pnl": -11.61,
       "reason": "L3"
-    },
-    {
-      "ts": "2026-06-07 01:27",
-      "symbol": "TONUSDT",
-      "side": "Buy",
-      "pnl": 4.46,
-      "reason": "2/3"
     }
   ],
   "num_days": 14
