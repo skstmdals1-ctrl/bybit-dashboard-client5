@@ -1,43 +1,32 @@
 {
-  "ts": "2026-06-07T11:45:52.002483+09:00",
+  "ts": "2026-06-07T11:46:53.337583+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7868.14,
-  "available": 7273.29,
-  "unrealized": 12.21,
-  "daily_pnl": 463.23,
-  "total_pnl": 1168.14,
-  "cum_pct": 17.43,
-  "daily_avg_pct": 1.1543,
-  "annual_pct": 6496.1,
+  "equity": 7856.08,
+  "available": 7547.13,
+  "unrealized": -5.06,
+  "daily_pnl": 467.95,
+  "total_pnl": 1156.08,
+  "cum_pct": 17.25,
+  "daily_avg_pct": 1.1432,
+  "annual_pct": 6237.12,
   "mdd": -11.84,
   "current_dd": 0.0,
-  "seed_used": 594.86,
-  "seed_used_pct": 7.56,
-  "long_count": 2,
+  "seed_used": 308.96,
+  "seed_used_pct": 3.93,
+  "long_count": 1,
   "short_count": 0,
   "positions": [
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": -4.87,
-      "pnl_pct": -0.73,
-      "margin": 94.84,
+      "pnl": -5.06,
+      "pnl_pct": -0.76,
+      "margin": 94.82,
       "leverage": "7",
       "tier": "2/3",
       "entry": 1.7457,
-      "mark": 1.733
-    },
-    {
-      "symbol": "LABUSDT",
-      "side": "LONG",
-      "pnl": 17.08,
-      "pnl_pct": 2.19,
-      "margin": 88.48,
-      "leverage": "9",
-      "tier": "2/3",
-      "entry": 14.703,
-      "mark": 15.0253
+      "mark": 1.7325
     }
   ],
   "signals": {
@@ -59,7 +48,7 @@
     },
     "TONUSDT": {
       "dir": "long",
-      "conf": 0.47
+      "conf": 0.476
     },
     "BTCUSDT": {
       "dir": "neutral",
@@ -193,10 +182,17 @@
     },
     {
       "t": "2026-06-07",
-      "v": 1168.14
+      "v": 1156.08
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-07 11:46",
+      "symbol": "LABUSDT",
+      "side": "Buy",
+      "pnl": 4.73,
+      "reason": "2/3"
+    },
     {
       "ts": "2026-06-07 11:04",
       "symbol": "BEATUSDT",
@@ -328,13 +324,6 @@
       "symbol": "LABUSDT",
       "side": "Buy",
       "pnl": 38.2,
-      "reason": "2/3"
-    },
-    {
-      "ts": "2026-06-07 05:08",
-      "symbol": "LABUSDT",
-      "side": "Buy",
-      "pnl": 38.36,
       "reason": "2/3"
     }
   ],
