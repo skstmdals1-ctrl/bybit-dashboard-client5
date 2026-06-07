@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-07T10:18:56.718997+09:00",
+  "ts": "2026-06-07T10:19:58.089686+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7717.04,
-  "available": 7166.76,
-  "unrealized": 14.66,
+  "equity": 7707.56,
+  "available": 6776.25,
+  "unrealized": 5.47,
   "daily_pnl": 311.25,
-  "total_pnl": 1017.04,
-  "cum_pct": 15.18,
-  "daily_avg_pct": 1.0146,
-  "annual_pct": 3883.04,
+  "total_pnl": 1007.56,
+  "cum_pct": 15.04,
+  "daily_avg_pct": 1.0058,
+  "annual_pct": 3758.37,
   "mdd": -11.84,
-  "current_dd": -1.5,
-  "seed_used": 550.28,
-  "seed_used_pct": 7.13,
+  "current_dd": -1.56,
+  "seed_used": 931.3,
+  "seed_used_pct": 12.08,
   "long_count": 2,
   "short_count": 0,
   "positions": [
     {
       "symbol": "BEATUSDT",
       "side": "LONG",
-      "pnl": -2.44,
-      "pnl_pct": -0.14,
-      "margin": 243.41,
+      "pnl": -10.88,
+      "pnl_pct": -0.64,
+      "margin": 242.2,
       "leverage": "7",
-      "tier": "2/3",
+      "tier": "3/3",
       "entry": 2.272,
-      "mark": 2.2688
+      "mark": 2.2576
     },
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": 17.11,
-      "pnl_pct": 2.63,
-      "margin": 95.34,
+      "pnl": 16.35,
+      "pnl_pct": 2.51,
+      "margin": 95.23,
       "leverage": "7",
       "tier": "2/3",
       "entry": 1.6306,
-      "mark": 1.6735
+      "mark": 1.6716
     }
   ],
   "signals": {
@@ -51,7 +51,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.36
+      "conf": 0.365
     },
     "XRPUSDT": {
       "dir": "short",
@@ -63,7 +63,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.528
+      "conf": 0.501
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -75,11 +75,11 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.412
+      "conf": 0.416
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.528
+      "conf": 0.563
     },
     "ZECUSDT": {
       "dir": "short",
@@ -99,7 +99,7 @@
     },
     "ADAUSDT": {
       "dir": "short",
-      "conf": 0.441
+      "conf": 0.442
     },
     "TAOUSDT": {
       "dir": "short",
@@ -135,7 +135,7 @@
     },
     "BEATUSDT": {
       "dir": "long",
-      "conf": 0.574
+      "conf": 0.581
     }
   },
   "equity_hist": [
@@ -193,7 +193,7 @@
     },
     {
       "t": "2026-06-07",
-      "v": 1017.04
+      "v": 1007.56
     }
   ],
   "trade_history": [
