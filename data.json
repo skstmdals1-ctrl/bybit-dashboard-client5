@@ -1,54 +1,43 @@
 {
-  "ts": "2026-06-07T18:03:47.165559+09:00",
+  "ts": "2026-06-07T18:04:48.484762+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7755.91,
-  "available": 6786.22,
-  "unrealized": 76.06,
-  "daily_pnl": 287.19,
-  "total_pnl": 1055.91,
-  "cum_pct": 15.76,
-  "daily_avg_pct": 1.0508,
-  "annual_pct": 4439.53,
+  "equity": 7746.78,
+  "available": 7179.42,
+  "unrealized": 3.29,
+  "daily_pnl": 351.06,
+  "total_pnl": 1046.78,
+  "cum_pct": 15.62,
+  "daily_avg_pct": 1.0421,
+  "annual_pct": 4299.09,
   "mdd": -11.84,
-  "current_dd": -1.86,
-  "seed_used": 969.68,
-  "seed_used_pct": 12.5,
-  "long_count": 2,
+  "current_dd": -1.96,
+  "seed_used": 567.36,
+  "seed_used_pct": 7.32,
+  "long_count": 1,
   "short_count": 1,
   "positions": [
     {
-      "symbol": "TONUSDT",
-      "side": "LONG",
-      "pnl": 65.26,
-      "pnl_pct": 2.38,
-      "margin": 400.82,
-      "leverage": "7",
-      "tier": "3/3",
-      "entry": 1.7036,
-      "mark": 1.7442
-    },
-    {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": 7.93,
-      "pnl_pct": 1.28,
-      "margin": 121.96,
+      "pnl": 6.01,
+      "pnl_pct": 0.97,
+      "margin": 122.35,
       "leverage": "5",
       "tier": "2/3",
       "entry": 0.452,
-      "mark": 0.4462
+      "mark": 0.4476
     },
     {
       "symbol": "LABUSDT",
       "side": "LONG",
-      "pnl": 2.9,
-      "pnl_pct": 0.39,
-      "margin": 82.23,
+      "pnl": -2.72,
+      "pnl_pct": -0.37,
+      "margin": 81.61,
       "leverage": "9",
       "tier": "2/3",
       "entry": 12.933,
-      "mark": 12.9838
+      "mark": 12.8853
     }
   ],
   "signals": {
@@ -204,10 +193,24 @@
     },
     {
       "t": "2026-06-07",
-      "v": 1055.91
+      "v": 1046.78
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-07 18:04",
+      "symbol": "TONUSDT",
+      "side": "Buy",
+      "pnl": 0.0,
+      "reason": "3/3"
+    },
+    {
+      "ts": "2026-06-07 18:04",
+      "symbol": "TONUSDT",
+      "side": "Buy",
+      "pnl": 63.87,
+      "reason": "3/3"
+    },
     {
       "ts": "2026-06-07 17:46",
       "symbol": "TONUSDT",
@@ -333,20 +336,6 @@
       "side": "Buy",
       "pnl": 52.6,
       "reason": "T1 진입 | GF=5 | Lv=9x | Seed=$582(7.5%)"
-    },
-    {
-      "ts": "2026-06-07 10:32",
-      "symbol": "LABUSDT",
-      "side": "Buy",
-      "pnl": -35.74,
-      "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-07 10:04",
-      "symbol": "ETHUSDT",
-      "side": "Sell",
-      "pnl": -0.74,
-      "reason": "2/2"
     }
   ],
   "num_days": 14
