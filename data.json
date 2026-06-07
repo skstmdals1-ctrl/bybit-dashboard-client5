@@ -1,43 +1,54 @@
 {
-  "ts": "2026-06-07T10:35:18.312777+09:00",
+  "ts": "2026-06-07T10:36:19.642220+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7763.05,
-  "available": 6750.01,
-  "unrealized": 96.42,
-  "daily_pnl": 275.52,
-  "total_pnl": 1063.05,
-  "cum_pct": 15.87,
-  "daily_avg_pct": 1.0577,
-  "annual_pct": 4554.09,
+  "equity": 7802.22,
+  "available": 7103.79,
+  "unrealized": 82.46,
+  "daily_pnl": 328.11,
+  "total_pnl": 1102.22,
+  "cum_pct": 16.45,
+  "daily_avg_pct": 1.0937,
+  "annual_pct": 5200.22,
   "mdd": -11.84,
   "current_dd": -1.05,
-  "seed_used": 1013.04,
-  "seed_used_pct": 13.05,
-  "long_count": 2,
+  "seed_used": 698.43,
+  "seed_used_pct": 8.95,
+  "long_count": 3,
   "short_count": 0,
   "positions": [
     {
       "symbol": "BEATUSDT",
       "side": "LONG",
-      "pnl": 57.66,
-      "pnl_pct": 1.33,
-      "margin": 629.19,
+      "pnl": 44.49,
+      "pnl_pct": 2.05,
+      "margin": 316.83,
       "leverage": "7",
       "tier": "3/3",
       "entry": 2.2475,
-      "mark": 2.2773
+      "mark": 2.2935
     },
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": 38.8,
-      "pnl_pct": 5.97,
-      "margin": 98.44,
+      "pnl": 39.2,
+      "pnl_pct": 6.03,
+      "margin": 98.5,
       "leverage": "7",
       "tier": "2/3",
       "entry": 1.6306,
-      "mark": 1.7279
+      "mark": 1.7289
+    },
+    {
+      "symbol": "LABUSDT",
+      "side": "LONG",
+      "pnl": -1.2,
+      "pnl_pct": -0.19,
+      "margin": 70.5,
+      "leverage": "9",
+      "tier": "1/3",
+      "entry": 13.526,
+      "mark": 13.5004
     }
   ],
   "signals": {
@@ -63,7 +74,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.519
+      "conf": 0.504
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -193,10 +204,17 @@
     },
     {
       "t": "2026-06-07",
-      "v": 1063.05
+      "v": 1102.22
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-07 10:35",
+      "symbol": "BEATUSDT",
+      "side": "Buy",
+      "pnl": 52.6,
+      "reason": "T1 진입 | GF=5 | Lv=9x | Seed=$582(7.5%)"
+    },
     {
       "ts": "2026-06-07 10:32",
       "symbol": "LABUSDT",
@@ -329,13 +347,6 @@
       "side": "Buy",
       "pnl": 92.58,
       "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-07 02:46",
-      "symbol": "TONUSDT",
-      "side": "Buy",
-      "pnl": -0.0,
-      "reason": "L2"
     }
   ],
   "num_days": 14
