@@ -1,43 +1,32 @@
 {
-  "ts": "2026-06-07T11:03:56.801912+09:00",
+  "ts": "2026-06-07T11:04:58.186339+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7852.5,
-  "available": 7381.93,
-  "unrealized": 31.81,
-  "daily_pnl": 428.19,
-  "total_pnl": 1152.5,
-  "cum_pct": 17.2,
-  "daily_avg_pct": 1.1401,
-  "annual_pct": 6166.62,
+  "equity": 7860.12,
+  "available": 7549.96,
+  "unrealized": 3.26,
+  "daily_pnl": 463.23,
+  "total_pnl": 1160.12,
+  "cum_pct": 17.32,
+  "daily_avg_pct": 1.1475,
+  "annual_pct": 6336.22,
   "mdd": -11.84,
   "current_dd": 0.0,
-  "seed_used": 470.57,
-  "seed_used_pct": 5.99,
-  "long_count": 2,
+  "seed_used": 310.16,
+  "seed_used_pct": 3.95,
+  "long_count": 1,
   "short_count": 0,
   "positions": [
     {
-      "symbol": "BEATUSDT",
-      "side": "LONG",
-      "pnl": 29.49,
-      "pnl_pct": 2.71,
-      "margin": 159.61,
-      "leverage": "7",
-      "tier": "3/3",
-      "entry": 2.2475,
-      "mark": 2.3084
-    },
-    {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": 2.34,
-      "pnl_pct": 0.35,
-      "margin": 95.87,
+      "pnl": 3.26,
+      "pnl_pct": 0.49,
+      "margin": 96.0,
       "leverage": "7",
       "tier": "2/3",
       "entry": 1.7457,
-      "mark": 1.7518
+      "mark": 1.7542
     }
   ],
   "signals": {
@@ -193,10 +182,17 @@
     },
     {
       "t": "2026-06-07",
-      "v": 1152.5
+      "v": 1160.12
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-07 11:04",
+      "symbol": "BEATUSDT",
+      "side": "Buy",
+      "pnl": 35.04,
+      "reason": "3/3"
+    },
     {
       "ts": "2026-06-07 10:57",
       "symbol": "LABUSDT",
@@ -329,13 +325,6 @@
       "side": "Buy",
       "pnl": 38.36,
       "reason": "2/3"
-    },
-    {
-      "ts": "2026-06-07 04:38",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": -0.62,
-      "reason": "마진 7.3USDT < 8"
     }
   ],
   "num_days": 14
