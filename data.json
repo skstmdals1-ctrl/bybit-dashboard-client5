@@ -1,43 +1,32 @@
 {
-  "ts": "2026-06-08T15:41:17.765885+09:00",
+  "ts": "2026-06-08T15:42:19.315564+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7690.55,
-  "available": 6691.99,
-  "unrealized": 11.89,
-  "daily_pnl": -203.52,
-  "total_pnl": 990.55,
-  "cum_pct": 14.78,
-  "daily_avg_pct": 0.9232,
-  "annual_pct": 2762.33,
+  "equity": 7688.71,
+  "available": 7152.0,
+  "unrealized": -5.98,
+  "daily_pnl": -188.28,
+  "total_pnl": 988.71,
+  "cum_pct": 14.76,
+  "daily_avg_pct": 0.922,
+  "annual_pct": 2749.93,
   "mdd": -0.07,
-  "current_dd": 0.0,
-  "seed_used": 998.57,
-  "seed_used_pct": 12.98,
+  "current_dd": -0.06,
+  "seed_used": 536.71,
+  "seed_used_pct": 6.98,
   "long_count": 0,
-  "short_count": 2,
+  "short_count": 1,
   "positions": [
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": -4.49,
-      "pnl_pct": -0.21,
-      "margin": 535.1,
+      "pnl": -5.99,
+      "pnl_pct": -0.28,
+      "margin": 535.47,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1.7105,
-      "mark": 1.7141
-    },
-    {
-      "symbol": "SIRENUSDT",
-      "side": "SHORT",
-      "pnl": 16.38,
-      "pnl_pct": 4.74,
-      "margin": 65.88,
-      "leverage": "5",
-      "tier": "2/3",
-      "entry": 1.1966,
-      "mark": 1.1399
+      "mark": 1.7153
     }
   ],
   "signals": {
@@ -79,7 +68,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.567
+      "conf": 0.566
     },
     "ZECUSDT": {
       "dir": "short",
@@ -201,10 +190,17 @@
     },
     {
       "t": "2026-06-08",
-      "v": 990.55
+      "v": 988.71
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-08 15:41",
+      "symbol": "SIRENUSDT",
+      "side": "Sell",
+      "pnl": 15.23,
+      "reason": "2/3"
+    },
     {
       "ts": "2026-06-08 15:36",
       "symbol": "SIRENUSDT",
@@ -337,13 +333,6 @@
       "side": "Buy",
       "pnl": 33.32,
       "reason": "L2"
-    },
-    {
-      "ts": "2026-06-07 23:35",
-      "symbol": "WLDUSDT",
-      "side": "Sell",
-      "pnl": -29.75,
-      "reason": "External Exit"
     }
   ],
   "num_days": 15
