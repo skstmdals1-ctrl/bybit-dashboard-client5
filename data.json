@@ -1,34 +1,22 @@
 {
-  "ts": "2026-06-08T20:43:19.685313+09:00",
+  "ts": "2026-06-08T20:44:21.187325+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7605.32,
-  "available": 7060.77,
-  "unrealized": -37.93,
-  "daily_pnl": -237.81,
-  "total_pnl": 905.32,
-  "cum_pct": 13.51,
-  "daily_avg_pct": 0.8484,
-  "annual_pct": 2083.68,
+  "equity": 7600.86,
+  "available": 7600.86,
+  "unrealized": 0.0,
+  "daily_pnl": -280.53,
+  "total_pnl": 900.86,
+  "cum_pct": 13.45,
+  "daily_avg_pct": 0.8448,
+  "annual_pct": 2055.41,
   "mdd": -1.77,
   "current_dd": -1.77,
-  "seed_used": 544.56,
-  "seed_used_pct": 7.16,
+  "seed_used": 0,
+  "seed_used_pct": 0.0,
   "long_count": 0,
-  "short_count": 1,
-  "positions": [
-    {
-      "symbol": "TONUSDT",
-      "side": "SHORT",
-      "pnl": -37.95,
-      "pnl_pct": -1.78,
-      "margin": 543.47,
-      "leverage": "4",
-      "tier": "2/2",
-      "entry": 1.7105,
-      "mark": 1.7409
-    }
-  ],
+  "short_count": 0,
+  "positions": [],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
@@ -190,10 +178,17 @@
     },
     {
       "t": "2026-06-08",
-      "v": 905.32
+      "v": 900.86
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-08 20:43",
+      "symbol": "TONUSDT",
+      "side": "Sell",
+      "pnl": -42.72,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-08 19:47",
       "symbol": "SIRENUSDT",
@@ -326,13 +321,6 @@
       "side": "Sell",
       "pnl": -122.11,
       "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-07 23:52",
-      "symbol": "LABUSDT",
-      "side": "Buy",
-      "pnl": 53.59,
-      "reason": "T1 진입 | GF=5 | Lv=9x | Seed=$773(9.6%)"
     }
   ],
   "num_days": 15
