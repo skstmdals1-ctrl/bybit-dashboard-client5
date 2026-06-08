@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-08T13:55:59.006073+09:00",
+  "ts": "2026-06-08T13:57:00.324709+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7628.46,
-  "available": 7092.15,
-  "unrealized": -0.46,
+  "equity": 7628.83,
+  "available": 7092.56,
+  "unrealized": -0.23,
   "daily_pnl": -254.46,
-  "total_pnl": 928.46,
+  "total_pnl": 928.83,
   "cum_pct": 13.86,
   "daily_avg_pct": 0.8691,
   "annual_pct": 2253.55,
   "mdd": -0.03,
   "current_dd": -0.02,
-  "seed_used": 536.31,
+  "seed_used": 536.26,
   "seed_used_pct": 7.03,
   "long_count": 0,
   "short_count": 1,
@@ -20,13 +20,13 @@
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": -0.46,
-      "pnl_pct": -0.13,
-      "margin": 89.06,
+      "pnl": -0.23,
+      "pnl_pct": -0.06,
+      "margin": 89.0,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1.7006,
-      "mark": 1.7028
+      "mark": 1.7017
     }
   ],
   "signals": {
@@ -64,11 +64,11 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.537
+      "conf": 0.536
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.528
+      "conf": 0.526
     },
     "ZECUSDT": {
       "dir": "short",
@@ -186,7 +186,7 @@
     },
     {
       "t": "2026-06-08",
-      "v": 928.46
+      "v": 928.83
     }
   ],
   "trade_history": [
