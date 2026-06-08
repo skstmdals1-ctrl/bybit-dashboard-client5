@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-08T19:52:07.848983+09:00",
+  "ts": "2026-06-08T19:53:09.301343+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7634.21,
-  "available": 7096.9,
-  "unrealized": -8.98,
+  "equity": 7633.29,
+  "available": 7095.6,
+  "unrealized": -10.35,
   "daily_pnl": -237.81,
-  "total_pnl": 934.21,
-  "cum_pct": 13.94,
-  "daily_avg_pct": 0.8738,
-  "annual_pct": 2293.92,
+  "total_pnl": 933.29,
+  "cum_pct": 13.93,
+  "daily_avg_pct": 0.8732,
+  "annual_pct": 2288.73,
   "mdd": -1.42,
-  "current_dd": -1.42,
-  "seed_used": 537.31,
+  "current_dd": -1.41,
+  "seed_used": 537.69,
   "seed_used_pct": 7.04,
   "long_count": 0,
   "short_count": 1,
@@ -20,13 +20,13 @@
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": -8.98,
-      "pnl_pct": -0.42,
-      "margin": 536.22,
+      "pnl": -10.36,
+      "pnl_pct": -0.48,
+      "margin": 536.57,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1.7105,
-      "mark": 1.7177
+      "mark": 1.7188
     }
   ],
   "signals": {
@@ -79,8 +79,8 @@
       "conf": 0.389
     },
     "DOGEUSDT": {
-      "dir": "neutral",
-      "conf": 0.402
+      "dir": "short",
+      "conf": 0.45
     },
     "INJUSDT": {
       "dir": "long",
@@ -190,7 +190,7 @@
     },
     {
       "t": "2026-06-08",
-      "v": 934.21
+      "v": 933.29
     }
   ],
   "trade_history": [
