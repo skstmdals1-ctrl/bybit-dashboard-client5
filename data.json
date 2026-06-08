@@ -1,43 +1,32 @@
 {
-  "ts": "2026-06-08T11:00:23.765036+09:00",
+  "ts": "2026-06-08T11:01:25.116929+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7781.13,
-  "available": 6946.02,
-  "unrealized": -2.16,
-  "daily_pnl": -99.9,
-  "total_pnl": 1081.13,
-  "cum_pct": 16.14,
-  "daily_avg_pct": 1.0025,
-  "annual_pct": 3712.63,
+  "equity": 7752.18,
+  "available": 7183.96,
+  "unrealized": 15.48,
+  "daily_pnl": -147.8,
+  "total_pnl": 1052.18,
+  "cum_pct": 15.7,
+  "daily_avg_pct": 0.9769,
+  "annual_pct": 3375.7,
   "mdd": -11.84,
   "current_dd": -4.43,
-  "seed_used": 835.11,
-  "seed_used_pct": 10.73,
-  "long_count": 1,
+  "seed_used": 568.22,
+  "seed_used_pct": 7.33,
+  "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 8.81,
-      "pnl_pct": 0.31,
-      "margin": 567.82,
+      "pnl": 15.48,
+      "pnl_pct": 0.54,
+      "margin": 566.49,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.7071,
-      "mark": 1.7018
-    },
-    {
-      "symbol": "BEATUSDT",
-      "side": "LONG",
-      "pnl": -10.97,
-      "pnl_pct": -1.5,
-      "margin": 80.24,
-      "leverage": "9",
-      "tier": "2/3",
-      "entry": 3.8995,
-      "mark": 3.8411
+      "mark": 1.6978
     }
   ],
   "signals": {
@@ -197,10 +186,17 @@
     },
     {
       "t": "2026-06-08",
-      "v": 1081.13
+      "v": 1052.18
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-08 11:01",
+      "symbol": "BEATUSDT",
+      "side": "Buy",
+      "pnl": -47.9,
+      "reason": "L2"
+    },
     {
       "ts": "2026-06-08 10:21",
       "symbol": "BEATUSDT",
@@ -333,13 +329,6 @@
       "side": "Sell",
       "pnl": 37.58,
       "reason": "T1 진입 | GF=5 | Lv=7x | Seed=$798(10.0%)"
-    },
-    {
-      "ts": "2026-06-07 21:31",
-      "symbol": "BEATUSDT",
-      "side": "Buy",
-      "pnl": -74.59,
-      "reason": "2/3"
     }
   ],
   "num_days": 15
