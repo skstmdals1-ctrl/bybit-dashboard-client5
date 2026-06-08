@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-08T17:56:23.923775+09:00",
+  "ts": "2026-06-08T17:57:25.322717+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7739.99,
-  "available": 6538.75,
-  "unrealized": 44.45,
+  "equity": 7739.22,
+  "available": 6537.74,
+  "unrealized": 43.54,
   "daily_pnl": -183.91,
-  "total_pnl": 1039.99,
-  "cum_pct": 15.52,
-  "daily_avg_pct": 0.9665,
-  "annual_pct": 3247.46,
+  "total_pnl": 1039.22,
+  "cum_pct": 15.51,
+  "daily_avg_pct": 0.9659,
+  "annual_pct": 3240.21,
   "mdd": -0.6,
-  "current_dd": -0.02,
-  "seed_used": 1201.23,
+  "current_dd": -0.08,
+  "seed_used": 1201.48,
   "seed_used_pct": 15.52,
   "long_count": 0,
   "short_count": 2,
@@ -20,24 +20,24 @@
     {
       "symbol": "SIRENUSDT",
       "side": "SHORT",
-      "pnl": 27.25,
+      "pnl": 27.08,
       "pnl_pct": 0.81,
-      "margin": 666.54,
+      "margin": 666.57,
       "leverage": "5",
       "tier": "2/3",
       "entry": 1.1818,
-      "mark": 1.1722
+      "mark": 1.1723
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 17.24,
-      "pnl_pct": 0.81,
-      "margin": 529.67,
+      "pnl": 16.49,
+      "pnl_pct": 0.77,
+      "margin": 529.85,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1.7105,
-      "mark": 1.6967
+      "mark": 1.6973
     }
   ],
   "signals": {
@@ -79,7 +79,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.552
+      "conf": 0.551
     },
     "ZECUSDT": {
       "dir": "short",
@@ -91,7 +91,7 @@
     },
     "DOGEUSDT": {
       "dir": "neutral",
-      "conf": 0.595
+      "conf": 0.571
     },
     "INJUSDT": {
       "dir": "long",
@@ -139,7 +139,7 @@
     },
     "SIRENUSDT": {
       "dir": "short",
-      "conf": 0.576
+      "conf": 0.575
     }
   },
   "equity_hist": [
@@ -201,7 +201,7 @@
     },
     {
       "t": "2026-06-08",
-      "v": 1039.99
+      "v": 1039.22
     }
   ],
   "trade_history": [
