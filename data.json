@@ -1,43 +1,32 @@
 {
-  "ts": "2026-06-08T19:47:00.973721+09:00",
+  "ts": "2026-06-08T19:48:02.339872+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7651.98,
-  "available": 6431.58,
-  "unrealized": -44.2,
-  "daily_pnl": -183.91,
-  "total_pnl": 951.98,
-  "cum_pct": 14.21,
-  "daily_avg_pct": 0.8897,
-  "annual_pct": 2435.67,
-  "mdd": -0.97,
-  "current_dd": -0.97,
-  "seed_used": 1220.41,
-  "seed_used_pct": 15.95,
+  "equity": 7632.14,
+  "available": 7094.21,
+  "unrealized": -11.35,
+  "daily_pnl": -237.81,
+  "total_pnl": 932.14,
+  "cum_pct": 13.91,
+  "daily_avg_pct": 0.872,
+  "annual_pct": 2278.38,
+  "mdd": -1.42,
+  "current_dd": -1.42,
+  "seed_used": 537.93,
+  "seed_used_pct": 7.05,
   "long_count": 0,
-  "short_count": 2,
+  "short_count": 1,
   "positions": [
-    {
-      "symbol": "SIRENUSDT",
-      "side": "SHORT",
-      "pnl": -34.62,
-      "pnl_pct": -1.03,
-      "margin": 678.91,
-      "leverage": "5",
-      "tier": "2/3",
-      "entry": 1.1818,
-      "mark": 1.194
-    },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": -9.61,
-      "pnl_pct": -0.45,
-      "margin": 536.38,
+      "pnl": -11.36,
+      "pnl_pct": -0.53,
+      "margin": 536.82,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1.7105,
-      "mark": 1.7182
+      "mark": 1.7196
     }
   ],
   "signals": {
@@ -201,10 +190,17 @@
     },
     {
       "t": "2026-06-08",
-      "v": 951.98
+      "v": 932.14
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-08 19:47",
+      "symbol": "SIRENUSDT",
+      "side": "Sell",
+      "pnl": -53.9,
+      "reason": "2/3"
+    },
     {
       "ts": "2026-06-08 16:37",
       "symbol": "SIRENUSDT",
@@ -337,13 +333,6 @@
       "side": "Buy",
       "pnl": 53.59,
       "reason": "T1 진입 | GF=5 | Lv=9x | Seed=$773(9.6%)"
-    },
-    {
-      "ts": "2026-06-07 23:48",
-      "symbol": "BEATUSDT",
-      "side": "Buy",
-      "pnl": 115.82,
-      "reason": "3/3"
     }
   ],
   "num_days": 15
