@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-08T15:36:10.929762+09:00",
+  "ts": "2026-06-08T15:37:12.365257+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7691.21,
-  "available": 6626.73,
-  "unrealized": 29.11,
-  "daily_pnl": -220.48,
-  "total_pnl": 991.21,
-  "cum_pct": 14.79,
-  "daily_avg_pct": 0.9238,
-  "annual_pct": 2768.55,
+  "equity": 7690.22,
+  "available": 6691.29,
+  "unrealized": 10.6,
+  "daily_pnl": -203.52,
+  "total_pnl": 990.22,
+  "cum_pct": 14.78,
+  "daily_avg_pct": 0.9232,
+  "annual_pct": 2762.33,
   "mdd": -0.07,
-  "current_dd": -0.04,
-  "seed_used": 1064.48,
-  "seed_used_pct": 13.84,
+  "current_dd": 0.0,
+  "seed_used": 998.93,
+  "seed_used_pct": 12.99,
   "long_count": 0,
   "short_count": 2,
   "positions": [
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": -3.36,
-      "pnl_pct": -0.16,
-      "margin": 534.82,
+      "pnl": -4.11,
+      "pnl_pct": -0.19,
+      "margin": 535.01,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1.7105,
-      "mark": 1.7132
+      "mark": 1.7138
     },
     {
       "symbol": "SIRENUSDT",
       "side": "SHORT",
-      "pnl": 32.49,
-      "pnl_pct": 4.71,
-      "margin": 131.58,
+      "pnl": 14.71,
+      "pnl_pct": 4.25,
+      "margin": 66.22,
       "leverage": "5",
       "tier": "2/3",
       "entry": 1.1966,
-      "mark": 1.1402
+      "mark": 1.1456
     }
   ],
   "signals": {
@@ -75,11 +75,11 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.525
+      "conf": 0.529
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.566
+      "conf": 0.567
     },
     "ZECUSDT": {
       "dir": "short",
@@ -139,7 +139,7 @@
     },
     "SIRENUSDT": {
       "dir": "short",
-      "conf": 0.518
+      "conf": 0.517
     }
   },
   "equity_hist": [
@@ -201,10 +201,17 @@
     },
     {
       "t": "2026-06-08",
-      "v": 991.21
+      "v": 990.22
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-08 15:36",
+      "symbol": "SIRENUSDT",
+      "side": "Sell",
+      "pnl": 16.96,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-08 15:36",
       "symbol": "SIRENUSDT",
@@ -336,13 +343,6 @@
       "symbol": "WLDUSDT",
       "side": "Sell",
       "pnl": -29.75,
-      "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-07 23:23",
-      "symbol": "WLDUSDT",
-      "side": "Sell",
-      "pnl": -112.86,
       "reason": "External Exit"
     }
   ],
