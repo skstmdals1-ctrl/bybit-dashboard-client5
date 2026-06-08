@@ -1,19 +1,19 @@
 {
-  "ts": "2026-06-09T08:58:37.121043+09:00",
+  "ts": "2026-06-09T08:59:38.616381+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7564.34,
-  "available": 6992.93,
-  "unrealized": 10.87,
+  "equity": 7564.45,
+  "available": 6745.78,
+  "unrealized": 10.86,
   "daily_pnl": -34.14,
-  "total_pnl": 864.34,
+  "total_pnl": 864.45,
   "cum_pct": 12.9,
   "daily_avg_pct": 0.7612,
   "annual_pct": 1492.45,
   "mdd": -2.47,
-  "current_dd": -2.28,
-  "seed_used": 571.41,
-  "seed_used_pct": 7.55,
+  "current_dd": -2.3,
+  "seed_used": 818.67,
+  "seed_used_pct": 10.82,
   "long_count": 0,
   "short_count": 2,
   "positions": [
@@ -31,13 +31,13 @@
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -0.08,
-      "pnl_pct": -0.09,
-      "margin": 42.23,
+      "pnl": -0.09,
+      "pnl_pct": -0.11,
+      "margin": 42.24,
       "leverage": "2",
-      "tier": "1/2",
+      "tier": "2/2",
       "entry": 1687.72,
-      "mark": 1689.3
+      "mark": 1689.6
     }
   ],
   "signals": {
@@ -51,7 +51,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.478
+      "conf": 0.477
     },
     "XRPUSDT": {
       "dir": "short",
@@ -63,7 +63,7 @@
     },
     "BTCUSDT": {
       "dir": "short",
-      "conf": 0.373
+      "conf": 0.376
     },
     "1000PEPEUSDT": {
       "dir": "short",
@@ -91,7 +91,7 @@
     },
     "DOGEUSDT": {
       "dir": "long",
-      "conf": 0.41
+      "conf": 0.411
     },
     "INJUSDT": {
       "dir": "long",
@@ -205,7 +205,7 @@
     },
     {
       "t": "2026-06-09",
-      "v": 864.34
+      "v": 864.45
     }
   ],
   "trade_history": [
