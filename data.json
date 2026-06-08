@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-08T09:28:24.715553+09:00",
+  "ts": "2026-06-08T09:29:26.001011+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7759.17,
-  "available": 6915.3,
-  "unrealized": 42.96,
+  "equity": 7745.5,
+  "available": 6902.84,
+  "unrealized": 29.33,
   "daily_pnl": -166.68,
-  "total_pnl": 1059.17,
-  "cum_pct": 15.81,
-  "daily_avg_pct": 0.9833,
-  "annual_pct": 3457.04,
+  "total_pnl": 1045.5,
+  "cum_pct": 15.6,
+  "daily_avg_pct": 0.9711,
+  "annual_pct": 3303.59,
   "mdd": -11.84,
-  "current_dd": -2.38,
-  "seed_used": 843.87,
+  "current_dd": -4.93,
+  "seed_used": 842.66,
   "seed_used_pct": 10.88,
   "long_count": 1,
   "short_count": 1,
@@ -20,24 +20,24 @@
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 13.15,
-      "pnl_pct": 0.46,
-      "margin": 566.96,
+      "pnl": 12.14,
+      "pnl_pct": 0.43,
+      "margin": 567.16,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.7071,
-      "mark": 1.6992
+      "mark": 1.6998
     },
     {
       "symbol": "BEATUSDT",
       "side": "LONG",
-      "pnl": 29.83,
-      "pnl_pct": 3.99,
-      "margin": 86.32,
+      "pnl": 17.19,
+      "pnl_pct": 2.3,
+      "margin": 84.92,
       "leverage": "9",
       "tier": "2/3",
       "entry": 3.4586,
-      "mark": 3.5967
+      "mark": 3.5382
     }
   ],
   "signals": {
@@ -59,11 +59,11 @@
     },
     "TONUSDT": {
       "dir": "short",
-      "conf": 0.459
+      "conf": 0.458
     },
     "BTCUSDT": {
-      "dir": "short",
-      "conf": 0.428
+      "dir": "neutral",
+      "conf": 0.403
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -75,11 +75,11 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.515
+      "conf": 0.522
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.579
+      "conf": 0.547
     },
     "ZECUSDT": {
       "dir": "short",
@@ -91,7 +91,7 @@
     },
     "DOGEUSDT": {
       "dir": "short",
-      "conf": 0.451
+      "conf": 0.45
     },
     "INJUSDT": {
       "dir": "long",
@@ -197,7 +197,7 @@
     },
     {
       "t": "2026-06-08",
-      "v": 1059.17
+      "v": 1045.5
     }
   ],
   "trade_history": [
