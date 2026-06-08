@@ -1,32 +1,32 @@
 {
-  "ts": "2026-06-08T16:00:43.910986+09:00",
+  "ts": "2026-06-08T16:01:45.356660+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7692.96,
-  "available": 7157.74,
-  "unrealized": -0.37,
+  "equity": 7698.48,
+  "available": 7164.4,
+  "unrealized": 4.38,
   "daily_pnl": -188.28,
-  "total_pnl": 992.96,
-  "cum_pct": 14.82,
-  "daily_avg_pct": 0.9256,
-  "annual_pct": 2787.28,
+  "total_pnl": 998.48,
+  "cum_pct": 14.9,
+  "daily_avg_pct": 0.9302,
+  "annual_pct": 2835.71,
   "mdd": -0.09,
   "current_dd": 0.0,
-  "seed_used": 535.21,
-  "seed_used_pct": 6.96,
+  "seed_used": 534.08,
+  "seed_used_pct": 6.94,
   "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": -0.37,
-      "pnl_pct": -0.02,
-      "margin": 534.07,
+      "pnl": 5.0,
+      "pnl_pct": 0.23,
+      "margin": 532.73,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1.7105,
-      "mark": 1.7108
+      "mark": 1.7065
     }
   ],
   "signals": {
@@ -64,11 +64,11 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.546
+      "conf": 0.547
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.573
+      "conf": 0.577
     },
     "ZECUSDT": {
       "dir": "short",
@@ -190,7 +190,7 @@
     },
     {
       "t": "2026-06-08",
-      "v": 992.96
+      "v": 998.48
     }
   ],
   "trade_history": [
