@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-09T08:33:03.430354+09:00",
+  "ts": "2026-06-09T08:34:04.701620+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7566.06,
-  "available": 7037.17,
-  "unrealized": 12.22,
+  "equity": 7566.07,
+  "available": 7037.19,
+  "unrealized": 12.27,
   "daily_pnl": -34.14,
-  "total_pnl": 866.06,
+  "total_pnl": 866.07,
   "cum_pct": 12.93,
   "daily_avg_pct": 0.7629,
   "annual_pct": 1502.29,
   "mdd": -2.47,
   "current_dd": -2.3,
-  "seed_used": 528.89,
+  "seed_used": 528.88,
   "seed_used_pct": 6.99,
   "long_count": 0,
   "short_count": 1,
@@ -20,13 +20,13 @@
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 12.22,
+      "pnl": 12.27,
       "pnl_pct": 1.39,
-      "margin": 173.78,
+      "margin": 173.77,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.7451,
-      "mark": 1.7209
+      "mark": 1.7208
     }
   ],
   "signals": {
@@ -40,7 +40,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.481
+      "conf": 0.478
     },
     "XRPUSDT": {
       "dir": "short",
@@ -79,7 +79,7 @@
       "conf": 0.372
     },
     "DOGEUSDT": {
-      "dir": "long",
+      "dir": "short",
       "conf": 0.41
     },
     "INJUSDT": {
@@ -194,7 +194,7 @@
     },
     {
       "t": "2026-06-09",
-      "v": 866.06
+      "v": 866.07
     }
   ],
   "trade_history": [
