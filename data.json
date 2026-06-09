@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-10T08:56:40.327199+09:00",
+  "ts": "2026-06-10T08:57:42.980904+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7190.31,
-  "available": 5578.75,
-  "unrealized": 24.82,
+  "equity": 7191.71,
+  "available": 5580.34,
+  "unrealized": 26.03,
   "daily_pnl": -115.67,
-  "total_pnl": 490.31,
-  "cum_pct": 7.32,
-  "daily_avg_pct": 0.4164,
-  "annual_pct": 355.72,
+  "total_pnl": 491.71,
+  "cum_pct": 7.34,
+  "daily_avg_pct": 0.4175,
+  "annual_pct": 357.54,
   "mdd": -3.69,
-  "current_dd": -3.52,
-  "seed_used": 1611.56,
+  "current_dd": -3.5,
+  "seed_used": 1611.36,
   "seed_used_pct": 22.41,
   "long_count": 0,
   "short_count": 2,
@@ -20,30 +20,30 @@
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 23.71,
-      "pnl_pct": 2.14,
-      "margin": 155.02,
+      "pnl": 24.28,
+      "pnl_pct": 2.19,
+      "margin": 154.94,
       "leverage": "7",
       "tier": "2/2",
       "entry": 66.4,
-      "mark": 64.98
+      "mark": 64.946
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": 1.12,
-      "pnl_pct": 0.26,
-      "margin": 107.5,
+      "pnl": 1.76,
+      "pnl_pct": 0.41,
+      "margin": 107.34,
       "leverage": "4",
       "tier": "2/2",
       "entry": 0.0808,
-      "mark": 0.0805
+      "mark": 0.0804
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "short",
-      "conf": 0.493
+      "conf": 0.494
     },
     "WLDUSDT": {
       "dir": "short",
@@ -63,7 +63,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.401
+      "conf": 0.396
     },
     "1000PEPEUSDT": {
       "dir": "short",
@@ -75,7 +75,7 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.546
+      "conf": 0.547
     },
     "SUIUSDT": {
       "dir": "short",
@@ -83,7 +83,7 @@
     },
     "ZECUSDT": {
       "dir": "long",
-      "conf": 0.535
+      "conf": 0.532
     },
     "SOLUSDT": {
       "dir": "short",
@@ -209,7 +209,7 @@
     },
     {
       "t": "2026-06-10",
-      "v": 490.31
+      "v": 491.71
     }
   ],
   "trade_history": [
