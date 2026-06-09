@@ -1,54 +1,54 @@
 {
-  "ts": "2026-06-09T10:19:25.083951+09:00",
+  "ts": "2026-06-09T10:20:26.359110+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7582.03,
-  "available": 6233.49,
-  "unrealized": 28.3,
+  "equity": 7581.68,
+  "available": 6233.35,
+  "unrealized": 28.62,
   "daily_pnl": -34.14,
-  "total_pnl": 882.03,
+  "total_pnl": 881.68,
   "cum_pct": 13.16,
   "daily_avg_pct": 0.7757,
   "annual_pct": 1578.32,
   "mdd": -2.47,
   "current_dd": -2.07,
-  "seed_used": 1348.54,
-  "seed_used_pct": 17.79,
+  "seed_used": 1348.33,
+  "seed_used_pct": 17.78,
   "long_count": 0,
   "short_count": 3,
   "positions": [
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 27.16,
-      "pnl_pct": 3.08,
-      "margin": 170.79,
+      "pnl": 26.96,
+      "pnl_pct": 3.06,
+      "margin": 170.83,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.7451,
-      "mark": 1.6913
+      "mark": 1.6917
     },
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": 0.0,
-      "pnl_pct": -0.0,
-      "margin": 87.94,
+      "pnl": 0.52,
+      "pnl_pct": 0.15,
+      "margin": 87.81,
       "leverage": "4",
       "tier": "2/2",
       "entry": 204.5,
-      "mark": 204.5
+      "mark": 204.2
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 1.14,
-      "pnl_pct": 1.35,
+      "pnl": 1.15,
+      "pnl_pct": 1.37,
       "margin": 41.62,
       "leverage": "2",
       "tier": "2/2",
       "entry": 1687.72,
-      "mark": 1664.87
+      "mark": 1664.65
     }
   ],
   "signals": {
@@ -74,7 +74,7 @@
     },
     "BTCUSDT": {
       "dir": "short",
-      "conf": 0.387
+      "conf": 0.386
     },
     "1000PEPEUSDT": {
       "dir": "short",
@@ -216,7 +216,7 @@
     },
     {
       "t": "2026-06-09",
-      "v": 882.03
+      "v": 881.68
     }
   ],
   "trade_history": [
