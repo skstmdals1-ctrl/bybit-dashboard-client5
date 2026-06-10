@@ -1,54 +1,43 @@
 {
-  "ts": "2026-06-11T08:19:53.763364+09:00",
+  "ts": "2026-06-11T08:20:56.391286+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6970.41,
-  "available": 4951.54,
-  "unrealized": 36.11,
-  "daily_pnl": 138.52,
-  "total_pnl": 270.41,
-  "cum_pct": 4.04,
-  "daily_avg_pct": 0.2203,
-  "annual_pct": 123.27,
+  "equity": 6761.8,
+  "available": 5748.03,
+  "unrealized": 45.19,
+  "daily_pnl": -79.86,
+  "total_pnl": 61.8,
+  "cum_pct": 0.92,
+  "daily_avg_pct": 0.0509,
+  "annual_pct": 20.41,
   "mdd": -6.54,
   "current_dd": -3.61,
-  "seed_used": 2018.87,
-  "seed_used_pct": 28.96,
+  "seed_used": 1013.77,
+  "seed_used_pct": 14.99,
   "long_count": 0,
-  "short_count": 3,
+  "short_count": 2,
   "positions": [
-    {
-      "symbol": "WLDUSDT",
-      "side": "SHORT",
-      "pnl": -18.89,
-      "pnl_pct": -0.69,
-      "margin": 394.69,
-      "leverage": "7",
-      "tier": "3/3",
-      "entry": 0.4358,
-      "mark": 0.4388
-    },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 35.1,
-      "pnl_pct": 3.46,
-      "margin": 196.06,
+      "pnl": 33.03,
+      "pnl_pct": 3.25,
+      "margin": 196.48,
       "leverage": "5",
       "tier": "2/2",
       "entry": 65.09,
-      "mark": 62.84
+      "mark": 62.973
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": 19.94,
-      "pnl_pct": 2.26,
-      "margin": 122.97,
+      "pnl": 12.2,
+      "pnl_pct": 1.39,
+      "margin": 124.08,
       "leverage": "7",
       "tier": "2/3",
       "entry": 0.0729,
-      "mark": 0.0712
+      "mark": 0.0719
     }
   ],
   "signals": {
@@ -224,10 +213,17 @@
     },
     {
       "t": "2026-06-11",
-      "v": 270.41
+      "v": 61.8
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-11 08:20",
+      "symbol": "WLDUSDT",
+      "side": "Sell",
+      "pnl": -218.37,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-11 06:21",
       "symbol": "WLDUSDT",
@@ -359,13 +355,6 @@
       "symbol": "BCHUSDT",
       "side": "Sell",
       "pnl": -37.01,
-      "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-09 15:13",
-      "symbol": "TONUSDT",
-      "side": "Sell",
-      "pnl": -59.41,
       "reason": "External Exit"
     }
   ],
