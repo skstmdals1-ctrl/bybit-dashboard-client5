@@ -1,54 +1,43 @@
 {
-  "ts": "2026-06-10T18:27:48.867577+09:00",
+  "ts": "2026-06-10T18:28:51.550806+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7186.13,
-  "available": 4592.87,
-  "unrealized": 89.0,
-  "daily_pnl": -180.85,
-  "total_pnl": 486.13,
-  "cum_pct": 7.26,
-  "daily_avg_pct": 0.4131,
-  "annual_pct": 350.28,
+  "equity": 7181.16,
+  "available": 5470.43,
+  "unrealized": 59.24,
+  "daily_pnl": -155.9,
+  "total_pnl": 481.16,
+  "cum_pct": 7.18,
+  "daily_avg_pct": 0.4087,
+  "annual_pct": 343.14,
   "mdd": -0.91,
   "current_dd": 0.0,
-  "seed_used": 2593.27,
-  "seed_used_pct": 36.09,
+  "seed_used": 1710.73,
+  "seed_used_pct": 23.82,
   "long_count": 0,
-  "short_count": 3,
+  "short_count": 2,
   "positions": [
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 50.78,
-      "pnl_pct": 0.68,
-      "margin": 1060.01,
+      "pnl": 47.64,
+      "pnl_pct": 0.64,
+      "margin": 1060.46,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1.6651,
-      "mark": 1.6538
+      "mark": 1.6545
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": 12.81,
-      "pnl_pct": 2.97,
-      "margin": 104.58,
+      "pnl": 11.64,
+      "pnl_pct": 2.7,
+      "margin": 104.87,
       "leverage": "4",
       "tier": "2/2",
       "entry": 0.0808,
-      "mark": 0.0784
-    },
-    {
-      "symbol": "SOLUSDT",
-      "side": "SHORT",
-      "pnl": 25.78,
-      "pnl_pct": 4.62,
-      "margin": 76.0,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 66.4,
-      "mark": 63.331
+      "mark": 0.0786
     }
   ],
   "signals": {
@@ -220,10 +209,17 @@
     },
     {
       "t": "2026-06-10",
-      "v": 486.13
+      "v": 481.16
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-10 18:28",
+      "symbol": "SOLUSDT",
+      "side": "Sell",
+      "pnl": 24.96,
+      "reason": "2/2"
+    },
     {
       "ts": "2026-06-10 18:20",
       "symbol": "SOLUSDT",
@@ -355,13 +351,6 @@
       "symbol": "SIRENUSDT",
       "side": "Sell",
       "pnl": 16.96,
-      "reason": "-"
-    },
-    {
-      "ts": "2026-06-08 15:36",
-      "symbol": "SIRENUSDT",
-      "side": "Sell",
-      "pnl": 33.98,
       "reason": "-"
     }
   ],
