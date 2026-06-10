@@ -1,49 +1,49 @@
 {
-  "ts": "2026-06-11T01:54:55.285196+09:00",
+  "ts": "2026-06-11T01:55:58.026620+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6823.56,
-  "available": 5810.36,
-  "unrealized": 26.39,
+  "equity": 6828.96,
+  "available": 5816.68,
+  "unrealized": 31.92,
   "daily_pnl": 0,
-  "total_pnl": 123.56,
-  "cum_pct": 1.84,
-  "daily_avg_pct": 0.1013,
-  "annual_pct": 44.71,
+  "total_pnl": 128.96,
+  "cum_pct": 1.92,
+  "daily_avg_pct": 0.1057,
+  "annual_pct": 47.05,
   "mdd": -6.54,
   "current_dd": -5.98,
-  "seed_used": 1013.2,
-  "seed_used_pct": 14.85,
+  "seed_used": 1012.28,
+  "seed_used_pct": 14.82,
   "long_count": 0,
   "short_count": 2,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 8.42,
-      "pnl_pct": 0.83,
-      "margin": 201.4,
+      "pnl": 10.3,
+      "pnl_pct": 1.01,
+      "margin": 201.02,
       "leverage": "5",
       "tier": "2/2",
       "entry": 65.09,
-      "mark": 64.55
+      "mark": 64.43
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": 17.98,
-      "pnl_pct": 2.07,
-      "margin": 121.57,
+      "pnl": 21.65,
+      "pnl_pct": 2.49,
+      "margin": 121.05,
       "leverage": "7",
       "tier": "2/3",
       "entry": 0.0782,
-      "mark": 0.0766
+      "mark": 0.0762
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.514
+      "conf": 0.513
     },
     "WLDUSDT": {
       "dir": "short",
@@ -51,11 +51,11 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.345
+      "conf": 0.352
     },
     "XRPUSDT": {
       "dir": "short",
-      "conf": 0.496
+      "conf": 0.495
     },
     "TONUSDT": {
       "dir": "short",
@@ -75,7 +75,7 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.516
+      "conf": 0.515
     },
     "SUIUSDT": {
       "dir": "short",
@@ -91,7 +91,7 @@
     },
     "DOGEUSDT": {
       "dir": "short",
-      "conf": 0.466
+      "conf": 0.464
     },
     "INJUSDT": {
       "dir": "long",
@@ -213,7 +213,7 @@
     },
     {
       "t": "2026-06-11",
-      "v": 123.56
+      "v": 128.96
     }
   ],
   "trade_history": [
