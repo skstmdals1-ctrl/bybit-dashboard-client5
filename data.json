@@ -1,49 +1,49 @@
 {
-  "ts": "2026-06-11T01:23:31.426768+09:00",
+  "ts": "2026-06-11T01:24:34.498287+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6803.61,
-  "available": 6197.13,
-  "unrealized": 7.22,
+  "equity": 6808.2,
+  "available": 5792.62,
+  "unrealized": 11.43,
   "daily_pnl": 0,
-  "total_pnl": 103.61,
-  "cum_pct": 1.55,
-  "daily_avg_pct": 0.0855,
-  "annual_pct": 36.61,
+  "total_pnl": 108.2,
+  "cum_pct": 1.61,
+  "daily_avg_pct": 0.0888,
+  "annual_pct": 38.26,
   "mdd": -6.54,
-  "current_dd": -6.43,
-  "seed_used": 606.48,
-  "seed_used_pct": 8.91,
+  "current_dd": -6.34,
+  "seed_used": 1015.58,
+  "seed_used_pct": 14.92,
   "long_count": 0,
   "short_count": 2,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 2.03,
-      "pnl_pct": 0.2,
-      "margin": 202.68,
+      "pnl": 3.12,
+      "pnl_pct": 0.31,
+      "margin": 202.46,
       "leverage": "5",
-      "tier": "1/2",
+      "tier": "2/2",
       "entry": 65.09,
-      "mark": 64.96
+      "mark": 64.89
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": 5.2,
-      "pnl_pct": 0.6,
-      "margin": 123.4,
+      "pnl": 8.31,
+      "pnl_pct": 0.96,
+      "margin": 122.95,
       "leverage": "7",
       "tier": "2/3",
       "entry": 0.0782,
-      "mark": 0.0777
+      "mark": 0.0774
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.515
+      "conf": 0.514
     },
     "WLDUSDT": {
       "dir": "short",
@@ -51,11 +51,11 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.342
+      "conf": 0.344
     },
     "XRPUSDT": {
       "dir": "short",
-      "conf": 0.495
+      "conf": 0.496
     },
     "TONUSDT": {
       "dir": "short",
@@ -123,7 +123,7 @@
     },
     "ENAUSDT": {
       "dir": "short",
-      "conf": 0.518
+      "conf": 0.519
     },
     "HUSDT": {
       "dir": "long",
@@ -213,7 +213,7 @@
     },
     {
       "t": "2026-06-11",
-      "v": 103.61
+      "v": 108.2
     }
   ],
   "trade_history": [
