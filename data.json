@@ -1,57 +1,57 @@
 {
-  "ts": "2026-06-11T10:21:33.267681+09:00",
+  "ts": "2026-06-11T10:22:37.117644+09:00",
   "start_date": "2026-05-25",
-  "status": "stopped",
-  "equity": 6731.12,
-  "available": 5711.96,
-  "unrealized": 15.07,
+  "status": "running",
+  "equity": 6733.61,
+  "available": 5714.65,
+  "unrealized": 16.89,
   "daily_pnl": -79.86,
-  "total_pnl": 31.12,
-  "cum_pct": 0.46,
-  "daily_avg_pct": 0.0255,
-  "annual_pct": 9.75,
+  "total_pnl": 33.61,
+  "cum_pct": 0.5,
+  "daily_avg_pct": 0.0277,
+  "annual_pct": 10.64,
   "mdd": -7.4,
-  "current_dd": -7.4,
-  "seed_used": 1019.17,
-  "seed_used_pct": 15.14,
+  "current_dd": -7.38,
+  "seed_used": 1018.96,
+  "seed_used_pct": 15.13,
   "long_count": 0,
   "short_count": 2,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 13.09,
-      "pnl_pct": 1.29,
-      "margin": 200.46,
+      "pnl": 13.88,
+      "pnl_pct": 1.37,
+      "margin": 200.3,
       "leverage": "5",
       "tier": "2/2",
       "entry": 65.09,
-      "mark": 64.251
+      "mark": 64.2
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": 2.05,
-      "pnl_pct": 0.23,
-      "margin": 125.53,
+      "pnl": 3.02,
+      "pnl_pct": 0.34,
+      "margin": 125.39,
       "leverage": "7",
       "tier": "2/3",
       "entry": 0.0729,
-      "mark": 0.0727
+      "mark": 0.0726
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.504
+      "conf": 0.505
     },
     "WLDUSDT": {
       "dir": "short",
-      "conf": 0.54
+      "conf": 0.541
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.451
+      "conf": 0.446
     },
     "XRPUSDT": {
       "dir": "short",
@@ -213,7 +213,7 @@
     },
     {
       "t": "2026-06-11",
-      "v": 31.12
+      "v": 33.61
     }
   ],
   "trade_history": [
