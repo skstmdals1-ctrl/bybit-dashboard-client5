@@ -1,68 +1,57 @@
 {
-  "ts": "2026-06-11T12:55:39.825342+09:00",
+  "ts": "2026-06-11T12:56:42.546629+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6555.97,
-  "available": 4319.7,
-  "unrealized": -29.78,
-  "daily_pnl": -205.94,
-  "total_pnl": -144.03,
-  "cum_pct": -2.15,
-  "daily_avg_pct": -0.1207,
-  "annual_pct": -35.65,
-  "mdd": -9.91,
-  "current_dd": -9.91,
-  "seed_used": 2236.27,
-  "seed_used_pct": 34.11,
+  "equity": 6505.09,
+  "available": 5271.56,
+  "unrealized": 62.9,
+  "daily_pnl": -351.22,
+  "total_pnl": -194.91,
+  "cum_pct": -2.91,
+  "daily_avg_pct": -0.1639,
+  "annual_pct": -45.05,
+  "mdd": -10.57,
+  "current_dd": -10.57,
+  "seed_used": 1233.53,
+  "seed_used_pct": 18.96,
   "long_count": 1,
-  "short_count": 2,
+  "short_count": 1,
   "positions": [
-    {
-      "symbol": "ENAUSDT",
-      "side": "SHORT",
-      "pnl": -79.84,
-      "pnl_pct": -1.15,
-      "margin": 1005.28,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 0.0747,
-      "mark": 0.0756
-    },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 47.07,
-      "pnl_pct": 1.55,
-      "margin": 615.01,
+      "pnl": 66.28,
+      "pnl_pct": 2.19,
+      "margin": 618.85,
       "leverage": "5",
       "tier": "2/2",
       "entry": 53.907,
-      "mark": 54.745
+      "mark": 55.087
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 2.96,
-      "pnl_pct": 0.29,
-      "margin": 202.49,
+      "pnl": -4.15,
+      "pnl_pct": -0.41,
+      "margin": 203.91,
       "leverage": "5",
       "tier": "2/2",
       "entry": 65.09,
-      "mark": 64.9
+      "mark": 65.356
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.497
+      "conf": 0.501
     },
     "WLDUSDT": {
       "dir": "short",
-      "conf": 0.544
+      "conf": 0.519
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.407
+      "conf": 0.408
     },
     "XRPUSDT": {
       "dir": "short",
@@ -110,7 +99,7 @@
     },
     "ADAUSDT": {
       "dir": "short",
-      "conf": 0.496
+      "conf": 0.495
     },
     "TAOUSDT": {
       "dir": "short",
@@ -224,10 +213,17 @@
     },
     {
       "t": "2026-06-11",
-      "v": -144.03
+      "v": -194.91
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-11 12:55",
+      "symbol": "ENAUSDT",
+      "side": "Sell",
+      "pnl": -145.28,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-11 12:33",
       "symbol": "ENAUSDT",
@@ -359,13 +355,6 @@
       "symbol": "ENAUSDT",
       "side": "Sell",
       "pnl": 27.19,
-      "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-09 22:01",
-      "symbol": "ENAUSDT",
-      "side": "Sell",
-      "pnl": -142.62,
       "reason": "External Exit"
     }
   ],
