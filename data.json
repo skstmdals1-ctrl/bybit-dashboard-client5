@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-11T12:20:48.085365+09:00",
+  "ts": "2026-06-11T12:21:50.958716+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6676.87,
-  "available": 5050.23,
-  "unrealized": 23.57,
+  "equity": 6675.52,
+  "available": 5049.11,
+  "unrealized": 22.73,
   "daily_pnl": -140.98,
-  "total_pnl": -23.13,
-  "cum_pct": -0.35,
-  "daily_avg_pct": -0.0195,
-  "annual_pct": -6.87,
+  "total_pnl": -24.48,
+  "cum_pct": -0.37,
+  "daily_avg_pct": -0.0206,
+  "annual_pct": -7.24,
   "mdd": -8.48,
-  "current_dd": -7.96,
-  "seed_used": 1626.63,
+  "current_dd": -8.17,
+  "seed_used": 1626.4,
   "seed_used_pct": 24.36,
   "long_count": 1,
   "short_count": 2,
@@ -20,31 +20,31 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 7.19,
-      "pnl_pct": 0.24,
-      "margin": 607.03,
+      "pnl": 7.02,
+      "pnl_pct": 0.23,
+      "margin": 607.0,
       "leverage": "5",
       "tier": "2/2",
       "entry": 53.907,
-      "mark": 54.035
+      "mark": 54.032
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 11.7,
-      "pnl_pct": 1.15,
-      "margin": 200.74,
+      "pnl": 11.19,
+      "pnl_pct": 1.1,
+      "margin": 200.84,
       "leverage": "5",
       "tier": "2/2",
       "entry": 65.09,
-      "mark": 64.34
+      "mark": 64.373
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": 4.59,
-      "pnl_pct": 0.52,
-      "margin": 125.16,
+      "pnl": 4.95,
+      "pnl_pct": 0.56,
+      "margin": 125.11,
       "leverage": "7",
       "tier": "2/3",
       "entry": 0.0729,
@@ -54,7 +54,7 @@
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.496
+      "conf": 0.499
     },
     "WLDUSDT": {
       "dir": "short",
@@ -66,7 +66,7 @@
     },
     "XRPUSDT": {
       "dir": "short",
-      "conf": 0.464
+      "conf": 0.462
     },
     "TONUSDT": {
       "dir": "short",
@@ -86,7 +86,7 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.518
+      "conf": 0.519
     },
     "SUIUSDT": {
       "dir": "short",
@@ -134,7 +134,7 @@
     },
     "ENAUSDT": {
       "dir": "short",
-      "conf": 0.527
+      "conf": 0.537
     },
     "HUSDT": {
       "dir": "long",
@@ -224,7 +224,7 @@
     },
     {
       "t": "2026-06-11",
-      "v": -23.13
+      "v": -24.48
     }
   ],
   "trade_history": [
