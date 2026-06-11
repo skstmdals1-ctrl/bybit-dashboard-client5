@@ -1,32 +1,32 @@
 {
-  "ts": "2026-06-11T23:48:00.478891+09:00",
+  "ts": "2026-06-11T23:49:03.554949+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6598.08,
-  "available": 5984.66,
-  "unrealized": -6.86,
+  "equity": 6592.56,
+  "available": 5978.05,
+  "unrealized": -12.36,
   "daily_pnl": -190.1,
-  "total_pnl": -101.92,
-  "cum_pct": -1.52,
-  "daily_avg_pct": -0.0851,
-  "annual_pct": -26.71,
+  "total_pnl": -107.44,
+  "cum_pct": -1.6,
+  "daily_avg_pct": -0.0896,
+  "annual_pct": -27.91,
   "mdd": -3.34,
-  "current_dd": -1.55,
-  "seed_used": 613.41,
-  "seed_used_pct": 9.3,
+  "current_dd": -1.52,
+  "seed_used": 614.51,
+  "seed_used_pct": 9.32,
   "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": -6.86,
-      "pnl_pct": -0.22,
-      "margin": 612.05,
+      "pnl": -12.23,
+      "pnl_pct": -0.4,
+      "margin": 613.12,
       "leverage": "5",
       "tier": "2/2",
       "entry": 65.383,
-      "mark": 65.53
+      "mark": 65.645
     }
   ],
   "signals": {
@@ -48,7 +48,7 @@
     },
     "TONUSDT": {
       "dir": "short",
-      "conf": 0.528
+      "conf": 0.522
     },
     "BTCUSDT": {
       "dir": "neutral",
@@ -76,7 +76,7 @@
     },
     "SOLUSDT": {
       "dir": "short",
-      "conf": 0.459
+      "conf": 0.46
     },
     "DOGEUSDT": {
       "dir": "neutral",
@@ -202,7 +202,7 @@
     },
     {
       "t": "2026-06-11",
-      "v": -101.92
+      "v": -107.44
     }
   ],
   "trade_history": [
