@@ -1,32 +1,32 @@
 {
-  "ts": "2026-06-12T02:03:07.955779+09:00",
+  "ts": "2026-06-12T02:04:10.680291+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6606.92,
-  "available": 5995.24,
-  "unrealized": 1.77,
+  "equity": 6613.61,
+  "available": 6003.29,
+  "unrealized": 8.54,
   "daily_pnl": 0,
-  "total_pnl": -93.08,
-  "cum_pct": -1.39,
-  "daily_avg_pct": -0.0736,
-  "annual_pct": -23.57,
+  "total_pnl": -86.39,
+  "cum_pct": -1.29,
+  "daily_avg_pct": -0.0683,
+  "annual_pct": -22.07,
   "mdd": -3.34,
   "current_dd": -1.39,
-  "seed_used": 611.68,
-  "seed_used_pct": 9.26,
+  "seed_used": 610.32,
+  "seed_used_pct": 9.23,
   "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 1.73,
-      "pnl_pct": 0.06,
-      "margin": 610.33,
+      "pnl": 9.06,
+      "pnl_pct": 0.3,
+      "margin": 608.87,
       "leverage": "5",
       "tier": "2/2",
       "entry": 65.383,
-      "mark": 65.346
+      "mark": 65.189
     }
   ],
   "signals": {
@@ -40,11 +40,11 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.479
+      "conf": 0.469
     },
     "XRPUSDT": {
       "dir": "short",
-      "conf": 0.559
+      "conf": 0.56
     },
     "TONUSDT": {
       "dir": "short",
@@ -206,7 +206,7 @@
     },
     {
       "t": "2026-06-12",
-      "v": -93.08
+      "v": -86.39
     }
   ],
   "trade_history": [
