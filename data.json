@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-11T13:11:20.188230+09:00",
+  "ts": "2026-06-11T13:12:22.879790+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6489.15,
-  "available": 5260.46,
-  "unrealized": 46.25,
+  "equity": 6491.31,
+  "available": 5262.19,
+  "unrealized": 48.95,
   "daily_pnl": -351.22,
-  "total_pnl": -210.85,
-  "cum_pct": -3.15,
-  "daily_avg_pct": -0.1777,
-  "annual_pct": -47.75,
-  "mdd": -10.63,
-  "current_dd": -10.63,
-  "seed_used": 1228.69,
+  "total_pnl": -208.69,
+  "cum_pct": -3.11,
+  "daily_avg_pct": -0.1754,
+  "annual_pct": -47.31,
+  "mdd": -10.72,
+  "current_dd": -10.72,
+  "seed_used": 1229.12,
   "seed_used_pct": 18.93,
   "long_count": 1,
   "short_count": 1,
@@ -20,30 +20,30 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 46.79,
-      "pnl_pct": 1.55,
-      "margin": 614.95,
+      "pnl": 48.98,
+      "pnl_pct": 1.62,
+      "margin": 615.39,
       "leverage": "5",
       "tier": "2/2",
       "entry": 53.907,
-      "mark": 54.74
+      "mark": 54.779
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": -0.37,
+      "pnl": -0.36,
       "pnl_pct": -0.04,
-      "margin": 203.16,
+      "margin": 203.15,
       "leverage": "5",
       "tier": "2/2",
       "entry": 65.09,
-      "mark": 65.114
+      "mark": 65.113
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.504
+      "conf": 0.495
     },
     "WLDUSDT": {
       "dir": "short",
@@ -51,11 +51,11 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.407
+      "conf": 0.411
     },
     "XRPUSDT": {
       "dir": "short",
-      "conf": 0.389
+      "conf": 0.394
     },
     "TONUSDT": {
       "dir": "short",
@@ -75,7 +75,7 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.519
+      "conf": 0.52
     },
     "SUIUSDT": {
       "dir": "short",
@@ -135,7 +135,7 @@
     },
     "BEATUSDT": {
       "dir": "long",
-      "conf": 0.579
+      "conf": 0.658
     },
     "SIRENUSDT": {
       "dir": "short",
@@ -213,7 +213,7 @@
     },
     {
       "t": "2026-06-11",
-      "v": -210.85
+      "v": -208.69
     }
   ],
   "trade_history": [
