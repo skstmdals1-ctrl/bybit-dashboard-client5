@@ -1,49 +1,49 @@
 {
-  "ts": "2026-06-12T19:08:33.090794+09:00",
+  "ts": "2026-06-12T19:09:35.713881+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6319.16,
-  "available": 4769.0,
-  "unrealized": -135.47,
+  "equity": 6349.86,
+  "available": 4795.65,
+  "unrealized": -104.5,
   "daily_pnl": -148.34,
-  "total_pnl": -380.84,
-  "cum_pct": -5.68,
-  "daily_avg_pct": -0.3073,
-  "annual_pct": -67.48,
+  "total_pnl": -350.14,
+  "cum_pct": -5.23,
+  "daily_avg_pct": -0.2823,
+  "annual_pct": -64.37,
   "mdd": -10.32,
-  "current_dd": -10.32,
-  "seed_used": 1550.16,
-  "seed_used_pct": 24.53,
+  "current_dd": -9.54,
+  "seed_used": 1554.21,
+  "seed_used_pct": 24.48,
   "long_count": 1,
   "short_count": 1,
   "positions": [
     {
       "symbol": "VELVETUSDT",
       "side": "LONG",
-      "pnl": -77.91,
-      "pnl_pct": -1.61,
-      "margin": 952.81,
+      "pnl": -66.68,
+      "pnl_pct": -1.38,
+      "margin": 955.05,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.7417,
-      "mark": 1.7137
+      "mark": 1.7177
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": -41.59,
-      "pnl_pct": -1.42,
-      "margin": 596.15,
+      "pnl": -36.39,
+      "pnl_pct": -1.24,
+      "margin": 595.11,
       "leverage": "5",
       "tier": "1/1",
       "entry": 0.1696,
-      "mark": 0.172
+      "mark": 0.1717
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.509
+      "conf": 0.508
     },
     "WLDUSDT": {
       "dir": "long",
@@ -221,7 +221,7 @@
     },
     {
       "t": "2026-06-12",
-      "v": -380.84
+      "v": -350.14
     }
   ],
   "trade_history": [
