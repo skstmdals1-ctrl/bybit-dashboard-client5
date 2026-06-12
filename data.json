@@ -1,54 +1,43 @@
 {
-  "ts": "2026-06-12T18:18:19.997318+09:00",
+  "ts": "2026-06-12T18:19:22.686502+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6596.64,
-  "available": 4473.77,
-  "unrealized": -9.64,
-  "daily_pnl": 11.26,
-  "total_pnl": -103.36,
-  "cum_pct": -1.54,
-  "daily_avg_pct": -0.0816,
-  "annual_pct": -25.77,
+  "equity": 6493.34,
+  "available": 5296.63,
+  "unrealized": 38.45,
+  "daily_pnl": -148.34,
+  "total_pnl": -206.66,
+  "cum_pct": -3.08,
+  "daily_avg_pct": -0.1645,
+  "annual_pct": -45.17,
   "mdd": -6.67,
   "current_dd": -4.26,
-  "seed_used": 2122.87,
-  "seed_used_pct": 32.18,
-  "long_count": 2,
+  "seed_used": 1196.71,
+  "seed_used_pct": 18.43,
+  "long_count": 1,
   "short_count": 1,
   "positions": [
     {
-      "symbol": "LABUSDT",
-      "side": "LONG",
-      "pnl": -74.75,
-      "pnl_pct": -0.9,
-      "margin": 914.49,
-      "leverage": "9",
-      "tier": "2/2",
-      "entry": 9.9822,
-      "mark": 9.8924
-    },
-    {
       "symbol": "VELVETUSDT",
       "side": "LONG",
-      "pnl": 77.23,
-      "pnl_pct": 2.61,
-      "margin": 607.99,
+      "pnl": 47.85,
+      "pnl_pct": 1.61,
+      "margin": 602.12,
       "leverage": "5",
       "tier": "1/2",
       "entry": 1.7635,
-      "mark": 1.8095
+      "mark": 1.792
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": -12.13,
-      "pnl_pct": -0.41,
-      "margin": 590.26,
+      "pnl": -13.86,
+      "pnl_pct": -0.47,
+      "margin": 590.61,
       "leverage": "5",
       "tier": "1/1",
       "entry": 0.1696,
-      "mark": 0.1703
+      "mark": 0.1704
     }
   ],
   "signals": {
@@ -232,10 +221,17 @@
     },
     {
       "t": "2026-06-12",
-      "v": -103.36
+      "v": -206.66
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-12 18:19",
+      "symbol": "LABUSDT",
+      "side": "Buy",
+      "pnl": -159.6,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-12 17:12",
       "symbol": "WLDUSDT",
@@ -368,13 +364,6 @@
       "side": "Sell",
       "pnl": 4.24,
       "reason": "2/2"
-    },
-    {
-      "ts": "2026-06-10 21:02",
-      "symbol": "ENAUSDT",
-      "side": "Sell",
-      "pnl": 10.7,
-      "reason": "-"
     }
   ],
   "num_days": 19
