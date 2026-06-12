@@ -1,32 +1,32 @@
 {
-  "ts": "2026-06-12T23:34:18.644367+09:00",
+  "ts": "2026-06-12T23:35:22.138806+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 5991.52,
-  "available": 5402.58,
-  "unrealized": 1.73,
+  "equity": 5982.94,
+  "available": 5392.26,
+  "unrealized": -6.93,
   "daily_pnl": -617.58,
-  "total_pnl": -708.48,
-  "cum_pct": -10.57,
-  "daily_avg_pct": -0.5862,
-  "annual_pct": -88.3,
+  "total_pnl": -717.06,
+  "cum_pct": -10.7,
+  "daily_avg_pct": -0.5939,
+  "annual_pct": -88.63,
   "mdd": -14.67,
   "current_dd": -14.64,
-  "seed_used": 588.94,
-  "seed_used_pct": 9.83,
+  "seed_used": 590.68,
+  "seed_used_pct": 9.87,
   "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 1.73,
-      "pnl_pct": 0.06,
-      "margin": 587.49,
+      "pnl": -6.93,
+      "pnl_pct": -0.24,
+      "margin": 589.22,
       "leverage": "5",
       "tier": "1/1",
       "entry": 0.1696,
-      "mark": 0.1695
+      "mark": 0.17
     }
   ],
   "signals": {
@@ -88,7 +88,7 @@
     },
     "ADAUSDT": {
       "dir": "short",
-      "conf": 0.511
+      "conf": 0.519
     },
     "TAOUSDT": {
       "dir": "short",
@@ -214,7 +214,7 @@
     },
     {
       "t": "2026-06-12",
-      "v": -708.48
+      "v": -717.06
     }
   ],
   "trade_history": [
