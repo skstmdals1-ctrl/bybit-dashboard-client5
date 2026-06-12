@@ -1,42 +1,42 @@
 {
-  "ts": "2026-06-12T23:01:48.869324+09:00",
+  "ts": "2026-06-12T23:02:51.938778+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6002.03,
-  "available": 5415.67,
-  "unrealized": 13.85,
+  "equity": 6003.89,
+  "available": 5417.86,
+  "unrealized": 15.58,
   "daily_pnl": -617.58,
-  "total_pnl": -697.97,
-  "cum_pct": -10.42,
-  "daily_avg_pct": -0.5775,
-  "annual_pct": -87.92,
+  "total_pnl": -696.11,
+  "cum_pct": -10.39,
+  "daily_avg_pct": -0.5757,
+  "annual_pct": -87.84,
   "mdd": -14.52,
-  "current_dd": -14.23,
-  "seed_used": 586.36,
-  "seed_used_pct": 9.77,
+  "current_dd": -14.47,
+  "seed_used": 586.03,
+  "seed_used_pct": 9.76,
   "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 13.86,
-      "pnl_pct": 0.47,
-      "margin": 585.06,
+      "pnl": 15.6,
+      "pnl_pct": 0.53,
+      "margin": 584.71,
       "leverage": "5",
       "tier": "1/1",
       "entry": 0.1696,
-      "mark": 0.1688
+      "mark": 0.1687
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.516
+      "conf": 0.514
     },
     "WLDUSDT": {
       "dir": "long",
-      "conf": 0.469
+      "conf": 0.468
     },
     "ETHUSDT": {
       "dir": "short",
@@ -64,7 +64,7 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.53
+      "conf": 0.529
     },
     "SUIUSDT": {
       "dir": "short",
@@ -76,7 +76,7 @@
     },
     "SOLUSDT": {
       "dir": "short",
-      "conf": 0.459
+      "conf": 0.46
     },
     "DOGEUSDT": {
       "dir": "neutral",
@@ -88,7 +88,7 @@
     },
     "ADAUSDT": {
       "dir": "short",
-      "conf": 0.504
+      "conf": 0.503
     },
     "TAOUSDT": {
       "dir": "short",
@@ -124,7 +124,7 @@
     },
     "BEATUSDT": {
       "dir": "long",
-      "conf": 0.621
+      "conf": 0.625
     },
     "SIRENUSDT": {
       "dir": "short",
@@ -132,7 +132,11 @@
     },
     "VELVETUSDT": {
       "dir": "long",
-      "conf": 0.595
+      "conf": 0.599
+    },
+    "XMRUSDT": {
+      "dir": "short",
+      "conf": 0.7
     }
   },
   "equity_hist": [
@@ -210,7 +214,7 @@
     },
     {
       "t": "2026-06-12",
-      "v": -697.97
+      "v": -696.11
     }
   ],
   "trade_history": [
