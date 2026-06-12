@@ -1,34 +1,22 @@
 {
-  "ts": "2026-06-13T00:13:04.657205+09:00",
+  "ts": "2026-06-13T00:14:07.495095+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 5922.87,
-  "available": 5320.01,
-  "unrealized": -67.54,
-  "daily_pnl": 0,
-  "total_pnl": -777.13,
-  "cum_pct": -11.6,
-  "daily_avg_pct": -0.6146,
-  "annual_pct": -89.46,
+  "equity": 5914.59,
+  "available": 5914.59,
+  "unrealized": 0.0,
+  "daily_pnl": -76.47,
+  "total_pnl": -785.41,
+  "cum_pct": -11.72,
+  "daily_avg_pct": -0.6213,
+  "annual_pct": -89.72,
   "mdd": -15.57,
   "current_dd": -15.57,
-  "seed_used": 602.86,
-  "seed_used_pct": 10.18,
+  "seed_used": 0,
+  "seed_used_pct": 0.0,
   "long_count": 0,
-  "short_count": 1,
-  "positions": [
-    {
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
-      "pnl": -67.59,
-      "pnl_pct": -2.3,
-      "margin": 601.35,
-      "leverage": "5",
-      "tier": "1/1",
-      "entry": 0.1696,
-      "mark": 0.1735
-    }
-  ],
+  "short_count": 0,
+  "positions": [],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
@@ -218,10 +206,17 @@
     },
     {
       "t": "2026-06-13",
-      "v": -777.13
+      "v": -785.41
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-13 00:13",
+      "symbol": "ADAUSDT",
+      "side": "Sell",
+      "pnl": -76.47,
+      "reason": "1/1"
+    },
     {
       "ts": "2026-06-12 22:42",
       "symbol": "ZECUSDT",
@@ -353,13 +348,6 @@
       "symbol": "ENAUSDT",
       "side": "Sell",
       "pnl": 56.38,
-      "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-10 22:40",
-      "symbol": "ENAUSDT",
-      "side": "Sell",
-      "pnl": -29.89,
       "reason": "External Exit"
     }
   ],
