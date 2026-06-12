@@ -1,49 +1,49 @@
 {
-  "ts": "2026-06-12T21:47:32.280954+09:00",
+  "ts": "2026-06-12T21:48:34.956271+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6071.25,
-  "available": 4668.32,
-  "unrealized": -61.94,
+  "equity": 6092.13,
+  "available": 4685.02,
+  "unrealized": -41.21,
   "daily_pnl": -470.84,
-  "total_pnl": -628.75,
-  "cum_pct": -9.38,
-  "daily_avg_pct": -0.5171,
-  "annual_pct": -84.93,
+  "total_pnl": -607.87,
+  "cum_pct": -9.07,
+  "daily_avg_pct": -0.4992,
+  "annual_pct": -83.9,
   "mdd": -13.32,
-  "current_dd": -13.17,
-  "seed_used": 1402.93,
-  "seed_used_pct": 23.11,
+  "current_dd": -13.2,
+  "seed_used": 1407.11,
+  "seed_used_pct": 23.1,
   "long_count": 1,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": -32.29,
-      "pnl_pct": -0.57,
-      "margin": 806.25,
+      "pnl": -8.33,
+      "pnl_pct": -0.15,
+      "margin": 809.68,
       "leverage": "7",
       "tier": "1/1",
       "entry": 435.95,
-      "mark": 433.47
+      "mark": 435.31
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": -29.46,
-      "pnl_pct": -1.0,
-      "margin": 593.73,
+      "pnl": -32.93,
+      "pnl_pct": -1.12,
+      "margin": 594.42,
       "leverage": "5",
       "tier": "1/1",
       "entry": 0.1696,
-      "mark": 0.1713
+      "mark": 0.1715
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.51
+      "conf": 0.509
     },
     "WLDUSDT": {
       "dir": "long",
@@ -51,11 +51,11 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.47
+      "conf": 0.471
     },
     "XRPUSDT": {
       "dir": "short",
-      "conf": 0.553
+      "conf": 0.552
     },
     "TONUSDT": {
       "dir": "short",
@@ -83,11 +83,11 @@
     },
     "ZECUSDT": {
       "dir": "short",
-      "conf": 0.51
+      "conf": 0.52
     },
     "SOLUSDT": {
       "dir": "short",
-      "conf": 0.46
+      "conf": 0.459
     },
     "DOGEUSDT": {
       "dir": "neutral",
@@ -99,7 +99,7 @@
     },
     "ADAUSDT": {
       "dir": "short",
-      "conf": 0.55
+      "conf": 0.549
     },
     "TAOUSDT": {
       "dir": "short",
@@ -135,7 +135,7 @@
     },
     "BEATUSDT": {
       "dir": "long",
-      "conf": 0.647
+      "conf": 0.645
     },
     "SIRENUSDT": {
       "dir": "short",
@@ -143,7 +143,7 @@
     },
     "VELVETUSDT": {
       "dir": "long",
-      "conf": 0.897
+      "conf": 0.902
     }
   },
   "equity_hist": [
@@ -221,7 +221,7 @@
     },
     {
       "t": "2026-06-12",
-      "v": -628.75
+      "v": -607.87
     }
   ],
   "trade_history": [
