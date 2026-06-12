@@ -1,22 +1,45 @@
 {
-  "ts": "2026-06-12T15:19:01.389923+09:00",
+  "ts": "2026-06-12T15:20:04.078355+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6539.65,
-  "available": 5740.27,
-  "unrealized": 0.0,
+  "equity": 6553.16,
+  "available": 4874.83,
+  "unrealized": 18.44,
   "daily_pnl": -64.48,
-  "total_pnl": -160.35,
-  "cum_pct": -2.39,
-  "daily_avg_pct": -0.1272,
-  "annual_pct": -37.16,
+  "total_pnl": -146.84,
+  "cum_pct": -2.19,
+  "daily_avg_pct": -0.1165,
+  "annual_pct": -34.65,
   "mdd": -2.4,
   "current_dd": -2.4,
-  "seed_used": 799.38,
-  "seed_used_pct": 12.22,
-  "long_count": 0,
+  "seed_used": 1678.33,
+  "seed_used_pct": 25.61,
+  "long_count": 2,
   "short_count": 0,
-  "positions": [],
+  "positions": [
+    {
+      "symbol": "VELVETUSDT",
+      "side": "LONG",
+      "pnl": -1.59,
+      "pnl_pct": -0.04,
+      "margin": 882.83,
+      "leverage": "5",
+      "tier": "1/2",
+      "entry": 1.5279,
+      "mark": 1.5274
+    },
+    {
+      "symbol": "LABUSDT",
+      "side": "LONG",
+      "pnl": 20.05,
+      "pnl_pct": 0.26,
+      "margin": 786.03,
+      "leverage": "10",
+      "tier": "1/2",
+      "entry": 9.862,
+      "mark": 9.8872
+    }
+  ],
   "signals": {
     "HYPEUSDT": {
       "dir": "neutral",
@@ -198,7 +221,7 @@
     },
     {
       "t": "2026-06-12",
-      "v": -160.35
+      "v": -146.84
     }
   ],
   "trade_history": [
