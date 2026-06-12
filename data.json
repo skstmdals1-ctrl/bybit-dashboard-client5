@@ -1,22 +1,33 @@
 {
-  "ts": "2026-06-12T21:01:28.849428+09:00",
+  "ts": "2026-06-12T21:02:31.510049+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6163.68,
-  "available": 5569.37,
-  "unrealized": -25.97,
+  "equity": 6171.45,
+  "available": 4763.25,
+  "unrealized": -16.86,
   "daily_pnl": -415.72,
-  "total_pnl": -536.32,
-  "cum_pct": -8.0,
-  "daily_avg_pct": -0.4379,
-  "annual_pct": -79.85,
+  "total_pnl": -528.55,
+  "cum_pct": -7.89,
+  "daily_avg_pct": -0.4316,
+  "annual_pct": -79.38,
   "mdd": -12.44,
-  "current_dd": -12.21,
-  "seed_used": 594.31,
-  "seed_used_pct": 9.64,
-  "long_count": 0,
+  "current_dd": -12.16,
+  "seed_used": 1408.2,
+  "seed_used_pct": 22.82,
+  "long_count": 1,
   "short_count": 1,
   "positions": [
+    {
+      "symbol": "ZECUSDT",
+      "side": "LONG",
+      "pnl": 9.11,
+      "pnl_pct": 0.16,
+      "margin": 812.17,
+      "leverage": "7",
+      "tier": "1/1",
+      "entry": 435.95,
+      "mark": 436.65
+    },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
@@ -40,7 +51,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.465
+      "conf": 0.464
     },
     "XRPUSDT": {
       "dir": "short",
@@ -88,7 +99,7 @@
     },
     "ADAUSDT": {
       "dir": "short",
-      "conf": 0.543
+      "conf": 0.541
     },
     "TAOUSDT": {
       "dir": "short",
@@ -210,7 +221,7 @@
     },
     {
       "t": "2026-06-12",
-      "v": -536.32
+      "v": -528.55
     }
   ],
   "trade_history": [
