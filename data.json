@@ -1,54 +1,43 @@
 {
-  "ts": "2026-06-12T21:33:56.695783+09:00",
+  "ts": "2026-06-12T21:34:59.389466+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6115.91,
-  "available": 4230.84,
-  "unrealized": -71.83,
-  "daily_pnl": -415.72,
-  "total_pnl": -584.09,
-  "cum_pct": -8.72,
-  "daily_avg_pct": -0.4791,
-  "annual_pct": -82.67,
+  "equity": 6089.04,
+  "available": 4682.36,
+  "unrealized": -44.47,
+  "daily_pnl": -470.84,
+  "total_pnl": -610.96,
+  "cum_pct": -9.12,
+  "daily_avg_pct": -0.5021,
+  "annual_pct": -84.08,
   "mdd": -12.55,
   "current_dd": -12.55,
-  "seed_used": 1885.07,
-  "seed_used_pct": 30.82,
-  "long_count": 2,
+  "seed_used": 1406.68,
+  "seed_used_pct": 23.1,
+  "long_count": 1,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": -16.8,
-      "pnl_pct": -0.3,
-      "margin": 808.47,
+      "pnl": -10.55,
+      "pnl_pct": -0.19,
+      "margin": 809.36,
       "leverage": "7",
       "tier": "1/1",
       "entry": 435.95,
-      "mark": 434.66
+      "mark": 435.14
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": -32.93,
-      "pnl_pct": -1.12,
-      "margin": 594.42,
+      "pnl": -31.19,
+      "pnl_pct": -1.06,
+      "margin": 594.07,
       "leverage": "5",
       "tier": "1/1",
       "entry": 0.1696,
-      "mark": 0.1715
-    },
-    {
-      "symbol": "VELVETUSDT",
-      "side": "LONG",
-      "pnl": -23.09,
-      "pnl_pct": -0.96,
-      "margin": 477.32,
-      "leverage": "5",
-      "tier": "1/2",
-      "entry": 1.6282,
-      "mark": 1.6126
+      "mark": 0.1714
     }
   ],
   "signals": {
@@ -232,10 +221,17 @@
     },
     {
       "t": "2026-06-12",
-      "v": -584.09
+      "v": -610.96
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-12 21:34",
+      "symbol": "VELVETUSDT",
+      "side": "Buy",
+      "pnl": -55.12,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-12 19:30",
       "symbol": "VELVETUSDT",
@@ -367,13 +363,6 @@
       "symbol": "TONUSDT",
       "side": "Sell",
       "pnl": -135.85,
-      "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-10 22:37",
-      "symbol": "SOLUSDT",
-      "side": "Sell",
-      "pnl": -176.22,
       "reason": "External Exit"
     }
   ],
