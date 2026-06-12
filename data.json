@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-12T22:04:15.853762+09:00",
+  "ts": "2026-06-12T22:05:18.787107+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6100.53,
-  "available": 4699.32,
-  "unrealized": -33.06,
+  "equity": 6105.78,
+  "available": 4704.4,
+  "unrealized": -27.94,
   "daily_pnl": -470.84,
-  "total_pnl": -599.47,
-  "cum_pct": -8.95,
-  "daily_avg_pct": -0.4923,
-  "annual_pct": -83.49,
+  "total_pnl": -594.22,
+  "cum_pct": -8.87,
+  "daily_avg_pct": -0.4877,
+  "annual_pct": -83.21,
   "mdd": -13.32,
   "current_dd": -13.08,
-  "seed_used": 1401.21,
-  "seed_used_pct": 22.97,
+  "seed_used": 1401.38,
+  "seed_used_pct": 22.95,
   "long_count": 1,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": -20.96,
-      "pnl_pct": -0.37,
-      "margin": 807.87,
+      "pnl": -17.58,
+      "pnl_pct": -0.31,
+      "margin": 808.36,
       "leverage": "7",
       "tier": "1/1",
       "entry": 435.95,
-      "mark": 434.34
+      "mark": 434.6
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": -12.13,
-      "pnl_pct": -0.41,
-      "margin": 590.26,
+      "pnl": -10.4,
+      "pnl_pct": -0.35,
+      "margin": 589.91,
       "leverage": "5",
       "tier": "1/1",
       "entry": 0.1696,
-      "mark": 0.1703
+      "mark": 0.1702
     }
   ],
   "signals": {
@@ -83,7 +83,7 @@
     },
     "ZECUSDT": {
       "dir": "short",
-      "conf": 0.533
+      "conf": 0.536
     },
     "SOLUSDT": {
       "dir": "short",
@@ -99,7 +99,7 @@
     },
     "ADAUSDT": {
       "dir": "short",
-      "conf": 0.549
+      "conf": 0.548
     },
     "TAOUSDT": {
       "dir": "short",
@@ -221,7 +221,7 @@
     },
     {
       "t": "2026-06-12",
-      "v": -599.47
+      "v": -594.22
     }
   ],
   "trade_history": [
