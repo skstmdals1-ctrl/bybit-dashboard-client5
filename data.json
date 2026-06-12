@@ -1,43 +1,32 @@
 {
-  "ts": "2026-06-12T22:41:55.530930+09:00",
+  "ts": "2026-06-12T22:42:58.195190+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6015.78,
-  "available": 4632.02,
-  "unrealized": -117.75,
-  "daily_pnl": -470.84,
-  "total_pnl": -684.22,
-  "cum_pct": -10.21,
-  "daily_avg_pct": -0.5652,
-  "annual_pct": -87.37,
+  "equity": 6005.08,
+  "available": 5419.45,
+  "unrealized": 17.31,
+  "daily_pnl": -617.58,
+  "total_pnl": -694.92,
+  "cum_pct": -10.37,
+  "daily_avg_pct": -0.5746,
+  "annual_pct": -87.8,
   "mdd": -14.23,
   "current_dd": -14.23,
-  "seed_used": 1383.76,
-  "seed_used_pct": 23.0,
-  "long_count": 1,
+  "seed_used": 585.63,
+  "seed_used_pct": 9.75,
+  "long_count": 0,
   "short_count": 1,
   "positions": [
     {
-      "symbol": "ZECUSDT",
-      "side": "LONG",
-      "pnl": -121.35,
-      "pnl_pct": -2.14,
-      "margin": 793.53,
-      "leverage": "7",
-      "tier": "1/1",
-      "entry": 435.95,
-      "mark": 426.63
-    },
-    {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 3.47,
-      "pnl_pct": 0.12,
-      "margin": 587.14,
+      "pnl": 17.33,
+      "pnl_pct": 0.59,
+      "margin": 584.37,
       "leverage": "5",
       "tier": "1/1",
       "entry": 0.1696,
-      "mark": 0.1694
+      "mark": 0.1686
     }
   ],
   "signals": {
@@ -221,10 +210,17 @@
     },
     {
       "t": "2026-06-12",
-      "v": -684.22
+      "v": -694.92
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-12 22:42",
+      "symbol": "ZECUSDT",
+      "side": "Buy",
+      "pnl": -146.74,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-12 21:34",
       "symbol": "VELVETUSDT",
@@ -356,13 +352,6 @@
       "symbol": "ENAUSDT",
       "side": "Sell",
       "pnl": -29.89,
-      "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-10 22:40",
-      "symbol": "TONUSDT",
-      "side": "Sell",
-      "pnl": -135.85,
       "reason": "External Exit"
     }
   ],
