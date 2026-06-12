@@ -1,54 +1,54 @@
 {
-  "ts": "2026-06-12T16:07:37.353360+09:00",
+  "ts": "2026-06-12T16:08:40.020188+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6931.82,
-  "available": 4868.45,
-  "unrealized": 287.9,
+  "equity": 6970.39,
+  "available": 4899.21,
+  "unrealized": 326.48,
   "daily_pnl": 41.73,
-  "total_pnl": 231.82,
-  "cum_pct": 3.46,
-  "daily_avg_pct": 0.1792,
-  "annual_pct": 92.22,
+  "total_pnl": 270.39,
+  "cum_pct": 4.04,
+  "daily_avg_pct": 0.2087,
+  "annual_pct": 114.03,
   "mdd": -3.92,
   "current_dd": 0.0,
-  "seed_used": 2063.37,
-  "seed_used_pct": 29.77,
+  "seed_used": 2071.18,
+  "seed_used_pct": 29.71,
   "long_count": 2,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 15.6,
-      "pnl_pct": 0.53,
-      "margin": 584.71,
+      "pnl": 13.86,
+      "pnl_pct": 0.47,
+      "margin": 585.06,
       "leverage": "5",
       "tier": "1/1",
       "entry": 0.1696,
-      "mark": 0.1687
-    },
-    {
-      "symbol": "WLDUSDT",
-      "side": "LONG",
-      "pnl": 19.82,
-      "pnl_pct": 0.5,
-      "margin": 493.05,
-      "leverage": "8",
-      "tier": "2/2",
-      "entry": 0.4951,
-      "mark": 0.4976
+      "mark": 0.1688
     },
     {
       "symbol": "VELVETUSDT",
       "side": "LONG",
-      "pnl": 252.84,
-      "pnl_pct": 11.57,
-      "margin": 487.56,
+      "pnl": 286.99,
+      "pnl_pct": 13.13,
+      "margin": 494.39,
       "leverage": "5",
       "tier": "1/2",
       "entry": 1.5279,
-      "mark": 1.7047
+      "mark": 1.7286
+    },
+    {
+      "symbol": "WLDUSDT",
+      "side": "LONG",
+      "pnl": 27.74,
+      "pnl_pct": 0.71,
+      "margin": 494.04,
+      "leverage": "8",
+      "tier": "2/2",
+      "entry": 0.4951,
+      "mark": 0.4986
     }
   ],
   "signals": {
@@ -232,7 +232,7 @@
     },
     {
       "t": "2026-06-12",
-      "v": 231.82
+      "v": 270.39
     }
   ],
   "trade_history": [
@@ -241,7 +241,7 @@
       "symbol": "LABUSDT",
       "side": "Buy",
       "pnl": -24.23,
-      "reason": "-"
+      "reason": "External Exit"
     },
     {
       "ts": "2026-06-12 15:47",
