@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-13T22:43:24.177479+09:00",
+  "ts": "2026-06-13T22:44:26.878657+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 5958.14,
-  "available": 5477.97,
-  "unrealized": 42.85,
+  "equity": 5961.57,
+  "available": 5480.97,
+  "unrealized": 46.4,
   "daily_pnl": -76.47,
-  "total_pnl": -741.86,
-  "cum_pct": -11.07,
-  "daily_avg_pct": -0.5849,
-  "annual_pct": -88.25,
+  "total_pnl": -738.43,
+  "cum_pct": -11.02,
+  "daily_avg_pct": -0.5821,
+  "annual_pct": -88.13,
   "mdd": -12.42,
-  "current_dd": -10.97,
-  "seed_used": 480.17,
+  "current_dd": -11.03,
+  "seed_used": 480.61,
   "seed_used_pct": 8.06,
   "long_count": 1,
   "short_count": 0,
@@ -20,19 +20,19 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 42.87,
-      "pnl_pct": 1.13,
-      "margin": 478.55,
+      "pnl": 46.42,
+      "pnl_pct": 1.23,
+      "margin": 478.99,
       "leverage": "8",
       "tier": "1/1",
       "entry": 58.636,
-      "mark": 59.3
+      "mark": 59.355
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.644
+      "conf": 0.656
     },
     "WLDUSDT": {
       "dir": "long",
@@ -71,12 +71,12 @@
       "conf": 0.504
     },
     "ZECUSDT": {
-      "dir": "short",
-      "conf": 0.571
+      "dir": "long",
+      "conf": 0.473
     },
     "SOLUSDT": {
       "dir": "neutral",
-      "conf": 0.419
+      "conf": 0.42
     },
     "DOGEUSDT": {
       "dir": "neutral",
@@ -88,11 +88,11 @@
     },
     "ADAUSDT": {
       "dir": "short",
-      "conf": 0.521
+      "conf": 0.52
     },
     "TAOUSDT": {
       "dir": "short",
-      "conf": 0.518
+      "conf": 0.519
     },
     "RENDERUSDT": {
       "dir": "long",
@@ -218,7 +218,7 @@
     },
     {
       "t": "2026-06-13",
-      "v": -741.86
+      "v": -738.43
     }
   ],
   "trade_history": [
