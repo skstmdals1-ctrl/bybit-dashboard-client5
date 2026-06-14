@@ -1,49 +1,49 @@
 {
-  "ts": "2026-06-14T10:02:12.255141+09:00",
+  "ts": "2026-06-14T10:03:14.767856+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6096.1,
-  "available": 5117.48,
-  "unrealized": 180.84,
+  "equity": 6083.91,
+  "available": 5106.89,
+  "unrealized": 168.58,
   "daily_pnl": 0,
-  "total_pnl": -603.9,
-  "cum_pct": -9.01,
-  "daily_avg_pct": -0.4486,
-  "annual_pct": -80.62,
+  "total_pnl": -616.09,
+  "cum_pct": -9.2,
+  "daily_avg_pct": -0.4585,
+  "annual_pct": -81.31,
   "mdd": -12.42,
-  "current_dd": -9.11,
-  "seed_used": 978.62,
-  "seed_used_pct": 16.05,
+  "current_dd": -9.05,
+  "seed_used": 977.02,
+  "seed_used_pct": 16.06,
   "long_count": 2,
   "short_count": 0,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 146.36,
-      "pnl_pct": 3.87,
-      "margin": 491.49,
+      "pnl": 137.51,
+      "pnl_pct": 3.63,
+      "margin": 490.38,
       "leverage": "8",
       "tier": "1/1",
       "entry": 58.636,
-      "mark": 60.903
+      "mark": 60.766
     },
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 34.41,
-      "pnl_pct": 1.03,
-      "margin": 484.04,
+      "pnl": 30.07,
+      "pnl_pct": 0.9,
+      "margin": 483.42,
       "leverage": "7",
       "tier": "1/1",
       "entry": 68.03,
-      "mark": 68.728
+      "mark": 68.64
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.64
+      "conf": 0.622
     },
     "WLDUSDT": {
       "dir": "long",
@@ -83,11 +83,11 @@
     },
     "ZECUSDT": {
       "dir": "long",
-      "conf": 0.472
+      "conf": 0.473
     },
     "SOLUSDT": {
       "dir": "short",
-      "conf": 0.511
+      "conf": 0.561
     },
     "DOGEUSDT": {
       "dir": "long",
@@ -135,7 +135,7 @@
     },
     "BEATUSDT": {
       "dir": "long",
-      "conf": 0.6
+      "conf": 0.593
     },
     "SIRENUSDT": {
       "dir": "short",
@@ -233,7 +233,7 @@
     },
     {
       "t": "2026-06-14",
-      "v": -603.9
+      "v": -616.09
     }
   ],
   "trade_history": [
