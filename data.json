@@ -1,20 +1,20 @@
 {
-  "ts": "2026-06-14T19:26:15.313942+09:00",
+  "ts": "2026-06-14T19:27:17.892062+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6316.81,
-  "available": 5399.67,
-  "unrealized": 148.8,
+  "equity": 6309.29,
+  "available": 5393.42,
+  "unrealized": 141.11,
   "daily_pnl": 254.52,
-  "total_pnl": -383.19,
-  "cum_pct": -5.72,
-  "daily_avg_pct": -0.2801,
-  "annual_pct": -64.08,
+  "total_pnl": -390.71,
+  "cum_pct": -5.83,
+  "daily_avg_pct": -0.2856,
+  "annual_pct": -64.79,
   "mdd": -12.42,
   "current_dd": -5.84,
-  "seed_used": 917.13,
+  "seed_used": 915.87,
   "seed_used_pct": 14.52,
-  "long_count": 1,
+  "long_count": 2,
   "short_count": 1,
   "positions": [
     {
@@ -31,13 +31,24 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 125.2,
-      "pnl_pct": 4.72,
-      "margin": 346.94,
+      "pnl": 118.79,
+      "pnl_pct": 4.48,
+      "margin": 346.14,
       "leverage": "8",
       "tier": "1/1",
       "entry": 58.636,
-      "mark": 61.406
+      "mark": 61.264
+    },
+    {
+      "symbol": "HUSDT",
+      "side": "LONG",
+      "pnl": -1.29,
+      "pnl_pct": -0.22,
+      "margin": 83.77,
+      "leverage": "7",
+      "tier": "1/2",
+      "entry": 0.5936,
+      "mark": 0.5923
     }
   ],
   "signals": {
@@ -233,7 +244,7 @@
     },
     {
       "t": "2026-06-14",
-      "v": -383.19
+      "v": -390.71
     }
   ],
   "trade_history": [
@@ -242,7 +253,7 @@
       "symbol": "HYPEUSDT",
       "side": "Buy",
       "pnl": 56.29,
-      "reason": "-"
+      "reason": "T1 진입 | GF=5 | Lv=7x | Seed=$504(8.0%)"
     },
     {
       "ts": "2026-06-14 18:51",
