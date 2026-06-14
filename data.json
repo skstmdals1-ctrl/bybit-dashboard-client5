@@ -1,49 +1,38 @@
 {
-  "ts": "2026-06-15T00:05:05.703095+09:00",
+  "ts": "2026-06-15T00:06:08.939364+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6301.25,
-  "available": 5618.06,
-  "unrealized": 84.31,
-  "daily_pnl": 0,
-  "total_pnl": -398.75,
-  "cum_pct": -5.95,
-  "daily_avg_pct": -0.2784,
-  "annual_pct": -63.85,
+  "equity": 6297.08,
+  "available": 5852.58,
+  "unrealized": 38.86,
+  "daily_pnl": 41.78,
+  "total_pnl": -402.92,
+  "cum_pct": -6.01,
+  "daily_avg_pct": -0.2813,
+  "annual_pct": -64.23,
   "mdd": -12.42,
   "current_dd": -5.97,
-  "seed_used": 683.19,
-  "seed_used_pct": 10.84,
+  "seed_used": 444.5,
+  "seed_used_pct": 7.06,
   "long_count": 1,
-  "short_count": 1,
+  "short_count": 0,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 40.78,
-      "pnl_pct": 0.93,
-      "margin": 442.76,
+      "pnl": 38.81,
+      "pnl_pct": 0.88,
+      "margin": 442.56,
       "leverage": "10",
       "tier": "1/1",
       "entry": 59.913,
-      "mark": 60.47
-    },
-    {
-      "symbol": "SOLUSDT",
-      "side": "SHORT",
-      "pnl": 43.26,
-      "pnl_pct": 2.23,
-      "margin": 237.32,
-      "leverage": "8",
-      "tier": "1/1",
-      "entry": 68.86,
-      "mark": 67.326
+      "mark": 60.443
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 1.0
+      "conf": 0.997
     },
     "WLDUSDT": {
       "dir": "long",
@@ -83,11 +72,11 @@
     },
     "ZECUSDT": {
       "dir": "long",
-      "conf": 0.477
+      "conf": 0.476
     },
     "SOLUSDT": {
       "dir": "long",
-      "conf": 0.583
+      "conf": 0.582
     },
     "DOGEUSDT": {
       "dir": "neutral",
@@ -135,7 +124,7 @@
     },
     "BEATUSDT": {
       "dir": "long",
-      "conf": 0.579
+      "conf": 0.584
     },
     "SIRENUSDT": {
       "dir": "short",
@@ -237,10 +226,17 @@
     },
     {
       "t": "2026-06-15",
-      "v": -398.75
+      "v": -402.92
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-15 00:05",
+      "symbol": "SOLUSDT",
+      "side": "Sell",
+      "pnl": 41.78,
+      "reason": "1/1"
+    },
     {
       "ts": "2026-06-14 23:50",
       "symbol": "SOLUSDT",
@@ -302,49 +298,49 @@
       "symbol": "ZECUSDT",
       "side": "Buy",
       "pnl": -146.74,
-      "reason": "External Exit"
+      "reason": "-"
     },
     {
       "ts": "2026-06-12 21:34",
       "symbol": "VELVETUSDT",
       "side": "Buy",
       "pnl": -55.12,
-      "reason": "External Exit"
+      "reason": "-"
     },
     {
       "ts": "2026-06-12 19:30",
       "symbol": "VELVETUSDT",
       "side": "Buy",
       "pnl": -267.38,
-      "reason": "2/2"
+      "reason": "-"
     },
     {
       "ts": "2026-06-12 18:19",
       "symbol": "LABUSDT",
       "side": "Buy",
       "pnl": -159.6,
-      "reason": "External Exit"
+      "reason": "-"
     },
     {
       "ts": "2026-06-12 17:12",
       "symbol": "WLDUSDT",
       "side": "Buy",
       "pnl": -169.25,
-      "reason": "External Exit"
+      "reason": "-"
     },
     {
       "ts": "2026-06-12 17:11",
       "symbol": "VELVETUSDT",
       "side": "Buy",
       "pnl": 138.78,
-      "reason": "1/2"
+      "reason": "-"
     },
     {
       "ts": "2026-06-12 16:07",
       "symbol": "LABUSDT",
       "side": "Buy",
       "pnl": -24.23,
-      "reason": "External Exit"
+      "reason": "-"
     },
     {
       "ts": "2026-06-12 15:47",
@@ -358,27 +354,20 @@
       "symbol": "VELVETUSDT",
       "side": "Buy",
       "pnl": 64.63,
-      "reason": "L2"
+      "reason": "-"
     },
     {
       "ts": "2026-06-12 02:35",
       "symbol": "SOLUSDT",
       "side": "Sell",
       "pnl": -64.48,
-      "reason": "External Exit"
+      "reason": "-"
     },
     {
       "ts": "2026-06-11 20:11",
       "symbol": "HYPEUSDT",
       "side": "Buy",
       "pnl": 115.97,
-      "reason": "-"
-    },
-    {
-      "ts": "2026-06-11 20:04",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": 45.15,
       "reason": "-"
     }
   ],
