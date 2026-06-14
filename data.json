@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-14T17:47:02.055331+09:00",
+  "ts": "2026-06-14T17:48:04.636381+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6083.94,
-  "available": 5113.71,
-  "unrealized": 129.53,
+  "equity": 6083.61,
+  "available": 5113.56,
+  "unrealized": 129.19,
   "daily_pnl": 40.79,
-  "total_pnl": -616.06,
-  "cum_pct": -9.19,
-  "daily_avg_pct": -0.458,
-  "annual_pct": -81.28,
+  "total_pnl": -616.39,
+  "cum_pct": -9.2,
+  "daily_avg_pct": -0.4585,
+  "annual_pct": -81.31,
   "mdd": -12.42,
   "current_dd": -9.23,
-  "seed_used": 970.23,
+  "seed_used": 970.05,
   "seed_used_pct": 15.95,
   "long_count": 1,
   "short_count": 1,
@@ -20,34 +20,34 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 96.32,
-      "pnl_pct": 2.54,
-      "margin": 485.23,
+      "pnl": 95.42,
+      "pnl_pct": 2.52,
+      "margin": 485.12,
       "leverage": "8",
       "tier": "1/1",
       "entry": 58.636,
-      "mark": 60.128
+      "mark": 60.114
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 33.28,
-      "pnl_pct": 0.86,
-      "margin": 481.3,
+      "pnl": 33.84,
+      "pnl_pct": 0.87,
+      "margin": 481.23,
       "leverage": "8",
       "tier": "1/1",
       "entry": 68.86,
-      "mark": 68.27
+      "mark": 68.26
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "short",
-      "conf": 0.6
+      "conf": 0.597
     },
     "WLDUSDT": {
       "dir": "long",
-      "conf": 0.483
+      "conf": 0.482
     },
     "ETHUSDT": {
       "dir": "short",
@@ -103,7 +103,7 @@
     },
     "TAOUSDT": {
       "dir": "short",
-      "conf": 0.517
+      "conf": 0.522
     },
     "RENDERUSDT": {
       "dir": "long",
@@ -135,7 +135,7 @@
     },
     "BEATUSDT": {
       "dir": "long",
-      "conf": 0.595
+      "conf": 0.596
     },
     "SIRENUSDT": {
       "dir": "short",
@@ -233,7 +233,7 @@
     },
     {
       "t": "2026-06-14",
-      "v": -616.06
+      "v": -616.39
     }
   ],
   "trade_history": [
