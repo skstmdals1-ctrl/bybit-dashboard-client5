@@ -1,54 +1,43 @@
 {
-  "ts": "2026-06-14T20:15:21.964297+09:00",
+  "ts": "2026-06-14T20:16:24.602775+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6238.39,
-  "available": 4919.06,
-  "unrealized": 56.04,
-  "daily_pnl": 254.52,
-  "total_pnl": -461.61,
+  "equity": 6238.56,
+  "available": 5412.23,
+  "unrealized": 138.04,
+  "daily_pnl": 186.17,
+  "total_pnl": -461.44,
   "cum_pct": -6.89,
   "daily_avg_pct": -0.3394,
   "annual_pct": -71.09,
   "mdd": -12.42,
   "current_dd": -4.92,
-  "seed_used": 1319.32,
-  "seed_used_pct": 21.15,
-  "long_count": 2,
+  "seed_used": 826.32,
+  "seed_used_pct": 13.25,
+  "long_count": 1,
   "short_count": 1,
   "positions": [
     {
-      "symbol": "HUSDT",
-      "side": "LONG",
-      "pnl": -87.16,
-      "pnl_pct": -2.48,
-      "margin": 490.37,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 0.5866,
-      "mark": 0.5721
-    },
-    {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 41.17,
-      "pnl_pct": 1.06,
-      "margin": 480.32,
+      "pnl": 43.99,
+      "pnl_pct": 1.13,
+      "margin": 479.96,
       "leverage": "8",
       "tier": "1/1",
       "entry": 68.86,
-      "mark": 68.13
+      "mark": 68.08
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 102.06,
-      "pnl_pct": 3.85,
-      "margin": 344.05,
+      "pnl": 93.88,
+      "pnl_pct": 3.54,
+      "margin": 343.03,
       "leverage": "8",
       "tier": "1/1",
       "entry": 58.636,
-      "mark": 60.894
+      "mark": 60.713
     }
   ],
   "signals": {
@@ -244,10 +233,17 @@
     },
     {
       "t": "2026-06-14",
-      "v": -461.61
+      "v": -461.44
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-14 20:15",
+      "symbol": "HUSDT",
+      "side": "Buy",
+      "pnl": -68.35,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-14 19:25",
       "symbol": "HYPEUSDT",
@@ -379,13 +375,6 @@
       "symbol": "ENAUSDT",
       "side": "Sell",
       "pnl": -64.95,
-      "reason": "-"
-    },
-    {
-      "ts": "2026-06-11 11:32",
-      "symbol": "NEARUSDT",
-      "side": "Buy",
-      "pnl": -61.13,
       "reason": "-"
     }
   ],
