@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-14T23:49:26.044997+09:00",
+  "ts": "2026-06-14T23:50:28.654164+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6267.78,
-  "available": 5792.84,
-  "unrealized": 101.47,
+  "equity": 6267.49,
+  "available": 5792.58,
+  "unrealized": 101.46,
   "daily_pnl": 251.69,
-  "total_pnl": -432.22,
-  "cum_pct": -6.45,
-  "daily_avg_pct": -0.317,
-  "annual_pct": -68.62,
+  "total_pnl": -432.51,
+  "cum_pct": -6.46,
+  "daily_avg_pct": -0.3175,
+  "annual_pct": -68.67,
   "mdd": -12.42,
-  "current_dd": -6.36,
-  "seed_used": 474.94,
+  "current_dd": -6.48,
+  "seed_used": 474.92,
   "seed_used_pct": 7.58,
   "long_count": 0,
   "short_count": 1,
@@ -20,13 +20,13 @@
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 102.08,
-      "pnl_pct": 2.63,
-      "margin": 472.7,
+      "pnl": 50.76,
+      "pnl_pct": 2.61,
+      "margin": 236.39,
       "leverage": "8",
       "tier": "1/1",
       "entry": 68.86,
-      "mark": 67.05
+      "mark": 67.06
     }
   ],
   "signals": {
@@ -72,11 +72,11 @@
     },
     "ZECUSDT": {
       "dir": "long",
-      "conf": 0.475
+      "conf": 0.476
     },
     "SOLUSDT": {
       "dir": "long",
-      "conf": 0.577
+      "conf": 0.58
     },
     "DOGEUSDT": {
       "dir": "neutral",
@@ -92,7 +92,7 @@
     },
     "TAOUSDT": {
       "dir": "short",
-      "conf": 0.523
+      "conf": 0.525
     },
     "RENDERUSDT": {
       "dir": "long",
@@ -124,7 +124,7 @@
     },
     "BEATUSDT": {
       "dir": "long",
-      "conf": 0.58
+      "conf": 0.578
     },
     "SIRENUSDT": {
       "dir": "short",
@@ -222,10 +222,17 @@
     },
     {
       "t": "2026-06-14",
-      "v": -432.22
+      "v": -432.51
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-14 23:50",
+      "symbol": "SOLUSDT",
+      "side": "Sell",
+      "pnl": 50.52,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-14 23:17",
       "symbol": "HYPEUSDT",
@@ -357,13 +364,6 @@
       "symbol": "HYPEUSDT",
       "side": "Buy",
       "pnl": 45.15,
-      "reason": "-"
-    },
-    {
-      "ts": "2026-06-11 12:55",
-      "symbol": "ENAUSDT",
-      "side": "Sell",
-      "pnl": -145.28,
       "reason": "-"
     }
   ],
