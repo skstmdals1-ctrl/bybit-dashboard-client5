@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-16T01:48:25.291824+09:00",
+  "ts": "2026-06-16T01:49:28.508187+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8250.01,
-  "available": 7255.08,
-  "unrealized": 297.44,
+  "equity": 8270.34,
+  "available": 7272.53,
+  "unrealized": 317.69,
   "daily_pnl": 63.46,
-  "total_pnl": 1550.01,
-  "cum_pct": 23.13,
-  "daily_avg_pct": 0.9088,
-  "annual_pct": 2617.07,
+  "total_pnl": 1570.34,
+  "cum_pct": 23.44,
+  "daily_avg_pct": 0.9198,
+  "annual_pct": 2727.35,
   "mdd": -12.42,
-  "current_dd": -0.14,
-  "seed_used": 994.92,
+  "current_dd": -0.06,
+  "seed_used": 997.81,
   "seed_used_pct": 12.06,
   "long_count": 2,
   "short_count": 0,
@@ -20,24 +20,24 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 108.59,
-      "pnl_pct": 2.49,
-      "margin": 639.1,
+      "pnl": 128.26,
+      "pnl_pct": 2.94,
+      "margin": 641.91,
       "leverage": "7",
       "tier": "1/1",
       "entry": 66.128,
-      "mark": 67.773
+      "mark": 68.071
     },
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 189.42,
-      "pnl_pct": 6.34,
-      "margin": 352.85,
+      "pnl": 189.59,
+      "pnl_pct": 6.35,
+      "margin": 352.87,
       "leverage": "9",
       "tier": "1/1",
       "entry": 71.1,
-      "mark": 75.61
+      "mark": 75.614
     }
   ],
   "signals": {
@@ -75,19 +75,19 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.554
+      "conf": 0.55
     },
     "SUIUSDT": {
       "dir": "short",
       "conf": 0.551
     },
     "ZECUSDT": {
-      "dir": "short",
-      "conf": 0.482
+      "dir": "long",
+      "conf": 0.481
     },
     "SOLUSDT": {
       "dir": "long",
-      "conf": 0.558
+      "conf": 0.559
     },
     "DOGEUSDT": {
       "dir": "neutral",
@@ -148,6 +148,10 @@
     "XMRUSDT": {
       "dir": "long",
       "conf": 0.473
+    },
+    "XLMUSDT": {
+      "dir": "long",
+      "conf": 0.599
     }
   },
   "equity_hist": [
@@ -241,7 +245,7 @@
     },
     {
       "t": "2026-06-16",
-      "v": 1550.01
+      "v": 1570.34
     }
   ],
   "trade_history": [
