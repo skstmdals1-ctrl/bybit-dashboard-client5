@@ -1,43 +1,32 @@
 {
-  "ts": "2026-06-15T11:34:25.480339+09:00",
+  "ts": "2026-06-15T11:35:28.082705+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 6816.76,
-  "available": 5867.71,
-  "unrealized": 325.54,
-  "daily_pnl": 275.94,
-  "total_pnl": 116.76,
-  "cum_pct": 1.74,
-  "daily_avg_pct": 0.0784,
-  "annual_pct": 33.12,
+  "equity": 6821.86,
+  "available": 6345.51,
+  "unrealized": 4.8,
+  "daily_pnl": 601.03,
+  "total_pnl": 121.86,
+  "cum_pct": 1.82,
+  "daily_avg_pct": 0.082,
+  "annual_pct": 34.87,
   "mdd": -12.42,
   "current_dd": -0.16,
-  "seed_used": 949.05,
-  "seed_used_pct": 13.92,
-  "long_count": 2,
+  "seed_used": 476.35,
+  "seed_used_pct": 6.98,
+  "long_count": 1,
   "short_count": 0,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 4.2,
-      "pnl_pct": 0.1,
-      "margin": 474.47,
+      "pnl": 4.8,
+      "pnl_pct": 0.11,
+      "margin": 474.53,
       "leverage": "9",
       "tier": "1/1",
       "entry": 71.1,
-      "mark": 71.17
-    },
-    {
-      "symbol": "HYPEUSDT",
-      "side": "LONG",
-      "pnl": 321.51,
-      "pnl_pct": 7.33,
-      "margin": 470.83,
-      "leverage": "10",
-      "tier": "1/1",
-      "entry": 59.913,
-      "mark": 64.304
+      "mark": 71.18
     }
   ],
   "signals": {
@@ -237,10 +226,17 @@
     },
     {
       "t": "2026-06-15",
-      "v": 116.76
+      "v": 121.86
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-15 11:35",
+      "symbol": "HYPEUSDT",
+      "side": "Buy",
+      "pnl": 325.09,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-15 09:14",
       "symbol": "SOLUSDT",
@@ -372,13 +368,6 @@
       "symbol": "VELVETUSDT",
       "side": "Buy",
       "pnl": 65.81,
-      "reason": "-"
-    },
-    {
-      "ts": "2026-06-12 15:43",
-      "symbol": "VELVETUSDT",
-      "side": "Buy",
-      "pnl": 64.63,
       "reason": "-"
     }
   ],
