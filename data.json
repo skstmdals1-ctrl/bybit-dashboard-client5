@@ -1,49 +1,49 @@
 {
-  "ts": "2026-06-16T00:40:18.173746+09:00",
+  "ts": "2026-06-16T00:41:21.171002+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8180.6,
-  "available": 7044.08,
-  "unrealized": 292.28,
-  "daily_pnl": 0,
-  "total_pnl": 1480.6,
-  "cum_pct": 22.1,
-  "daily_avg_pct": 0.8719,
-  "annual_pct": 2277.52,
+  "equity": 8206.22,
+  "available": 7216.2,
+  "unrealized": 253.99,
+  "daily_pnl": 63.46,
+  "total_pnl": 1506.22,
+  "cum_pct": 22.48,
+  "daily_avg_pct": 0.8855,
+  "annual_pct": 2397.43,
   "mdd": -12.42,
-  "current_dd": -0.65,
-  "seed_used": 1136.52,
-  "seed_used_pct": 13.89,
+  "current_dd": -0.31,
+  "seed_used": 990.02,
+  "seed_used_pct": 12.06,
   "long_count": 2,
   "short_count": 0,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 90.5,
-      "pnl_pct": 2.07,
-      "margin": 636.52,
+      "pnl": 106.41,
+      "pnl_pct": 2.44,
+      "margin": 638.79,
       "leverage": "7",
       "tier": "1/1",
       "entry": 66.128,
-      "mark": 67.499
+      "mark": 67.74
     },
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 201.0,
-      "pnl_pct": 4.71,
-      "margin": 496.33,
+      "pnl": 148.26,
+      "pnl_pct": 4.96,
+      "margin": 348.27,
       "leverage": "9",
       "tier": "1/1",
       "entry": 71.1,
-      "mark": 74.45
+      "mark": 74.63
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "short",
-      "conf": 0.507
+      "conf": 0.51
     },
     "WLDUSDT": {
       "dir": "short",
@@ -82,12 +82,12 @@
       "conf": 0.551
     },
     "ZECUSDT": {
-      "dir": "short",
-      "conf": 0.482
+      "dir": "long",
+      "conf": 0.48
     },
     "SOLUSDT": {
       "dir": "long",
-      "conf": 0.584
+      "conf": 0.583
     },
     "DOGEUSDT": {
       "dir": "neutral",
@@ -241,10 +241,17 @@
     },
     {
       "t": "2026-06-16",
-      "v": 1480.6
+      "v": 1506.22
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-16 00:41",
+      "symbol": "SOLUSDT",
+      "side": "Buy",
+      "pnl": 63.46,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-15 23:17",
       "symbol": "ONDOUSDT",
@@ -377,13 +384,6 @@
       "side": "Buy",
       "pnl": 56.29,
       "reason": "T1 진입 | GF=5 | Lv=7x | Seed=$504(8.0%)"
-    },
-    {
-      "ts": "2026-06-14 18:51",
-      "symbol": "HUSDT",
-      "side": "Buy",
-      "pnl": 157.45,
-      "reason": "2/2"
     }
   ],
   "num_days": 23
