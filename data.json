@@ -1,43 +1,32 @@
 {
-  "ts": "2026-06-16T05:26:16.068615+09:00",
+  "ts": "2026-06-16T05:27:19.429806+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8125.23,
-  "available": 6473.52,
-  "unrealized": 188.37,
-  "daily_pnl": 48.82,
-  "total_pnl": 1425.23,
-  "cum_pct": 21.27,
-  "daily_avg_pct": 0.842,
-  "annual_pct": 2033.68,
+  "equity": 8115.2,
+  "available": 7129.09,
+  "unrealized": 229.3,
+  "daily_pnl": -3.61,
+  "total_pnl": 1415.2,
+  "cum_pct": 21.12,
+  "daily_avg_pct": 0.8366,
+  "annual_pct": 1992.38,
   "mdd": -12.42,
-  "current_dd": -1.53,
-  "seed_used": 1651.71,
-  "seed_used_pct": 20.33,
+  "current_dd": -1.87,
+  "seed_used": 986.11,
+  "seed_used_pct": 12.15,
   "long_count": 2,
-  "short_count": 1,
+  "short_count": 0,
   "positions": [
-    {
-      "symbol": "WLDUSDT",
-      "side": "SHORT",
-      "pnl": -38.24,
-      "pnl_pct": -0.83,
-      "margin": 663.72,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 0.5903,
-      "mark": 0.5952
-    },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 65.28,
-      "pnl_pct": 1.5,
-      "margin": 632.91,
+      "pnl": 68.32,
+      "pnl_pct": 1.57,
+      "margin": 633.35,
       "leverage": "7",
       "tier": "1/1",
       "entry": 66.128,
-      "mark": 67.117
+      "mark": 67.163
     },
     {
       "symbol": "SOLUSDT",
@@ -54,11 +43,11 @@
   "signals": {
     "HYPEUSDT": {
       "dir": "short",
-      "conf": 0.506
+      "conf": 0.509
     },
     "WLDUSDT": {
       "dir": "short",
-      "conf": 0.485
+      "conf": 0.484
     },
     "ETHUSDT": {
       "dir": "neutral",
@@ -74,7 +63,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.425
+      "conf": 0.429
     },
     "1000PEPEUSDT": {
       "dir": "short",
@@ -162,7 +151,7 @@
     },
     "XLMUSDT": {
       "dir": "short",
-      "conf": 0.602
+      "conf": 0.608
     }
   },
   "equity_hist": [
@@ -256,10 +245,17 @@
     },
     {
       "t": "2026-06-16",
-      "v": 1425.23
+      "v": 1415.2
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-16 05:26",
+      "symbol": "WLDUSDT",
+      "side": "Sell",
+      "pnl": -52.44,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-16 02:10",
       "symbol": "XLMUSDT",
@@ -391,13 +387,6 @@
       "symbol": "SOLUSDT",
       "side": "Sell",
       "pnl": 50.52,
-      "reason": "1/1"
-    },
-    {
-      "ts": "2026-06-14 23:17",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": 65.52,
       "reason": "1/1"
     }
   ],
