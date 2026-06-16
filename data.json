@@ -1,54 +1,54 @@
 {
-  "ts": "2026-06-17T08:10:55.325760+09:00",
+  "ts": "2026-06-17T08:11:58.080085+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8064.07,
-  "available": 6352.29,
-  "unrealized": 68.78,
+  "equity": 8069.93,
+  "available": 6360.29,
+  "unrealized": 74.8,
   "daily_pnl": -112.03,
-  "total_pnl": 1364.07,
-  "cum_pct": 20.36,
-  "daily_avg_pct": 0.7751,
-  "annual_pct": 1574.68,
+  "total_pnl": 1369.93,
+  "cum_pct": 20.45,
+  "daily_avg_pct": 0.7783,
+  "annual_pct": 1594.2,
   "mdd": -12.42,
   "current_dd": -2.74,
-  "seed_used": 1711.77,
-  "seed_used_pct": 21.23,
+  "seed_used": 1709.64,
+  "seed_used_pct": 21.19,
   "long_count": 1,
   "short_count": 2,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 39.07,
-      "pnl_pct": 0.75,
-      "margin": 653.71,
+      "pnl": 34.74,
+      "pnl_pct": 0.67,
+      "margin": 653.17,
       "leverage": "8",
       "tier": "1/1",
       "entry": 73.21,
-      "mark": 73.761
+      "mark": 73.7
     },
     {
       "symbol": "XLMUSDT",
       "side": "SHORT",
-      "pnl": 33.47,
-      "pnl_pct": 0.74,
-      "margin": 644.99,
+      "pnl": 42.3,
+      "pnl_pct": 0.93,
+      "margin": 643.73,
       "leverage": "7",
       "tier": "2/2",
       "entry": 0.2214,
-      "mark": 0.2198
+      "mark": 0.2194
     },
     {
       "symbol": "HYPEUSDT",
       "side": "SHORT",
-      "pnl": -3.68,
-      "pnl_pct": -0.36,
-      "margin": 204.19,
+      "pnl": -2.17,
+      "pnl_pct": -0.21,
+      "margin": 203.89,
       "leverage": "5",
       "tier": "2/2",
       "entry": 73.449,
-      "mark": 73.715
+      "mark": 73.606
     }
   ],
   "signals": {
@@ -61,8 +61,8 @@
       "conf": 0.48
     },
     "ETHUSDT": {
-      "dir": "short",
-      "conf": 0.461
+      "dir": "neutral",
+      "conf": 0.445
     },
     "XRPUSDT": {
       "dir": "neutral",
@@ -98,7 +98,7 @@
     },
     "SOLUSDT": {
       "dir": "short",
-      "conf": 0.601
+      "conf": 0.647
     },
     "DOGEUSDT": {
       "dir": "long",
@@ -260,7 +260,7 @@
     },
     {
       "t": "2026-06-17",
-      "v": 1364.07
+      "v": 1369.93
     }
   ],
   "trade_history": [
