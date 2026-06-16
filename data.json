@@ -1,65 +1,65 @@
 {
-  "ts": "2026-06-17T04:19:37.584541+09:00",
+  "ts": "2026-06-17T06:29:26.990706+09:00",
   "start_date": "2026-05-25",
-  "status": "running",
-  "equity": 8216.66,
-  "available": 5862.92,
-  "unrealized": 120.52,
+  "status": "stopped",
+  "equity": 8195.48,
+  "available": 5836.26,
+  "unrealized": 99.55,
   "daily_pnl": -10.27,
-  "total_pnl": 1516.66,
-  "cum_pct": 22.64,
-  "daily_avg_pct": 0.854,
-  "annual_pct": 2128.39,
+  "total_pnl": 1495.48,
+  "cum_pct": 22.32,
+  "daily_avg_pct": 0.843,
+  "annual_pct": 2041.42,
   "mdd": -12.42,
   "current_dd": -0.69,
-  "seed_used": 2353.74,
-  "seed_used_pct": 28.65,
+  "seed_used": 2359.22,
+  "seed_used_pct": 28.79,
   "long_count": 1,
   "short_count": 3,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 29.07,
-      "pnl_pct": 0.56,
-      "margin": 652.46,
+      "pnl": 39.28,
+      "pnl_pct": 0.76,
+      "margin": 653.73,
       "leverage": "8",
       "tier": "1/1",
       "entry": 73.21,
-      "mark": 73.62
+      "mark": 73.764
     },
     {
       "symbol": "ZECUSDT",
       "side": "SHORT",
-      "pnl": 39.51,
-      "pnl_pct": 0.87,
-      "margin": 644.61,
+      "pnl": 14.85,
+      "pnl_pct": 0.33,
+      "margin": 648.13,
       "leverage": "7",
       "tier": "2/2",
       "entry": 504.0749,
-      "mark": 499.7
+      "mark": 502.43
     },
     {
       "symbol": "XLMUSDT",
       "side": "SHORT",
-      "pnl": 46.61,
-      "pnl_pct": 1.02,
-      "margin": 643.11,
+      "pnl": 38.81,
+      "pnl_pct": 0.85,
+      "margin": 644.23,
       "leverage": "7",
       "tier": "2/2",
       "entry": 0.2214,
-      "mark": 0.2192
+      "mark": 0.2195
     },
     {
       "symbol": "HYPEUSDT",
       "side": "SHORT",
-      "pnl": 5.44,
-      "pnl_pct": 0.54,
-      "margin": 202.37,
+      "pnl": 7.4,
+      "pnl_pct": 0.73,
+      "margin": 201.97,
       "leverage": "5",
       "tier": "2/2",
       "entry": 73.449,
-      "mark": 73.056
+      "mark": 72.915
     }
   ],
   "signals": {
@@ -271,7 +271,7 @@
     },
     {
       "t": "2026-06-17",
-      "v": 1516.66
+      "v": 1495.48
     }
   ],
   "trade_history": [
