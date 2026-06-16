@@ -1,49 +1,49 @@
 {
-  "ts": "2026-06-16T16:34:37.065584+09:00",
+  "ts": "2026-06-16T16:35:39.853282+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8078.98,
-  "available": 6756.18,
-  "unrealized": -93.27,
+  "equity": 8081.39,
+  "available": 6759.73,
+  "unrealized": -90.56,
   "daily_pnl": 283.97,
-  "total_pnl": 1378.98,
-  "cum_pct": 20.58,
-  "daily_avg_pct": 0.817,
-  "annual_pct": 1849.06,
+  "total_pnl": 1381.39,
+  "cum_pct": 20.62,
+  "daily_avg_pct": 0.8184,
+  "annual_pct": 1858.97,
   "mdd": -12.42,
-  "current_dd": -2.31,
-  "seed_used": 1322.8,
-  "seed_used_pct": 16.37,
+  "current_dd": -2.38,
+  "seed_used": 1321.67,
+  "seed_used_pct": 16.35,
   "long_count": 1,
   "short_count": 1,
   "positions": [
     {
       "symbol": "XLMUSDT",
       "side": "SHORT",
-      "pnl": -94.75,
-      "pnl_pct": -2.07,
-      "margin": 666.93,
+      "pnl": -89.38,
+      "pnl_pct": -1.95,
+      "margin": 666.16,
       "leverage": "7",
       "tier": "1/1",
       "entry": 0.2129,
-      "mark": 0.2173
+      "mark": 0.217
     },
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 1.23,
-      "pnl_pct": 0.03,
-      "margin": 651.53,
+      "pnl": -1.23,
+      "pnl_pct": -0.03,
+      "margin": 651.18,
       "leverage": "7",
       "tier": "1/1",
       "entry": 74.38,
-      "mark": 74.4
+      "mark": 74.36
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "short",
-      "conf": 0.503
+      "conf": 0.505
     },
     "WLDUSDT": {
       "dir": "short",
@@ -83,11 +83,11 @@
     },
     "ZECUSDT": {
       "dir": "short",
-      "conf": 0.473
+      "conf": 0.474
     },
     "SOLUSDT": {
       "dir": "long",
-      "conf": 0.592
+      "conf": 0.587
     },
     "DOGEUSDT": {
       "dir": "neutral",
@@ -151,7 +151,7 @@
     },
     "XLMUSDT": {
       "dir": "short",
-      "conf": 0.572
+      "conf": 0.571
     }
   },
   "equity_hist": [
@@ -245,7 +245,7 @@
     },
     {
       "t": "2026-06-16",
-      "v": 1378.98
+      "v": 1381.39
     }
   ],
   "trade_history": [
