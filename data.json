@@ -1,54 +1,54 @@
 {
-  "ts": "2026-06-17T03:24:04.682081+09:00",
+  "ts": "2026-06-17T03:25:07.622140+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8135.16,
-  "available": 6173.24,
-  "unrealized": 37.78,
+  "equity": 8137.37,
+  "available": 6176.44,
+  "unrealized": 39.96,
   "daily_pnl": -10.27,
-  "total_pnl": 1435.16,
-  "cum_pct": 21.42,
-  "daily_avg_pct": 0.812,
-  "annual_pct": 1814.1,
+  "total_pnl": 1437.37,
+  "cum_pct": 21.45,
+  "daily_avg_pct": 0.813,
+  "annual_pct": 1821.04,
   "mdd": -12.42,
-  "current_dd": -2.13,
-  "seed_used": 1961.92,
-  "seed_used_pct": 24.12,
+  "current_dd": -1.88,
+  "seed_used": 1960.93,
+  "seed_used_pct": 24.1,
   "long_count": 1,
   "short_count": 2,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 36.73,
-      "pnl_pct": 0.71,
-      "margin": 653.41,
+      "pnl": 33.39,
+      "pnl_pct": 0.64,
+      "margin": 653.0,
       "leverage": "8",
       "tier": "1/1",
       "entry": 73.21,
-      "mark": 73.728
+      "mark": 73.681
     },
     {
       "symbol": "ZECUSDT",
       "side": "SHORT",
-      "pnl": 1.22,
-      "pnl_pct": 0.03,
-      "margin": 650.08,
+      "pnl": 5.46,
+      "pnl_pct": 0.12,
+      "margin": 649.48,
       "leverage": "7",
       "tier": "2/2",
       "entry": 504.0749,
-      "mark": 503.94
+      "mark": 503.47
     },
     {
       "symbol": "XLMUSDT",
       "side": "SHORT",
-      "pnl": -0.28,
-      "pnl_pct": -0.04,
-      "margin": 108.3,
+      "pnl": 0.9,
+      "pnl_pct": 0.12,
+      "margin": 108.14,
       "leverage": "7",
       "tier": "2/2",
       "entry": 0.2197,
-      "mark": 0.2198
+      "mark": 0.2195
     }
   ],
   "signals": {
@@ -94,11 +94,11 @@
     },
     "ZECUSDT": {
       "dir": "short",
-      "conf": 0.624
+      "conf": 0.623
     },
     "SOLUSDT": {
       "dir": "long",
-      "conf": 0.688
+      "conf": 0.679
     },
     "DOGEUSDT": {
       "dir": "long",
@@ -162,7 +162,7 @@
     },
     "XLMUSDT": {
       "dir": "short",
-      "conf": 0.58
+      "conf": 0.574
     }
   },
   "equity_hist": [
@@ -260,7 +260,7 @@
     },
     {
       "t": "2026-06-17",
-      "v": 1435.16
+      "v": 1437.37
     }
   ],
   "trade_history": [
