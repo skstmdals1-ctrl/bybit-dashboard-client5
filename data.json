@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-17T19:32:07.963993+09:00",
+  "ts": "2026-06-17T19:33:11.159730+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7675.37,
-  "available": 6905.71,
-  "unrealized": 0.74,
+  "equity": 7673.28,
+  "available": 6903.47,
+  "unrealized": -0.74,
   "daily_pnl": -434.63,
-  "total_pnl": 975.37,
-  "cum_pct": 14.56,
-  "daily_avg_pct": 0.568,
-  "annual_pct": 690.37,
+  "total_pnl": 973.28,
+  "cum_pct": 14.53,
+  "daily_avg_pct": 0.5669,
+  "annual_pct": 687.22,
   "mdd": -2.95,
-  "current_dd": -2.78,
-  "seed_used": 769.66,
+  "current_dd": -2.83,
+  "seed_used": 769.81,
   "seed_used_pct": 10.03,
   "long_count": 0,
   "short_count": 1,
@@ -20,13 +20,13 @@
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 0.74,
-      "pnl_pct": 0.01,
-      "margin": 766.94,
+      "pnl": -0.15,
+      "pnl_pct": -0.0,
+      "margin": 767.06,
       "leverage": "7",
       "tier": "1/1",
       "entry": 72.46,
-      "mark": 72.45
+      "mark": 72.462
     }
   ],
   "signals": {
@@ -76,7 +76,7 @@
     },
     "SOLUSDT": {
       "dir": "short",
-      "conf": 0.578
+      "conf": 0.612
     },
     "DOGEUSDT": {
       "dir": "long",
@@ -238,7 +238,7 @@
     },
     {
       "t": "2026-06-17",
-      "v": 975.37
+      "v": 973.28
     }
   ],
   "trade_history": [
