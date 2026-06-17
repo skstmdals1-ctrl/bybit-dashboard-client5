@@ -1,53 +1,53 @@
 {
-  "ts": "2026-06-17T12:09:16.154709+09:00",
+  "ts": "2026-06-17T12:10:19.125380+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7947.17,
-  "available": 6652.61,
-  "unrealized": 61.33,
+  "equity": 7917.84,
+  "available": 6626.94,
+  "unrealized": 32.05,
   "daily_pnl": -222.27,
-  "total_pnl": 1247.17,
-  "cum_pct": 18.61,
-  "daily_avg_pct": 0.7137,
-  "annual_pct": 1240.67,
+  "total_pnl": 1217.84,
+  "cum_pct": 18.18,
+  "daily_avg_pct": 0.6984,
+  "annual_pct": 1168.35,
   "mdd": -12.42,
-  "current_dd": -4.41,
-  "seed_used": 1294.56,
-  "seed_used_pct": 16.29,
+  "current_dd": -4.25,
+  "seed_used": 1290.89,
+  "seed_used_pct": 16.3,
   "long_count": 2,
   "short_count": 0,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 53.17,
-      "pnl_pct": 1.02,
-      "margin": 655.47,
+      "pnl": 42.82,
+      "pnl_pct": 0.83,
+      "margin": 654.18,
       "leverage": "8",
       "tier": "1/1",
       "entry": 73.21,
-      "mark": 73.96
+      "mark": 73.814
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 8.57,
-      "pnl_pct": 0.17,
-      "margin": 635.29,
+      "pnl": -10.75,
+      "pnl_pct": -0.21,
+      "margin": 632.88,
       "leverage": "8",
       "tier": "1/1",
       "entry": 74.603,
-      "mark": 74.729
+      "mark": 74.445
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.641
+      "conf": 0.637
     },
     "WLDUSDT": {
       "dir": "short",
-      "conf": 0.481
+      "conf": 0.482
     },
     "ETHUSDT": {
       "dir": "long",
@@ -63,7 +63,7 @@
     },
     "BTCUSDT": {
       "dir": "long",
-      "conf": 0.421
+      "conf": 0.426
     },
     "1000PEPEUSDT": {
       "dir": "short",
@@ -127,7 +127,7 @@
     },
     "HUSDT": {
       "dir": "long",
-      "conf": 0.644
+      "conf": 0.639
     },
     "AVAXUSDT": {
       "dir": "neutral",
@@ -249,7 +249,7 @@
     },
     {
       "t": "2026-06-17",
-      "v": 1247.17
+      "v": 1217.84
     }
   ],
   "trade_history": [
