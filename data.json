@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-17T14:55:47.119822+09:00",
+  "ts": "2026-06-17T14:56:49.768612+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7841.61,
-  "available": 6556.09,
-  "unrealized": -10.09,
+  "equity": 7839.41,
+  "available": 6554.17,
+  "unrealized": -12.22,
   "daily_pnl": -255.73,
-  "total_pnl": 1141.61,
-  "cum_pct": 17.04,
-  "daily_avg_pct": 0.6578,
-  "annual_pct": 994.75,
-  "mdd": -0.11,
-  "current_dd": -0.11,
-  "seed_used": 1285.52,
+  "total_pnl": 1139.41,
+  "cum_pct": 17.01,
+  "daily_avg_pct": 0.6567,
+  "annual_pct": 990.39,
+  "mdd": -0.75,
+  "current_dd": -0.75,
+  "seed_used": 1285.24,
   "seed_used_pct": 16.39,
   "long_count": 2,
   "short_count": 0,
@@ -20,13 +20,13 @@
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 24.11,
-      "pnl_pct": 0.46,
-      "margin": 651.84,
+      "pnl": 22.12,
+      "pnl_pct": 0.43,
+      "margin": 651.59,
       "leverage": "8",
       "tier": "1/1",
       "entry": 73.21,
-      "mark": 73.55
+      "mark": 73.522
     },
     {
       "symbol": "HYPEUSDT",
@@ -43,7 +43,7 @@
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.638
+      "conf": 0.632
     },
     "WLDUSDT": {
       "dir": "short",
@@ -249,7 +249,7 @@
     },
     {
       "t": "2026-06-17",
-      "v": 1141.61
+      "v": 1139.41
     }
   ],
   "trade_history": [
