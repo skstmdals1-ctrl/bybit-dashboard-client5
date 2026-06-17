@@ -1,32 +1,32 @@
 {
-  "ts": "2026-06-17T23:52:03.752576+09:00",
+  "ts": "2026-06-17T23:53:07.144823+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7726.76,
-  "available": 6951.49,
-  "unrealized": 19.9,
+  "equity": 7739.13,
+  "available": 6962.33,
+  "unrealized": 31.61,
   "daily_pnl": -402.26,
-  "total_pnl": 1026.76,
-  "cum_pct": 15.32,
-  "daily_avg_pct": 0.5957,
-  "annual_pct": 773.95,
+  "total_pnl": 1039.13,
+  "cum_pct": 15.51,
+  "daily_avg_pct": 0.6026,
+  "annual_pct": 796.11,
   "mdd": -2.95,
-  "current_dd": -2.58,
-  "seed_used": 775.27,
-  "seed_used_pct": 10.03,
+  "current_dd": -1.97,
+  "seed_used": 776.8,
+  "seed_used_pct": 10.04,
   "long_count": 1,
   "short_count": 0,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 22.23,
-      "pnl_pct": 0.36,
-      "margin": 773.24,
+      "pnl": 30.78,
+      "pnl_pct": 0.5,
+      "margin": 774.31,
       "leverage": "8",
       "tier": "1/1",
       "entry": 72.09,
-      "mark": 72.35
+      "mark": 72.45
     }
   ],
   "signals": {
@@ -36,7 +36,7 @@
     },
     "WLDUSDT": {
       "dir": "long",
-      "conf": 0.513
+      "conf": 0.514
     },
     "ETHUSDT": {
       "dir": "long",
@@ -64,7 +64,7 @@
     },
     "NEARUSDT": {
       "dir": "short",
-      "conf": 0.512
+      "conf": 0.517
     },
     "SUIUSDT": {
       "dir": "short",
@@ -76,7 +76,7 @@
     },
     "SOLUSDT": {
       "dir": "long",
-      "conf": 0.717
+      "conf": 0.718
     },
     "DOGEUSDT": {
       "dir": "long",
@@ -87,8 +87,8 @@
       "conf": 0.527
     },
     "ADAUSDT": {
-      "dir": "short",
-      "conf": 0.464
+      "dir": "neutral",
+      "conf": 0.0
     },
     "TAOUSDT": {
       "dir": "short",
@@ -112,7 +112,7 @@
     },
     "ENAUSDT": {
       "dir": "short",
-      "conf": 0.566
+      "conf": 0.573
     },
     "HUSDT": {
       "dir": "long",
@@ -238,7 +238,7 @@
     },
     {
       "t": "2026-06-17",
-      "v": 1026.76
+      "v": 1039.13
     }
   ],
   "trade_history": [
