@@ -1,32 +1,32 @@
 {
-  "ts": "2026-06-17T18:38:44.102693+09:00",
+  "ts": "2026-06-17T18:39:47.171711+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7674.27,
-  "available": 6904.57,
-  "unrealized": 0.15,
+  "equity": 7671.16,
+  "available": 6900.95,
+  "unrealized": -3.26,
   "daily_pnl": -434.63,
-  "total_pnl": 974.27,
-  "cum_pct": 14.54,
-  "daily_avg_pct": 0.5672,
-  "annual_pct": 688.08,
-  "mdd": -2.84,
-  "current_dd": -2.83,
-  "seed_used": 769.69,
-  "seed_used_pct": 10.03,
+  "total_pnl": 971.16,
+  "cum_pct": 14.49,
+  "daily_avg_pct": 0.5654,
+  "annual_pct": 682.95,
+  "mdd": -2.88,
+  "current_dd": -2.88,
+  "seed_used": 770.21,
+  "seed_used_pct": 10.04,
   "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 0.15,
-      "pnl_pct": 0.0,
-      "margin": 767.02,
+      "pnl": -3.26,
+      "pnl_pct": -0.06,
+      "margin": 767.51,
       "leverage": "7",
       "tier": "1/1",
       "entry": 72.46,
-      "mark": 72.458
+      "mark": 72.504
     }
   ],
   "signals": {
@@ -36,7 +36,7 @@
     },
     "WLDUSDT": {
       "dir": "long",
-      "conf": 0.513
+      "conf": 0.514
     },
     "ETHUSDT": {
       "dir": "long",
@@ -238,7 +238,7 @@
     },
     {
       "t": "2026-06-17",
-      "v": 974.27
+      "v": 971.16
     }
   ],
   "trade_history": [
