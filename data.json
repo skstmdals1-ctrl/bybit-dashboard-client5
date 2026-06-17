@@ -1,32 +1,32 @@
 {
-  "ts": "2026-06-17T20:20:19.837961+09:00",
+  "ts": "2026-06-17T20:21:22.595639+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7710.1,
-  "available": 6945.69,
-  "unrealized": 36.64,
-  "daily_pnl": -434.63,
-  "total_pnl": 1010.1,
-  "cum_pct": 15.08,
-  "daily_avg_pct": 0.587,
-  "annual_pct": 746.79,
+  "equity": 7709.05,
+  "available": 7183.71,
+  "unrealized": 23.65,
+  "daily_pnl": -423.7,
+  "total_pnl": 1009.05,
+  "cum_pct": 15.06,
+  "daily_avg_pct": 0.5862,
+  "annual_pct": 744.34,
   "mdd": -2.95,
-  "current_dd": -2.36,
-  "seed_used": 764.41,
-  "seed_used_pct": 9.91,
+  "current_dd": -2.39,
+  "seed_used": 525.35,
+  "seed_used_pct": 6.81,
   "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 36.16,
-      "pnl_pct": 0.67,
-      "margin": 761.88,
+      "pnl": 23.67,
+      "pnl_pct": 0.64,
+      "margin": 523.51,
       "leverage": "7",
       "tier": "1/1",
       "entry": 72.46,
-      "mark": 71.972
+      "mark": 71.995
     }
   ],
   "signals": {
@@ -76,7 +76,7 @@
     },
     "SOLUSDT": {
       "dir": "long",
-      "conf": 0.567
+      "conf": 0.592
     },
     "DOGEUSDT": {
       "dir": "long",
@@ -108,7 +108,7 @@
     },
     "LABUSDT": {
       "dir": "short",
-      "conf": 0.473
+      "conf": 0.472
     },
     "ENAUSDT": {
       "dir": "short",
@@ -238,10 +238,17 @@
     },
     {
       "t": "2026-06-17",
-      "v": 1010.1
+      "v": 1009.05
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-17 20:21",
+      "symbol": "SOLUSDT",
+      "side": "Sell",
+      "pnl": 10.93,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-17 17:31",
       "symbol": "SOLUSDT",
@@ -374,13 +381,6 @@
       "side": "Buy",
       "pnl": -61.02,
       "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-16 06:26",
-      "symbol": "SOLUSDT",
-      "side": "Buy",
-      "pnl": 146.33,
-      "reason": "1/1"
     }
   ],
   "num_days": 24
