@@ -1,54 +1,54 @@
 {
-  "ts": "2026-06-17T09:34:32.747371+09:00",
+  "ts": "2026-06-17T09:35:35.700395+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8033.75,
-  "available": 6322.02,
-  "unrealized": 37.71,
+  "equity": 8049.26,
+  "available": 6341.37,
+  "unrealized": 53.38,
   "daily_pnl": -112.03,
-  "total_pnl": 1333.75,
-  "cum_pct": 19.91,
-  "daily_avg_pct": 0.7594,
-  "annual_pct": 1482.1,
+  "total_pnl": 1349.26,
+  "cum_pct": 20.14,
+  "daily_avg_pct": 0.7675,
+  "annual_pct": 1529.21,
   "mdd": -12.42,
   "current_dd": -2.86,
-  "seed_used": 1711.74,
-  "seed_used_pct": 21.31,
+  "seed_used": 1707.89,
+  "seed_used_pct": 21.22,
   "long_count": 1,
   "short_count": 2,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 23.4,
-      "pnl_pct": 0.45,
-      "margin": 651.75,
+      "pnl": 17.73,
+      "pnl_pct": 0.34,
+      "margin": 651.04,
       "leverage": "8",
       "tier": "1/1",
       "entry": 73.21,
-      "mark": 73.54
+      "mark": 73.46
     },
     {
       "symbol": "XLMUSDT",
       "side": "SHORT",
-      "pnl": 12.1,
-      "pnl_pct": 0.27,
-      "margin": 648.04,
+      "pnl": 32.64,
+      "pnl_pct": 0.72,
+      "margin": 645.11,
       "leverage": "7",
       "tier": "2/2",
       "entry": 0.2214,
-      "mark": 0.2208
+      "mark": 0.2198
     },
     {
       "symbol": "HYPEUSDT",
       "side": "SHORT",
-      "pnl": 2.04,
-      "pnl_pct": 0.2,
-      "margin": 203.05,
+      "pnl": 3.06,
+      "pnl_pct": 0.3,
+      "margin": 202.84,
       "leverage": "5",
       "tier": "2/2",
       "entry": 73.449,
-      "mark": 73.302
+      "mark": 73.228
     }
   ],
   "signals": {
@@ -74,7 +74,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.397
+      "conf": 0.363
     },
     "1000PEPEUSDT": {
       "dir": "short",
@@ -260,7 +260,7 @@
     },
     {
       "t": "2026-06-17",
-      "v": 1333.75
+      "v": 1349.26
     }
   ],
   "trade_history": [
