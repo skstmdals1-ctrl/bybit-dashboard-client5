@@ -1,43 +1,32 @@
 {
-  "ts": "2026-06-17T10:51:53.415880+09:00",
+  "ts": "2026-06-17T10:52:56.062753+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7925.91,
-  "available": 6859.16,
-  "unrealized": 16.66,
-  "daily_pnl": -199.26,
-  "total_pnl": 1225.91,
-  "cum_pct": 18.3,
-  "daily_avg_pct": 0.7027,
-  "annual_pct": 1188.27,
+  "equity": 7922.47,
+  "available": 7267.23,
+  "unrealized": 36.13,
+  "daily_pnl": -222.27,
+  "total_pnl": 1222.47,
+  "cum_pct": 18.25,
+  "daily_avg_pct": 0.7009,
+  "annual_pct": 1179.89,
   "mdd": -12.42,
   "current_dd": -4.29,
-  "seed_used": 1066.75,
-  "seed_used_pct": 13.46,
+  "seed_used": 655.25,
+  "seed_used_pct": 8.27,
   "long_count": 1,
-  "short_count": 1,
+  "short_count": 0,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 35.88,
-      "pnl_pct": 0.69,
-      "margin": 653.31,
+      "pnl": 36.16,
+      "pnl_pct": 0.7,
+      "margin": 653.34,
       "leverage": "8",
       "tier": "1/1",
       "entry": 73.21,
-      "mark": 73.716
-    },
-    {
-      "symbol": "HYPEUSDT",
-      "side": "SHORT",
-      "pnl": -19.2,
-      "pnl_pct": -0.94,
-      "margin": 410.5,
-      "leverage": "5",
-      "tier": "2/2",
-      "entry": 73.7496,
-      "mark": 74.446
+      "mark": 73.72
     }
   ],
   "signals": {
@@ -249,10 +238,17 @@
     },
     {
       "t": "2026-06-17",
-      "v": 1225.91
+      "v": 1222.47
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-17 10:52",
+      "symbol": "HYPEUSDT",
+      "side": "Sell",
+      "pnl": -23.0,
+      "reason": "2/2"
+    },
     {
       "ts": "2026-06-17 10:46",
       "symbol": "XLMUSDT",
@@ -385,13 +381,6 @@
       "side": "Buy",
       "pnl": -6.03,
       "reason": "1/2"
-    },
-    {
-      "ts": "2026-06-16 00:41",
-      "symbol": "SOLUSDT",
-      "side": "Buy",
-      "pnl": 63.46,
-      "reason": "-"
     }
   ],
   "num_days": 24
