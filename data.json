@@ -1,53 +1,53 @@
 {
-  "ts": "2026-06-18T23:27:22.849764+09:00",
+  "ts": "2026-06-18T23:28:25.688113+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7489.06,
-  "available": 6005.77,
-  "unrealized": 49.57,
-  "daily_pnl": -263.33,
-  "total_pnl": 789.06,
-  "cum_pct": 11.78,
-  "daily_avg_pct": 0.4464,
-  "annual_pct": 408.21,
+  "equity": 7550.61,
+  "available": 6438.8,
+  "unrealized": 48.43,
+  "daily_pnl": -201.26,
+  "total_pnl": 850.61,
+  "cum_pct": 12.7,
+  "daily_avg_pct": 0.4794,
+  "annual_pct": 472.95,
   "mdd": -7.69,
-  "current_dd": -5.69,
-  "seed_used": 1483.29,
-  "seed_used_pct": 19.81,
+  "current_dd": -5.21,
+  "seed_used": 1111.81,
+  "seed_used_pct": 14.72,
   "long_count": 0,
   "short_count": 2,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": -42.97,
-      "pnl_pct": -0.82,
-      "margin": 750.72,
+      "pnl": -26.16,
+      "pnl_pct": -0.5,
+      "margin": 748.32,
       "leverage": "7",
       "tier": "1/1",
       "entry": 70.72,
-      "mark": 71.303
+      "mark": 71.075
     },
     {
       "symbol": "HYPEUSDT",
       "side": "SHORT",
-      "pnl": 92.6,
-      "pnl_pct": 1.78,
-      "margin": 727.87,
+      "pnl": 79.33,
+      "pnl_pct": 3.06,
+      "margin": 359.27,
       "leverage": "7",
       "tier": "1/1",
       "entry": 71.485,
-      "mark": 70.209
+      "mark": 69.299
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.518
+      "conf": 0.575
     },
     "WLDUSDT": {
       "dir": "long",
-      "conf": 0.493
+      "conf": 0.494
     },
     "ETHUSDT": {
       "dir": "short",
@@ -253,10 +253,17 @@
     },
     {
       "t": "2026-06-18",
-      "v": 789.06
+      "v": 850.61
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-18 23:28",
+      "symbol": "HYPEUSDT",
+      "side": "Sell",
+      "pnl": 62.07,
+      "reason": "1/1"
+    },
     {
       "ts": "2026-06-18 14:08",
       "symbol": "SOLUSDT",
@@ -388,13 +395,6 @@
       "symbol": "SOLUSDT",
       "side": "Buy",
       "pnl": -53.42,
-      "reason": "1/1"
-    },
-    {
-      "ts": "2026-06-16 23:14",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": 65.43,
       "reason": "1/1"
     }
   ],
