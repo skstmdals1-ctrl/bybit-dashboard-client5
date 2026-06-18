@@ -1,32 +1,32 @@
 {
-  "ts": "2026-06-18T14:14:31.903738+09:00",
+  "ts": "2026-06-18T14:15:34.656312+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7438.56,
-  "available": 6690.85,
-  "unrealized": -4.2,
+  "equity": 7428.74,
+  "available": 6679.63,
+  "unrealized": -13.99,
   "daily_pnl": -263.33,
-  "total_pnl": 738.56,
-  "cum_pct": 11.02,
-  "daily_avg_pct": 0.419,
-  "annual_pct": 360.05,
-  "mdd": -6.1,
-  "current_dd": -6.1,
-  "seed_used": 747.71,
-  "seed_used_pct": 10.05,
+  "total_pnl": 728.74,
+  "cum_pct": 10.88,
+  "daily_avg_pct": 0.414,
+  "annual_pct": 351.76,
+  "mdd": -6.16,
+  "current_dd": -6.16,
+  "seed_used": 749.11,
+  "seed_used_pct": 10.08,
   "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": -4.2,
-      "pnl_pct": -0.08,
-      "margin": 745.18,
+      "pnl": -14.0,
+      "pnl_pct": -0.27,
+      "margin": 746.58,
       "leverage": "7",
       "tier": "1/1",
       "entry": 70.72,
-      "mark": 70.777
+      "mark": 70.91
     }
   ],
   "signals": {
@@ -36,7 +36,7 @@
     },
     "WLDUSDT": {
       "dir": "long",
-      "conf": 0.492
+      "conf": 0.493
     },
     "ETHUSDT": {
       "dir": "short",
@@ -51,8 +51,8 @@
       "conf": 0.512
     },
     "BTCUSDT": {
-      "dir": "short",
-      "conf": 0.343
+      "dir": "long",
+      "conf": 0.35
     },
     "1000PEPEUSDT": {
       "dir": "short",
@@ -76,7 +76,7 @@
     },
     "SOLUSDT": {
       "dir": "short",
-      "conf": 0.534
+      "conf": 0.535
     },
     "DOGEUSDT": {
       "dir": "long",
@@ -242,7 +242,7 @@
     },
     {
       "t": "2026-06-18",
-      "v": 738.56
+      "v": 728.74
     }
   ],
   "trade_history": [
