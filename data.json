@@ -1,32 +1,32 @@
 {
-  "ts": "2026-06-18T09:11:19.194476+09:00",
+  "ts": "2026-06-18T09:12:22.225454+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7598.41,
-  "available": 6817.93,
-  "unrealized": -2.0,
-  "daily_pnl": -107.49,
-  "total_pnl": 898.41,
-  "cum_pct": 13.41,
-  "daily_avg_pct": 0.5046,
-  "annual_pct": 527.87,
-  "mdd": -4.14,
-  "current_dd": -4.14,
-  "seed_used": 780.48,
-  "seed_used_pct": 10.27,
+  "equity": 7599.15,
+  "available": 6882.79,
+  "unrealized": -1.07,
+  "daily_pnl": -108.49,
+  "total_pnl": 899.15,
+  "cum_pct": 13.42,
+  "daily_avg_pct": 0.505,
+  "annual_pct": 528.78,
+  "mdd": -4.15,
+  "current_dd": -4.15,
+  "seed_used": 716.35,
+  "seed_used_pct": 9.43,
   "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": -2.0,
-      "pnl_pct": -0.22,
-      "margin": 128.98,
+      "pnl": -1.07,
+      "pnl_pct": -0.24,
+      "margin": 65.02,
       "leverage": "7",
       "tier": "2/2",
       "entry": 72.07,
-      "mark": 72.23
+      "mark": 72.24
     }
   ],
   "signals": {
@@ -76,7 +76,7 @@
     },
     "SOLUSDT": {
       "dir": "long",
-      "conf": 0.567
+      "conf": 0.628
     },
     "DOGEUSDT": {
       "dir": "long",
@@ -242,10 +242,17 @@
     },
     {
       "t": "2026-06-18",
-      "v": 898.41
+      "v": 899.15
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-18 09:11",
+      "symbol": "SOLUSDT",
+      "side": "Sell",
+      "pnl": -1.0,
+      "reason": "2/2"
+    },
     {
       "ts": "2026-06-18 08:13",
       "symbol": "NEARUSDT",
@@ -378,13 +385,6 @@
       "side": "Buy",
       "pnl": -72.34,
       "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-16 19:51",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": 67.27,
-      "reason": "-"
     }
   ],
   "num_days": 25
