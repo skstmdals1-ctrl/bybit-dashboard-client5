@@ -1,65 +1,65 @@
 {
-  "ts": "2026-06-20T01:01:13.656879+09:00",
+  "ts": "2026-06-20T01:02:16.346671+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8047.26,
-  "available": 5396.71,
-  "unrealized": 108.62,
+  "equity": 8062.35,
+  "available": 5417.83,
+  "unrealized": 125.11,
   "daily_pnl": 41.67,
-  "total_pnl": 1347.26,
-  "cum_pct": 20.11,
-  "daily_avg_pct": 0.681,
-  "annual_pct": 1090.82,
+  "total_pnl": 1362.35,
+  "cum_pct": 20.33,
+  "daily_avg_pct": 0.6878,
+  "annual_pct": 1120.54,
   "mdd": -7.69,
-  "current_dd": -0.23,
-  "seed_used": 2650.55,
-  "seed_used_pct": 32.94,
+  "current_dd": -0.09,
+  "seed_used": 2644.52,
+  "seed_used_pct": 32.8,
   "long_count": 1,
   "short_count": 3,
   "positions": [
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
-      "pnl": -53.87,
-      "pnl_pct": -0.99,
-      "margin": 784.68,
+      "pnl": -61.95,
+      "pnl_pct": -1.14,
+      "margin": 785.83,
       "leverage": "7",
       "tier": "1/1",
       "entry": 6.058,
-      "mark": 6.118
+      "mark": 6.127
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 107.6,
-      "pnl_pct": 2.06,
-      "margin": 729.21,
+      "pnl": 103.18,
+      "pnl_pct": 1.98,
+      "margin": 729.84,
       "leverage": "7",
       "tier": "1/1",
       "entry": 70.72,
-      "mark": 69.26
-    },
-    {
-      "symbol": "HYPEUSDT",
-      "side": "LONG",
-      "pnl": 63.69,
-      "pnl_pct": 2.75,
-      "margin": 476.2,
-      "leverage": "5",
-      "tier": "1/1",
-      "entry": 67.599,
-      "mark": 69.457
+      "mark": 69.32
     },
     {
       "symbol": "LABUSDT",
       "side": "SHORT",
-      "pnl": -8.71,
-      "pnl_pct": -0.91,
-      "margin": 107.52,
+      "pnl": 18.59,
+      "pnl_pct": 0.32,
+      "margin": 639.86,
       "leverage": "9",
       "tier": "2/2",
-      "entry": 14.984,
-      "mark": 15.12
+      "entry": 15.1239,
+      "mark": 15.0752
+    },
+    {
+      "symbol": "HYPEUSDT",
+      "side": "LONG",
+      "pnl": 65.41,
+      "pnl_pct": 2.82,
+      "margin": 476.54,
+      "leverage": "5",
+      "tier": "1/1",
+      "entry": 67.599,
+      "mark": 69.507
     }
   ],
   "signals": {
@@ -69,7 +69,7 @@
     },
     "WLDUSDT": {
       "dir": "long",
-      "conf": 0.507
+      "conf": 0.506
     },
     "ETHUSDT": {
       "dir": "long",
@@ -105,7 +105,7 @@
     },
     "ZECUSDT": {
       "dir": "short",
-      "conf": 0.546
+      "conf": 0.548
     },
     "SOLUSDT": {
       "dir": "short",
@@ -283,7 +283,7 @@
     },
     {
       "t": "2026-06-20",
-      "v": 1347.26
+      "v": 1362.35
     }
   ],
   "trade_history": [
