@@ -1,54 +1,43 @@
 {
-  "ts": "2026-06-20T04:53:25.443304+09:00",
+  "ts": "2026-06-20T04:54:28.032631+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8569.39,
-  "available": 6124.12,
-  "unrealized": 64.31,
-  "daily_pnl": 607.68,
-  "total_pnl": 1869.39,
-  "cum_pct": 27.9,
-  "daily_avg_pct": 0.9156,
-  "annual_pct": 2684.72,
+  "equity": 8502.75,
+  "available": 6905.33,
+  "unrealized": 141.99,
+  "daily_pnl": 462.05,
+  "total_pnl": 1802.75,
+  "cum_pct": 26.91,
+  "daily_avg_pct": 0.8865,
+  "annual_pct": 2406.49,
   "mdd": -7.69,
-  "current_dd": -0.68,
-  "seed_used": 2445.28,
-  "seed_used_pct": 28.54,
+  "current_dd": -1.53,
+  "seed_used": 1597.42,
+  "seed_used_pct": 18.79,
   "long_count": 1,
-  "short_count": 2,
+  "short_count": 1,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 12.07,
-      "pnl_pct": 0.2,
-      "margin": 863.99,
+      "pnl": 21.84,
+      "pnl_pct": 0.36,
+      "margin": 865.39,
       "leverage": "7",
       "tier": "1/1",
       "entry": 70.488,
-      "mark": 70.629
-    },
-    {
-      "symbol": "AVAXUSDT",
-      "side": "SHORT",
-      "pnl": -73.83,
-      "pnl_pct": -1.26,
-      "margin": 846.91,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 5.7544,
-      "mark": 5.827
+      "mark": 70.743
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 126.03,
-      "pnl_pct": 2.42,
-      "margin": 726.58,
+      "pnl": 121.61,
+      "pnl_pct": 2.33,
+      "margin": 727.21,
       "leverage": "7",
       "tier": "1/1",
       "entry": 70.72,
-      "mark": 69.01
+      "mark": 69.07
     }
   ],
   "signals": {
@@ -272,10 +261,17 @@
     },
     {
       "t": "2026-06-20",
-      "v": 1869.39
+      "v": 1802.75
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-20 04:54",
+      "symbol": "AVAXUSDT",
+      "side": "Sell",
+      "pnl": -145.63,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-20 03:47",
       "symbol": "AVAXUSDT",
@@ -407,13 +403,6 @@
       "symbol": "SOLUSDT",
       "side": "Sell",
       "pnl": 15.62,
-      "reason": "-"
-    },
-    {
-      "ts": "2026-06-17 20:22",
-      "symbol": "SOLUSDT",
-      "side": "Sell",
-      "pnl": 5.81,
       "reason": "-"
     }
   ],
