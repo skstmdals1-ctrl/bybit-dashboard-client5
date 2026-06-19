@@ -1,43 +1,54 @@
 {
-  "ts": "2026-06-20T03:42:21.346976+09:00",
+  "ts": "2026-06-20T03:43:24.079022+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8650.75,
-  "available": 7174.72,
-  "unrealized": 356.84,
+  "equity": 8660.57,
+  "available": 6323.51,
+  "unrealized": 367.8,
   "daily_pnl": 395.54,
-  "total_pnl": 1950.75,
-  "cum_pct": 29.12,
-  "daily_avg_pct": 0.9511,
-  "annual_pct": 3066.18,
+  "total_pnl": 1960.57,
+  "cum_pct": 29.26,
+  "daily_avg_pct": 0.9551,
+  "annual_pct": 3112.3,
   "mdd": -7.69,
   "current_dd": 0.0,
-  "seed_used": 1476.03,
-  "seed_used_pct": 17.06,
-  "long_count": 0,
+  "seed_used": 2337.06,
+  "seed_used_pct": 26.99,
+  "long_count": 1,
   "short_count": 2,
   "positions": [
     {
+      "symbol": "HYPEUSDT",
+      "side": "LONG",
+      "pnl": -6.08,
+      "pnl_pct": -0.1,
+      "margin": 861.4,
+      "leverage": "7",
+      "tier": "1/1",
+      "entry": 70.488,
+      "mark": 70.417
+    },
+    {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
-      "pnl": 216.37,
-      "pnl_pct": 3.98,
-      "margin": 746.07,
+      "pnl": 237.02,
+      "pnl_pct": 4.36,
+      "margin": 743.12,
       "leverage": "7",
       "tier": "1/1",
       "entry": 6.058,
-      "mark": 5.817
+      "mark": 5.794
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 140.77,
-      "pnl_pct": 2.7,
-      "margin": 724.47,
+      "pnl": 139.22,
+      "pnl_pct": 2.67,
+      "margin": 724.69,
       "leverage": "7",
       "tier": "1/1",
       "entry": 70.72,
-      "mark": 68.81
+      "mark": 68.831
     }
   ],
   "signals": {
@@ -87,7 +98,7 @@
     },
     "SOLUSDT": {
       "dir": "short",
-      "conf": 0.575
+      "conf": 0.573
     },
     "DOGEUSDT": {
       "dir": "short",
@@ -261,7 +272,7 @@
     },
     {
       "t": "2026-06-20",
-      "v": 1950.75
+      "v": 1960.57
     }
   ],
   "trade_history": [
