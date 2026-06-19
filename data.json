@@ -1,71 +1,71 @@
 {
-  "ts": "2026-06-20T01:12:45.100688+09:00",
+  "ts": "2026-06-20T01:13:48.035931+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8200.34,
-  "available": 5561.56,
-  "unrealized": 263.44,
+  "equity": 8185.64,
+  "available": 5543.32,
+  "unrealized": 248.84,
   "daily_pnl": 41.67,
-  "total_pnl": 1500.34,
-  "cum_pct": 22.39,
-  "daily_avg_pct": 0.7511,
-  "annual_pct": 1435.24,
+  "total_pnl": 1485.64,
+  "cum_pct": 22.17,
+  "daily_avg_pct": 0.7444,
+  "annual_pct": 1398.42,
   "mdd": -7.69,
   "current_dd": 0.0,
-  "seed_used": 2638.78,
-  "seed_used_pct": 32.18,
+  "seed_used": 2642.32,
+  "seed_used_pct": 32.28,
   "long_count": 1,
   "short_count": 3,
   "positions": [
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
-      "pnl": -70.03,
-      "pnl_pct": -1.29,
-      "margin": 786.99,
+      "pnl": -79.9,
+      "pnl_pct": -1.47,
+      "margin": 788.4,
       "leverage": "7",
       "tier": "1/1",
       "entry": 6.058,
-      "mark": 6.136
+      "mark": 6.147
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 94.56,
-      "pnl_pct": 1.81,
-      "margin": 731.07,
+      "pnl": 92.86,
+      "pnl_pct": 1.78,
+      "margin": 731.31,
       "leverage": "7",
       "tier": "1/1",
       "entry": 70.72,
-      "mark": 69.437
+      "mark": 69.46
     },
     {
       "symbol": "LABUSDT",
       "side": "SHORT",
-      "pnl": 144.18,
-      "pnl_pct": 2.5,
-      "margin": 625.9,
+      "pnl": 137.63,
+      "pnl_pct": 2.38,
+      "margin": 626.63,
       "leverage": "9",
       "tier": "2/2",
       "entry": 15.1239,
-      "mark": 14.7464
+      "mark": 14.7636
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 94.58,
-      "pnl_pct": 4.08,
-      "margin": 482.37,
+      "pnl": 100.27,
+      "pnl_pct": 4.33,
+      "margin": 483.51,
       "leverage": "5",
       "tier": "1/1",
       "entry": 67.599,
-      "mark": 70.358
+      "mark": 70.524
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.477
+      "conf": 0.479
     },
     "WLDUSDT": {
       "dir": "long",
@@ -105,7 +105,7 @@
     },
     "ZECUSDT": {
       "dir": "short",
-      "conf": 0.547
+      "conf": 0.546
     },
     "SOLUSDT": {
       "dir": "short",
@@ -283,7 +283,7 @@
     },
     {
       "t": "2026-06-20",
-      "v": 1500.34
+      "v": 1485.64
     }
   ],
   "trade_history": [
