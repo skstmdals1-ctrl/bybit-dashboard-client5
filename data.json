@@ -1,65 +1,65 @@
 {
-  "ts": "2026-06-19T23:59:27.204279+09:00",
+  "ts": "2026-06-20T00:00:29.905282+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8033.68,
-  "available": 5401.47,
-  "unrealized": 135.31,
-  "daily_pnl": 315.02,
-  "total_pnl": 1333.68,
-  "cum_pct": 19.91,
-  "daily_avg_pct": 0.7008,
-  "annual_pct": 1179.43,
+  "equity": 8039.29,
+  "available": 5407.34,
+  "unrealized": 140.37,
+  "daily_pnl": 0,
+  "total_pnl": 1339.29,
+  "cum_pct": 19.99,
+  "daily_avg_pct": 0.6772,
+  "annual_pct": 1074.52,
   "mdd": -7.69,
   "current_dd": 0.0,
-  "seed_used": 2632.21,
-  "seed_used_pct": 32.76,
+  "seed_used": 2631.95,
+  "seed_used_pct": 32.74,
   "long_count": 1,
   "short_count": 3,
   "positions": [
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
-      "pnl": -50.28,
-      "pnl_pct": -0.92,
-      "margin": 784.16,
+      "pnl": -48.48,
+      "pnl_pct": -0.89,
+      "margin": 783.91,
       "leverage": "7",
       "tier": "1/1",
       "entry": 6.058,
-      "mark": 6.114
+      "mark": 6.112
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 117.92,
-      "pnl_pct": 2.26,
-      "margin": 727.73,
+      "pnl": 120.87,
+      "pnl_pct": 2.32,
+      "margin": 727.31,
       "leverage": "7",
       "tier": "1/1",
       "entry": 70.72,
-      "mark": 69.12
+      "mark": 69.08
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 40.86,
-      "pnl_pct": 1.76,
-      "margin": 471.63,
+      "pnl": 41.99,
+      "pnl_pct": 1.81,
+      "margin": 471.86,
       "leverage": "5",
       "tier": "1/1",
       "entry": 67.599,
-      "mark": 68.791
+      "mark": 68.824
     },
     {
       "symbol": "LABUSDT",
       "side": "SHORT",
-      "pnl": 27.26,
-      "pnl_pct": 2.88,
-      "margin": 102.3,
+      "pnl": 26.07,
+      "pnl_pct": 2.75,
+      "margin": 102.43,
       "leverage": "9",
       "tier": "2/2",
       "entry": 15.54,
-      "mark": 15.0931
+      "mark": 15.1126
     }
   ],
   "signals": {
@@ -280,6 +280,10 @@
     {
       "t": "2026-06-19",
       "v": 1333.68
+    },
+    {
+      "t": "2026-06-20",
+      "v": 1339.29
     }
   ],
   "trade_history": [
@@ -424,5 +428,5 @@
       "reason": "1/1"
     }
   ],
-  "num_days": 26
+  "num_days": 27
 }
