@@ -1,65 +1,65 @@
 {
-  "ts": "2026-06-19T22:55:36.896375+09:00",
+  "ts": "2026-06-19T22:56:39.833264+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7851.24,
-  "available": 5179.43,
-  "unrealized": 268.7,
-  "daily_pnl": 0,
-  "total_pnl": 1151.24,
-  "cum_pct": 17.18,
-  "daily_avg_pct": 0.6116,
-  "annual_pct": 825.85,
+  "equity": 7871.31,
+  "available": 5386.56,
+  "unrealized": 221.81,
+  "daily_pnl": 66.34,
+  "total_pnl": 1171.31,
+  "cum_pct": 17.48,
+  "daily_avg_pct": 0.6215,
+  "annual_pct": 859.7,
   "mdd": -7.69,
   "current_dd": -1.08,
-  "seed_used": 2671.8,
-  "seed_used_pct": 34.03,
+  "seed_used": 2484.75,
+  "seed_used_pct": 31.57,
   "long_count": 1,
   "short_count": 3,
   "positions": [
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
-      "pnl": -101.45,
-      "pnl_pct": -1.87,
-      "margin": 791.47,
+      "pnl": -102.35,
+      "pnl_pct": -1.88,
+      "margin": 791.6,
       "leverage": "7",
       "tier": "1/1",
       "entry": 6.058,
-      "mark": 6.171
+      "mark": 6.172
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 108.93,
-      "pnl_pct": 2.09,
-      "margin": 729.02,
+      "pnl": 106.13,
+      "pnl_pct": 2.04,
+      "margin": 729.42,
       "leverage": "7",
       "tier": "1/1",
       "entry": 70.72,
-      "mark": 69.242
+      "mark": 69.28
     },
     {
       "symbol": "LABUSDT",
       "side": "SHORT",
-      "pnl": 225.66,
-      "pnl_pct": 4.6,
-      "margin": 668.98,
+      "pnl": 182.39,
+      "pnl_pct": 5.12,
+      "margin": 482.9,
       "leverage": "7",
       "tier": "2/2",
       "entry": 15.834,
-      "mark": 15.1061
+      "mark": 15.0234
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 35.86,
+      "pnl": 35.82,
       "pnl_pct": 1.55,
-      "margin": 470.63,
+      "margin": 470.62,
       "leverage": "5",
       "tier": "1/1",
       "entry": 67.599,
-      "mark": 68.645
+      "mark": 68.644
     }
   ],
   "signals": {
@@ -279,10 +279,17 @@
     },
     {
       "t": "2026-06-19",
-      "v": 1151.24
+      "v": 1171.31
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-19 22:55",
+      "symbol": "LABUSDT",
+      "side": "Sell",
+      "pnl": 66.34,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-18 23:44",
       "symbol": "HYPEUSDT",
@@ -415,13 +422,6 @@
       "side": "Sell",
       "pnl": 5.69,
       "reason": "1/1"
-    },
-    {
-      "ts": "2026-06-17 01:58",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": -17.3,
-      "reason": "2/2"
     }
   ],
   "num_days": 26
