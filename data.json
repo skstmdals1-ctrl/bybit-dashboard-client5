@@ -1,54 +1,43 @@
 {
-  "ts": "2026-06-20T03:47:35.038525+09:00",
+  "ts": "2026-06-20T03:48:37.704137+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8647.77,
-  "available": 6527.28,
-  "unrealized": 274.11,
-  "daily_pnl": 476.33,
-  "total_pnl": 1947.77,
-  "cum_pct": 29.07,
-  "daily_avg_pct": 0.9496,
-  "annual_pct": 3049.05,
+  "equity": 8654.36,
+  "available": 7058.59,
+  "unrealized": 148.17,
+  "daily_pnl": 607.68,
+  "total_pnl": 1954.36,
+  "cum_pct": 29.17,
+  "daily_avg_pct": 0.9525,
+  "annual_pct": 3082.24,
   "mdd": -7.69,
   "current_dd": 0.0,
-  "seed_used": 2120.49,
-  "seed_used_pct": 24.52,
+  "seed_used": 1595.76,
+  "seed_used_pct": 18.44,
   "long_count": 1,
-  "short_count": 2,
+  "short_count": 1,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 7.71,
-      "pnl_pct": 0.13,
-      "margin": 863.37,
+      "pnl": 18.58,
+      "pnl_pct": 0.31,
+      "margin": 864.92,
       "leverage": "7",
       "tier": "1/1",
       "entry": 70.488,
-      "mark": 70.578
+      "mark": 70.705
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 133.4,
-      "pnl_pct": 2.56,
-      "margin": 725.52,
+      "pnl": 128.97,
+      "pnl_pct": 2.47,
+      "margin": 726.16,
       "leverage": "7",
       "tier": "1/1",
       "entry": 70.72,
-      "mark": 68.91
-    },
-    {
-      "symbol": "AVAXUSDT",
-      "side": "SHORT",
-      "pnl": 133.24,
-      "pnl_pct": 3.5,
-      "margin": 524.89,
-      "leverage": "7",
-      "tier": "1/1",
-      "entry": 6.058,
-      "mark": 5.846
+      "mark": 68.97
     }
   ],
   "signals": {
@@ -272,10 +261,17 @@
     },
     {
       "t": "2026-06-20",
-      "v": 1947.77
+      "v": 1954.36
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-20 03:47",
+      "symbol": "AVAXUSDT",
+      "side": "Sell",
+      "pnl": 131.35,
+      "reason": "1/1"
+    },
     {
       "ts": "2026-06-20 03:43",
       "symbol": "AVAXUSDT",
@@ -407,13 +403,6 @@
       "symbol": "SOLUSDT",
       "side": "Sell",
       "pnl": 5.81,
-      "reason": "-"
-    },
-    {
-      "ts": "2026-06-17 20:21",
-      "symbol": "SOLUSDT",
-      "side": "Sell",
-      "pnl": 10.93,
       "reason": "-"
     }
   ],
