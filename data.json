@@ -1,54 +1,54 @@
 {
-  "ts": "2026-06-19T20:46:52.734692+09:00",
+  "ts": "2026-06-19T20:47:55.439617+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7813.99,
-  "available": 5930.63,
-  "unrealized": 230.84,
+  "equity": 7794.77,
+  "available": 5907.68,
+  "unrealized": 212.25,
   "daily_pnl": 0,
-  "total_pnl": 1113.99,
-  "cum_pct": 16.63,
-  "daily_avg_pct": 0.5934,
-  "annual_pct": 766.69,
+  "total_pnl": 1094.77,
+  "cum_pct": 16.34,
+  "daily_avg_pct": 0.5838,
+  "annual_pct": 737.02,
   "mdd": -7.69,
-  "current_dd": -1.55,
-  "seed_used": 1883.36,
-  "seed_used_pct": 24.1,
+  "current_dd": -1.51,
+  "seed_used": 1887.09,
+  "seed_used_pct": 24.21,
   "long_count": 1,
   "short_count": 2,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 171.94,
-      "pnl_pct": 3.3,
-      "margin": 720.02,
+      "pnl": 170.91,
+      "pnl_pct": 3.28,
+      "margin": 720.16,
       "leverage": "7",
       "tier": "1/1",
       "entry": 70.72,
-      "mark": 68.387
+      "mark": 68.401
     },
     {
       "symbol": "LABUSDT",
       "side": "SHORT",
-      "pnl": 64.2,
-      "pnl_pct": 1.31,
-      "margin": 692.05,
+      "pnl": 41.64,
+      "pnl_pct": 0.85,
+      "margin": 695.27,
       "leverage": "7",
       "tier": "2/2",
       "entry": 15.834,
-      "mark": 15.6269
+      "mark": 15.6997
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -5.11,
-      "pnl_pct": -0.22,
-      "margin": 462.44,
+      "pnl": -1.89,
+      "pnl_pct": -0.08,
+      "margin": 463.08,
       "leverage": "5",
       "tier": "1/1",
       "entry": 67.599,
-      "mark": 67.45
+      "mark": 67.544
     }
   ],
   "signals": {
@@ -58,7 +58,7 @@
     },
     "WLDUSDT": {
       "dir": "long",
-      "conf": 0.495
+      "conf": 0.496
     },
     "ETHUSDT": {
       "dir": "long",
@@ -130,7 +130,7 @@
     },
     "LABUSDT": {
       "dir": "short",
-      "conf": 0.79
+      "conf": 0.821
     },
     "ENAUSDT": {
       "dir": "short",
@@ -268,7 +268,7 @@
     },
     {
       "t": "2026-06-19",
-      "v": 1113.99
+      "v": 1094.77
     }
   ],
   "trade_history": [
