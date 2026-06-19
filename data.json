@@ -1,64 +1,64 @@
 {
-  "ts": "2026-06-19T23:20:44.448285+09:00",
+  "ts": "2026-06-19T23:21:47.215996+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7986.51,
-  "available": 6001.43,
-  "unrealized": 87.53,
+  "equity": 7996.37,
+  "available": 6013.86,
+  "unrealized": 97.38,
   "daily_pnl": 315.02,
-  "total_pnl": 1286.51,
-  "cum_pct": 19.2,
-  "daily_avg_pct": 0.6778,
-  "annual_pct": 1077.08,
+  "total_pnl": 1296.37,
+  "cum_pct": 19.35,
+  "daily_avg_pct": 0.6827,
+  "annual_pct": 1098.18,
   "mdd": -7.69,
   "current_dd": 0.0,
-  "seed_used": 1985.08,
-  "seed_used_pct": 24.86,
+  "seed_used": 1982.51,
+  "seed_used_pct": 24.79,
   "long_count": 1,
   "short_count": 2,
   "positions": [
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
-      "pnl": -61.95,
-      "pnl_pct": -1.14,
-      "margin": 785.83,
+      "pnl": -52.97,
+      "pnl_pct": -0.97,
+      "margin": 784.55,
       "leverage": "7",
       "tier": "1/1",
       "entry": 6.058,
-      "mark": 6.127
+      "mark": 6.117
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 130.89,
-      "pnl_pct": 2.51,
-      "margin": 725.88,
+      "pnl": 134.87,
+      "pnl_pct": 2.59,
+      "margin": 725.31,
       "leverage": "7",
       "tier": "1/1",
       "entry": 70.72,
-      "mark": 68.944
+      "mark": 68.89
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 18.72,
-      "pnl_pct": 0.81,
-      "margin": 467.2,
+      "pnl": 15.56,
+      "pnl_pct": 0.67,
+      "margin": 466.57,
       "leverage": "5",
       "tier": "1/1",
       "entry": 67.599,
-      "mark": 68.145
+      "mark": 68.053
     }
   ],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.569
+      "conf": 0.57
     },
     "WLDUSDT": {
       "dir": "long",
-      "conf": 0.5
+      "conf": 0.501
     },
     "ETHUSDT": {
       "dir": "long",
@@ -98,7 +98,7 @@
     },
     "SOLUSDT": {
       "dir": "short",
-      "conf": 0.581
+      "conf": 0.58
     },
     "DOGEUSDT": {
       "dir": "short",
@@ -268,7 +268,7 @@
     },
     {
       "t": "2026-06-19",
-      "v": 1286.51
+      "v": 1296.37
     }
   ],
   "trade_history": [
