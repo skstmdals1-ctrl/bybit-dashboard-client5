@@ -1,34 +1,22 @@
 {
-  "ts": "2026-06-20T18:13:11.348333+09:00",
+  "ts": "2026-06-20T18:14:13.986029+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8098.3,
-  "available": 7267.08,
-  "unrealized": -69.18,
-  "daily_pnl": 269.11,
-  "total_pnl": 1398.3,
-  "cum_pct": 20.87,
-  "daily_avg_pct": 0.7045,
-  "annual_pct": 1196.7,
+  "equity": 8058.11,
+  "available": 8058.11,
+  "unrealized": 0.0,
+  "daily_pnl": 157.52,
+  "total_pnl": 1358.11,
+  "cum_pct": 20.27,
+  "daily_avg_pct": 0.6859,
+  "annual_pct": 1112.16,
   "mdd": -7.69,
   "current_dd": -7.0,
-  "seed_used": 831.22,
-  "seed_used_pct": 10.26,
+  "seed_used": 0,
+  "seed_used_pct": 0.0,
   "long_count": 0,
-  "short_count": 1,
-  "positions": [
-    {
-      "symbol": "LABUSDT",
-      "side": "SHORT",
-      "pnl": -69.24,
-      "pnl_pct": -1.21,
-      "margin": 824.78,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 12.2146,
-      "mark": 12.3629
-    }
-  ],
+  "short_count": 0,
+  "positions": [],
   "signals": {
     "HYPEUSDT": {
       "dir": "long",
@@ -250,10 +238,17 @@
     },
     {
       "t": "2026-06-20",
-      "v": 1398.3
+      "v": 1358.11
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-20 18:13",
+      "symbol": "LABUSDT",
+      "side": "Sell",
+      "pnl": -111.59,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-20 14:13",
       "symbol": "SOLUSDT",
@@ -386,13 +381,6 @@
       "side": "Buy",
       "pnl": -153.82,
       "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-18 09:28",
-      "symbol": "SOLUSDT",
-      "side": "Sell",
-      "pnl": -1.02,
-      "reason": "1/2"
     }
   ],
   "num_days": 27
