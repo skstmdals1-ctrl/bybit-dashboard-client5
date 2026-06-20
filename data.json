@@ -1,32 +1,43 @@
 {
-  "ts": "2026-06-20T11:49:27.043192+09:00",
+  "ts": "2026-06-20T11:50:29.649976+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8490.67,
-  "available": 7754.4,
-  "unrealized": 76.58,
+  "equity": 8502.75,
+  "available": 7337.62,
+  "unrealized": 90.08,
   "daily_pnl": 514.74,
-  "total_pnl": 1790.67,
-  "cum_pct": 26.73,
-  "daily_avg_pct": 0.8812,
-  "annual_pct": 2358.88,
+  "total_pnl": 1802.75,
+  "cum_pct": 26.91,
+  "daily_avg_pct": 0.8865,
+  "annual_pct": 2406.49,
   "mdd": -7.69,
-  "current_dd": -2.32,
-  "seed_used": 736.27,
-  "seed_used_pct": 8.67,
+  "current_dd": -2.45,
+  "seed_used": 1165.13,
+  "seed_used_pct": 13.7,
   "long_count": 0,
-  "short_count": 1,
+  "short_count": 2,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 76.21,
-      "pnl_pct": 1.46,
-      "margin": 733.69,
+      "pnl": 76.65,
+      "pnl_pct": 1.47,
+      "margin": 733.63,
       "leverage": "7",
       "tier": "1/1",
       "entry": 70.72,
-      "mark": 69.686
+      "mark": 69.68
+    },
+    {
+      "symbol": "LABUSDT",
+      "side": "SHORT",
+      "pnl": 12.96,
+      "pnl_pct": 0.43,
+      "margin": 425.57,
+      "leverage": "7",
+      "tier": "1/2",
+      "entry": 11.552,
+      "mark": 11.502
     }
   ],
   "signals": {
@@ -72,7 +83,7 @@
     },
     "ZECUSDT": {
       "dir": "long",
-      "conf": 0.488
+      "conf": 0.489
     },
     "SOLUSDT": {
       "dir": "short",
@@ -250,7 +261,7 @@
     },
     {
       "t": "2026-06-20",
-      "v": 1790.67
+      "v": 1802.75
     }
   ],
   "trade_history": [
