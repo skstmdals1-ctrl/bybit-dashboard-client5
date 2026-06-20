@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-20T12:10:20.982369+09:00",
+  "ts": "2026-06-20T12:11:23.622390+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8474.22,
-  "available": 7305.09,
-  "unrealized": 61.82,
+  "equity": 8469.78,
+  "available": 7299.91,
+  "unrealized": 57.01,
   "daily_pnl": 514.74,
-  "total_pnl": 1774.22,
-  "cum_pct": 26.48,
-  "daily_avg_pct": 0.8738,
-  "annual_pct": 2293.92,
+  "total_pnl": 1769.78,
+  "cum_pct": 26.41,
+  "daily_avg_pct": 0.8718,
+  "annual_pct": 2276.66,
   "mdd": -7.69,
-  "current_dd": -2.45,
-  "seed_used": 1169.13,
-  "seed_used_pct": 13.8,
+  "current_dd": -2.49,
+  "seed_used": 1169.87,
+  "seed_used_pct": 13.81,
   "long_count": 0,
   "short_count": 2,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 73.7,
-      "pnl_pct": 1.41,
-      "margin": 734.05,
+      "pnl": 72.23,
+      "pnl_pct": 1.39,
+      "margin": 734.26,
       "leverage": "7",
       "tier": "1/1",
       "entry": 70.72,
-      "mark": 69.72
+      "mark": 69.74
     },
     {
       "symbol": "LABUSDT",
       "side": "SHORT",
-      "pnl": -10.86,
-      "pnl_pct": -0.36,
-      "margin": 428.98,
+      "pnl": -19.32,
+      "pnl_pct": -0.65,
+      "margin": 430.18,
       "leverage": "7",
       "tier": "1/2",
       "entry": 11.552,
-      "mark": 11.5939
+      "mark": 11.6266
     }
   ],
   "signals": {
@@ -75,7 +75,7 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.475
+      "conf": 0.474
     },
     "SUIUSDT": {
       "dir": "short",
@@ -83,7 +83,7 @@
     },
     "ZECUSDT": {
       "dir": "long",
-      "conf": 0.489
+      "conf": 0.488
     },
     "SOLUSDT": {
       "dir": "short",
@@ -118,8 +118,8 @@
       "conf": 0.361
     },
     "LABUSDT": {
-      "dir": "short",
-      "conf": 0.502
+      "dir": "long",
+      "conf": 0.504
     },
     "ENAUSDT": {
       "dir": "short",
@@ -261,7 +261,7 @@
     },
     {
       "t": "2026-06-20",
-      "v": 1774.22
+      "v": 1769.78
     }
   ],
   "trade_history": [
