@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-21T20:26:28.807373+09:00",
+  "ts": "2026-06-21T20:27:31.355625+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8086.43,
-  "available": 7285.23,
-  "unrealized": 31.8,
+  "equity": 8087.26,
+  "available": 7286.16,
+  "unrealized": 32.62,
   "daily_pnl": 0,
-  "total_pnl": 1386.43,
-  "cum_pct": 20.69,
-  "daily_avg_pct": 0.6739,
-  "annual_pct": 1060.56,
+  "total_pnl": 1387.26,
+  "cum_pct": 20.71,
+  "daily_avg_pct": 0.6745,
+  "annual_pct": 1063.08,
   "mdd": -1.28,
   "current_dd": -0.35,
-  "seed_used": 801.2,
+  "seed_used": 801.1,
   "seed_used_pct": 9.91,
   "long_count": 0,
   "short_count": 1,
@@ -20,13 +20,13 @@
     {
       "symbol": "TAOUSDT",
       "side": "SHORT",
-      "pnl": 32.11,
-      "pnl_pct": 0.5,
-      "margin": 798.12,
+      "pnl": 33.75,
+      "pnl_pct": 0.53,
+      "margin": 797.91,
       "leverage": "8",
       "tier": "1/1",
       "entry": 235.8,
-      "mark": 234.62
+      "mark": 234.56
     }
   ],
   "signals": {
@@ -51,8 +51,8 @@
       "conf": 0.512
     },
     "BTCUSDT": {
-      "dir": "long",
-      "conf": 0.417
+      "dir": "short",
+      "conf": 0.431
     },
     "1000PEPEUSDT": {
       "dir": "short",
@@ -92,7 +92,7 @@
     },
     "TAOUSDT": {
       "dir": "short",
-      "conf": 0.589
+      "conf": 0.588
     },
     "RENDERUSDT": {
       "dir": "long",
@@ -120,7 +120,7 @@
     },
     "AVAXUSDT": {
       "dir": "short",
-      "conf": 0.499
+      "conf": 0.498
     },
     "BEATUSDT": {
       "dir": "long",
@@ -254,7 +254,7 @@
     },
     {
       "t": "2026-06-21",
-      "v": 1386.43
+      "v": 1387.26
     }
   ],
   "trade_history": [
