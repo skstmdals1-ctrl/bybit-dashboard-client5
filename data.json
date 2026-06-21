@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-22T05:13:36.045448+09:00",
+  "ts": "2026-06-22T05:14:38.637754+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8030.33,
-  "available": 7115.46,
-  "unrealized": -24.37,
+  "equity": 8021.43,
+  "available": 6561.63,
+  "unrealized": -33.65,
   "daily_pnl": 0,
-  "total_pnl": 1330.33,
-  "cum_pct": 19.86,
-  "daily_avg_pct": 0.6266,
-  "annual_pct": 877.62,
+  "total_pnl": 1321.43,
+  "cum_pct": 19.72,
+  "daily_avg_pct": 0.6226,
+  "annual_pct": 863.54,
   "mdd": -2.17,
-  "current_dd": -1.8,
-  "seed_used": 914.87,
-  "seed_used_pct": 11.39,
+  "current_dd": -1.56,
+  "seed_used": 1459.8,
+  "seed_used_pct": 18.2,
   "long_count": 0,
   "short_count": 2,
   "positions": [
     {
       "symbol": "TAOUSDT",
       "side": "SHORT",
-      "pnl": -24.22,
-      "pnl_pct": -0.38,
-      "margin": 805.16,
+      "pnl": -30.48,
+      "pnl_pct": -0.47,
+      "margin": 805.94,
       "leverage": "8",
       "tier": "1/1",
       "entry": 235.8,
-      "mark": 236.69
+      "mark": 236.92
     },
     {
       "symbol": "LABUSDT",
       "side": "SHORT",
-      "pnl": -0.98,
-      "pnl_pct": -0.1,
-      "margin": 105.77,
+      "pnl": -3.21,
+      "pnl_pct": -0.34,
+      "margin": 106.01,
       "leverage": "9",
-      "tier": "1/2",
+      "tier": "2/2",
       "entry": 13.393,
-      "mark": 13.4069
+      "mark": 13.4382
     }
   ],
   "signals": {
@@ -75,7 +75,7 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.5
+      "conf": 0.554
     },
     "SUIUSDT": {
       "dir": "short",
@@ -269,7 +269,7 @@
     },
     {
       "t": "2026-06-22",
-      "v": 1330.33
+      "v": 1321.43
     }
   ],
   "trade_history": [
