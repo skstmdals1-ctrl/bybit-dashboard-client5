@@ -1,32 +1,32 @@
 {
-  "ts": "2026-06-22T01:36:14.831540+09:00",
+  "ts": "2026-06-22T01:37:17.372195+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8068.25,
-  "available": 7264.76,
-  "unrealized": 13.32,
+  "equity": 8066.36,
+  "available": 7262.51,
+  "unrealized": 10.87,
   "daily_pnl": 0,
-  "total_pnl": 1368.25,
-  "cum_pct": 20.42,
-  "daily_avg_pct": 0.6428,
-  "annual_pct": 936.79,
+  "total_pnl": 1366.36,
+  "cum_pct": 20.39,
+  "daily_avg_pct": 0.6419,
+  "annual_pct": 933.41,
   "mdd": -1.74,
   "current_dd": -1.23,
-  "seed_used": 803.49,
-  "seed_used_pct": 9.96,
+  "seed_used": 803.86,
+  "seed_used_pct": 9.97,
   "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "TAOUSDT",
       "side": "SHORT",
-      "pnl": 13.33,
-      "pnl_pct": 0.21,
-      "margin": 800.47,
+      "pnl": 10.34,
+      "pnl_pct": 0.16,
+      "margin": 800.84,
       "leverage": "8",
       "tier": "1/1",
       "entry": 235.8,
-      "mark": 235.31
+      "mark": 235.42
     }
   ],
   "signals": {
@@ -52,7 +52,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.634
+      "conf": 0.651
     },
     "1000PEPEUSDT": {
       "dir": "short",
@@ -63,16 +63,16 @@
       "conf": 0.489
     },
     "NEARUSDT": {
-      "dir": "short",
-      "conf": 0.593
+      "dir": "long",
+      "conf": 0.493
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.452
+      "conf": 0.45
     },
     "ZECUSDT": {
       "dir": "short",
-      "conf": 0.526
+      "conf": 0.52
     },
     "SOLUSDT": {
       "dir": "short",
@@ -112,7 +112,7 @@
     },
     "ENAUSDT": {
       "dir": "short",
-      "conf": 0.546
+      "conf": 0.541
     },
     "HUSDT": {
       "dir": "long",
@@ -258,7 +258,7 @@
     },
     {
       "t": "2026-06-22",
-      "v": 1368.25
+      "v": 1366.36
     }
   ],
   "trade_history": [
