@@ -1,32 +1,32 @@
 {
-  "ts": "2026-06-21T17:00:41.275954+09:00",
+  "ts": "2026-06-21T17:01:43.956760+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8047.74,
-  "available": 7241.72,
-  "unrealized": -6.8,
+  "equity": 8053.31,
+  "available": 7247.9,
+  "unrealized": -1.63,
   "daily_pnl": 0,
-  "total_pnl": 1347.74,
-  "cum_pct": 20.12,
-  "daily_avg_pct": 0.6569,
-  "annual_pct": 991.18,
+  "total_pnl": 1353.31,
+  "cum_pct": 20.2,
+  "daily_avg_pct": 0.6593,
+  "annual_pct": 1000.72,
   "mdd": -0.61,
-  "current_dd": 0.0,
-  "seed_used": 806.02,
-  "seed_used_pct": 10.02,
+  "current_dd": -0.2,
+  "seed_used": 805.41,
+  "seed_used_pct": 10.0,
   "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "TAOUSDT",
       "side": "SHORT",
-      "pnl": -6.8,
-      "pnl_pct": -0.11,
-      "margin": 802.98,
+      "pnl": -1.63,
+      "pnl_pct": -0.03,
+      "margin": 802.34,
       "leverage": "8",
       "tier": "1/1",
       "entry": 235.8,
-      "mark": 236.05
+      "mark": 235.86
     }
   ],
   "signals": {
@@ -40,7 +40,7 @@
     },
     "ETHUSDT": {
       "dir": "neutral",
-      "conf": 0.55
+      "conf": 0.526
     },
     "XRPUSDT": {
       "dir": "neutral",
@@ -254,7 +254,7 @@
     },
     {
       "t": "2026-06-21",
-      "v": 1347.74
+      "v": 1353.31
     }
   ],
   "trade_history": [
