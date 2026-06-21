@@ -1,43 +1,32 @@
 {
-  "ts": "2026-06-22T07:13:51.484317+09:00",
+  "ts": "2026-06-22T07:14:54.168034+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8092.58,
-  "available": 6647.88,
-  "unrealized": 39.13,
-  "daily_pnl": 0,
-  "total_pnl": 1392.58,
-  "cum_pct": 20.78,
-  "daily_avg_pct": 0.6532,
-  "annual_pct": 976.64,
+  "equity": 8047.34,
+  "available": 7253.85,
+  "unrealized": 93.51,
+  "daily_pnl": -101.71,
+  "total_pnl": 1347.34,
+  "cum_pct": 20.11,
+  "daily_avg_pct": 0.6339,
+  "annual_pct": 903.85,
   "mdd": -2.17,
   "current_dd": -1.38,
-  "seed_used": 1444.7,
-  "seed_used_pct": 17.85,
+  "seed_used": 793.49,
+  "seed_used_pct": 9.86,
   "long_count": 0,
-  "short_count": 2,
+  "short_count": 1,
   "positions": [
     {
       "symbol": "TAOUSDT",
       "side": "SHORT",
-      "pnl": 98.79,
-      "pnl_pct": 1.54,
-      "margin": 789.78,
+      "pnl": 93.62,
+      "pnl_pct": 1.46,
+      "margin": 790.43,
       "leverage": "8",
       "tier": "1/1",
       "entry": 235.8,
-      "mark": 232.17
-    },
-    {
-      "symbol": "LABUSDT",
-      "side": "SHORT",
-      "pnl": -59.62,
-      "pnl_pct": -1.04,
-      "margin": 645.52,
-      "leverage": "9",
-      "tier": "2/2",
-      "entry": 13.5296,
-      "mark": 13.6699
+      "mark": 232.36
     }
   ],
   "signals": {
@@ -269,10 +258,17 @@
     },
     {
       "t": "2026-06-22",
-      "v": 1392.58
+      "v": 1347.34
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-22 07:14",
+      "symbol": "LABUSDT",
+      "side": "Sell",
+      "pnl": -101.71,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-20 18:13",
       "symbol": "LABUSDT",
@@ -404,13 +400,6 @@
       "symbol": "HYPEUSDT",
       "side": "Sell",
       "pnl": 62.07,
-      "reason": "-"
-    },
-    {
-      "ts": "2026-06-18 14:08",
-      "symbol": "SOLUSDT",
-      "side": "Buy",
-      "pnl": -153.82,
       "reason": "-"
     }
   ],
