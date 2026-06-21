@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-22T05:39:43.618354+09:00",
+  "ts": "2026-06-22T05:40:46.244307+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8055.52,
-  "available": 6599.78,
-  "unrealized": 0.16,
+  "equity": 8052.91,
+  "available": 6596.86,
+  "unrealized": -2.41,
   "daily_pnl": 0,
-  "total_pnl": 1355.52,
-  "cum_pct": 20.23,
-  "daily_avg_pct": 0.6373,
-  "annual_pct": 916.31,
+  "total_pnl": 1352.91,
+  "cum_pct": 20.19,
+  "daily_avg_pct": 0.6362,
+  "annual_pct": 912.26,
   "mdd": -2.17,
   "current_dd": -1.17,
-  "seed_used": 1455.74,
-  "seed_used_pct": 18.07,
+  "seed_used": 1456.05,
+  "seed_used_pct": 18.08,
   "long_count": 0,
   "short_count": 2,
   "positions": [
     {
       "symbol": "TAOUSDT",
       "side": "SHORT",
-      "pnl": -4.63,
-      "pnl_pct": -0.07,
-      "margin": 802.71,
+      "pnl": -7.62,
+      "pnl_pct": -0.12,
+      "margin": 803.09,
       "leverage": "8",
       "tier": "1/1",
       "entry": 235.8,
-      "mark": 235.97
+      "mark": 236.08
     },
     {
       "symbol": "LABUSDT",
       "side": "SHORT",
-      "pnl": 5.03,
-      "pnl_pct": 0.53,
-      "margin": 105.1,
+      "pnl": 5.17,
+      "pnl_pct": 0.54,
+      "margin": 105.08,
       "leverage": "9",
       "tier": "2/2",
       "entry": 13.393,
-      "mark": 13.3222
+      "mark": 13.3202
     }
   ],
   "signals": {
@@ -63,7 +63,7 @@
     },
     "BTCUSDT": {
       "dir": "short",
-      "conf": 0.355
+      "conf": 0.356
     },
     "1000PEPEUSDT": {
       "dir": "short",
@@ -75,7 +75,7 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.526
+      "conf": 0.528
     },
     "SUIUSDT": {
       "dir": "short",
@@ -123,7 +123,7 @@
     },
     "ENAUSDT": {
       "dir": "short",
-      "conf": 0.476
+      "conf": 0.465
     },
     "HUSDT": {
       "dir": "long",
@@ -269,7 +269,7 @@
     },
     {
       "t": "2026-06-22",
-      "v": 1355.52
+      "v": 1352.91
     }
   ],
   "trade_history": [
