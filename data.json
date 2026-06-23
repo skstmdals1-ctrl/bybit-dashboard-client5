@@ -1,34 +1,22 @@
 {
-  "ts": "2026-06-23T10:42:11.740955+09:00",
+  "ts": "2026-06-23T10:43:14.987668+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 7995.85,
-  "available": 7244.15,
-  "unrealized": -6.59,
-  "daily_pnl": 0,
-  "total_pnl": 1295.85,
-  "cum_pct": 19.34,
-  "daily_avg_pct": 0.5911,
-  "annual_pct": 759.49,
+  "equity": 8000.34,
+  "available": 8000.34,
+  "unrealized": 0.0,
+  "daily_pnl": -2.54,
+  "total_pnl": 1300.34,
+  "cum_pct": 19.41,
+  "daily_avg_pct": 0.5931,
+  "annual_pct": 765.75,
   "mdd": 0.0,
   "current_dd": 0.0,
-  "seed_used": 751.7,
-  "seed_used_pct": 9.4,
+  "seed_used": 0,
+  "seed_used_pct": 0.0,
   "long_count": 0,
-  "short_count": 1,
-  "positions": [
-    {
-      "symbol": "TNSRUSDT",
-      "side": "SHORT",
-      "pnl": -6.59,
-      "pnl_pct": -0.44,
-      "margin": 751.26,
-      "leverage": "2",
-      "tier": "1/1",
-      "entry": 0.0386,
-      "mark": 0.0387
-    }
-  ],
+  "short_count": 0,
+  "positions": [],
   "signals": {},
   "equity_hist": [
     {
@@ -149,10 +137,17 @@
     },
     {
       "t": "2026-06-23",
-      "v": 1295.85
+      "v": 1300.34
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-23 10:43",
+      "symbol": "TNSRUSDT",
+      "side": "Sell",
+      "pnl": -2.54,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-22 20:19",
       "symbol": "TAOUSDT",
@@ -284,13 +279,6 @@
       "symbol": "LABUSDT",
       "side": "Sell",
       "pnl": 66.34,
-      "reason": "-"
-    },
-    {
-      "ts": "2026-06-18 23:44",
-      "symbol": "HYPEUSDT",
-      "side": "Sell",
-      "pnl": 79.58,
       "reason": "-"
     }
   ],
