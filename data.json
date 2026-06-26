@@ -1,32 +1,32 @@
 {
-  "ts": "2026-06-27T04:54:18.996718+09:00",
+  "ts": "2026-06-27T04:55:22.432420+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8099.08,
-  "available": 7645.98,
-  "unrealized": 102.82,
+  "equity": 8096.44,
+  "available": 7644.52,
+  "unrealized": 100.5,
   "daily_pnl": 0,
-  "total_pnl": 1399.08,
-  "cum_pct": 20.88,
-  "daily_avg_pct": 0.5593,
-  "annual_pct": 665.8,
+  "total_pnl": 1396.44,
+  "cum_pct": 20.84,
+  "daily_avg_pct": 0.5583,
+  "annual_pct": 663.03,
   "mdd": 0.0,
   "current_dd": 0.0,
-  "seed_used": 453.1,
-  "seed_used_pct": 5.59,
+  "seed_used": 451.92,
+  "seed_used_pct": 5.58,
   "long_count": 1,
   "short_count": 0,
   "positions": [
     {
       "symbol": "INJUSDT",
       "side": "LONG",
-      "pnl": 102.51,
-      "pnl_pct": 12.75,
-      "margin": 453.33,
+      "pnl": 100.66,
+      "pnl_pct": 12.52,
+      "margin": 452.41,
       "leverage": "2",
       "tier": "1/1",
       "entry": 4.298,
-      "mark": 4.8459
+      "mark": 4.836
     }
   ],
   "signals": {},
@@ -161,7 +161,7 @@
     },
     {
       "t": "2026-06-27",
-      "v": 1399.08
+      "v": 1396.44
     }
   ],
   "trade_history": [
@@ -227,13 +227,6 @@
       "side": "Sell",
       "pnl": -9.24,
       "reason": "2/2"
-    },
-    {
-      "ts": "2026-06-20 04:54",
-      "symbol": "AVAXUSDT",
-      "side": "Sell",
-      "pnl": -145.63,
-      "reason": "External Exit"
     }
   ],
   "num_days": 34
