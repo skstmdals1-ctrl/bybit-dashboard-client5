@@ -1,32 +1,32 @@
 {
-  "ts": "2026-06-27T03:11:27.174375+09:00",
+  "ts": "2026-06-27T03:12:30.782783+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8080.35,
-  "available": 7636.68,
-  "unrealized": 83.94,
+  "equity": 8081.14,
+  "available": 7637.05,
+  "unrealized": 84.81,
   "daily_pnl": 0,
-  "total_pnl": 1380.35,
-  "cum_pct": 20.6,
-  "daily_avg_pct": 0.5524,
-  "annual_pct": 646.86,
+  "total_pnl": 1381.14,
+  "cum_pct": 20.61,
+  "daily_avg_pct": 0.5527,
+  "annual_pct": 647.68,
   "mdd": 0.0,
   "current_dd": 0.0,
-  "seed_used": 443.66,
-  "seed_used_pct": 5.49,
+  "seed_used": 444.1,
+  "seed_used_pct": 5.5,
   "long_count": 1,
   "short_count": 0,
   "positions": [
     {
       "symbol": "INJUSDT",
       "side": "LONG",
-      "pnl": 83.9,
-      "pnl_pct": 10.43,
-      "margin": 444.03,
+      "pnl": 84.94,
+      "pnl_pct": 10.56,
+      "margin": 444.55,
       "leverage": "2",
       "tier": "1/1",
       "entry": 4.298,
-      "mark": 4.7464
+      "mark": 4.752
     }
   ],
   "signals": {},
@@ -161,7 +161,7 @@
     },
     {
       "t": "2026-06-27",
-      "v": 1380.35
+      "v": 1381.14
     }
   ],
   "trade_history": [
@@ -248,20 +248,6 @@
       "side": "Sell",
       "pnl": 80.79,
       "reason": "-"
-    },
-    {
-      "ts": "2026-06-20 03:11",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": 82.84,
-      "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-20 03:11",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": 34.5,
-      "reason": "External Exit"
     }
   ],
   "num_days": 34
