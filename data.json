@@ -1,32 +1,32 @@
 {
-  "ts": "2026-06-27T14:13:19.131771+09:00",
+  "ts": "2026-06-27T14:14:22.499207+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8085.18,
-  "available": 7685.68,
-  "unrealized": -13.62,
+  "equity": 8086.02,
+  "available": 7686.12,
+  "unrealized": -12.84,
   "daily_pnl": 102.2,
-  "total_pnl": 1385.18,
-  "cum_pct": 20.67,
-  "daily_avg_pct": 0.5541,
-  "annual_pct": 651.49,
+  "total_pnl": 1386.02,
+  "cum_pct": 20.69,
+  "daily_avg_pct": 0.5546,
+  "annual_pct": 652.85,
   "mdd": 0.0,
   "current_dd": 0.0,
-  "seed_used": 399.5,
-  "seed_used_pct": 4.94,
+  "seed_used": 399.89,
+  "seed_used_pct": 4.95,
   "long_count": 1,
   "short_count": 0,
   "positions": [
     {
       "symbol": "INJUSDT",
       "side": "LONG",
-      "pnl": -13.64,
-      "pnl_pct": -1.68,
-      "margin": 399.86,
+      "pnl": -12.86,
+      "pnl_pct": -1.58,
+      "margin": 400.25,
       "leverage": "2",
       "tier": "1/1",
       "entry": 4.888,
-      "mark": 4.806
+      "mark": 4.8107
     }
   ],
   "signals": {},
@@ -161,7 +161,7 @@
     },
     {
       "t": "2026-06-27",
-      "v": 1385.18
+      "v": 1386.02
     }
   ],
   "trade_history": [
@@ -198,13 +198,6 @@
       "symbol": "LABUSDT",
       "side": "Sell",
       "pnl": -111.59,
-      "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-20 14:13",
-      "symbol": "SOLUSDT",
-      "side": "Sell",
-      "pnl": -130.99,
       "reason": "External Exit"
     }
   ],
