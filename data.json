@@ -1,34 +1,22 @@
 {
-  "ts": "2026-06-27T09:01:54.540815+09:00",
+  "ts": "2026-06-27T09:02:57.815943+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8099.94,
-  "available": 7646.99,
-  "unrealized": 102.39,
-  "daily_pnl": 0,
-  "total_pnl": 1399.94,
+  "equity": 8099.88,
+  "available": 7696.15,
+  "unrealized": 0.0,
+  "daily_pnl": 102.2,
+  "total_pnl": 1399.88,
   "cum_pct": 20.89,
   "daily_avg_pct": 0.5595,
   "annual_pct": 666.36,
   "mdd": 0.0,
   "current_dd": 0.0,
-  "seed_used": 452.95,
-  "seed_used_pct": 5.59,
-  "long_count": 1,
+  "seed_used": 403.73,
+  "seed_used_pct": 4.98,
+  "long_count": 0,
   "short_count": 0,
-  "positions": [
-    {
-      "symbol": "INJUSDT",
-      "side": "LONG",
-      "pnl": 102.53,
-      "pnl_pct": 12.75,
-      "margin": 453.34,
-      "leverage": "2",
-      "tier": "1/1",
-      "entry": 4.298,
-      "mark": 4.846
-    }
-  ],
+  "positions": [],
   "signals": {},
   "equity_hist": [
     {
@@ -161,10 +149,17 @@
     },
     {
       "t": "2026-06-27",
-      "v": 1399.94
+      "v": 1399.88
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-27 09:02",
+      "symbol": "INJUSDT",
+      "side": "Buy",
+      "pnl": 102.2,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-23 10:43",
       "symbol": "TNSRUSDT",
