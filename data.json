@@ -1,32 +1,32 @@
 {
-  "ts": "2026-06-29T09:01:48.013001+09:00",
+  "ts": "2026-06-29T09:02:51.885755+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8118.66,
-  "available": 7452.36,
-  "unrealized": 58.57,
-  "daily_pnl": 0,
-  "total_pnl": 1418.66,
-  "cum_pct": 21.17,
-  "daily_avg_pct": 0.5348,
-  "annual_pct": 600.64,
+  "equity": 8117.77,
+  "available": 7118.82,
+  "unrealized": -0.66,
+  "daily_pnl": 58.04,
+  "total_pnl": 1417.77,
+  "cum_pct": 21.16,
+  "daily_avg_pct": 0.5346,
+  "annual_pct": 600.13,
   "mdd": 0.0,
   "current_dd": 0.0,
-  "seed_used": 666.3,
-  "seed_used_pct": 8.21,
+  "seed_used": 998.95,
+  "seed_used_pct": 12.31,
   "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "AAVEUSDT",
       "side": "SHORT",
-      "pnl": 58.66,
-      "pnl_pct": 2.85,
-      "margin": 665.84,
-      "leverage": "3",
+      "pnl": -0.66,
+      "pnl_pct": -0.03,
+      "margin": 998.8,
+      "leverage": "2",
       "tier": "1/1",
-      "entry": 93.59,
-      "mark": 90.92
+      "entry": 91.06,
+      "mark": 91.09
     }
   ],
   "signals": {},
@@ -161,10 +161,17 @@
     },
     {
       "t": "2026-06-29",
-      "v": 1418.66
+      "v": 1417.77
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-29 09:02",
+      "symbol": "AAVEUSDT",
+      "side": "Sell",
+      "pnl": 58.04,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-28 09:02",
       "symbol": "INJUSDT",
