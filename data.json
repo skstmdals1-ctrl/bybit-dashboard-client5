@@ -1,54 +1,54 @@
 {
-  "ts": "2026-06-30T10:42:29.556486+09:00",
+  "ts": "2026-06-30T10:43:33.381432+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8091.71,
-  "available": 6262.66,
-  "unrealized": -13.83,
+  "equity": 8093.85,
+  "available": 6265.25,
+  "unrealized": -11.61,
   "daily_pnl": -13.22,
-  "total_pnl": 1391.71,
-  "cum_pct": 20.77,
-  "daily_avg_pct": 0.5114,
-  "annual_pct": 543.57,
+  "total_pnl": 1393.85,
+  "cum_pct": 20.8,
+  "daily_avg_pct": 0.512,
+  "annual_pct": 544.97,
   "mdd": 0.0,
   "current_dd": 0.0,
-  "seed_used": 1829.05,
-  "seed_used_pct": 22.6,
+  "seed_used": 1828.6,
+  "seed_used_pct": 22.59,
   "long_count": 2,
   "short_count": 1,
   "positions": [
     {
       "symbol": "AAVEUSDT",
       "side": "SHORT",
-      "pnl": 12.82,
-      "pnl_pct": 0.64,
-      "margin": 1002.03,
+      "pnl": 14.37,
+      "pnl_pct": 0.71,
+      "margin": 1001.25,
       "leverage": "2",
       "tier": "1/1",
       "entry": 91.22,
-      "mark": 90.64
+      "mark": 90.57
     },
     {
       "symbol": "ONDOUSDT",
       "side": "LONG",
-      "pnl": -9.96,
-      "pnl_pct": -1.14,
-      "margin": 431.91,
+      "pnl": -9.4,
+      "pnl_pct": -1.08,
+      "margin": 432.19,
       "leverage": "2",
       "tier": "1/1",
       "entry": 0.3159,
-      "mark": 0.3123
+      "mark": 0.3125
     },
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": -16.72,
-      "pnl_pct": -2.07,
-      "margin": 395.58,
+      "pnl": -16.48,
+      "pnl_pct": -2.04,
+      "margin": 395.7,
       "leverage": "2",
       "tier": "1/1",
       "entry": 405.97,
-      "mark": 397.57
+      "mark": 397.69
     }
   ],
   "signals": {},
@@ -183,7 +183,7 @@
     },
     {
       "t": "2026-06-30",
-      "v": 1391.71
+      "v": 1393.85
     }
   ],
   "trade_history": [
@@ -213,13 +213,6 @@
       "symbol": "INJUSDT",
       "side": "Buy",
       "pnl": 102.2,
-      "reason": "-"
-    },
-    {
-      "ts": "2026-06-23 10:43",
-      "symbol": "TNSRUSDT",
-      "side": "Sell",
-      "pnl": -2.54,
       "reason": "-"
     }
   ],
