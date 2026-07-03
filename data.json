@@ -1,54 +1,65 @@
 {
-  "ts": "2026-07-03T09:00:49.020320+09:00",
+  "ts": "2026-07-03T09:01:52.355573+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 8521.74,
-  "available": 6681.82,
-  "unrealized": 200.0,
+  "equity": 8518.5,
+  "available": 6253.59,
+  "unrealized": 196.29,
   "daily_pnl": 0,
-  "total_pnl": 1821.74,
-  "cum_pct": 27.19,
-  "daily_avg_pct": 0.6031,
-  "annual_pct": 797.73,
+  "total_pnl": 1818.5,
+  "cum_pct": 27.14,
+  "daily_avg_pct": 0.6021,
+  "annual_pct": 794.48,
   "mdd": -1.14,
   "current_dd": -0.36,
-  "seed_used": 1839.91,
-  "seed_used_pct": 21.59,
-  "long_count": 2,
+  "seed_used": 2264.91,
+  "seed_used_pct": 26.59,
+  "long_count": 3,
   "short_count": 1,
   "positions": [
     {
       "symbol": "AAVEUSDT",
       "side": "SHORT",
-      "pnl": 80.9,
-      "pnl_pct": 4.13,
-      "margin": 939.26,
+      "pnl": 82.65,
+      "pnl_pct": 4.22,
+      "margin": 938.39,
       "leverage": "2",
       "tier": "1/1",
       "entry": 89.9646,
-      "mark": 86.25
+      "mark": 86.17
     },
     {
       "symbol": "ONDOUSDT",
       "side": "LONG",
-      "pnl": 45.6,
-      "pnl_pct": 5.19,
-      "margin": 461.75,
+      "pnl": 43.63,
+      "pnl_pct": 4.97,
+      "margin": 460.77,
       "leverage": "2",
       "tier": "1/1",
       "entry": 0.3128,
-      "mark": 0.329
+      "mark": 0.3283
     },
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": 74.26,
-      "pnl_pct": 9.24,
-      "margin": 438.97,
+      "pnl": 72.3,
+      "pnl_pct": 9.0,
+      "margin": 437.99,
       "leverage": "2",
       "tier": "1/1",
       "entry": 397.8563,
-      "mark": 434.62
+      "mark": 433.65
+    },
+    {
+      "symbol": "WLDUSDT",
+      "side": "LONG",
+      "pnl": -2.32,
+      "pnl_pct": -0.27,
+      "margin": 427.73,
+      "leverage": "2",
+      "tier": "1/1",
+      "entry": 0.4068,
+      "mark": 0.4057
     }
   ],
   "signals": {},
@@ -183,7 +194,7 @@
     },
     {
       "t": "2026-07-03",
-      "v": 1821.74
+      "v": 1818.5
     }
   ],
   "trade_history": [
