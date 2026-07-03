@@ -1,54 +1,43 @@
 {
-  "ts": "2026-07-03T19:59:54.603124+09:00",
+  "ts": "2026-07-03T20:00:58.015447+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 27982.63,
-  "available": 24165.98,
-  "unrealized": 293.3,
+  "equity": 27975.45,
+  "available": 24164.22,
+  "unrealized": 286.46,
   "daily_pnl": 0,
-  "total_pnl": 1851.63,
-  "cum_pct": 7.09,
-  "daily_avg_pct": 0.1714,
-  "annual_pct": 86.84,
+  "total_pnl": 1844.45,
+  "cum_pct": 7.06,
+  "daily_avg_pct": 0.1707,
+  "annual_pct": 86.36,
   "mdd": -1.14,
   "current_dd": 0.0,
-  "seed_used": 3816.65,
-  "seed_used_pct": 13.64,
+  "seed_used": 3811.22,
+  "seed_used_pct": 13.62,
   "long_count": 3,
   "short_count": 1,
   "positions": [
     {
       "symbol": "WLDUSDT",
       "side": "LONG",
-      "pnl": 43.98,
-      "pnl_pct": 1.14,
-      "margin": 1943.51,
+      "pnl": 37.52,
+      "pnl_pct": 0.98,
+      "margin": 1940.27,
       "leverage": "2",
       "tier": "1/1",
       "entry": 0.4161,
-      "mark": 0.4209
+      "mark": 0.4202
     },
     {
       "symbol": "AAVEUSDT",
       "side": "SHORT",
-      "pnl": 70.89,
-      "pnl_pct": 3.62,
-      "margin": 944.27,
+      "pnl": 73.06,
+      "pnl_pct": 3.73,
+      "margin": 943.18,
       "leverage": "2",
       "tier": "1/1",
       "entry": 89.9646,
-      "mark": 86.71
-    },
-    {
-      "symbol": "ZECUSDT",
-      "side": "LONG",
-      "pnl": 126.32,
-      "pnl_pct": 15.72,
-      "margin": 464.99,
-      "leverage": "2",
-      "tier": "1/1",
-      "entry": 397.8563,
-      "mark": 460.39
+      "mark": 86.61
     },
     {
       "symbol": "ONDOUSDT",
@@ -60,6 +49,17 @@
       "tier": "1/1",
       "entry": 0.3128,
       "mark": 0.3311
+    },
+    {
+      "symbol": "ZECUSDT",
+      "side": "LONG",
+      "pnl": 123.15,
+      "pnl_pct": 15.32,
+      "margin": 463.41,
+      "leverage": "2",
+      "tier": "1/1",
+      "entry": 397.8563,
+      "mark": 458.82
     }
   ],
   "signals": {},
@@ -194,7 +194,7 @@
     },
     {
       "t": "2026-07-03",
-      "v": 1851.63
+      "v": 1844.45
     }
   ],
   "trade_history": [
