@@ -1,18 +1,18 @@
 {
-  "ts": "2026-07-05T11:55:30.264819+09:00",
+  "ts": "2026-07-05T11:56:32.851061+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 28043.85,
-  "available": 21224.12,
-  "unrealized": 346.28,
+  "equity": 28044.09,
+  "available": 21223.01,
+  "unrealized": 347.21,
   "daily_pnl": 0,
-  "total_pnl": 1912.85,
+  "total_pnl": 1913.09,
   "cum_pct": 7.32,
   "daily_avg_pct": 0.1683,
   "annual_pct": 84.74,
   "mdd": -1.14,
   "current_dd": -0.6,
-  "seed_used": 6819.73,
+  "seed_used": 6821.08,
   "seed_used_pct": 24.32,
   "long_count": 3,
   "short_count": 2,
@@ -20,35 +20,46 @@
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 154.5,
-      "pnl_pct": 1.67,
-      "margin": 3036.91,
+      "pnl": 152.22,
+      "pnl_pct": 1.64,
+      "margin": 3037.66,
       "leverage": "3",
       "tier": "1/1",
       "entry": 81.56,
-      "mark": 80.2
+      "mark": 80.22
     },
     {
       "symbol": "WLDUSDT",
       "side": "LONG",
-      "pnl": -21.58,
-      "pnl_pct": -0.56,
-      "margin": 1910.72,
+      "pnl": -18.81,
+      "pnl_pct": -0.49,
+      "margin": 1912.11,
       "leverage": "2",
       "tier": "1/1",
       "entry": 0.4161,
-      "mark": 0.4138
+      "mark": 0.4141
     },
     {
       "symbol": "AAVEUSDT",
       "side": "SHORT",
-      "pnl": 59.78,
-      "pnl_pct": 3.05,
-      "margin": 949.83,
+      "pnl": 60.43,
+      "pnl_pct": 3.08,
+      "margin": 949.5,
       "leverage": "2",
       "tier": "1/1",
       "entry": 89.9646,
-      "mark": 87.22
+      "mark": 87.19
+    },
+    {
+      "symbol": "ZECUSDT",
+      "side": "LONG",
+      "pnl": 114.62,
+      "pnl_pct": 14.26,
+      "margin": 459.15,
+      "leverage": "2",
+      "tier": "1/1",
+      "entry": 397.8563,
+      "mark": 454.6
     },
     {
       "symbol": "ONDOUSDT",
@@ -60,17 +71,6 @@
       "tier": "1/1",
       "entry": 0.3128,
       "mark": 0.327
-    },
-    {
-      "symbol": "ZECUSDT",
-      "side": "LONG",
-      "pnl": 114.12,
-      "pnl_pct": 14.2,
-      "margin": 458.89,
-      "leverage": "2",
-      "tier": "1/1",
-      "entry": 397.8563,
-      "mark": 454.35
     }
   ],
   "signals": {},
@@ -205,7 +205,7 @@
     },
     {
       "t": "2026-07-05",
-      "v": 1912.85
+      "v": 1913.09
     }
   ],
   "trade_history": [
