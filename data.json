@@ -1,32 +1,32 @@
 {
-  "ts": "2026-07-06T11:06:30.326879+09:00",
+  "ts": "2026-07-06T11:07:31.586405+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 27992.33,
-  "available": 18495.53,
-  "unrealized": 301.13,
+  "equity": 27983.04,
+  "available": 18491.64,
+  "unrealized": 292.98,
   "daily_pnl": 0,
-  "total_pnl": 1861.33,
-  "cum_pct": 7.12,
-  "daily_avg_pct": 0.1601,
-  "annual_pct": 79.3,
+  "total_pnl": 1852.04,
+  "cum_pct": 7.09,
+  "daily_avg_pct": 0.1594,
+  "annual_pct": 78.84,
   "mdd": -1.55,
   "current_dd": -0.88,
-  "seed_used": 9496.81,
-  "seed_used_pct": 33.93,
+  "seed_used": 9491.4,
+  "seed_used_pct": 33.92,
   "long_count": 3,
   "short_count": 3,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 27.26,
-      "pnl_pct": 0.29,
-      "margin": 3079.32,
+      "pnl": 28.4,
+      "pnl_pct": 0.31,
+      "margin": 3078.94,
       "leverage": "3",
       "tier": "1/1",
       "entry": 81.56,
-      "mark": 81.32
+      "mark": 81.31
     },
     {
       "symbol": "ADAUSDT",
@@ -42,13 +42,13 @@
     {
       "symbol": "WLDUSDT",
       "side": "LONG",
-      "pnl": 48.6,
-      "pnl_pct": 1.26,
-      "margin": 1945.81,
+      "pnl": 41.21,
+      "pnl_pct": 1.07,
+      "margin": 1942.12,
       "leverage": "2",
       "tier": "1/1",
       "entry": 0.4161,
-      "mark": 0.4214
+      "mark": 0.4206
     },
     {
       "symbol": "AAVEUSDT",
@@ -62,17 +62,6 @@
       "mark": 88.38
     },
     {
-      "symbol": "ZECUSDT",
-      "side": "LONG",
-      "pnl": 122.99,
-      "pnl_pct": 15.3,
-      "margin": 463.33,
-      "leverage": "2",
-      "tier": "1/1",
-      "entry": 397.8563,
-      "mark": 458.74
-    },
-    {
       "symbol": "ONDOUSDT",
       "side": "LONG",
       "pnl": 47.56,
@@ -82,6 +71,17 @@
       "tier": "1/1",
       "entry": 0.3128,
       "mark": 0.3297
+    },
+    {
+      "symbol": "ZECUSDT",
+      "side": "LONG",
+      "pnl": 121.09,
+      "pnl_pct": 15.07,
+      "margin": 462.38,
+      "leverage": "2",
+      "tier": "1/1",
+      "entry": 397.8563,
+      "mark": 457.8
     }
   ],
   "signals": {},
@@ -216,7 +216,7 @@
     },
     {
       "t": "2026-07-06",
-      "v": 1861.33
+      "v": 1852.04
     }
   ],
   "trade_history": [
