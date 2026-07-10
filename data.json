@@ -1,18 +1,18 @@
 {
-  "ts": "2026-07-10T11:43:53.277148+09:00",
+  "ts": "2026-07-10T11:44:28.800954+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 28487.2,
-  "available": 16237.16,
-  "unrealized": 683.77,
+  "equity": 28488.0,
+  "available": 16239.53,
+  "unrealized": 684.2,
   "daily_pnl": 0,
-  "total_pnl": 2356.2,
+  "total_pnl": 2357.0,
   "cum_pct": 9.02,
   "daily_avg_pct": 0.1839,
   "annual_pct": 95.54,
   "mdd": -2.42,
-  "current_dd": -2.11,
-  "seed_used": 12250.04,
+  "current_dd": -2.2,
+  "seed_used": 12248.46,
   "seed_used_pct": 43.0,
   "long_count": 3,
   "short_count": 4,
@@ -31,68 +31,68 @@
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 302.18,
+      "pnl": 301.72,
       "pnl_pct": 3.26,
-      "margin": 2987.68,
+      "margin": 2987.83,
       "leverage": "3",
       "tier": "1/1",
       "entry": 81.56,
-      "mark": 78.9
+      "mark": 78.904
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 848.39,
-      "pnl_pct": 10.95,
-      "margin": 2300.62,
+      "pnl": 852.49,
+      "pnl_pct": 11.0,
+      "margin": 2299.26,
       "leverage": "3",
       "tier": "1/1",
       "entry": 0.1891,
-      "mark": 0.1684
+      "mark": 0.1683
     },
     {
       "symbol": "WLDUSDT",
       "side": "LONG",
-      "pnl": -293.09,
-      "pnl_pct": -7.63,
-      "margin": 1774.97,
+      "pnl": -294.94,
+      "pnl_pct": -7.67,
+      "margin": 1774.04,
       "leverage": "2",
       "tier": "1/1",
       "entry": 0.4161,
-      "mark": 0.3844
+      "mark": 0.3842
     },
     {
       "symbol": "AAVEUSDT",
       "side": "SHORT",
-      "pnl": -45.86,
-      "pnl_pct": -2.34,
-      "margin": 1002.64,
+      "pnl": -46.94,
+      "pnl_pct": -2.4,
+      "margin": 1003.19,
       "leverage": "2",
       "tier": "1/1",
       "entry": 89.9646,
-      "mark": 92.07
+      "mark": 92.12
     },
     {
       "symbol": "ONDOUSDT",
       "side": "LONG",
-      "pnl": 21.74,
-      "pnl_pct": 2.48,
-      "margin": 449.82,
+      "pnl": 21.18,
+      "pnl_pct": 2.41,
+      "margin": 449.54,
       "leverage": "2",
       "tier": "1/1",
       "entry": 0.3128,
-      "mark": 0.3205
+      "mark": 0.3203
     },
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": 93.09,
-      "pnl_pct": 23.17,
-      "margin": 247.46,
+      "pnl": 93.37,
+      "pnl_pct": 23.24,
+      "margin": 247.6,
       "leverage": "2",
       "tier": "1/1",
       "entry": 397.8563,
-      "mark": 490.02
+      "mark": 490.3
     }
   ],
   "signals": {},
@@ -227,7 +227,7 @@
     },
     {
       "t": "2026-07-10",
-      "v": 2356.2
+      "v": 2357.0
     }
   ],
   "trade_history": [
@@ -236,6 +236,139 @@
       "symbol": "ZECUSDT",
       "side": "Buy",
       "pnl": 104.56,
+      "reason": "-"
+    },
+    {
+      "ts": "2026-07-02 10:46",
+      "symbol": "ZECUSDT",
+      "side": "Buy",
+      "pnl": 33.4,
+      "reason": "-"
+    },
+    {
+      "ts": "2026-07-02 10:46",
+      "symbol": "ONDOUSDT",
+      "side": "Buy",
+      "pnl": 60.55,
+      "reason": "-"
+    },
+    {
+      "ts": "2026-07-02 10:46",
+      "symbol": "AAVEUSDT",
+      "side": "Sell",
+      "pnl": 120.09,
+      "reason": "-"
+    },
+    {
+      "ts": "2026-06-30 09:07",
+      "symbol": "AAVEUSDT",
+      "side": "Sell",
+      "pnl": -13.22,
+      "reason": "-"
+    },
+    {
+      "ts": "2026-06-29 09:02",
+      "symbol": "AAVEUSDT",
+      "side": "Sell",
+      "pnl": 58.04,
+      "reason": "-"
+    },
+    {
+      "ts": "2026-06-28 09:02",
+      "symbol": "INJUSDT",
+      "side": "Buy",
+      "pnl": -37.83,
+      "reason": "-"
+    },
+    {
+      "ts": "2026-06-27 09:02",
+      "symbol": "INJUSDT",
+      "side": "Buy",
+      "pnl": 102.2,
+      "reason": "-"
+    },
+    {
+      "ts": "2026-06-23 10:43",
+      "symbol": "TNSRUSDT",
+      "side": "Sell",
+      "pnl": -2.54,
+      "reason": "-"
+    },
+    {
+      "ts": "2026-06-22 20:19",
+      "symbol": "TAOUSDT",
+      "side": "Sell",
+      "pnl": 47.43,
+      "reason": "-"
+    },
+    {
+      "ts": "2026-06-22 07:14",
+      "symbol": "LABUSDT",
+      "side": "Sell",
+      "pnl": -101.71,
+      "reason": "External Exit"
+    },
+    {
+      "ts": "2026-06-20 18:13",
+      "symbol": "LABUSDT",
+      "side": "Sell",
+      "pnl": -111.59,
+      "reason": "External Exit"
+    },
+    {
+      "ts": "2026-06-20 14:13",
+      "symbol": "SOLUSDT",
+      "side": "Sell",
+      "pnl": -130.99,
+      "reason": "External Exit"
+    },
+    {
+      "ts": "2026-06-20 12:19",
+      "symbol": "LABUSDT",
+      "side": "Sell",
+      "pnl": -114.64,
+      "reason": "External Exit"
+    },
+    {
+      "ts": "2026-06-20 11:19",
+      "symbol": "LABUSDT",
+      "side": "Sell",
+      "pnl": 218.66,
+      "reason": "External Exit"
+    },
+    {
+      "ts": "2026-06-20 11:17",
+      "symbol": "HYPEUSDT",
+      "side": "Buy",
+      "pnl": -156.72,
+      "reason": "External Exit"
+    },
+    {
+      "ts": "2026-06-20 09:17",
+      "symbol": "LABUSDT",
+      "side": "Sell",
+      "pnl": -9.24,
+      "reason": "2/2"
+    },
+    {
+      "ts": "2026-06-20 04:54",
+      "symbol": "AVAXUSDT",
+      "side": "Sell",
+      "pnl": -145.63,
+      "reason": "External Exit"
+    },
+    {
+      "ts": "2026-06-20 03:47",
+      "symbol": "AVAXUSDT",
+      "side": "Sell",
+      "pnl": 131.35,
+      "reason": "1/1"
+    },
+    {
+      "ts": "2026-06-20 03:43",
+      "symbol": "AVAXUSDT",
+      "side": "Sell",
+      "pnl": 80.79,
       "reason": "-"
     }
   ],
