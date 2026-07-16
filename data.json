@@ -1,54 +1,54 @@
 {
-  "ts": "2026-07-16T23:59:21.133941+09:00",
+  "ts": "2026-07-17T00:00:22.524578+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 27827.65,
-  "available": 19034.46,
-  "unrealized": 1617.26,
-  "daily_pnl": -1974.56,
-  "total_pnl": 1696.65,
+  "equity": 27825.8,
+  "available": 19030.06,
+  "unrealized": 1614.6,
+  "daily_pnl": 0,
+  "total_pnl": 1694.8,
   "cum_pct": 6.49,
-  "daily_avg_pct": 0.1187,
-  "annual_pct": 54.19,
+  "daily_avg_pct": 0.1165,
+  "annual_pct": 52.96,
   "mdd": -8.75,
-  "current_dd": -7.58,
-  "seed_used": 8793.18,
-  "seed_used_pct": 31.6,
+  "current_dd": -7.67,
+  "seed_used": 8795.74,
+  "seed_used_pct": 31.61,
   "long_count": 3,
   "short_count": 3,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 588.56,
-      "pnl_pct": 6.35,
+      "pnl": 587.43,
+      "pnl_pct": 6.34,
       "margin": 3088.41,
       "leverage": "3",
       "tier": "1/1",
       "entry": 81.56,
-      "mark": 76.379
+      "mark": 76.389
     },
     {
       "symbol": "ARBUSDT",
       "side": "SHORT",
-      "pnl": 385.91,
-      "pnl_pct": 5.16,
+      "pnl": 382.68,
+      "pnl_pct": 5.11,
       "margin": 2494.7,
       "leverage": "3",
       "tier": "1/1",
       "entry": 0.0927,
-      "mark": 0.0879
+      "mark": 0.088
     },
     {
       "symbol": "WLDUSDT",
       "side": "LONG",
-      "pnl": -137.02,
-      "pnl_pct": -3.57,
+      "pnl": -135.17,
+      "pnl_pct": -3.52,
       "margin": 1921.51,
       "leverage": "2",
       "tier": "2/2",
       "entry": 0.4161,
-      "mark": 0.4013
+      "mark": 0.4015
     },
     {
       "symbol": "ADAUSDT",
@@ -64,24 +64,24 @@
     {
       "symbol": "ONDOUSDT",
       "side": "LONG",
-      "pnl": 106.21,
-      "pnl_pct": 24.19,
+      "pnl": 106.49,
+      "pnl_pct": 24.25,
       "margin": 219.55,
       "leverage": "2",
       "tier": "2/2",
       "entry": 0.3128,
-      "mark": 0.3884
+      "mark": 0.3886
     },
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": 158.45,
-      "pnl_pct": 39.43,
+      "pnl": 157.98,
+      "pnl_pct": 39.31,
       "margin": 200.92,
       "leverage": "2",
       "tier": "2/2",
       "entry": 397.8563,
-      "mark": 554.74
+      "mark": 554.27
     }
   ],
   "signals": {},
@@ -213,6 +213,10 @@
     {
       "t": "2026-07-16",
       "v": 1696.65
+    },
+    {
+      "t": "2026-07-17",
+      "v": 1694.8
     }
   ],
   "trade_history": [
@@ -357,5 +361,5 @@
       "reason": "External Exit"
     }
   ],
-  "num_days": 53
+  "num_days": 54
 }
