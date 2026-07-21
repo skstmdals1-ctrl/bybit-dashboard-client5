@@ -1,18 +1,18 @@
 {
-  "ts": "2026-07-21T09:06:00.736906+09:00",
+  "ts": "2026-07-21T09:07:02.255174+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 26986.74,
-  "available": 16524.6,
-  "unrealized": 558.29,
+  "equity": 26983.23,
+  "available": 16521.71,
+  "unrealized": 556.1,
   "daily_pnl": 204.41,
-  "total_pnl": 855.74,
-  "cum_pct": 3.27,
-  "daily_avg_pct": 0.0555,
-  "annual_pct": 22.45,
+  "total_pnl": 852.23,
+  "cum_pct": 3.26,
+  "daily_avg_pct": 0.0553,
+  "annual_pct": 22.36,
   "mdd": -10.9,
-  "current_dd": -10.49,
-  "seed_used": 10462.14,
+  "current_dd": -10.47,
+  "seed_used": 10461.53,
   "seed_used_pct": 38.77,
   "long_count": 1,
   "short_count": 5,
@@ -20,19 +20,19 @@
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 429.29,
-      "pnl_pct": 4.63,
+      "pnl": 426.11,
+      "pnl_pct": 4.6,
       "margin": 3088.41,
       "leverage": "3",
       "tier": "1/1",
       "entry": 81.56,
-      "mark": 77.781
+      "mark": 77.809
     },
     {
       "symbol": "ARBUSDT",
       "side": "SHORT",
-      "pnl": 209.1,
-      "pnl_pct": 2.79,
+      "pnl": 211.52,
+      "pnl_pct": 2.83,
       "margin": 2494.7,
       "leverage": "3",
       "tier": "1/1",
@@ -42,13 +42,13 @@
     {
       "symbol": "WLDUSDT",
       "side": "LONG",
-      "pnl": -335.57,
-      "pnl_pct": -8.73,
+      "pnl": -336.5,
+      "pnl_pct": -8.76,
       "margin": 1921.51,
       "leverage": "2",
       "tier": "2/2",
       "entry": 0.4161,
-      "mark": 0.3798
+      "mark": 0.3797
     },
     {
       "symbol": "LINKUSDT",
@@ -75,13 +75,13 @@
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -57.07,
-      "pnl_pct": -2.0,
+      "pnl": -57.54,
+      "pnl_pct": -2.02,
       "margin": 712.87,
       "leverage": "4",
       "tier": "1/2",
       "entry": 1863.7,
-      "mark": 1901.0
+      "mark": 1901.31
     }
   ],
   "signals": {},
@@ -212,10 +212,24 @@
     },
     {
       "t": "2026-07-21",
-      "v": 855.74
+      "v": 852.23
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-07-21 09:03",
+      "symbol": "ZECUSDT",
+      "side": "Buy",
+      "pnl": 143.06,
+      "reason": "-"
+    },
+    {
+      "ts": "2026-07-21 09:03",
+      "symbol": "ONDOUSDT",
+      "side": "Buy",
+      "pnl": 61.35,
+      "reason": "-"
+    },
     {
       "ts": "2026-07-16 08:15",
       "symbol": "ONDOUSDT",
@@ -340,20 +354,6 @@
       "symbol": "LABUSDT",
       "side": "Sell",
       "pnl": -114.64,
-      "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-20 11:19",
-      "symbol": "LABUSDT",
-      "side": "Sell",
-      "pnl": 218.66,
-      "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-20 11:17",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": -156.72,
       "reason": "External Exit"
     }
   ],
