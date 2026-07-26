@@ -1,54 +1,54 @@
 {
-  "ts": "2026-07-27T08:03:41.884994+09:00",
+  "ts": "2026-07-27T08:04:43.215154+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 27432.31,
-  "available": 18019.99,
-  "unrealized": 1585.42,
+  "equity": 27428.62,
+  "available": 18015.47,
+  "unrealized": 1582.39,
   "daily_pnl": -249.02,
-  "total_pnl": 1301.31,
-  "cum_pct": 4.98,
-  "daily_avg_pct": 0.076,
-  "annual_pct": 31.96,
+  "total_pnl": 1297.62,
+  "cum_pct": 4.97,
+  "daily_avg_pct": 0.0758,
+  "annual_pct": 31.86,
   "mdd": -12.34,
   "current_dd": -9.01,
-  "seed_used": 9412.33,
-  "seed_used_pct": 34.31,
+  "seed_used": 9413.15,
+  "seed_used_pct": 34.32,
   "long_count": 1,
   "short_count": 6,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 564.59,
-      "pnl_pct": 6.09,
+      "pnl": 561.18,
+      "pnl_pct": 6.06,
       "margin": 3088.41,
       "leverage": "3",
       "tier": "1/1",
       "entry": 81.56,
-      "mark": 76.59
+      "mark": 76.62
     },
     {
       "symbol": "ARBUSDT",
       "side": "SHORT",
-      "pnl": 758.91,
-      "pnl_pct": 10.14,
+      "pnl": 763.75,
+      "pnl_pct": 10.2,
       "margin": 2494.7,
       "leverage": "3",
       "tier": "1/1",
       "entry": 0.0927,
-      "mark": 0.0833
+      "mark": 0.0832
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -161.54,
+      "pnl": -161.57,
       "pnl_pct": -2.88,
       "margin": 1402.41,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1895.1455,
-      "mark": 1949.72
+      "mark": 1949.73
     },
     {
       "symbol": "ADAUSDT",
@@ -64,35 +64,35 @@
     {
       "symbol": "LTCUSDT",
       "side": "SHORT",
-      "pnl": -86.86,
-      "pnl_pct": -2.61,
+      "pnl": -86.15,
+      "pnl_pct": -2.59,
       "margin": 666.15,
       "leverage": "5",
       "tier": "1/2",
       "entry": 46.78,
-      "mark": 48.0
+      "mark": 47.99
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": 1.33,
-      "pnl_pct": 0.07,
+      "pnl": -3.76,
+      "pnl_pct": -0.19,
       "margin": 654.51,
       "leverage": "3",
       "tier": "1/2",
       "entry": 0.0888,
-      "mark": 0.0888
+      "mark": 0.089
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 26.9,
+      "pnl": 26.88,
       "pnl_pct": 2.66,
       "margin": 336.66,
       "leverage": "3",
       "tier": "1/1",
       "entry": 58.078,
-      "mark": 59.625
+      "mark": 59.624
     }
   ],
   "signals": {},
@@ -223,10 +223,17 @@
     },
     {
       "t": "2026-07-27",
-      "v": 1301.31
+      "v": 1297.62
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-07-27 08:00",
+      "symbol": "LINKUSDT",
+      "side": "Sell",
+      "pnl": -249.02,
+      "reason": "-"
+    },
     {
       "ts": "2026-07-24 09:02",
       "symbol": "WLDUSDT",
@@ -358,13 +365,6 @@
       "symbol": "LABUSDT",
       "side": "Sell",
       "pnl": -111.59,
-      "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-20 14:13",
-      "symbol": "SOLUSDT",
-      "side": "Sell",
-      "pnl": -130.99,
       "reason": "External Exit"
     }
   ],
