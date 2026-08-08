@@ -1,98 +1,109 @@
 {
-  "ts": "2026-08-08T09:01:46.384908+09:00",
+  "ts": "2026-08-08T09:02:47.799370+09:00",
   "start_date": "2026-05-25",
   "status": "running",
-  "equity": 27631.57,
-  "available": 21510.62,
-  "unrealized": 1082.93,
+  "equity": 27637.12,
+  "available": 21519.03,
+  "unrealized": 1088.45,
   "daily_pnl": 0,
-  "total_pnl": 1500.57,
-  "cum_pct": 5.74,
-  "daily_avg_pct": 0.0735,
-  "annual_pct": 30.76,
+  "total_pnl": 1506.12,
+  "cum_pct": 5.76,
+  "daily_avg_pct": 0.0737,
+  "annual_pct": 30.85,
   "mdd": -12.34,
   "current_dd": -8.33,
-  "seed_used": 6120.95,
-  "seed_used_pct": 22.15,
+  "seed_used": 6118.09,
+  "seed_used_pct": 22.14,
   "long_count": 2,
-  "short_count": 5,
+  "short_count": 6,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 452.58,
+      "pnl": 452.7,
       "pnl_pct": 9.77,
       "margin": 1544.2,
       "leverage": "3",
       "tier": "1/1",
       "entry": 81.56,
-      "mark": 73.592
+      "mark": 73.59
     },
     {
       "symbol": "ARBUSDT",
       "side": "SHORT",
-      "pnl": 554.24,
-      "pnl_pct": 14.81,
+      "pnl": 555.86,
+      "pnl_pct": 14.85,
       "margin": 1247.35,
       "leverage": "3",
       "tier": "1/1",
       "entry": 0.0927,
-      "mark": 0.079
+      "mark": 0.0789
+    },
+    {
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "pnl": 1.32,
+      "pnl_pct": 0.05,
+      "margin": 883.78,
+      "leverage": "3",
+      "tier": "1/2",
+      "entry": 0.2006,
+      "mark": 0.2005
     },
     {
       "symbol": "LINKUSDT",
       "side": "SHORT",
-      "pnl": 69.9,
-      "pnl_pct": 2.19,
+      "pnl": 71.04,
+      "pnl_pct": 2.23,
       "margin": 797.94,
       "leverage": "4",
       "tier": "1/2",
       "entry": 8.3642,
-      "mark": 8.181
+      "mark": 8.178
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -35.82,
-      "pnl_pct": -1.07,
+      "pnl": -35.29,
+      "pnl_pct": -1.05,
       "margin": 669.83,
       "leverage": "5",
       "tier": "1/2",
       "entry": 1892.17,
-      "mark": 1912.41
+      "mark": 1912.11
     },
     {
       "symbol": "LTCUSDT",
       "side": "SHORT",
-      "pnl": 92.56,
-      "pnl_pct": 2.78,
+      "pnl": 93.27,
+      "pnl_pct": 2.8,
       "margin": 666.15,
       "leverage": "5",
       "tier": "1/2",
       "entry": 46.78,
-      "mark": 45.48
+      "mark": 45.47
     },
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": -78.19,
-      "pnl_pct": -7.58,
+      "pnl": -77.94,
+      "pnl_pct": -7.56,
       "margin": 343.85,
       "leverage": "3",
       "tier": "1/1",
       "entry": 1.7178,
-      "mark": 1.5876
+      "mark": 1.588
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 28.1,
-      "pnl_pct": 2.8,
+      "pnl": 27.93,
+      "pnl_pct": 2.78,
       "margin": 334.63,
       "leverage": "3",
       "tier": "1/1",
       "entry": 52.588,
-      "mark": 54.06
+      "mark": 54.051
     }
   ],
   "signals": {},
@@ -223,7 +234,7 @@
     },
     {
       "t": "2026-08-08",
-      "v": 1500.57
+      "v": 1506.12
     }
   ],
   "trade_history": [
